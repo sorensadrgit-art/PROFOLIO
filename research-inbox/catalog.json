@@ -305,7 +305,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
       "summary": "Editorial text geometry under spacing overrides, narrow widths and long names; balanced wrapping versus intrinsic sizing. Documentary only."
     }
   ],
@@ -384,7 +384,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
           "summary": "Editorial text geometry under spacing overrides, narrow widths and long names; balanced wrapping versus intrinsic sizing. Documentary only."
         }
       ]
@@ -664,5 +664,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T14:03:40Z"
+  "updated_at": "2026-11-01T14:04:20Z"
 }

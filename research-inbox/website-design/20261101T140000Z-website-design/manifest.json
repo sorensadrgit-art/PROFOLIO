@@ -9,7 +9,7 @@
   "evaluation_date": "2026-11-01",
   "research_status": "complete",
   "review_status": "APPROVED_DOCUMENTARY",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "source_count": 4,
   "artifacts": [
     "research.md",
@@ -17,13 +17,14 @@
     "qa.md",
     "manifest.json"
   ],
-  "artifact_commit_sha": null,
-  "verified_github_commit_sha": null,
+  "artifact_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
+  "verified_github_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
   "checks": {
     "json": "passed",
     "secret_scan": "passed_6_patterns_zero_hits",
     "duplicate_check": "16 catalog packages at prepublication reread; all three website packages read; no same-run artifact; new grid-lanes package distinct and preserved",
-    "independent_documentary_qa": "passed; four primary sources independently read"
+    "independent_documentary_qa": "passed; four primary sources independently read",
+    "remote_artifact_readback": "all four files exact bytes and catalog semantic match"
   },
   "limitations": [
     "No browser, framework, performance, accessibility or usability tests executed.",
