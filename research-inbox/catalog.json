@@ -3,7 +3,7 @@
   "repository": "sorensadrgit-art/PROFOLIO",
   "branch": "research-data",
   "storage_root": "research-inbox/",
-  "generated_at": "2026-11-01T07:32:18-05:00",
+  "generated_at": "2026-11-01T13:09:53Z",
   "packages": [
     {
       "run_id": "20261101T053112-3d-webgl-engineering-01",
@@ -235,6 +235,23 @@
       ],
       "package_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
       "summary": "Narrow Next.js mutation-to-cache consistency reference: updateTag versus revalidateTag, transaction receipts and partial failure. Documentary review only."
+    },
+    {
+      "run_id": "20261101T130953Z-native-scroll-smoothing-03",
+      "topic_id": "motion-interaction",
+      "title": "Smooth scroll is a cost, not a default: a native-first orchestration policy for PROFOLIO",
+      "path": "research-inbox/motion-interaction/20261101T130953Z-native-scroll-smoothing-03/",
+      "created_at": "2026-11-01T13:09:53Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 16,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
+      "summary": "Native-first scroll orchestration decision: Firefox 159 enables CSS scroll-driven animations by default; compares Lenis 1.3.27 main-thread wheel smoothing with Motion frame.setup and GSAP ticker integration, scrollerProxy requirements, nested-scroll/reduced-motion safeguards and a 12-scenario prototype matrix. Documentary only; no runtime benchmark."
     }
   ],
   "topics": [
@@ -410,6 +427,23 @@
           ],
           "summary": "Narrow dialog-lifecycle addendum: retained exit DOM, modal interaction ownership, focus restoration and stale-close guards. Documentary review only; no runtime or accessibility testing.",
           "package_commit_sha": "7e45281505fd8a4f2fe213cbf8061f993c9e7bcb"
+        },
+        {
+          "run_id": "20261101T130953Z-native-scroll-smoothing-03",
+          "topic_id": "motion-interaction",
+          "title": "Smooth scroll is a cost, not a default: a native-first orchestration policy for PROFOLIO",
+          "path": "research-inbox/motion-interaction/20261101T130953Z-native-scroll-smoothing-03/",
+          "created_at": "2026-11-01T13:09:53Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 16,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
+          "summary": "Native-first scroll orchestration decision: Firefox 159 enables CSS scroll-driven animations by default; compares Lenis 1.3.27 main-thread wheel smoothing with Motion frame.setup and GSAP ticker integration, scrollerProxy requirements, nested-scroll/reduced-motion safeguards and a 12-scenario prototype matrix. Documentary only; no runtime benchmark."
         }
       ]
     },
@@ -520,5 +554,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:56:16Z"
+  "updated_at": "2026-11-01T13:09:53Z"
 }
