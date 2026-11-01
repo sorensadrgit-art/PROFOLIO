@@ -1,0 +1,149 @@
+{
+  "run_id": "20261101T153000Z-open-source-tooling",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://github.com/promptfoo/promptfoo/blob/aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1/README.md",
+      "title": "promptfoo/promptfoo README.md",
+      "publisher": "promptfoo",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": "aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1",
+      "source_location": "README.md",
+      "extraction_limitations": "Pinned source inspection; no runtime or registry artifact verification."
+    },
+    {
+      "id": "S2",
+      "url": "https://github.com/promptfoo/promptfoo/blob/aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1/LICENSE",
+      "title": "promptfoo/promptfoo LICENSE",
+      "publisher": "promptfoo",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": "aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1",
+      "source_location": "LICENSE",
+      "extraction_limitations": "Pinned source inspection; no runtime or registry artifact verification."
+    },
+    {
+      "id": "S3",
+      "url": "https://github.com/promptfoo/promptfoo/blob/aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1/package.json",
+      "title": "promptfoo/promptfoo package.json",
+      "publisher": "promptfoo",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": "aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1",
+      "source_location": "package.json",
+      "extraction_limitations": "Pinned source inspection; no runtime or registry artifact verification."
+    },
+    {
+      "id": "S4",
+      "url": "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1",
+      "title": "promptfoo/promptfoo release 0.125.1",
+      "publisher": "promptfoo",
+      "accessed_at": "2026-11-01T15:36:14Z",
+      "version": "0.125.1",
+      "release_date": "2026-10-25T01:53:11Z",
+      "source_location": "GitHub latest release API",
+      "extraction_limitations": "Latest endpoint observation, not proof of latest package registry publication."
+    },
+    {
+      "id": "S5",
+      "url": "https://github.com/promptfoo/promptfoo/commit/aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1",
+      "title": "promptfoo/promptfoo inspected commit",
+      "publisher": "promptfoo",
+      "accessed_at": "2026-11-01T15:36:14Z",
+      "version": "aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1",
+      "commit_date": "2026-11-01T07:33:26Z",
+      "source_location": "commit metadata",
+      "extraction_limitations": "Maintenance snapshot only."
+    },
+    {
+      "id": "S6",
+      "url": "https://github.com/confident-ai/deepeval/blob/90e230cbe916c73240a48312c494065a39bf52d1/README.md",
+      "title": "confident-ai/deepeval README.md",
+      "publisher": "confident-ai",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": "90e230cbe916c73240a48312c494065a39bf52d1",
+      "source_location": "README.md",
+      "extraction_limitations": "Pinned source inspection; no runtime or registry artifact verification."
+    },
+    {
+      "id": "S7",
+      "url": "https://github.com/confident-ai/deepeval/blob/90e230cbe916c73240a48312c494065a39bf52d1/LICENSE.md",
+      "title": "confident-ai/deepeval LICENSE.md",
+      "publisher": "confident-ai",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": "90e230cbe916c73240a48312c494065a39bf52d1",
+      "source_location": "LICENSE.md",
+      "extraction_limitations": "Pinned source inspection; no runtime or registry artifact verification."
+    },
+    {
+      "id": "S8",
+      "url": "https://github.com/confident-ai/deepeval/blob/90e230cbe916c73240a48312c494065a39bf52d1/pyproject.toml",
+      "title": "confident-ai/deepeval pyproject.toml",
+      "publisher": "confident-ai",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": "90e230cbe916c73240a48312c494065a39bf52d1",
+      "source_location": "pyproject.toml",
+      "extraction_limitations": "Pinned source inspection; no runtime or registry artifact verification."
+    },
+    {
+      "id": "S9",
+      "url": "https://github.com/confident-ai/deepeval/releases/tag/python-v4.2.4",
+      "title": "confident-ai/deepeval release python-v4.2.4",
+      "publisher": "confident-ai",
+      "accessed_at": "2026-11-01T15:36:14Z",
+      "version": "python-v4.2.4",
+      "release_date": "2026-09-22T16:36:00Z",
+      "source_location": "GitHub latest release API",
+      "extraction_limitations": "Latest endpoint observation, not proof of latest package registry publication."
+    },
+    {
+      "id": "S10",
+      "url": "https://github.com/confident-ai/deepeval/commit/90e230cbe916c73240a48312c494065a39bf52d1",
+      "title": "confident-ai/deepeval inspected commit",
+      "publisher": "confident-ai",
+      "accessed_at": "2026-11-01T15:36:14Z",
+      "version": "90e230cbe916c73240a48312c494065a39bf52d1",
+      "commit_date": "2026-10-29T10:36:04Z",
+      "source_location": "commit metadata",
+      "extraction_limitations": "Maintenance snapshot only."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.promptfoo.dev/docs/configuration/telemetry/",
+      "title": "Telemetry",
+      "publisher": "Promptfoo",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": null,
+      "source_location": "official documentation",
+      "extraction_limitations": "Live documentation may change; behavior not executed."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.promptfoo.dev/docs/integrations/mcp/",
+      "title": "MCP integration",
+      "publisher": "Promptfoo",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": null,
+      "source_location": "official documentation",
+      "extraction_limitations": "Live documentation may change; behavior not executed."
+    },
+    {
+      "id": "S13",
+      "url": "https://deepeval.com/docs/data-privacy",
+      "title": "Data Privacy",
+      "publisher": "Confident AI",
+      "accessed_at": "2026-11-01T15:36:28Z",
+      "version": null,
+      "source_location": "official documentation",
+      "extraction_limitations": "Live documentation may change; behavior not executed."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.promptfoo.dev/docs/integrations/mcp-server/",
+      "title": "Promptfoo MCP Server",
+      "publisher": "Promptfoo",
+      "accessed_at": "2026-11-01T15:38:29Z",
+      "version": null,
+      "source_location": "official documentation: prerequisites, transports and tools",
+      "extraction_limitations": "Advertised interfaces only; no MCP runtime or authorization test."
+    }
+  ]
+}

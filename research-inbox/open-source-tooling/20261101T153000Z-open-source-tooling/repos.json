@@ -1,0 +1,90 @@
+{
+  "evaluated_at": "2026-11-01T15:36:28Z",
+  "repositories": [
+    {
+      "name": "Promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "description": "LLM evaluation and red-team CLI/library",
+      "technologies": [
+        "TypeScript",
+        "Node >=22.22.0"
+      ],
+      "license": "MIT",
+      "license_source": "https://github.com/promptfoo/promptfoo/blob/aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1/LICENSE",
+      "source_commit": "aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1",
+      "observed_release": "0.125.1",
+      "release_date": "2026-10-25T01:53:11Z",
+      "commit_date": "2026-11-01T07:33:26Z",
+      "maintenance": "Recent commit and release observed; no support guarantee.",
+      "dependencies": [
+        "model SDKs",
+        "Ajv",
+        "storage libraries",
+        "PostHog",
+        "optional MCP SDK"
+      ],
+      "features": [
+        "CLI comparisons",
+        "Node API",
+        "CI",
+        "MCP provider integration"
+      ],
+      "compatibility": "JS/TS workflow; verify lockfile, provider and optional SDK compatibility.",
+      "hosting": "Local/CI Node environment; no new public service required for this evaluation.",
+      "risks": [
+        "Remote provider data egress",
+        "Telemetry and reports",
+        "Custom integration execution",
+        "Unverified runtime"
+      ],
+      "costs": "Model/judge calls and CI compute; optional hosted services separate.",
+      "suggested_application": "Bounded agent regression matrix with deterministic gates and separately calibrated judge scores.",
+      "demo": "https://github.com/promptfoo/promptfoo/blob/aa3ee561b1416d4d68f7c4e05fedd082db6aa2b1/README.md",
+      "mcp": "External tool provider integration and documented eval MCP server; stdio/HTTP interoperability untested; sharing tools require separate authorization."
+    },
+    {
+      "name": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "description": "LLM evaluation framework with Python tests and trajectory metrics",
+      "technologies": [
+        "Python >=3.9,<4.0",
+        "pytest"
+      ],
+      "license": "Apache-2.0",
+      "license_source": "https://github.com/confident-ai/deepeval/blob/90e230cbe916c73240a48312c494065a39bf52d1/LICENSE.md",
+      "source_commit": "90e230cbe916c73240a48312c494065a39bf52d1",
+      "observed_release": "python-v4.2.4",
+      "release_date": "2026-09-22T16:36:00Z",
+      "source_package_version": "4.3.2",
+      "registry_version": null,
+      "commit_date": "2026-10-29T10:36:04Z",
+      "maintenance": "Recent main activity; GitHub release and main package versions differ.",
+      "dependencies": [
+        "pytest plugins",
+        "Pydantic",
+        "OpenAI",
+        "aiohttp",
+        "OpenTelemetry",
+        "PostHog"
+      ],
+      "features": [
+        "pytest assertions",
+        "direct evaluation API",
+        "trajectory metrics",
+        "tracing"
+      ],
+      "compatibility": "Python-first selection; optional integrations impose additional constraints.",
+      "mcp": "README links separate Confident AI MCP server; interoperability untested.",
+      "hosting": "Python local/CI environment; cloud platform optional.",
+      "risks": [
+        "Remote judge data egress",
+        "Cloud login test-case upload",
+        "dotenv import",
+        "Wildcard dependency constraints"
+      ],
+      "costs": "Inference/judge calls, compute and optional platform services.",
+      "suggested_application": "Synthetic multi-step agent trajectory regression tests.",
+      "demo": "https://github.com/confident-ai/deepeval/blob/90e230cbe916c73240a48312c494065a39bf52d1/README.md"
+    }
+  ]
+}

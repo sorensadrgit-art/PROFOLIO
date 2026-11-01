@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T153000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "scheduled_at": "2026-11-01T15:30:00Z",
+  "scheduled_local": "2026-11-01T10:30:00-05:00",
+  "timezone": "America/New_York",
+  "evaluated_at": "2026-11-01T15:36:28Z",
+  "title": "Evaluate the agent, not its confidence: Promptfoo or DeepEval?",
+  "research_status": "completed_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "publication_status": "artifact_commit_pending_receipt",
+  "package_commit_sha": null,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 14,
+  "repository_count": 2,
+  "tests": {
+    "runtime": "NOT_PERFORMED",
+    "integration": "NOT_PERFORMED",
+    "performance": "NOT_PERFORMED",
+    "security": "DOCUMENTARY_ONLY",
+    "json": "PASSED",
+    "secret_scan": "PASSED_BOUNDED_PATTERN_AND_CONTENT_REVIEW"
+  },
+  "limitations": [
+    "No installed artifact or dependency-resolution verification.",
+    "No runtime, telemetry egress or MCP interoperability test.",
+    "Version data distinguishes main source from GitHub latest release."
+  ],
+  "novelty": {
+    "catalog_entries_at_intake": 20,
+    "prior_tooling_run": "20261101T123000Z-open-source-tooling",
+    "finding": "Evaluation harness selection differs from prior browser-execution interface comparison."
+  },
+  "qa_completed_at": "2026-11-01T15:39:15Z"
+}
