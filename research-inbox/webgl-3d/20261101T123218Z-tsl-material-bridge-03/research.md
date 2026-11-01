@@ -245,3 +245,15 @@ This is a recommended separation of concerns, not an implementation already pres
 ## 13. Sources
 
 See sources.json for source URLs, publisher, version context, retrieval date, evidence summaries, and claims supported.
+
+## 14. Evidence traceability
+
+- [r3f-v10-webgpu-overview] and [three-webgpurenderer-manual]: universal WebGPURenderer backend selection, TSL-to-WGSL/GLSL compilation, and the distinction between WebGL2 backend fallback and the legacy WebGLRenderer API.
+- [r3f-v10-migration] and [three-shadermaterial-reference]: R3F v10 alpha entry-point choice, dependency constraints, and the GLSL ShaderMaterial legacy boundary.
+- [r3f-tsl-hooks]: useUniforms/useNodes/useLocalNodes responsibilities, scoped graph registration, and explicit graph rebuilds.
+- [r3f-render-pipeline] and [three-webgpu-postprocessing]: RenderPipeline ownership, MRT, outputNode setup, effect composition, and cleanup considerations.
+- [r3f-compute-storage]: experimental status of GPU storage/compute hooks and explicit resource disposal.
+- [blender-54-gltf-manual] and [khronos-gltf-20-spec]: recognized Principled BSDF export patterns, PBR interchange semantics, texture channel/color-space conventions, and extension declarations.
+- [three-gltfloader-reference]: actual Three.js GLTFLoader extension support and ImageBitmap disposal warning.
+- [three-tsl-reference] and [three-functionnode-reference]: TSL node API and language-specific native function nodes.
+
