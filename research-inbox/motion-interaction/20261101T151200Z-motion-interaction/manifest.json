@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T151200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "scheduled_at": "2026-11-01T15:12:00Z",
+  "scheduled_local": "2026-11-01T10:12:00-05:00",
+  "timezone": "America/New_York",
+  "evaluated_at": "2026-11-01T15:18:16Z",
+  "title": "Drag is a preview, not a command: cancel-safe interaction with a click alternative",
+  "research_status": "complete_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "package_commit_sha": null,
+  "runtime_tests": "NOT_RUN",
+  "performance_tests": "NOT_RUN",
+  "accessibility_tests": "NOT_RUN",
+  "limitations": [
+    "Motion cancellation callback mapping requires pinned-version runtime verification.",
+    "No installed dependency versions were inspected."
+  ],
+  "publication_status": "artifact_commit_receipt_pending",
+  "validation": {
+    "json": "PASS",
+    "markdown_fences": "PASS",
+    "bounded_secret_privacy_scan": "PASS",
+    "independent_documentary_review": "PASS"
+  }
+}

@@ -346,6 +346,25 @@
       ],
       "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
       "package_commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0"
+    },
+    {
+      "run_id": "20261101T151200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "Drag is a preview, not a command: cancel-safe interaction with a click alternative",
+      "path": "research-inbox/motion-interaction/20261101T151200Z-motion-interaction/",
+      "created_at": "2026-11-01T15:19:44Z",
+      "scheduled_at": "2026-11-01T15:12:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": null,
+      "summary": "Cancel-safe drag preview/commit ownership, native scrolling and non-drag alternatives. Documentary only; no runtime testing."
     }
   ],
   "topics": [
@@ -593,6 +612,25 @@
           ],
           "package_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
           "summary": "Native-first scroll orchestration decision: Firefox 159 enables CSS scroll-driven animations by default; compares Lenis 1.3.27 main-thread wheel smoothing with Motion frame.setup and GSAP ticker integration, scrollerProxy requirements, nested-scroll/reduced-motion safeguards and a 12-scenario prototype matrix. Documentary only; no runtime benchmark."
+        },
+        {
+          "run_id": "20261101T151200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "Drag is a preview, not a command: cancel-safe interaction with a click alternative",
+          "path": "research-inbox/motion-interaction/20261101T151200Z-motion-interaction/",
+          "created_at": "2026-11-01T15:19:44Z",
+          "scheduled_at": "2026-11-01T15:12:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": null,
+          "summary": "Cancel-safe drag preview/commit ownership, native scrolling and non-drag alternatives. Documentary only; no runtime testing."
         }
       ]
     },
@@ -742,5 +780,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T14:43:45Z"
+  "updated_at": "2026-11-01T15:19:44Z"
 }
