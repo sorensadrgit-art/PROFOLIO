@@ -135,8 +135,20 @@
       "name": "AI Agents and Memory",
       "root": "research-inbox/agents-memory/",
       "packages": []
+    },
+    {
+      "topic_id": "open-source-creative",
+      "name": "Open-Source Creative Discovery",
+      "root": "research-inbox/open-source-creative/",
+      "packages": []
+    },
+    {
+      "topic_id": "open-source-tooling",
+      "name": "Open-Source Agent Tools Discovery",
+      "root": "research-inbox/open-source-tooling/",
+      "packages": []
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T06:13:50-05:00"
+  "updated_at": "2026-11-01T11:36:00Z"
 }
