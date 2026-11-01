@@ -33,14 +33,23 @@
     "source_urls_https": true,
     "json_validated_before_write": true,
     "secret_pattern_scan": "passed",
-    "remote_readback": "pending",
-    "runtime_or_device_tests": "not_performed"
+    "remote_readback": {
+      "research_md": true,
+      "sources_json": true,
+      "initial_manifest": true,
+      "catalog_global_entry": true,
+      "catalog_topic_entry": true,
+      "source_ids_unique": true,
+      "source_reference_mapping": true
+    },
+    "runtime_or_device_tests": "not_performed",
+    "json_validation": "passed"
   },
   "commits": {
     "research_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
     "sources_commit_sha": "f8810115eb1347c841a9ef4c4aa2b7feb7668d14",
     "initial_manifest_commit_sha": null,
-    "catalog_commit_sha": null,
+    "catalog_commit_sha": "af17922fc4ee9dc84791eef8bbc8a7415abd0e00",
     "final_manifest_commit_sha": null
   }
 }
