@@ -252,6 +252,25 @@
       ],
       "package_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
       "summary": "Native-first scroll orchestration decision: Firefox 159 enables CSS scroll-driven animations by default; compares Lenis 1.3.27 main-thread wheel smoothing with Motion frame.setup and GSAP ticker integration, scrollerProxy requirements, nested-scroll/reduced-motion safeguards and a 12-scenario prototype matrix. Documentary only; no runtime benchmark."
+    },
+    {
+      "run_id": "20261101T132400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Resuming an agent is not exactly-once execution: checkpoint and effect receipts",
+      "path": "research-inbox/agents-memory/20261101T132400Z-agents-memory/",
+      "created_at": "2026-11-01T13:31:11Z",
+      "scheduled_at": "2026-11-01T13:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "package_commit_sha": null,
+      "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
     }
   ],
   "topics": [
@@ -495,6 +514,25 @@
           ],
           "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract.",
           "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e"
+        },
+        {
+          "run_id": "20261101T132400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Resuming an agent is not exactly-once execution: checkpoint and effect receipts",
+          "path": "research-inbox/agents-memory/20261101T132400Z-agents-memory/",
+          "created_at": "2026-11-01T13:31:11Z",
+          "scheduled_at": "2026-11-01T13:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "package_commit_sha": null,
+          "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
         }
       ]
     },
@@ -554,5 +592,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T13:09:53Z"
+  "updated_at": "2026-11-01T13:31:11Z"
 }

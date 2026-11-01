@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T132400Z-agents-memory",
+  "evaluated_at_utc": "2026-11-01T13:28:49Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Persistence",
+      "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+      "publisher": "LangChain",
+      "accessed_at_utc": "2026-11-01T13:28:49Z",
+      "applicable_version": null,
+      "source_location": "Checkpointer vs store; in-memory restart limitation",
+      "release_date": null,
+      "commit_date": null,
+      "source_commit": null,
+      "provenance": "Official maintainer documentation, read directly",
+      "extraction_limitations": "Rolling documentation; not pinned to a source commit. No code execution or runtime verification."
+    },
+    {
+      "id": "S2",
+      "title": "Checkpointers",
+      "url": "https://docs.langchain.com/oss/python/langgraph/checkpointers",
+      "publisher": "LangChain",
+      "accessed_at_utc": "2026-11-01T13:28:49Z",
+      "applicable_version": null,
+      "source_location": "Durability modes; first durable checkpoint",
+      "release_date": null,
+      "commit_date": null,
+      "source_commit": null,
+      "provenance": "Official maintainer documentation, read directly",
+      "extraction_limitations": "Rolling documentation; not pinned to a source commit. No code execution or runtime verification."
+    },
+    {
+      "id": "S3",
+      "title": "Interrupts",
+      "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "publisher": "LangChain",
+      "accessed_at_utc": "2026-11-01T13:28:49Z",
+      "applicable_version": null,
+      "source_location": "Resuming interrupts; node restart",
+      "release_date": null,
+      "commit_date": null,
+      "source_commit": null,
+      "provenance": "Official maintainer documentation, read directly",
+      "extraction_limitations": "Rolling documentation; not pinned to a source commit. No code execution or runtime verification."
+    },
+    {
+      "id": "S4",
+      "title": "Use time-travel",
+      "url": "https://docs.langchain.com/oss/python/langgraph/use-time-travel",
+      "publisher": "LangChain",
+      "accessed_at_utc": "2026-11-01T13:28:49Z",
+      "applicable_version": null,
+      "source_location": "Replay; fork; interrupts",
+      "release_date": null,
+      "commit_date": null,
+      "source_commit": null,
+      "provenance": "Official maintainer documentation, read directly",
+      "extraction_limitations": "Rolling documentation; not pinned to a source commit. No code execution or runtime verification."
+    },
+    {
+      "id": "S5",
+      "title": "Idempotent requests",
+      "url": "https://docs.stripe.com/api/idempotent_requests",
+      "publisher": "Stripe",
+      "accessed_at_utc": "2026-11-01T13:28:49Z",
+      "applicable_version": "API v1 (contrasted with v2)",
+      "source_location": "API v1 retry retention and response semantics",
+      "release_date": null,
+      "commit_date": null,
+      "source_commit": null,
+      "provenance": "Official maintainer documentation, read directly",
+      "extraction_limitations": "Rolling documentation; not pinned to a source commit. No code execution or runtime verification."
+    }
+  ]
+}
+
