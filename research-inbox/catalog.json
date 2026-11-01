@@ -34,7 +34,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": "d0c6323ab667f658bd5a7243dd5b0526499de4a4",
+      "package_commit_sha": "afd8dc27b68d8ce70201ce111d5b9db39d458c64",
       "summary": "Evidence-based non-3D design system guidance: luxury/editorial case patterns, token architecture, variable typography, OKLCH with contrast validation, responsive composition, glass and motion as progressive enhancements, WCAG 2.2, and media/Core Web Vitals constraints."
     }
   ],
@@ -57,7 +57,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": "d0c6323ab667f658bd5a7243dd5b0526499de4a4",
+          "package_commit_sha": "afd8dc27b68d8ce70201ce111d5b9db39d458c64",
           "summary": "Evidence-based non-3D design system guidance: luxury/editorial case patterns, token architecture, variable typography, OKLCH with contrast validation, responsive composition, glass and motion as progressive enhancements, WCAG 2.2, and media/Core Web Vitals constraints."
         }
       ]
