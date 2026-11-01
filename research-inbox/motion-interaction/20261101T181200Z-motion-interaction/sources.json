@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "gsap.quickTo()",
+      "url": "https://gsap.com/docs/v3/GSAP/gsap.quickTo()/",
+      "publisher": "GSAP",
+      "source_type": "official_documentation",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": null,
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "Numeric retargeting, reused tween and limitations",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S2",
+      "title": "Tween.reverse()",
+      "url": "https://gsap.com/docs/v3/GSAP/Tween/reverse()/",
+      "publisher": "GSAP",
+      "source_type": "official_documentation",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": null,
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "Current playhead versus reverse(0)",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S3",
+      "title": "React hover animation guide",
+      "url": "https://motion.dev/docs/react-hover-animation",
+      "publisher": "Motion",
+      "source_type": "official_documentation",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": null,
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "Hover lifecycle, emulated touch filtering and cleanup",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S4",
+      "title": "Understanding SC 1.4.13 Content on Hover or Focus",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html",
+      "publisher": "W3C",
+      "source_type": "official_documentation",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": null,
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "Explanatory scope and exceptions",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S5",
+      "title": "WCAG 2.2 Recommendation, SC 1.4.13",
+      "url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
+      "publisher": "W3C",
+      "source_type": "standard",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": "2.2",
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": "2024-12-12",
+      "claims_supported": "Normative hover/focus additional-content criterion",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S6",
+      "title": "GSAP package.json",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/package.json",
+      "publisher": "GreenSock/GSAP",
+      "source_type": "official_repository",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": "3.15.0",
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "Repository version, exports and licence pointer",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S7",
+      "title": "GSAP repository commit",
+      "url": "https://github.com/greensock/GSAP/commit/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "publisher": "GreenSock/GSAP",
+      "source_type": "official_repository",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": "3.15.0",
+      "observed_release_date": null,
+      "observed_commit_date": "2026-04-13T13:08:30Z",
+      "document_date": null,
+      "claims_supported": "Observed commit date and version maintenance",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S8",
+      "title": "Motion package.json",
+      "url": "https://github.com/motiondivision/motion/blob/7415b6cd14dfdb35d91dfc5b9758994444cc228b/packages/motion/package.json",
+      "publisher": "Motion",
+      "source_type": "official_repository",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": "14.9.0",
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "Version, dependencies and React peer ranges",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S9",
+      "title": "Motion repository commit",
+      "url": "https://github.com/motiondivision/motion/commit/7415b6cd14dfdb35d91dfc5b9758994444cc228b",
+      "publisher": "Motion",
+      "source_type": "official_repository",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": "14.9.0",
+      "observed_release_date": null,
+      "observed_commit_date": "2026-10-30T10:22:53Z",
+      "document_date": null,
+      "claims_supported": "Observed commit date and version maintenance",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S10",
+      "title": "Motion MIT licence",
+      "url": "https://github.com/motiondivision/motion/blob/7415b6cd14dfdb35d91dfc5b9758994444cc228b/LICENSE.md",
+      "publisher": "Motion",
+      "source_type": "license",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": null,
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": null,
+      "claims_supported": "MIT notice-retention terms",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    },
+    {
+      "id": "S11",
+      "title": "Standard No Charge GSAP License",
+      "url": "https://gsap.com/community/standard-license/",
+      "publisher": "Webflow/GSAP",
+      "source_type": "license",
+      "evaluated_at": "2026-11-01T18:10:51Z",
+      "observed_version": null,
+      "observed_release_date": null,
+      "observed_commit_date": null,
+      "document_date": "2025-05-30",
+      "claims_supported": "Commercial use and restricted competing visual-animation tools",
+      "limitations": "Documentary evidence only; no runtime verification. Repository version does not establish npm latest or installed application version.",
+      "retrieved_date": "2026-11-01",
+      "retrieval_window_utc": {
+        "start": "2026-11-01T18:09:04Z",
+        "end": "2026-11-01T18:09:52Z"
+      }
+    }
+  ]
+}
