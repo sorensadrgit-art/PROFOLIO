@@ -539,6 +539,25 @@
       ],
       "summary": "Process-local pool budgets across replicas, ownership leaks versus idle reuse, transaction-pooler compatibility and unexecuted capacity tests. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T192400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Memory TTL is retention, not factual freshness",
+      "path": "research-inbox/agents-memory/20261101T192400Z-agents-memory/",
+      "created_at": "2026-11-01T19:24:41Z",
+      "scheduled_at": "2026-11-01T19:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Sliding retention versus factual validity, expiry visibility, source revision invalidation and an unexecuted synthetic test contract. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -989,6 +1008,25 @@
           ],
           "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
           "package_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152"
+        },
+        {
+          "run_id": "20261101T192400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Memory TTL is retention, not factual freshness",
+          "path": "research-inbox/agents-memory/20261101T192400Z-agents-memory/",
+          "created_at": "2026-11-01T19:24:41Z",
+          "scheduled_at": "2026-11-01T19:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Sliding retention versus factual validity, expiry visibility, source revision invalidation and an unexecuted synthetic test contract. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -1128,5 +1166,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T18:50:20Z"
+  "updated_at": "2026-11-01T19:26:58Z"
 }

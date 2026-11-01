@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "LangGraph store TTLConfig source",
+      "url": "https://github.com/langchain-ai/langgraph/blob/3cd57c038ad827d05f80c6488adea9994156c58c/libs/checkpoint/langgraph/store/base/__init__.py",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": "2026-10-21T12:22:40Z",
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "commit_sha": "3cd57c038ad827d05f80c6488adea9994156c58c",
+      "blob_sha": "40a9ec4301360cdaca28737143a2b89e1122ad0b"
+    },
+    {
+      "id": "S2",
+      "title": "Redis EXPIRE command",
+      "url": "https://redis.io/docs/latest/commands/expire/",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "feature_since": "1.0.0"
+    },
+    {
+      "id": "S3",
+      "title": "Redis TTL command",
+      "url": "https://redis.io/docs/latest/commands/ttl/",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "feature_since": "1.0.0; distinct -2 return since 2.8"
+    },
+    {
+      "id": "S4",
+      "title": "Qdrant filtering",
+      "url": "https://qdrant.tech/documentation/search/filtering/",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "feature_since": "Datetime ranges since 1.8.0"
+    },
+    {
+      "id": "S5",
+      "title": "LangGraph MIT license",
+      "url": "https://github.com/langchain-ai/langgraph/blob/main/LICENSE",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "blob_sha": "fc0602feecdd6748623c852ab534e1ca612673c7"
+    },
+    {
+      "id": "S6",
+      "title": "Qdrant Apache-2.0 license",
+      "url": "https://github.com/qdrant/qdrant/blob/master/LICENSE",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "blob_sha": "456fb05e0e936f439cf42c517b19797dafd53ff9"
+    },
+    {
+      "id": "S7",
+      "title": "Redis version-dependent licenses",
+      "url": "https://github.com/redis/redis/blob/unstable/LICENSE.txt",
+      "retrieved_at": "2026-11-01T19:24:41Z",
+      "evaluated_at": "2026-11-01T19:24:41Z",
+      "provenance": "Primary maintainer documentation or repository",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "limitations": "Documentary observation only; not a deployed-version or runtime verification.",
+      "blob_sha": "4657905cf699d1d5ac96a07d0969bc79e27c4eec"
+    }
+  ]
+}
