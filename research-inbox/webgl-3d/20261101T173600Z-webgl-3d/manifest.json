@@ -9,8 +9,8 @@
   "research_started_at": "2026-11-01T17:32:13Z",
   "research_status": "completed_documentary",
   "review_status": "APPROVED_DOCUMENTARY",
-  "publication_status": "awaiting_publication",
-  "package_commit_sha": null,
+  "publication_status": "published",
+  "package_commit_sha": "7c1a686192fa4abf299e048afc08a0ade2d1a3ca",
   "source_count": 4,
   "files": [
     "research.md",
@@ -43,5 +43,16 @@
     "independent_documentary_review": "PASS",
     "duplicate_package_check": "PASS"
   },
-  "publication_note": "Actual artifact commit recorded only after remote readback in a separate receipt commit."
+  "publication_note": "This follow-up metadata commit records the original artifact commit; it does not claim to contain its own hash.",
+  "remote_artifact_readback": {
+    "status": "PASS",
+    "commit_sha": "7c1a686192fa4abf299e048afc08a0ade2d1a3ca",
+    "verified_at": "2026-11-01T17:37:00Z",
+    "files": [
+      "research.md",
+      "qa.md",
+      "sources.json",
+      "manifest.json"
+    ]
+  }
 }
