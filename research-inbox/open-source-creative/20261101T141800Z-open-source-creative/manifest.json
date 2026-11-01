@@ -9,8 +9,8 @@
   "title": "A detail viewer, not another carousel: PhotoSwipe or Yet Another React Lightbox?",
   "research_status": "complete",
   "review_status": "APPROVED_DOCUMENTARY",
-  "publication_status": "approved_awaiting_commit_receipt",
-  "package_commit_sha": null,
+  "publication_status": "published_remote_verified",
+  "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9",
   "source_count": 13,
   "project_count": 2,
   "artifacts": [
@@ -34,5 +34,12 @@
     "bounded_secret_privacy_scan": "passed_zero_hits",
     "duplicate_check": "no_matching_run_or_lightbox_package_in_live_catalog",
     "runtime": "not_tested"
+  },
+  "remote_verification": {
+    "verified_at": "2026-11-01T14:22:10Z",
+    "artifact_commit": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9",
+    "exact_file_count": 5,
+    "catalog_run_id_unique": true,
+    "scope": "Original artifact commit contents; receipt metadata committed separately."
   }
 }

@@ -326,7 +326,7 @@
         "manifest.json"
       ],
       "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
-      "package_commit_sha": null
+      "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9"
     }
   ],
   "topics": [
@@ -672,7 +672,7 @@
             "manifest.json"
           ],
           "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
-          "package_commit_sha": null
+          "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9"
         }
       ]
     },
@@ -704,5 +704,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T14:21:31Z"
+  "updated_at": "2026-11-01T14:22:10Z"
 }
