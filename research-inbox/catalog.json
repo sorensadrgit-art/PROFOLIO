@@ -66,7 +66,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": "6883418ea9e6c8229c4a57360dbf361ba36d5299",
+      "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
       "summary": "Follow-up to the initial asset-pipeline report: current R3F 9.8.1/9.8.2 lifecycle fixes, v10 alpha WebGPU-first migration implications, explicit WebGL context and WebGPU device-loss recovery, renderer ownership, lazy/hidden scene lifecycle, and failure-state QA matrix."
     }
   ],
@@ -128,7 +128,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": "6883418ea9e6c8229c4a57360dbf361ba36d5299",
+          "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
           "summary": "Follow-up to the initial asset-pipeline report: current R3F 9.8.1/9.8.2 lifecycle fixes, v10 alpha WebGPU-first migration implications, explicit WebGL context and WebGPU device-loss recovery, renderer ownership, lazy/hidden scene lifecycle, and failure-state QA matrix."
         }
       ]
@@ -182,5 +182,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T11:40:13Z"
+  "updated_at": "2026-11-01T11:42:00Z"
 }
