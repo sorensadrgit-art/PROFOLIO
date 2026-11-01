@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T233600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "Shader-ready is not first-frame-ready",
+  "scheduled_at": "2026-11-01T23:36:00Z",
+  "research_started_at": "2026-11-01T23:39:12Z",
+  "evaluated_date": "2026-11-01",
+  "research_status": "completed_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "publication_status": "approved_for_publication",
+  "package_commit_sha": null,
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "prior_packages_reviewed": [
+    "20261101T053112-3d-webgl-engineering-01",
+    "20261101T064013-webgl-resilience-02",
+    "20261101T113600Z-webgl-3d",
+    "20261101T123218Z-tsl-material-bridge-03",
+    "20261101T143600Z-webgl-3d",
+    "20261101T173600Z-webgl-3d",
+    "20261101T203600Z-webgl-3d"
+  ],
+  "runtime_tests_performed": false,
+  "limitations": [
+    "No browser, GPU, runtime, performance, accessibility or integration tests.",
+    "Moving docs; npm artifact and application lockfile not verified.",
+    "Bounded pattern scan is not exhaustive secret detection."
+  ],
+  "prepublication_checks": {
+    "json_parse": "PASS",
+    "bounded_sensitive_patterns": "PASS",
+    "independent_documentary_review": "PASS",
+    "duplicate_package_check": "PASS"
+  },
+  "file_sha256": {
+    "research.md": "3f4ea82e6dabec74dc1a60db00026000dc7a598ba098db4a122c9910ed642f6e",
+    "sources.json": "23a8f671ce65e1ab77a241c77dbbbd844b55c9b72ab86e08372ac5f1cf58893f",
+    "qa.md": "1c8bd034693bb9528433539d107da634b35d275a97a9d3f523fd041548819bbc"
+  }
+}
