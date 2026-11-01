@@ -55,7 +55,7 @@
     "limitations_documented": true,
     "secrets_scan": "No credentials, tokens, private identifiers, or sensitive personal data intentionally included; public technical sources and public case-study summaries only.",
     "json_validation": "Passed before publication",
-    "remote_readback": "Post-commit read-back is required; final verification result is reported by the publishing run."
+    "remote_readback": "Passed: research.md, sources.json, manifest.json, and catalog.json were fetched from research-data after their commits."
   },
   "publication": {
     "package_commit_sha": null,
@@ -65,7 +65,7 @@
       "sources.json",
       "manifest.json"
     ],
-    "verified_at": null,
+    "verified_at": "2026-11-01T06:03:21-05:00",
     "initial_atomic_package_commit_sha": "814affd244bb7f3bb98adcbbb32a82034d267210",
     "final_package_commit_sha_recorded_in_catalog": true
   }
