@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T123218Z-tsl-material-bridge-03",
+  "retrieved_at": "2026-11-01",
+  "source_count": 13,
+  "sources": [
+    {
+      "id": "r3f-v10-webgpu-overview",
+      "title": "WebGPU Overview — React Three Fiber v10",
+      "url": "https://r3f.docs.pmnd.rs/next/webgpu/overview",
+      "publisher": "Poimandres / React Three Fiber",
+      "version_context": "R3F v10 documentation deployment; page identifies v10+ and React 19 requirement; alpha context confirmed by migration page.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Explains default WebGPURenderer Canvas, WebGL2 backend fallback, renderer entry points, TSL compatibility, and why GLSL ShaderMaterial requires the legacy renderer.",
+      "supports": [
+        "renderer-versus-backend distinction",
+        "R3F v10 entry-point selection",
+        "TSL as cross-backend shader path"
+      ]
+    },
+    {
+      "id": "r3f-v10-migration",
+      "title": "v10 Migration Guide — React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/next/migration/v10",
+      "publisher": "Poimandres / React Three Fiber",
+      "version_context": "v10 alpha migration guide; states three >=0.185.0 and React >=19.0 <19.4.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Documents alpha status, default WebGPURenderer, /legacy import for GLSL/WebGL-only libraries, breaking changes, and migration checklist.",
+      "supports": [
+        "R3F v10 alpha qualification",
+        "dependency compatibility notes",
+        "legacy renderer path"
+      ]
+    },
+    {
+      "id": "r3f-tsl-hooks",
+      "title": "TSL Hooks — React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/next/webgpu/tsl-hooks",
+      "publisher": "Poimandres / React Three Fiber",
+      "version_context": "R3F v10 documentation; @react-three/tsl package.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Defines useUniforms, useNodes, useLocalNodes, scopes, graph generations, dynamic uniform updates, and graph rebuild behavior.",
+      "supports": [
+        "dynamic values versus graph structure",
+        "shared TSL graph lifecycle",
+        "uniform update strategy"
+      ]
+    },
+    {
+      "id": "r3f-render-pipeline",
+      "title": "Render Pipeline — React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/next/webgpu/render-pipeline",
+      "publisher": "Poimandres / React Three Fiber",
+      "version_context": "R3F v10 docs; notes Three.js renamed PostProcessing to RenderPipeline in r183.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Documents useRenderPipeline ownership, automatic scene pass creation, MRT, outputNode, cleanup, persisted pipelines, callback execution, and pass disposal caveat.",
+      "supports": [
+        "R3F pipeline ownership",
+        "post-processing lifecycle",
+        "uniform-driven dynamic parameters"
+      ]
+    },
+    {
+      "id": "r3f-compute-storage",
+      "title": "Compute (Buffers & Storage) — React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/next/webgpu/compute",
+      "publisher": "Poimandres / React Three Fiber",
+      "version_context": "R3F v10 documentation; page explicitly labels useBuffers/useGPUStorage experimental.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Documents GPU buffers, storage textures, compute hooks, particle example, and explicit disposal methods; warns APIs may change.",
+      "supports": [
+        "experimental compute qualification",
+        "GPU resource disposal",
+        "particle system architecture"
+      ]
+    },
+    {
+      "id": "three-webgpurenderer-manual",
+      "title": "WebGPURenderer — Three.js Manual",
+      "url": "https://threejs.org/manual/pages/webgpurenderer",
+      "publisher": "Three.js",
+      "version_context": "Current manual accessed 2026-11-01; RenderPipeline naming aligned with r183 docs.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Explains WebGPU-to-WebGL2 backend fallback, TSL transpilation to WGSL/GLSL, unsupported ShaderMaterial/onBeforeCompile and EffectComposer, and experimental status.",
+      "supports": [
+        "WebGPURenderer backend fallback",
+        "TSL portability",
+        "GLSL and post-processing migration constraints"
+      ]
+    },
+    {
+      "id": "three-tsl-reference",
+      "title": "TSL — Three.js API Documentation",
+      "url": "https://threejs.org/docs/pages/TSL.html",
+      "publisher": "Three.js",
+      "version_context": "Current generated API documentation accessed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_api_reference",
+      "evidence": "Reference for TSL nodes and material properties, including uniforms and PBR-related node functions.",
+      "supports": [
+        "TSL node-material authoring",
+        "PBR property access from TSL"
+      ]
+    },
+    {
+      "id": "three-functionnode-reference",
+      "title": "FunctionNode — Three.js API Documentation",
+      "url": "https://threejs.org/docs/pages/FunctionNode.html",
+      "publisher": "Three.js",
+      "version_context": "Current generated API documentation accessed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_api_reference",
+      "evidence": "Documents native shader function nodes, including wgslFn and glslFn, and their language-specific function source.",
+      "supports": [
+        "language-specific native shader function caveat",
+        "TSL function node extension points"
+      ]
+    },
+    {
+      "id": "three-shadermaterial-reference",
+      "title": "ShaderMaterial — Three.js API Documentation",
+      "url": "https://threejs.org/docs/pages/ShaderMaterial",
+      "publisher": "Three.js",
+      "version_context": "Current generated API documentation accessed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_api_reference",
+      "evidence": "Explicitly states ShaderMaterial can only be used with WebGLRenderer and documents GLSL shader/uniform behavior.",
+      "supports": [
+        "legacy GLSL renderer boundary"
+      ]
+    },
+    {
+      "id": "three-gltfloader-reference",
+      "title": "GLTFLoader — Three.js API Documentation",
+      "url": "https://threejs.org/docs/pages/GLTFLoader",
+      "publisher": "Three.js",
+      "version_context": "Current generated API documentation accessed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_api_reference",
+      "evidence": "Lists GLTFLoader-supported glTF extensions and warns that ImageBitmap resources need special disposal handling.",
+      "supports": [
+        "loader-side extension compatibility",
+        "GLTFLoader image resource lifecycle"
+      ]
+    },
+    {
+      "id": "blender-54-gltf-manual",
+      "title": "glTF 2.0 — Blender 5.4 Manual",
+      "url": "https://docs.blender.org/manual/en/5.4/addons/scene_gltf2.html",
+      "publisher": "Blender Foundation",
+      "version_context": "Blender 5.4 manual; official page indexed by search. Direct page open returned an access error during retrieval.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Describes recognized Principled BSDF material export, texture channel expectations, emissive/clearcoat/transmission/volume and other supported glTF extensions.",
+      "supports": [
+        "Blender material export boundary",
+        "Principled BSDF mapping",
+        "extension export limitations"
+      ]
+    },
+    {
+      "id": "khronos-gltf-20-spec",
+      "title": "glTF 2.0 Specification",
+      "url": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+      "publisher": "Khronos Group",
+      "version_context": "glTF 2.0 specification; current registry accessed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "specification",
+      "evidence": "Defines metallic-roughness PBR material representation, texture color-space and channel conventions, extension declarations, and asset interchange semantics.",
+      "supports": [
+        "portable PBR interchange contract",
+        "texture channel and color-space conventions",
+        "extensionsUsed and extensionsRequired semantics"
+      ]
+    },
+    {
+      "id": "three-webgpu-postprocessing",
+      "title": "Post-Processing with WebGPURenderer — Three.js Manual",
+      "url": "https://threejs.org/manual/pages/webgpu-postprocessing.html",
+      "publisher": "Three.js",
+      "version_context": "Current manual accessed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "source_type": "official_documentation",
+      "evidence": "Explains RenderPipeline replacing EffectComposer, TSL node-composed effects, MRT and attachment precision/bandwidth considerations.",
+      "supports": [
+        "WebGPU post-processing architecture",
+        "MRT memory/bandwidth considerations"
+      ]
+    }
+  ]
+}
