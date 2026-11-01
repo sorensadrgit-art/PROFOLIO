@@ -16,11 +16,13 @@
     "manifest.json",
     "qa.md"
   ],
-  "package_commit_sha": null,
+  "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e",
   "publication_receipt": {
-    "status": "not_published",
-    "verified_at": null,
-    "artifact_commit_sha": null
+    "status": "remote_exact_readback_verified",
+    "verified_at": "2026-11-01T12:47:41Z",
+    "artifact_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e",
+    "commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/856399b1045f8680716254d9e8b8b549ee850d6e",
+    "scope": "Four artifacts and atomic catalog content read back exactly; this later metadata commit records that earlier verification."
   },
   "runtime_tests": "NOT_RUN",
   "limitations": [

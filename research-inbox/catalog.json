@@ -173,7 +173,8 @@
         "qa.md",
         "manifest.json"
       ],
-      "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract."
+      "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract.",
+      "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e"
     },
     {
       "run_id": "20261101T124229Z-open-source-creative-smoke",
@@ -379,7 +380,8 @@
             "qa.md",
             "manifest.json"
           ],
-          "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract."
+          "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract.",
+          "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e"
         }
       ]
     },
@@ -439,5 +441,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:48:20Z"
+  "updated_at": "2026-11-01T12:48:53Z"
 }
