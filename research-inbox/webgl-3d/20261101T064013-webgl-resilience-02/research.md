@@ -63,7 +63,7 @@ Three.js documents `WebGLRenderer.dispose()`, `forceContextLoss()`, and `forceCo
 - `GPUDevice.lost` is a promise that remains pending during the device's lifetime and resolves with a `GPUDeviceLostInfo` when loss occurs. [S5][S7]
 - Device loss can be transient, including browser resource management or driver updates. MDN recommends requesting a replacement device after transient loss and recreating resources on that new device. An adapter may become unavailable and return already-lost devices, so retries cannot be assumed to succeed forever. [S7]
 - The current WebGPU Editor's Draft defines `reason` values `unknown` and `destroyed`. The `message` is implementation-defined and must not be parsed by application logic. [S5]
-- `GPUDevice.lost` and related WebGPU APIs remain marked limited availability by MDN at retrieval; use feature detection and retain a non-WebGPU path. [S7][S8]
+- `GPUDevice.lost` and related WebGPU APIs remain marked limited availability by MDN at retrieval; use feature detection and retain a non-WebGPU path. [S12]
 
 ### Recovery policy
 
