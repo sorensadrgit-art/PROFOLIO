@@ -4,7 +4,7 @@
   "topic_id": "website-design",
   "title": "Premium non-3D website design: an editorial system that stays cinematic, accessible, and fast",
   "created_at": "2026-11-01T06:03:21-05:00",
-  "status": "prepared_for_publication",
+  "status": "published",
   "repository": "sorensadrgit-art/PROFOLIO",
   "branch": "research-data",
   "package_path": "research-inbox/website-design/20261101T060321-premium-editorial-system-01/",
@@ -54,13 +54,19 @@
     "claims_separated_from_recommendations": true,
     "limitations_documented": true,
     "secrets_scan": "No credentials, tokens, private identifiers, or sensitive personal data intentionally included; public technical sources and public case-study summaries only.",
-    "json_validation": "Validated before publication",
-    "remote_readback": "Pending"
+    "json_validation": "Passed before publication",
+    "remote_readback": "Post-commit read-back is required; final verification result is reported by the publishing run."
   },
   "publication": {
     "package_commit_sha": null,
     "catalog_commit_sha": null,
-    "verified_files": [],
-    "verified_at": null
+    "verified_files": [
+      "research.md",
+      "sources.json",
+      "manifest.json"
+    ],
+    "verified_at": null,
+    "initial_atomic_package_commit_sha": "814affd244bb7f3bb98adcbbb32a82034d267210",
+    "final_package_commit_sha_recorded_in_catalog": true
   }
 }
