@@ -33,7 +33,7 @@
   "commits": {
     "research_md": "88a9ef5551fa2025a91fce5a2d0d4ad3b597a38f",
     "sources_json": "dd156f639e4034cffd1addda1fdc887e2ee8e11a",
-    "catalog_json": null
+    "catalog_json": "337cba44ee6660c4410562f2d4ad3789b5b6a391"
   },
   "evidence_scope": "Official documentation and specification review; no code execution, GLB export, shader compilation, or physical-device benchmarking.",
   "checks": {
@@ -53,5 +53,7 @@
     "The Blender 5.4 official manual was readable via indexed search content, but direct page retrieval returned an access error.",
     "No PROFOLIO dependency lockfile was inspected.",
     "No shader compilation, GLB export, runtime test, or device benchmark was performed."
-  ]
+  ],
+  "catalog_entry_verified": true,
+  "finalized_at": "2026-11-01T12:32:18Z"
 }
