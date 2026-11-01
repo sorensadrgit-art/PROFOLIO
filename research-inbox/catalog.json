@@ -193,7 +193,8 @@
         "manifest.json",
         "qa.md"
       ],
-      "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only."
+      "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only.",
+      "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a"
     }
   ],
   "topics": [
@@ -405,7 +406,8 @@
             "manifest.json",
             "qa.md"
           ],
-          "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only."
+          "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only.",
+          "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a"
         }
       ]
     },
@@ -437,5 +439,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:47:49Z"
+  "updated_at": "2026-11-01T12:48:20Z"
 }

@@ -7,8 +7,8 @@
   "evaluated_at": "2026-11-01T12:44:50Z",
   "research_status": "complete",
   "review_status": "APPROVED_DOCUMENTARY",
-  "publication_status": "package_prepared",
-  "package_commit_sha": null,
+  "publication_status": "published_verified",
+  "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a",
   "artifacts": [
     "research.md",
     "sources.json",
@@ -20,5 +20,6 @@
     "Documentary only; no runtime/performance/accessibility certification."
   ],
   "qa_report": "qa.md",
-  "commit_receipt_note": "Verified content commit populated by follow-up receipt commit after remote read-back; this manifest does not claim its own commit hash."
+  "commit_receipt_note": "package_commit_sha identifies the original five-file content commit verified by remote read-back. This metadata receipt is a later commit; it is not self-referential.",
+  "remote_verified_at": "2026-11-01T12:48:20Z"
 }
