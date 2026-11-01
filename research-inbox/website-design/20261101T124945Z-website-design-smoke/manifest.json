@@ -32,10 +32,12 @@
     "markdown_structure": "passed"
   },
   "publication": {
-    "status": "not_published",
-    "artifact_commit_sha": null,
-    "verified_remote_commit_sha": null,
-    "receipt_policy": "A later metadata commit records the original artifact commit; manifest does not claim its own containing commit hash."
+    "status": "published_verified",
+    "artifact_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
+    "verified_remote_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
+    "verified_at": "2026-11-01T12:55:01Z",
+    "remote_files_exact_match": true,
+    "receipt_policy": "This follow-up metadata records original artifact commit, not its own containing commit."
   },
   "limitations": [
     "Documentary review only",

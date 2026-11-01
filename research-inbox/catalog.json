@@ -214,7 +214,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
       "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
     }
   ],
@@ -257,7 +257,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
           "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
         }
       ]
@@ -481,5 +481,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:54:30Z"
+  "updated_at": "2026-11-01T12:55:01Z"
 }
