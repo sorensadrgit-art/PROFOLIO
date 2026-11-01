@@ -1,0 +1,138 @@
+{
+  "run_id": "20261101T201800Z-open-source-creative",
+  "evaluated_at": "2026-11-01T20:17:40Z",
+  "sources": [
+    {
+      "id": "T1",
+      "title": "SplitType README",
+      "url": "https://github.com/lukePeavey/SplitType/blob/36af092f7061ef9b6ea33261b688a3fe04b890fb/README.md",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "36af092f7061ef9b6ea33261b688a3fe04b890fb",
+      "commit_date": "2023-10-22T10:41:35Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "DOM splitting, reflow and restoration guidance",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "T2",
+      "title": "SplitType source package manifest",
+      "url": "https://github.com/lukePeavey/SplitType/blob/36af092f7061ef9b6ea33261b688a3fe04b890fb/package.json",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "36af092f7061ef9b6ea33261b688a3fe04b890fb",
+      "commit_date": "2023-10-22T10:41:35Z",
+      "version": "0.3.4",
+      "release_date": null,
+      "limitations": "Source version and ISC declaration; not distributed license verification",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "T3",
+      "title": "SplitType latest GitHub release",
+      "url": "https://api.github.com/repos/lukePeavey/SplitType/releases/latest",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": null,
+      "commit_date": null,
+      "version": "v0.3.3",
+      "release_date": "2022-10-29T00:49:20Z",
+      "limitations": "Published 2022-10-29T00:49:20Z; not npm dist-tag",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "T4",
+      "title": "SplitType observed commit",
+      "url": "https://github.com/lukePeavey/SplitType/commit/36af092f7061ef9b6ea33261b688a3fe04b890fb",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "36af092f7061ef9b6ea33261b688a3fe04b890fb",
+      "commit_date": "2023-10-22T10:41:35Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Observed default branch head, not a release",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "T5",
+      "title": "SplitType recursive source tree",
+      "url": "https://api.github.com/repos/lukePeavey/SplitType/git/trees/36af092f7061ef9b6ea33261b688a3fe04b890fb?recursive=1",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "36af092f7061ef9b6ea33261b688a3fe04b890fb",
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "limitations": "No license-named path found; does not prove absence of terms elsewhere",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "S1",
+      "title": "Splitting.js official guide",
+      "url": "https://splitting.js.org/guide.html",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": null,
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "limitations": "Live unversioned usage documentation, not browser testing",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "S2",
+      "title": "Splitting source package manifest",
+      "url": "https://github.com/shshaw/Splitting/blob/d5a8fd0137e90770ae10d2e0e874a4a101161544/package.json",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "d5a8fd0137e90770ae10d2e0e874a4a101161544",
+      "commit_date": "2024-05-31T19:01:29Z",
+      "version": "1.1.0",
+      "release_date": null,
+      "limitations": "Source version, not verified npm dist-tag",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "S3",
+      "title": "Splitting MIT license",
+      "url": "https://github.com/shshaw/Splitting/blob/d5a8fd0137e90770ae10d2e0e874a4a101161544/LICENSE.md",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "d5a8fd0137e90770ae10d2e0e874a4a101161544",
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "limitations": "Actual text inspected; not separate demo-asset rights",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "S4",
+      "title": "Splitting latest GitHub release",
+      "url": "https://api.github.com/repos/shshaw/Splitting/releases/latest",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": null,
+      "commit_date": null,
+      "version": "1.0.5",
+      "release_date": "2018-08-27T21:44:08Z",
+      "limitations": "Published 2018-08-27T21:44:08Z; not npm dist-tag",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "S5",
+      "title": "Splitting observed commit",
+      "url": "https://github.com/shshaw/Splitting/commit/d5a8fd0137e90770ae10d2e0e874a4a101161544",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "d5a8fd0137e90770ae10d2e0e874a4a101161544",
+      "commit_date": "2024-05-31T19:01:29Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Observed default branch head, not a release",
+      "retrieved_on": "2026-11-01"
+    },
+    {
+      "id": "S6",
+      "title": "Splitting README and demo index",
+      "url": "https://github.com/shshaw/Splitting/blob/d5a8fd0137e90770ae10d2e0e874a4a101161544/README.md",
+      "provenance": "Primary maintainer repository or official documentation",
+      "commit": "d5a8fd0137e90770ae10d2e0e874a4a101161544",
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "limitations": "Demo links not operated",
+      "retrieved_on": "2026-11-01"
+    }
+  ]
+}

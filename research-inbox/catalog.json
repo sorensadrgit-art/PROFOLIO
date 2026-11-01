@@ -577,6 +577,26 @@
       ],
       "package_commit_sha": null,
       "summary": "A crop-level content and alternative-text contract for responsive project imagery; native selection versus visual framing, contextual link purpose and unexecuted acceptance checks. Documentary only."
+    },
+    {
+      "run_id": "20261101T201800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "Split the heading, not its meaning: SplitType or Splitting.js?",
+      "path": "research-inbox/open-source-creative/20261101T201800Z-open-source-creative/",
+      "created_at": "2026-11-01T20:19:56Z",
+      "scheduled_at": "2026-11-01T20:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 11,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Two-candidate typography splitter comparison, DOM ownership, line reflow and actual-license/version caveats. SplitType adoption deferred pending license terms; documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -1133,6 +1153,26 @@
           ],
           "summary": "Two-project command-menu shortlist, MIT licenses, pinned peer dependencies and action/shortcut ownership. Documentary only.",
           "package_commit_sha": "d6caae9a23d3208c94875cd497d447458dc91fd1"
+        },
+        {
+          "run_id": "20261101T201800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "Split the heading, not its meaning: SplitType or Splitting.js?",
+          "path": "research-inbox/open-source-creative/20261101T201800Z-open-source-creative/",
+          "created_at": "2026-11-01T20:19:56Z",
+          "scheduled_at": "2026-11-01T20:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 11,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Two-candidate typography splitter comparison, DOM ownership, line reflow and actual-license/version caveats. SplitType adoption deferred pending license terms; documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -1204,5 +1244,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T20:04:20Z"
+  "updated_at": "2026-11-01T20:19:56Z"
 }
