@@ -161,7 +161,7 @@ Recommended bridge:
 4. If using on-demand rendering, invalidate/request a frame when progress changes.
 5. Pause or reduce scene work when the canvas is offscreen or the document is hidden.
 
-R3F's hooks documentation says `useFrame` runs before render and unsubscribes when the component unmounts; it explicitly warns against calling React `setState` inside the frame loop. The performance guide recommends on-demand rendering for scenes that can rest, reusing geometry/materials, and adapting quality to observed device performance. If imported glTF clips are used, Three.js `AnimationMixer.update(delta)` belongs in the same renderer loop; stop actions before uncaching them. [S20–S22, S24]
+R3F's hooks documentation says `useFrame` runs before render and unsubscribes when the component unmounts; it explicitly warns against calling React `setState` inside the frame loop. The performance guide recommends on-demand rendering for scenes that can rest, reusing geometry/materials, and adapting quality to observed device performance. If imported glTF clips are used, Three.js `AnimationMixer.update(delta)` belongs in the same renderer loop; stop actions before uncaching them. [S20, S21, S24]
 
 This creates a clean boundary: GSAP/Motion/CSS own the scroll narrative; the 3D scene consumes a scalar or small set of parameters. Avoid coupling every DOM scroll tick to a full React component-tree update.
 
