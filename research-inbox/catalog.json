@@ -3,7 +3,7 @@
   "repository": "sorensadrgit-art/PROFOLIO",
   "branch": "research-data",
   "storage_root": "research-inbox/",
-  "generated_at": "2026-11-01T03:15:00-05:00",
+  "generated_at": "2026-11-01T06:13:50-05:00",
   "packages": [
     {
       "run_id": "20261101T053112-3d-webgl-engineering-01",
@@ -36,6 +36,22 @@
       ],
       "package_commit_sha": "afd8dc27b68d8ce70201ce111d5b9db39d458c64",
       "summary": "Evidence-based non-3D design system guidance: luxury/editorial case patterns, token architecture, variable typography, OKLCH with contrast validation, responsive composition, glass and motion as progressive enhancements, WCAG 2.2, and media/Core Web Vitals constraints."
+    },
+    {
+      "run_id": "20261101T061350-motion-orchestration-architecture-01",
+      "topic_id": "motion-interaction",
+      "title": "A coherent motion system for PROFOLIO: choosing the right scroll engine, owning animated properties, and making motion resilient",
+      "path": "research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/",
+      "created_at": "2026-11-01T06:13:50-05:00",
+      "status": "published",
+      "source_count": 24,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "2f59ee8dbb09a67cf078988a3ce316b4ed9d5646",
+      "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
     }
   ],
   "topics": [
@@ -89,7 +105,24 @@
       "topic_id": "motion-interaction",
       "name": "Motion and Interaction",
       "root": "research-inbox/motion-interaction/",
-      "packages": []
+      "packages": [
+        {
+          "run_id": "20261101T061350-motion-orchestration-architecture-01",
+          "topic_id": "motion-interaction",
+          "title": "A coherent motion system for PROFOLIO: choosing the right scroll engine, owning animated properties, and making motion resilient",
+          "path": "research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/",
+          "created_at": "2026-11-01T06:13:50-05:00",
+          "status": "published",
+          "source_count": 24,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "2f59ee8dbb09a67cf078988a3ce316b4ed9d5646",
+          "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
+        }
+      ]
     },
     {
       "topic_id": "fullstack-engineering",
@@ -105,5 +138,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T06:03:21-05:00"
+  "updated_at": "2026-11-01T06:13:50-05:00"
 }
