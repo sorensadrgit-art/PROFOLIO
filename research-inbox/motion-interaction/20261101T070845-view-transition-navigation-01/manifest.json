@@ -28,11 +28,11 @@
     "prior_catalog_comparison": "PASS",
     "source_provenance": "PASS",
     "fact_vs_synthesis_separation": "PASS",
-    "json_validation": "PASS_LOCAL",
+    "json_validation": "PASS_REMOTE_READBACK",
     "secret_scan": "PASS",
     "source_id_coverage": "PASS",
-    "duplicate_path_check": "PASS_CATALOG_ABSENT",
-    "remote_readback": "PENDING"
+    "duplicate_path_check": "PASS",
+    "remote_readback": "PASS"
   },
   "safety": {
     "application_files_modified": false,
@@ -44,5 +44,24 @@
   "package_file_commits": {
     "research_md": "5c5c36edfee0648717845143a489208f8458bd66",
     "sources_json": "adfaa6924b5496c143801218345639e7f017982a"
-  }
+  },
+  "catalog_update_commit_sha": "c8af6efeaf383018bdafbf4b68af1579fe937c3b",
+  "remote_readback_at": "2026-11-01T07:08:45-05:00",
+  "verified_remote_files": [
+    {
+      "file": "research.md",
+      "blob_sha": "668de6d1b73cef7a757545d98f3f53555372bdf9",
+      "url": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/research.md"
+    },
+    {
+      "file": "sources.json",
+      "blob_sha": "71fe33f46c9941b6423a73b126198e313dc0abaf",
+      "url": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/sources.json"
+    },
+    {
+      "file": "manifest.json",
+      "blob_sha": "e7c3ad37efa1d8d3c3779149cff602d0868c0f17",
+      "url": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/manifest.json"
+    }
+  ]
 }
