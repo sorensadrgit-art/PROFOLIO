@@ -422,7 +422,7 @@
         "manifest.json"
       ],
       "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
-      "package_commit_sha": null
+      "package_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152"
     }
   ],
   "topics": [
@@ -796,7 +796,7 @@
             "manifest.json"
           ],
           "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
-          "package_commit_sha": null
+          "package_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152"
         }
       ]
     },
@@ -896,5 +896,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T16:26:55Z"
+  "updated_at": "2026-11-01T16:27:45Z"
 }

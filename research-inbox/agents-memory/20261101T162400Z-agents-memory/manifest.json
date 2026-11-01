@@ -16,8 +16,8 @@
     "qa.md",
     "manifest.json"
   ],
-  "artifact_commit_sha": null,
-  "publication_status": "approved_pending_remote_verification",
+  "artifact_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152",
+  "publication_status": "remote_content_verified",
   "limitations": [
     "No runtime, persistence, security attack, performance or integration tests performed.",
     "Sources provide documentary guidance, not deployed controls.",
@@ -31,5 +31,7 @@
       "20261101T132400Z-agents-memory"
     ],
     "difference": "Trust propagation across extraction, summary and persistent recall; not project membership or exactly-once effects."
-  }
+  },
+  "remote_verified_at": "2026-11-01T16:27:45Z",
+  "receipt_note": "This manifest revision records the earlier artifact commit; its own metadata commit is distinct."
 }
