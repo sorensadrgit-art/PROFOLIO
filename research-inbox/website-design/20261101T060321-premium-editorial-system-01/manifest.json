@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T060321-premium-editorial-system-01",
+  "topic_id": "website-design",
+  "title": "Premium non-3D website design: an editorial system that stays cinematic, accessible, and fast",
+  "created_at": "2026-11-01T06:03:21-05:00",
+  "status": "prepared_for_publication",
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "package_path": "research-inbox/website-design/20261101T060321-premium-editorial-system-01/",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json"
+  ],
+  "source_count": 17,
+  "source_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17"
+  ],
+  "research_question": "How can a premium, editorial, cinematic website feel distinctive through typography, art direction, composition, and restrained motion without depending on 3D or sacrificing accessibility, mobile behavior, or loading performance?",
+  "novelty_check": {
+    "catalog_read_before_research": true,
+    "catalog_blob_sha": "e960329e908c34b9f68a46ff211a8f2dd41f7f95",
+    "prior_packages_in_topic": 0,
+    "adjacent_existing_package": "20261101T053112-3d-webgl-engineering-01",
+    "overlap_assessment": "Existing package concerns 3D/WebGL engineering; this package covers non-3D visual systems, tokens, typography, accessibility, responsive composition, and media performance."
+  },
+  "evidence_profile": {
+    "primary_technical_sources": 14,
+    "first_party_case_studies": 3,
+    "confidence": "High for standards and documented browser behavior; medium for case-study observations; recommendations are labeled synthesis."
+  },
+  "qa": {
+    "scope_limited_to_research_inbox": true,
+    "no_application_or_deployment_files_changed": true,
+    "no_third_party_assets_redistributed": true,
+    "sources_have_urls_and_provenance": true,
+    "claims_separated_from_recommendations": true,
+    "limitations_documented": true,
+    "secrets_scan": "No credentials, tokens, private identifiers, or sensitive personal data intentionally included; public technical sources and public case-study summaries only.",
+    "json_validation": "Validated before publication",
+    "remote_readback": "Pending"
+  },
+  "publication": {
+    "package_commit_sha": null,
+    "catalog_commit_sha": null,
+    "verified_files": [],
+    "verified_at": null
+  }
+}
