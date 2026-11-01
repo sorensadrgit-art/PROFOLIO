@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T143600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "One cached GLB, two independent animated characters",
+  "scheduled_at": "2026-11-01T14:36:00Z",
+  "scheduled_local": "2026-11-01T09:36:00-05:00",
+  "timezone": "America/New_York",
+  "research_started_at": "2026-11-01T14:40:56Z",
+  "research_status": "completed_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "publication_status": "not_published",
+  "package_commit_sha": null,
+  "source_count": 5,
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "runtime_tests_performed": false,
+  "limitations": [
+    "Documentary research only; no GPU, Blender, browser, performance or accessibility tests.",
+    "Exact installed package versions and application lockfile not inspected.",
+    "Bounded pattern scan is not an exhaustive secret-detection guarantee."
+  ],
+  "prior_packages_reviewed": [
+    "20261101T053112-3d-webgl-engineering-01",
+    "20261101T064013-webgl-resilience-02",
+    "20261101T113600Z-webgl-3d",
+    "20261101T123218Z-tsl-material-bridge-03"
+  ],
+  "file_sha256": {
+    "research.md": "0652403b47d5520e96797d581b508d82d37c2fef05a36d948849d08526ef7eb8",
+    "sources.json": "1ed12405b7e4c30517116d121f1e1483f6534aa2a4e51ce969b25e05b95e3a61",
+    "qa.md": "7677e3056ef2d6cac9ccde478cd18cc028a23902394195cc55b4ada671449c87"
+  },
+  "prepublication_checks": {
+    "json_parse": "PASS",
+    "bounded_sensitive_patterns": "PASS",
+    "independent_documentary_review": "PASS",
+    "duplicate_package_check": "PASS"
+  }
+}

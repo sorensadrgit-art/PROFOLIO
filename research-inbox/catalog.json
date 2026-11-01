@@ -327,6 +327,25 @@
       ],
       "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
       "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9"
+    },
+    {
+      "run_id": "20261101T143600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "One cached GLB, two independent animated characters",
+      "path": "research-inbox/webgl-3d/20261101T143600Z-webgl-3d/",
+      "created_at": "2026-11-01T14:43:18Z",
+      "scheduled_at": "2026-11-01T14:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -480,6 +499,25 @@
           ],
           "package_commit_sha": "88a9ef5551fa2025a91fce5a2d0d4ad3b597a38f",
           "summary": "New shader/material portability research: distinguishes WebGPURenderer WebGL2 backend fallback from legacy WebGLRenderer, maps TSL graph/uniform lifecycles, defines Blender 5.4 Principled BSDF to glTF PBR boundaries, checks material-extension support, and documents R3F v10 RenderPipeline/experimental compute implications."
+        },
+        {
+          "run_id": "20261101T143600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "One cached GLB, two independent animated characters",
+          "path": "research-inbox/webgl-3d/20261101T143600Z-webgl-3d/",
+          "created_at": "2026-11-01T14:43:18Z",
+          "scheduled_at": "2026-11-01T14:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -704,5 +742,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T14:22:10Z"
+  "updated_at": "2026-11-01T14:43:18Z"
 }
