@@ -16,7 +16,7 @@
     "qa.md",
     "manifest.json"
   ],
-  "package_commit_sha": null,
+  "package_commit_sha": "0f8370023c77593c3c47ae74723bfb189728e05e",
   "runtime_tests": "NOT_RUN",
   "performance_tests": "NOT_RUN",
   "accessibility_tests": "NOT_RUN",
@@ -24,11 +24,12 @@
     "Motion cancellation callback mapping requires pinned-version runtime verification.",
     "No installed dependency versions were inspected."
   ],
-  "publication_status": "artifact_commit_receipt_pending",
+  "publication_status": "published",
   "validation": {
     "json": "PASS",
     "markdown_fences": "PASS",
     "bounded_secret_privacy_scan": "PASS",
     "independent_documentary_review": "PASS"
-  }
+  },
+  "publication_note": "package_commit_sha identifies the original artifact commit, not the subsequent metadata receipt commit."
 }

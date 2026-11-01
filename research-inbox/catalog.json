@@ -363,7 +363,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "0f8370023c77593c3c47ae74723bfb189728e05e",
       "summary": "Cancel-safe drag preview/commit ownership, native scrolling and non-drag alternatives. Documentary only; no runtime testing."
     }
   ],
@@ -629,7 +629,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "0f8370023c77593c3c47ae74723bfb189728e05e",
           "summary": "Cancel-safe drag preview/commit ownership, native scrolling and non-drag alternatives. Documentary only; no runtime testing."
         }
       ]
@@ -780,5 +780,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T15:19:44Z"
+  "updated_at": "2026-11-01T15:20:05Z"
 }
