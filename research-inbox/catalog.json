@@ -3,7 +3,7 @@
   "repository": "sorensadrgit-art/PROFOLIO",
   "branch": "research-data",
   "storage_root": "research-inbox/",
-  "generated_at": "2026-11-01T13:09:53Z",
+  "generated_at": "2026-11-01T14:00:00Z",
   "packages": [
     {
       "run_id": "20261101T053112-3d-webgl-engineering-01",
@@ -271,6 +271,23 @@
       ],
       "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
       "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
+    },
+    {
+      "run_id": "20261101T135953Z-editorial-grid-lanes-01",
+      "topic_id": "website-design",
+      "title": "A content-first editorial grid system for PROFOLIO: Grid Lanes, subgrid, container queries, and reading order",
+      "path": "research-inbox/website-design/20261101T135953Z-editorial-grid-lanes-01/",
+      "created_at": "2026-11-01T13:59:53Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 9,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "fbf6dd322fa6acc8c37c3697e5764d90fd1b6f23",
+      "summary": "New layout-engineering addendum: compares CSS Grid, subgrid, container queries and progressive Grid Lanes for premium project galleries; documents masonry backtracking and reading-order risks, limited reading-flow support, and image geometry safeguards. Documentary only."
     }
   ],
   "topics": [
@@ -314,6 +331,23 @@
           ],
           "package_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
           "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
+        },
+        {
+          "run_id": "20261101T135953Z-editorial-grid-lanes-01",
+          "topic_id": "website-design",
+          "title": "A content-first editorial grid system for PROFOLIO: Grid Lanes, subgrid, container queries, and reading order",
+          "path": "research-inbox/website-design/20261101T135953Z-editorial-grid-lanes-01/",
+          "created_at": "2026-11-01T13:59:53Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 9,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "fbf6dd322fa6acc8c37c3697e5764d90fd1b6f23",
+          "summary": "New layout-engineering addendum: compares CSS Grid, subgrid, container queries and progressive Grid Lanes for premium project galleries; documents masonry backtracking and reading-order risks, limited reading-flow support, and image geometry safeguards. Documentary only."
         }
       ]
     },
@@ -592,5 +626,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T13:31:50Z"
+  "updated_at": "2026-11-01T14:00:00Z"
 }
