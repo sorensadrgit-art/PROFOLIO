@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T230000Z-website-design",
+  "topic_id": "website-design",
+  "title": "Sticky navigation needs a reading-space budget",
+  "scheduled_at": "2026-11-01T23:00:00Z",
+  "created_at": "2026-11-01T23:04:24Z",
+  "evaluated_at": "2026-11-01",
+  "author": "Dot",
+  "status": "approved_documentary",
+  "source_count": 5,
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "question": "When should persistent navigation yield reading space, and how should scroll ownership and boundary space be reviewed?",
+  "duplicate_check": {
+    "catalog_packages": 37,
+    "prior_topic_packages": 6,
+    "same_run_found": false,
+    "unindexed_topic_directory_found": false,
+    "distinction": "Extends earlier sticky-overlap warning into a reading-space, scroll-owner and document-boundary contract."
+  },
+  "evidence_scope": "Primary documentation and original synthesis",
+  "tests": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_pattern_and_manual_review",
+    "runtime": "not_performed",
+    "browser": "not_performed",
+    "accessibility": "not_performed",
+    "performance": "not_performed",
+    "integration": "not_performed"
+  },
+  "publication": {
+    "branch": "research-data",
+    "atomic_package_catalog": true,
+    "expected_head_cas": true,
+    "commit_sha": null
+  },
+  "limitations": [
+    "No implemented application or interaction tested.",
+    "Living documentation is not pinned to a source commit.",
+    "No assets, library source or licence grant redistributed."
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "qa_review": "qa.md"
+}
