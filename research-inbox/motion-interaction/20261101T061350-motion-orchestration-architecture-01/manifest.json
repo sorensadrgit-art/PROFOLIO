@@ -35,10 +35,17 @@
     "recommendations_labeled_as_synthesis": true,
     "json_validation": "passed before commit",
     "secret_and_sensitive_data_scan": "passed before commit",
-    "remote_readback": "to be verified immediately after publication"
+    "remote_readback": "passed: all three package files and the catalog were fetched from research-data and parsed/checked",
+    "citation_mapping": "passed: corrected R3F section to cite only R3F hooks, R3F performance and Three.js AnimationMixer sources"
   },
   "publication": {
-    "catalog_commit_sha": null,
-    "remote_file_urls": {}
+    "research_commit_sha": "218789f11e55e88a0303f739c3253a8469e7abca",
+    "sources_commit_sha": "6e0eb05752f25b952d1ef094df93a571f5d6a5c8",
+    "initial_manifest_commit_sha": "2f59ee8dbb09a67cf078988a3ce316b4ed9d5646",
+    "remote_file_urls": {
+      "research": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/research.md",
+      "sources": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/sources.json",
+      "manifest": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/manifest.json"
+    }
   }
 }
