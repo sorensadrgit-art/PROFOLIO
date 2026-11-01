@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "evaluated_at": "2026-11-01",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "HTML Standard \u2014 Images",
+      "url": "https://html.spec.whatwg.org/multipage/images.html#art-direction",
+      "publisher": "WHATWG",
+      "evaluated_at": "2026-11-01",
+      "version": "Living Standard",
+      "page_updated_at": "2026-10-30",
+      "release_date": null,
+      "commit_sha": null,
+      "provenance": "Official standards body or documentation publisher; read via web retrieval",
+      "limitations": "Documentation only; no browser or asset tests. Page update is not a release date.",
+      "retrieved_on": "2026-11-01",
+      "licence": null
+    },
+    {
+      "id": "S2",
+      "title": "picture HTML element",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture",
+      "publisher": "MDN",
+      "evaluated_at": "2026-11-01",
+      "version": null,
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_sha": null,
+      "provenance": "Official standards body or documentation publisher; read via web retrieval",
+      "limitations": "Documentation only; no browser or asset tests. Page update is not a release date.",
+      "retrieved_on": "2026-11-01",
+      "licence": null
+    },
+    {
+      "id": "S3",
+      "title": "object-fit CSS property",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit",
+      "publisher": "MDN",
+      "evaluated_at": "2026-11-01",
+      "version": null,
+      "page_updated_at": "2026-07-21",
+      "release_date": null,
+      "commit_sha": null,
+      "provenance": "Official standards body or documentation publisher; read via web retrieval",
+      "limitations": "Documentation only; no browser or asset tests. Page update is not a release date.",
+      "retrieved_on": "2026-11-01",
+      "licence": null
+    },
+    {
+      "id": "S4",
+      "title": "object-position CSS property",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-position",
+      "publisher": "MDN",
+      "evaluated_at": "2026-11-01",
+      "version": null,
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_sha": null,
+      "provenance": "Official standards body or documentation publisher; read via web retrieval",
+      "limitations": "Documentation only; no browser or asset tests. Page update is not a release date.",
+      "retrieved_on": "2026-11-01",
+      "licence": null
+    },
+    {
+      "id": "S5",
+      "title": "An alt Decision Tree",
+      "url": "https://www.w3.org/WAI/tutorials/images/decision-tree/",
+      "publisher": "W3C WAI",
+      "evaluated_at": "2026-11-01",
+      "version": null,
+      "page_updated_at": "2024-05-13",
+      "release_date": null,
+      "commit_sha": null,
+      "provenance": "Official standards body or documentation publisher; read via web retrieval",
+      "limitations": "Documentation only; no browser or asset tests. Page update is not a release date.",
+      "retrieved_on": "2026-11-01",
+      "licence": null
+    },
+    {
+      "id": "S6",
+      "title": "Functional Images",
+      "url": "https://www.w3.org/WAI/tutorials/images/functional/",
+      "publisher": "W3C WAI",
+      "evaluated_at": "2026-11-01",
+      "version": null,
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_sha": null,
+      "provenance": "Official standards body or documentation publisher; read via web retrieval",
+      "limitations": "Documentation only; no browser or asset tests. Page update is not a release date.",
+      "retrieved_on": "2026-11-01",
+      "licence": null
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://web.dev/learn/images/picture-element",
+      "reason": "Retrieval tool reported inaccessible; not used as evidence."
+    }
+  ],
+  "retrieved_on": "2026-11-01"
+}

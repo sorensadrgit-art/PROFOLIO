@@ -558,6 +558,25 @@
       ],
       "summary": "Sliding retention versus factual validity, expiry visibility, source revision invalidation and an unexecuted synthetic test contract. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T200000Z-website-design",
+      "topic_id": "website-design",
+      "title": "Art-directed project images: preserve meaning across crops",
+      "path": "research-inbox/website-design/20261101T200000Z-website-design/",
+      "created_at": "2026-11-01T20:03:50Z",
+      "scheduled_at": "2026-11-01T20:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "package_commit_sha": null,
+      "summary": "A crop-level content and alternative-text contract for responsive project imagery; native selection versus visual framing, contextual link purpose and unexecuted acceptance checks. Documentary only."
     }
   ],
   "topics": [
@@ -656,6 +675,25 @@
           ],
           "package_commit_sha": "fb42d6b1d22186d7ab4005a9632f762f7cd056fa",
           "summary": "Contact-form identity, correction and pending/result feedback contract; documentary review only."
+        },
+        {
+          "run_id": "20261101T200000Z-website-design",
+          "topic_id": "website-design",
+          "title": "Art-directed project images: preserve meaning across crops",
+          "path": "research-inbox/website-design/20261101T200000Z-website-design/",
+          "created_at": "2026-11-01T20:03:50Z",
+          "scheduled_at": "2026-11-01T20:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "package_commit_sha": null,
+          "summary": "A crop-level content and alternative-text contract for responsive project imagery; native selection versus visual framing, contextual link purpose and unexecuted acceptance checks. Documentary only."
         }
       ]
     },
@@ -1166,5 +1204,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T19:26:58Z"
+  "updated_at": "2026-11-01T20:04:20Z"
 }
