@@ -402,7 +402,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "064a8eed189bd9c157f8ce78404f6494488bbae2",
       "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
     }
   ],
@@ -713,7 +713,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "064a8eed189bd9c157f8ce78404f6494488bbae2",
           "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
         }
       ]
@@ -858,5 +858,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T15:50:54Z"
+  "updated_at": "2026-11-01T15:51:19Z"
 }

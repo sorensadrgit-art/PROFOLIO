@@ -16,13 +16,14 @@
     "manifest.json",
     "qa.md"
   ],
-  "published": false,
-  "artifact_commit_sha": null,
+  "published": true,
+  "artifact_commit_sha": "064a8eed189bd9c157f8ce78404f6494488bbae2",
   "runtime_tests": "NOT RUN",
   "limitations": [
     "No HTTP/database/concurrency/security/runtime tests",
     "Original SQL sketch is unexecuted",
     "No installed-version or operational-performance claim"
   ],
-  "review_evidence": "qa.md"
+  "review_evidence": "qa.md",
+  "publication_receipt": "Artifact bytes read back from this immutable commit; receipt metadata is a subsequent commit."
 }
