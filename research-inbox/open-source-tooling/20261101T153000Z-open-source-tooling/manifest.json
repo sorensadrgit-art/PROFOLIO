@@ -9,8 +9,8 @@
   "title": "Evaluate the agent, not its confidence: Promptfoo or DeepEval?",
   "research_status": "completed_documentary",
   "review_status": "APPROVED_DOCUMENTARY",
-  "publication_status": "artifact_commit_pending_receipt",
-  "package_commit_sha": null,
+  "publication_status": "remote_artifacts_verified",
+  "package_commit_sha": "aeb9c9451f1419215c51face48bebab30e572e4e",
   "files": [
     "research.md",
     "sources.json",
@@ -38,5 +38,10 @@
     "prior_tooling_run": "20261101T123000Z-open-source-tooling",
     "finding": "Evaluation harness selection differs from prior browser-execution interface comparison."
   },
-  "qa_completed_at": "2026-11-01T15:39:15Z"
+  "qa_completed_at": "2026-11-01T15:39:15Z",
+  "remote_readback": {
+    "artifact_commit": "aeb9c9451f1419215c51face48bebab30e572e4e",
+    "file_count": 5,
+    "verified_at": "2026-11-01T15:40:00Z"
+  }
 }

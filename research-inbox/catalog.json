@@ -383,7 +383,7 @@
         "repos.json",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "aeb9c9451f1419215c51face48bebab30e572e4e",
       "summary": "Two-tool evaluation-harness shortlist, deterministic versus judge gates, version divergence and telemetry/MCP privacy caveats. Documentary only."
     }
   ],
@@ -813,12 +813,12 @@
             "repos.json",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "aeb9c9451f1419215c51face48bebab30e572e4e",
           "summary": "Two-tool evaluation-harness shortlist, deterministic versus judge gates, version divergence and telemetry/MCP privacy caveats. Documentary only."
         }
       ]
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T15:39:20Z"
+  "updated_at": "2026-11-01T15:40:00Z"
 }
