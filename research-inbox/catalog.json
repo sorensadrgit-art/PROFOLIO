@@ -385,6 +385,25 @@
       ],
       "package_commit_sha": "aeb9c9451f1419215c51face48bebab30e572e4e",
       "summary": "Two-tool evaluation-harness shortlist, deterministic versus judge gates, version divergence and telemetry/MCP privacy caveats. Documentary only."
+    },
+    {
+      "run_id": "20261101T154800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "Two editors, one record: prevent lost updates at the write boundary",
+      "path": "research-inbox/fullstack-engineering/20261101T154800Z-fullstack-engineering/",
+      "created_at": "2026-11-01T15:50:54Z",
+      "scheduled_at": "2026-11-01T15:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": null,
+      "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
     }
   ],
   "topics": [
@@ -677,6 +696,25 @@
           ],
           "package_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
           "summary": "Narrow Next.js mutation-to-cache consistency reference: updateTag versus revalidateTag, transaction receipts and partial failure. Documentary review only."
+        },
+        {
+          "run_id": "20261101T154800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "Two editors, one record: prevent lost updates at the write boundary",
+          "path": "research-inbox/fullstack-engineering/20261101T154800Z-fullstack-engineering/",
+          "created_at": "2026-11-01T15:50:54Z",
+          "scheduled_at": "2026-11-01T15:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": null,
+          "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
         }
       ]
     },
@@ -820,5 +858,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T15:40:00Z"
+  "updated_at": "2026-11-01T15:50:54Z"
 }

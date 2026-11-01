@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T154800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "title": "Two editors, one record: prevent lost updates at the write boundary",
+  "scheduled_at": "2026-11-01T15:48:00Z",
+  "scheduled_timezone": "America/New_York",
+  "scheduled_local": "2026-11-01T10:48:00-05:00",
+  "evaluated_on": "2026-11-01",
+  "research_status": "completed_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "published": false,
+  "artifact_commit_sha": null,
+  "runtime_tests": "NOT RUN",
+  "limitations": [
+    "No HTTP/database/concurrency/security/runtime tests",
+    "Original SQL sketch is unexecuted",
+    "No installed-version or operational-performance claim"
+  ],
+  "review_evidence": "qa.md"
+}

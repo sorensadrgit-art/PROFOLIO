@@ -1,0 +1,64 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "title": "HTTP Semantics",
+      "publisher": "IETF / RFC Editor",
+      "accessed_at": "2026-11-01T15:48:07Z",
+      "evaluated_on": "2026-11-01",
+      "applicable_version": "RFC 9110",
+      "publication_date": "2022-06",
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "Sections 8.8.3, 13.1.1, 13.2.1; PUT validator constraints",
+      "provenance": "Official primary documentation read through web fetch",
+      "extraction_limitations": "Standard text, not implementation conformance testing."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.rfc-editor.org/rfc/rfc6585.html",
+      "title": "Additional HTTP Status Codes",
+      "publisher": "IETF / RFC Editor",
+      "accessed_at": "2026-11-01T15:48:07Z",
+      "evaluated_on": "2026-11-01",
+      "applicable_version": "RFC 6585",
+      "publication_date": "2012-04",
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "Section 3: 428 Precondition Required",
+      "provenance": "Official primary documentation read through web fetch",
+      "extraction_limitations": "Standard text, not implementation conformance testing."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+      "title": "Transaction Isolation",
+      "publisher": "PostgreSQL Global Development Group",
+      "accessed_at": "2026-11-01T15:48:07Z",
+      "evaluated_on": "2026-11-01",
+      "applicable_version": "18",
+      "publication_date": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "13.2.1 Read Committed and 13.2.3 Serializable",
+      "provenance": "Official primary documentation read through web fetch",
+      "extraction_limitations": "Documentary only; no runtime implementation verified. PostgreSQL current URLs are mutable."
+    },
+    {
+      "id": "S4",
+      "url": "https://www.postgresql.org/docs/current/sql-update.html",
+      "title": "UPDATE",
+      "publisher": "PostgreSQL Global Development Group",
+      "accessed_at": "2026-11-01T15:48:07Z",
+      "evaluated_on": "2026-11-01",
+      "applicable_version": "18",
+      "publication_date": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "Description; Outputs; RETURNING",
+      "provenance": "Official primary documentation read through web fetch",
+      "extraction_limitations": "Documentary only; no runtime implementation verified. PostgreSQL current URLs are mutable."
+    }
+  ]
+}
