@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T123000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "title": "Browser automation: deterministic tests, MCP tools, or a browser-agent loop?",
+  "scheduled_at_utc": "2026-11-01T12:30:00Z",
+  "scheduled_local": "2026-11-01T07:30:00-05:00",
+  "timezone": "America/New_York",
+  "evaluated_at": "2026-11-01T12:33:01Z",
+  "status": "APPROVED_DOCUMENTARY",
+  "source_count": 14,
+  "candidate_count": 3,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "catalog_intake_count": 7,
+  "duplicate_run_at_intake": false,
+  "publication_scope": "research-data branch, research-inbox only",
+  "tests": {
+    "json_parse": "PASS: all three JSON documents",
+    "pattern_secret_and_private_data_scan": "PASS: final five-file bundle; bounded pattern scan and independent review, not comprehensive DLP",
+    "runtime": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "accessibility": "NOT_RUN",
+    "integration": "NOT_RUN",
+    "security_confinement": "NOT_RUN"
+  },
+  "limitations": [
+    "Documentary research only",
+    "Registry publication not independently checked",
+    "Current source and stable release distinguished",
+    "No software installed or deployed"
+  ],
+  "publication_receipt": "Actual remote commit and catalog entry are the publication receipt; this manifest records the reviewed artifact state.",
+  "reviewed_at": "2026-11-01T12:34:20Z"
+}
