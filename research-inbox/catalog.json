@@ -85,6 +85,23 @@
         "manifest.json"
       ],
       "summary": "Narrow implementation addendum: conditional request cancellation versus stale-completion guards and exclusive/shared resource ownership. No runtime testing."
+    },
+    {
+      "run_id": "20261101T070845-view-transition-navigation-01",
+      "topic_id": "motion-interaction",
+      "title": "Route transitions as a motion system: React ViewTransition, browser snapshots, Motion layout, and scroll/focus continuity",
+      "path": "research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/",
+      "created_at": "2026-11-01T07:08:45-05:00",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "5c5c36edfee0648717845143a489208f8458bd66",
+      "summary": "New navigation-layer research: React 19.3 ViewTransition and React Router 8.5.1 guidance, snapshot versus live Motion layout trade-offs, shared-element identity, focus routing, scroll restoration, Back/Forward caveats, reduced-motion and progressive enhancement."
     }
   ],
   "topics": [
@@ -187,6 +204,23 @@
           ],
           "package_commit_sha": "62d68b942c8dfd6c3bb30935722f0a846e169b2c",
           "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
+        },
+        {
+          "run_id": "20261101T070845-view-transition-navigation-01",
+          "topic_id": "motion-interaction",
+          "title": "Route transitions as a motion system: React ViewTransition, browser snapshots, Motion layout, and scroll/focus continuity",
+          "path": "research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/",
+          "created_at": "2026-11-01T07:08:45-05:00",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "5c5c36edfee0648717845143a489208f8458bd66",
+          "summary": "New navigation-layer research: React 19.3 ViewTransition and React Router 8.5.1 guidance, snapshot versus live Motion layout trade-offs, shared-element identity, focus routing, scroll restoration, Back/Forward caveats, reduced-motion and progressive enhancement."
         }
       ]
     },
@@ -216,5 +250,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T11:44:41Z"
+  "updated_at": "2026-11-01T07:08:45-05:00"
 }
