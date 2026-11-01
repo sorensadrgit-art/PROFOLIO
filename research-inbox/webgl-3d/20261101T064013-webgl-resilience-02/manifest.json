@@ -35,7 +35,7 @@
     "licensing": "passed: original synthesis; no third-party assets or long source passages copied.",
     "secrets_scan": "passed: report and metadata contain no credentials, tokens, private URLs, or personal data.",
     "limitations": "No PROFOLIO application source/lockfile or physical-device benchmark was available. R3F v10 alpha 6 is pre-release. No stable public Three.js WebGPURenderer app-level device-loss callback contract was found in the public docs reviewed.",
-    "catalog_update": "passed: catalog was refreshed immediately before the serialized read-modify-write; run ID rechecked; existing global and webgl-3d topic arrays were appended without overwriting earlier entries."
+    "catalog_update": "passed: catalog was refreshed before each serialized read-modify-write; unique run ID verified; global and webgl-3d topic entries point to the corrected research-file commit."
   },
   "publication": {
     "repository": "sorensadrgit-art/PROFOLIO",
@@ -45,8 +45,8 @@
     "sources_file_commit_sha": "51ea7d09edd5dcb5b5e15580e1cc11df579294bb",
     "initial_manifest_commit_sha": null,
     "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
-    "catalog_commit_sha": "f1ac59ed0828ae8b78c4e21ad0fdf8638472f7bf",
+    "catalog_commit_sha": "3a8154a45dabfcd58492bf4d16bc3f330b64e35d",
     "final_manifest_commit_sha": null,
-    "catalog_blob_sha": "dba947c1bb3ffd5a79cfee298914cd1667b58e31"
+    "catalog_blob_sha": "a9fb33e7890e5322efb86d10f5da1daaa6405a2b"
   }
 }
