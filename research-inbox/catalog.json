@@ -233,7 +233,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
       "summary": "Narrow Next.js mutation-to-cache consistency reference: updateTag versus revalidateTag, transaction receipts and partial failure. Documentary review only."
     }
   ],
@@ -434,7 +434,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
           "summary": "Narrow Next.js mutation-to-cache consistency reference: updateTag versus revalidateTag, transaction receipts and partial failure. Documentary review only."
         }
       ]
@@ -520,5 +520,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:55:55Z"
+  "updated_at": "2026-11-01T12:56:16Z"
 }
