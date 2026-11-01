@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T213000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "title": "Zero findings is not publication clearance: a Gitleaks coverage receipt",
+  "scheduled_at": "2026-11-01T21:30:00Z",
+  "research_started_at": "2026-11-01T21:26:14Z",
+  "evaluated_on": "2026-11-01",
+  "timing_note": "Research began before scheduled slot; stable run ID derives from scheduled slot, not actual retrieval time.",
+  "status": "approved_for_publication",
+  "source_count": 10,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "novelty": "Secret-scanner coverage, suppression and configuration receipts; prior tooling packages concern browser automation, eval harnesses and MCP sessions.",
+  "duplicate_check": {
+    "catalog_packages_read": 34,
+    "topic_packages_read": 3,
+    "topic_directory_checked": true,
+    "same_run_artifact_found": false,
+    "unfinished_topic_artifact_found": false
+  },
+  "source_provenance": "Primary official repository files pinned to commits, GitHub release metadata and Git project documentation.",
+  "license_policy": "Original synthesis only; no upstream repository/code/asset corpus copied.",
+  "claims_classification": [
+    "source findings",
+    "original synthesis",
+    "untested recommendations"
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "runtime_tests": "not_performed",
+  "performance_tests": "not_performed",
+  "accessibility_tests": "not_performed",
+  "integration_tests": "not_performed",
+  "security_certification": false,
+  "limitations": [
+    "No binary installation or execution",
+    "Regex and manual publication scan are not exhaustive DLP or a Gitleaks run",
+    "Maintainer feature freeze and README/source default disagreement retained"
+  ],
+  "publication": {
+    "repository": "sorensadrgit-art/PROFOLIO",
+    "branch": "research-data",
+    "path": "research-inbox/open-source-tooling/20261101T213000Z-open-source-tooling/",
+    "commit_sha": null
+  },
+  "publication_checks": {
+    "json_validation": "passed",
+    "source_references": "passed",
+    "sensitive_data_scan": "passed_bounded_regex_and_manual",
+    "gitleaks_executed": false,
+    "independent_review": "passed_documentary_only"
+  },
+  "checksums_sha256": {
+    "sources.json": "93567041d96dac923d4d9bfe4ae7c24c11d5e977580b0226e2dc10f3fdd0b7f7",
+    "qa.md": "b0da1dd0f1df98b5d08ba309ea64985bf2846478c96123927cb8079ba4e96b35",
+    "repos.json": "48c48b0382aa77e7feafc8d2ea6ef867570ba93d184096274427c4a2c0d3cfcf",
+    "research.md": "cdcbb6fba2ffd5ebe6fde0354f9187c0d7836673c3725b908265c355f95a1174"
+  }
+}
