@@ -269,7 +269,7 @@
         "qa.md",
         "manifest.json"
       ],
-      "package_commit_sha": null,
+      "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
       "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
     }
   ],
@@ -531,7 +531,7 @@
             "qa.md",
             "manifest.json"
           ],
-          "package_commit_sha": null,
+          "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
           "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
         }
       ]
@@ -592,5 +592,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T13:31:11Z"
+  "updated_at": "2026-11-01T13:31:50Z"
 }

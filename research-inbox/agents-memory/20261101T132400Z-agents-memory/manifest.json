@@ -8,7 +8,7 @@
   "timezone": "America/New_York",
   "execution_kind": "scheduled",
   "evaluation_date": "2026-11-01",
-  "status": "approved_for_publication",
+  "status": "published",
   "review_status": "APPROVED_DOCUMENTARY",
   "source_count": 5,
   "files": [
@@ -17,13 +17,14 @@
     "qa.md",
     "manifest.json"
   ],
-  "package_commit_sha": null,
-  "publication_receipt_note": "The follow-up metadata receipt records the original artifact commit; no file can contain its own commit hash.",
+  "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
+  "publication_receipt_note": "Original artifact commit verified by exact read-back. This later metadata receipt records that commit, not its own hash.",
   "limitations": [
     "Documentary review only",
     "No runtime, crash, integration or security tests executed",
     "Rolling source versions and documentation commits unknown"
   ],
   "novelty": "Previous memory package covers project authorization; this run covers checkpoint replay and external-effect reconciliation.",
-  "qa_status": "APPROVED_DOCUMENTARY"
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "remote_artifacts_verified_at": "2026-11-01T13:31:50Z"
 }
