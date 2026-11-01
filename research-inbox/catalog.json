@@ -345,7 +345,7 @@
         "manifest.json"
       ],
       "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
-      "package_commit_sha": null
+      "package_commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0"
     }
   ],
   "topics": [
@@ -517,7 +517,7 @@
             "manifest.json"
           ],
           "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
-          "package_commit_sha": null
+          "package_commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0"
         }
       ]
     },
@@ -742,5 +742,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T14:43:18Z"
+  "updated_at": "2026-11-01T14:43:45Z"
 }

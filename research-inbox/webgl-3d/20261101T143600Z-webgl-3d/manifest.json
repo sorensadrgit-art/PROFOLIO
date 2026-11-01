@@ -9,8 +9,8 @@
   "research_started_at": "2026-11-01T14:40:56Z",
   "research_status": "completed_documentary",
   "review_status": "APPROVED_DOCUMENTARY",
-  "publication_status": "not_published",
-  "package_commit_sha": null,
+  "publication_status": "published",
+  "package_commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0",
   "source_count": 5,
   "files": [
     "research.md",
@@ -40,5 +40,17 @@
     "bounded_sensitive_patterns": "PASS",
     "independent_documentary_review": "PASS",
     "duplicate_package_check": "PASS"
-  }
+  },
+  "remote_artifact_readback": {
+    "status": "PASS",
+    "commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0",
+    "verified_at": "2026-11-01T14:43:45Z",
+    "files": [
+      "research.md",
+      "sources.json",
+      "qa.md",
+      "manifest.json"
+    ]
+  },
+  "receipt_note": "This follow-up metadata commit records the original artifact commit; it does not claim to contain its own hash."
 }
