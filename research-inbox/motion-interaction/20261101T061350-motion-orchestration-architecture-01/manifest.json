@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T061350-motion-orchestration-architecture-01",
+  "topic_id": "motion-interaction",
+  "title": "A coherent motion system for PROFOLIO: choosing the right scroll engine, owning animated properties, and making motion resilient",
+  "created_at": "2026-11-01T06:13:50-05:00",
+  "status": "published",
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "path": "research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json"
+  ],
+  "source_count": 24,
+  "source_policy": "Official framework, library and browser documentation; paraphrased findings; no copied page text or third-party benchmark claims.",
+  "research_method": "Read current catalog first; identified motion-interaction as an empty topic; selected a new architecture question; consulted and cross-checked official documentation; separated documented facts from recommendations.",
+  "version_context": {
+    "gsap": "v3 documentation; SplitText rewrite/accessibility and autoSplit features marked 3.13.0+; MorphSVG curveMode marked new in 3.14.0",
+    "motion": "Current live React documentation accessed 2026-11-01; no package release pinned on cited pages",
+    "react": "Official docs version 19.3",
+    "css_scroll_animations": "MDN marks scroll() limited availability / not Baseline; feature-detect at implementation time",
+    "react_three_fiber": "Current stable documentation accessed 2026-11-01; local package versions not inspected"
+  },
+  "evidence_scope": "Documentation research only. No PROFOLIO application files, package manifests, browser runtime or target devices were inspected or modified; no performance benchmarks were run.",
+  "qa": {
+    "catalog_read_before_research": true,
+    "duplicate_run_id_checked": true,
+    "target_paths_checked_absent": true,
+    "sources_unique": true,
+    "source_count": 24,
+    "source_coverage_reviewed": true,
+    "factual_claims_mapped_to_sources": true,
+    "recommendations_labeled_as_synthesis": true,
+    "json_validation": "passed before commit",
+    "secret_and_sensitive_data_scan": "passed before commit",
+    "remote_readback": "to be verified immediately after publication"
+  },
+  "publication": {
+    "catalog_commit_sha": null,
+    "remote_file_urls": {}
+  }
+}
