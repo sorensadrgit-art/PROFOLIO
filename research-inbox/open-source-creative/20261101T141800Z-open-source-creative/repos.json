@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "evaluation_date": "2026-11-01",
+  "projects": [
+    {
+      "repository": "dimsemenov/PhotoSwipe",
+      "url": "https://github.com/dimsemenov/PhotoSwipe",
+      "description": "JavaScript image gallery and lightbox",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "TypeScript declarations"
+      ],
+      "version": "5.4.4",
+      "license": {
+        "spdx": "MIT",
+        "verified_source": "P4",
+        "restrictions": "Preserve copyright and permission notices; third-party demo assets not covered by this review."
+      },
+      "latest_observed_release": "2024-05-24T15:18:26Z",
+      "observed_commit": "cd41cb587a460634e4cae53134f3d01d06e284a6",
+      "last_observed_commit_date": "2025-12-04T07:31:42Z",
+      "maintenance": "Observed default-branch activity is newer than stable release; no abandonment or future-support inference.",
+      "features": [
+        "Separate lightbox/core entries",
+        "Responsive image sources",
+        "Linked-image fallback"
+      ],
+      "compatibility": "Official React example; no Next.js version test performed.",
+      "dependencies": "Tagged manifest has no runtime dependency declaration; build tooling listed separately.",
+      "installation_hosting": "Versioned photoswipe package and CSS; browser integration, no new service installed.",
+      "api_mcp": "JavaScript Lightbox API; MCP not relevant to this frontend use.",
+      "demo": "https://photoswipe.com",
+      "risks": [
+        "Dimension correctness",
+        "Imperative lifecycle ownership",
+        "Current application compatibility untested"
+      ],
+      "costs": "No mandatory paid service in reviewed setup; hosting/image delivery costs unmeasured.",
+      "future_application": "Original case-study image grid with progressive linked-image enhancement.",
+      "evaluation_date": "2026-11-01"
+    },
+    {
+      "repository": "igordanchenko/yet-another-react-lightbox",
+      "url": "https://github.com/igordanchenko/yet-another-react-lightbox",
+      "description": "React lightbox with optional plugin architecture",
+      "technologies": [
+        "React",
+        "React DOM",
+        "TypeScript",
+        "CSS"
+      ],
+      "version": "3.33.0",
+      "version_note": "Release tag; source manifest contains semantic-release placeholder.",
+      "license": {
+        "spdx": "MIT",
+        "verified_source": "Y4",
+        "restrictions": "Preserve copyright and permission notices; demo media rights not established."
+      },
+      "latest_observed_release": "2026-10-30T20:12:57Z",
+      "observed_commit": "6a6128c4338ba5fb1cc2a7a9411425fe872f8664",
+      "last_observed_commit_date": "2026-10-30T19:32:50Z",
+      "maintenance": "Release and default branch activity observed 2026-10-30; no guarantee of future support.",
+      "features": [
+        "Controlled open/close",
+        "Responsive slides",
+        "Optional Zoom"
+      ],
+      "compatibility": "Declared React/React DOM16.8–19 peer ranges; Next.js guide, not tested integration. Zoom/next-image caveat.",
+      "dependencies": "React and React DOM peers; optional React type peers; build dependencies separate.",
+      "installation_hosting": "Versioned yet-another-react-lightbox package and stylesheet; optional plugin imports; no install performed.",
+      "api_mcp": "React props/render hooks/plugins; MCP not relevant.",
+      "demo": "https://yet-another-react-lightbox.com/examples",
+      "risks": [
+        "Unstable slides reference can reset state",
+        "Zoom with next/image renderer caveat",
+        "Accessibility and device performance untested"
+      ],
+      "costs": "No mandatory paid service in reviewed setup; delivery/optimization costs depend on hosting.",
+      "future_application": "Original controlled image-detail overlay in a React case study.",
+      "evaluation_date": "2026-11-01"
+    }
+  ]
+}

@@ -307,6 +307,26 @@
       ],
       "package_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
       "summary": "Editorial text geometry under spacing overrides, narrow widths and long names; balanced wrapping versus intrinsic sizing. Documentary only."
+    },
+    {
+      "run_id": "20261101T141800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "A detail viewer, not another carousel: PhotoSwipe or Yet Another React Lightbox?",
+      "path": "research-inbox/open-source-creative/20261101T141800Z-open-source-creative/",
+      "created_at": "2026-11-01T14:21:31Z",
+      "scheduled_at": "2026-11-01T14:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 13,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json"
+      ],
+      "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -633,6 +653,26 @@
           ],
           "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only.",
           "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a"
+        },
+        {
+          "run_id": "20261101T141800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "A detail viewer, not another carousel: PhotoSwipe or Yet Another React Lightbox?",
+          "path": "research-inbox/open-source-creative/20261101T141800Z-open-source-creative/",
+          "created_at": "2026-11-01T14:21:31Z",
+          "scheduled_at": "2026-11-01T14:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 13,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json"
+          ],
+          "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -664,5 +704,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T14:04:20Z"
+  "updated_at": "2026-11-01T14:21:31Z"
 }
