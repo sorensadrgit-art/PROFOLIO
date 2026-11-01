@@ -5,7 +5,7 @@
   "title": "Production-ready 3D delivery for PROFOLIO: asset pipeline, renderer compatibility, and runtime performance",
   "executed_at": "2026-11-01T05:31:12-05:00",
   "research_question": "What production architecture gives PROFOLIO cinematic, interactive 3D while controlling asset cost, device compatibility, battery use, and future WebGPU migration risk?",
-  "status": "research_complete_pending_publication",
+  "status": "published",
   "package_path": "research-inbox/webgl-3d/20261101T053112-3d-webgl-engineering-01/",
   "files": [
     "research.md",
@@ -30,14 +30,18 @@
     "duplicate_check": "passed: catalog had no webgl-3d package entries; all three target file paths returned 404 before creation",
     "source_provenance": "passed: sources.json records publisher, URL, scope, retrieval date, and evidence summary",
     "licensing": "passed: original synthesis only; no long source passages or third-party assets copied",
-    "limitations": "No target application source, representative GLB, or device benchmark available; Blender English manual open request returned HTTP 402, so indexed official manual content was used and noted."
+    "limitations": "No target application source, representative GLB, or device benchmark available; Blender English manual open request returned HTTP 402, so indexed official manual content was used and noted.",
+    "catalog_update": "passed: catalog entry appended after a fresh read; no concurrent catalog conflict occurred"
   },
   "publication": {
     "repository": "sorensadrgit-art/PROFOLIO",
     "branch": "research-data",
     "catalog_path": "research-inbox/catalog.json",
     "package_commit_sha": "3c092d603cf2d7b708bca8fec5dcf0aa2e093a44",
-    "catalog_commit_sha": null,
-    "manifest_final_commit_sha": null
+    "catalog_commit_sha": "13db323d5e85189492eaf1d0c2dc03c6b96e7d55",
+    "manifest_final_commit_sha": null,
+    "research_file_commit_sha": "6f9b6bfff4109114f826b03acf28e94fbed2926c",
+    "sources_file_commit_sha": "3c092d603cf2d7b708bca8fec5dcf0aa2e093a44",
+    "initial_manifest_commit_sha": "2800302089cbe51cc1dd9cf01b49c2031b8497f5"
   }
 }
