@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T061350-motion-orchestration-architecture-01",
+  "topic_id": "motion-interaction",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "ScrollTrigger",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "GSAP v3 documentation; live docs accessed 2026-11-01",
+      "supports": [
+        "scrub, pin, snap, velocity, callbacks, trigger ordering, pin spacing, refresh behavior, transformed ancestor caveats, content-visibility caveat"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S02",
+      "title": "gsap.matchMedia()",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/GSAP/gsap.matchMedia/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Added in GSAP 3.11.0; live docs accessed 2026-11-01",
+      "supports": [
+        "responsive conditions, prefers-reduced-motion, automatic revert of animations and ScrollTriggers, custom event-listener cleanup"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S03",
+      "title": "React & GSAP",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/resources/React/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current GSAP React guide accessed 2026-11-01; @gsap/react package version not pinned by docs page",
+      "supports": [
+        "useGSAP cleanup, selector scoping, revertOnUpdate, contextSafe for delayed/event-driven animations, SSR client-component note"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S04",
+      "title": "gsap.context()",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/GSAP/gsap.context/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Added in GSAP 3.11.0",
+      "supports": [
+        "grouped animation and ScrollTrigger cleanup via revert"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S05",
+      "title": "SplitText",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/SplitText/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Major rewrite in GSAP 3.13.0; accessibility and responsive re-splitting features marked 3.13.0+",
+      "supports": [
+        "screen-reader aria treatment, autoSplit, onSplit, responsive line re-splitting, nested interactive content caveat, revert"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S06",
+      "title": "DrawSVGPlugin",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "GSAP v3 plugin docs; current page accessed 2026-11-01",
+      "supports": [
+        "progressive SVG stroke reveal using stroke dash values"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S07",
+      "title": "MorphSVGPlugin",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "GSAP v3 plugin docs; curveMode marked new in 3.14.0",
+      "supports": [
+        "SVG path morphing, curveMode version note, shape mapping and render options"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S08",
+      "title": "useScroll",
+      "publisher": "Motion",
+      "url": "https://motion.dev/docs/react-use-scroll",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current live Motion React docs accessed 2026-11-01; page does not pin package release",
+      "supports": [
+        "scroll values, offsets, composition with useTransform/useSpring, eligible native ScrollTimeline usage"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S09",
+      "title": "Layout animation",
+      "publisher": "Motion",
+      "url": "https://motion.dev/docs/react-layout-animations",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current live Motion React docs accessed 2026-11-01",
+      "supports": [
+        "layout and layoutId shared element transitions"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S10",
+      "title": "Accessibility",
+      "publisher": "Motion",
+      "url": "https://motion.dev/docs/react-accessibility",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current live Motion React docs accessed 2026-11-01",
+      "supports": [
+        "reducedMotion policy, replace large transforms with opacity, disable autoplay video and parallax"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S11",
+      "title": "Scroll-driven animation timelines",
+      "publisher": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current MDN guide accessed 2026-11-01",
+      "supports": [
+        "scroll and view progress timelines, animation-timeline ordering, 1ms duration note, reduced-motion removal"
+      ],
+      "source_type": "browser_documentation"
+    },
+    {
+      "id": "S12",
+      "title": "scroll() CSS function",
+      "publisher": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/scroll",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current MDN reference accessed 2026-11-01; marked Limited availability / not Baseline",
+      "supports": [
+        "scroll() syntax and browser-support caution"
+      ],
+      "source_type": "browser_documentation"
+    },
+    {
+      "id": "S13",
+      "title": "Add entry and exit effects to elements as they enter or exit the scrollport",
+      "publisher": "Chrome for Developers",
+      "url": "https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/scroll-entry-exit-effects",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Modern Web Guidance article accessed 2026-11-01; indexed as published about 3 months earlier",
+      "supports": [
+        "feature detection with animation-range, fallback strategy, reduced-motion handling, transform/opacity recommendation, polyfill caution"
+      ],
+      "source_type": "browser_vendor_guidance"
+    },
+    {
+      "id": "S14",
+      "title": "Shrinking header on scroll",
+      "publisher": "Chrome for Developers",
+      "url": "https://developer.chrome.com/docs/modern-web-guidance/guides/ui-atoms/shrinking-header-on-scroll",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Modern Web Guidance article accessed 2026-11-01; indexed as published about 3 months earlier",
+      "supports": [
+        "scroll-driven animation feature detection and fallback guidance, compositor-friendly properties, reduced motion"
+      ],
+      "source_type": "browser_vendor_guidance"
+    },
+    {
+      "id": "S15",
+      "title": "prefers-reduced-motion",
+      "publisher": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Baseline / widely available per current MDN page",
+      "supports": [
+        "OS-level reduced motion preference, reducing or replacing spatial motion"
+      ],
+      "source_type": "browser_documentation"
+    },
+    {
+      "id": "S16",
+      "title": "useEffect",
+      "publisher": "React",
+      "url": "https://react.dev/reference/react/useEffect",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "React documentation version displayed as 19.3",
+      "supports": [
+        "setup/cleanup symmetry, external-system lifecycle, Strict Mode extra development setup-cleanup cycle"
+      ],
+      "source_type": "official_framework_documentation"
+    },
+    {
+      "id": "S17",
+      "title": "Intersection Observer API",
+      "publisher": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Baseline / widely available per current MDN page",
+      "supports": [
+        "visibility-threshold callbacks, callback on main thread, appropriate use for entering/leaving visibility rather than continuous exact scroll progress"
+      ],
+      "source_type": "browser_documentation"
+    },
+    {
+      "id": "S18",
+      "title": "Document: fonts property / FontFaceSet.ready",
+      "publisher": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fonts",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Baseline / widely available per current MDN page",
+      "supports": [
+        "document.fonts.ready resolves after used fonts and layout operations complete"
+      ],
+      "source_type": "browser_documentation"
+    },
+    {
+      "id": "S19",
+      "title": "ResizeObserver",
+      "publisher": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Baseline / widely available per current MDN page",
+      "supports": [
+        "observing element box-size changes and cleanup via disconnect"
+      ],
+      "source_type": "browser_documentation"
+    },
+    {
+      "id": "S20",
+      "title": "Hooks (React Three Fiber)",
+      "publisher": "React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/api/hooks",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current stable docs accessed 2026-11-01; no release pinned by page",
+      "supports": [
+        "useFrame runs in render loop, automatic unsubscribe on unmount, avoid setState in frame loop"
+      ],
+      "source_type": "official_project_documentation"
+    },
+    {
+      "id": "S21",
+      "title": "Scaling performance (React Three Fiber)",
+      "publisher": "React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/advanced/scaling-performance",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current stable docs accessed 2026-11-01; no release pinned by page",
+      "supports": [
+        "on-demand rendering, invalidate, resource reuse, instancing, performance adaptation"
+      ],
+      "source_type": "official_project_documentation"
+    },
+    {
+      "id": "S22",
+      "title": "How to create high-performance CSS animations",
+      "publisher": "web.dev",
+      "url": "https://web.dev/articles/animations-guide",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Published 2020; browser rendering guidance accessed 2026-11-01",
+      "supports": [
+        "prefer transform and opacity, avoid layout/paint animation where possible, use will-change sparingly, profile paint"
+      ],
+      "source_type": "browser_performance_guidance"
+    },
+    {
+      "id": "S23",
+      "title": "useInView",
+      "publisher": "Motion",
+      "url": "https://motion.dev/docs/react-use-in-view",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current live Motion React docs accessed 2026-11-01",
+      "supports": [
+        "React viewport state, once option, root and amount options"
+      ],
+      "source_type": "official_documentation"
+    },
+    {
+      "id": "S24",
+      "title": "AnimationMixer",
+      "publisher": "Three.js",
+      "url": "https://threejs.org/docs/pages/AnimationMixer.html",
+      "accessed_at": "2026-11-01T06:13:50-05:00",
+      "version": "Current Three.js docs accessed 2026-11-01; version not pinned by page",
+      "supports": [
+        "frame-delta mixer update and stopping/uncaching actions"
+      ],
+      "source_type": "official_project_documentation"
+    }
+  ]
+}
