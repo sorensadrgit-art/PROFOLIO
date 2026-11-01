@@ -174,6 +174,26 @@
         "manifest.json"
       ],
       "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract."
+    },
+    {
+      "run_id": "20261101T124229Z-open-source-creative-smoke",
+      "topic_id": "open-source-creative",
+      "title": "Embla or Keen for an original editorial portfolio rail?",
+      "path": "research-inbox/open-source-creative/20261101T124229Z-open-source-creative-smoke/",
+      "created_at": "2026-11-01T12:47:21Z",
+      "scheduled_at": "2026-11-01T12:42:29.430845Z",
+      "execution_kind": "manual_smoke",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 11,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only."
     }
   ],
   "topics": [
@@ -366,7 +386,28 @@
       "topic_id": "open-source-creative",
       "name": "Open-Source Creative Discovery",
       "root": "research-inbox/open-source-creative/",
-      "packages": []
+      "packages": [
+        {
+          "run_id": "20261101T124229Z-open-source-creative-smoke",
+          "topic_id": "open-source-creative",
+          "title": "Embla or Keen for an original editorial portfolio rail?",
+          "path": "research-inbox/open-source-creative/20261101T124229Z-open-source-creative-smoke/",
+          "created_at": "2026-11-01T12:47:21Z",
+          "scheduled_at": "2026-11-01T12:42:29.430845Z",
+          "execution_kind": "manual_smoke",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 11,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only."
+        }
+      ]
     },
     {
       "topic_id": "open-source-tooling",
@@ -396,5 +437,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:47:05Z"
+  "updated_at": "2026-11-01T12:47:49Z"
 }

@@ -1,0 +1,126 @@
+{
+  "run_id": "20261101T124229Z-open-source-creative-smoke",
+  "sources": [
+    {
+      "source_id": "E1",
+      "url": "https://www.embla-carousel.com/docs/v8/get-started/react",
+      "title": "Embla React v8",
+      "publisher": "Embla maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": "8.6.0",
+      "source_location": "React setup, styling, API",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "E2",
+      "url": "https://www.embla-carousel.com/docs/get-started/react",
+      "title": "Embla React current documentation",
+      "publisher": "Embla maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": "9.0.0-rc04",
+      "source_location": "Version banner and API",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "E3",
+      "url": "https://github.com/davidjerleke/embla-carousel/blob/v8.6.0/packages/embla-carousel-react/package.json",
+      "title": "Embla React package manifest",
+      "publisher": "Embla maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": "8.6.0",
+      "source_location": "dependencies and React peer range",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "E4",
+      "url": "https://github.com/davidjerleke/embla-carousel/blob/master/LICENSE",
+      "title": "Embla licence",
+      "publisher": "David Jerleke",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": null,
+      "source_location": "MIT conditions",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "E5",
+      "url": "https://api.github.com/repos/davidjerleke/embla-carousel/releases/latest",
+      "title": "Embla latest stable release",
+      "publisher": "Embla maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": "8.6.0",
+      "source_location": "tag and published_at",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": "2025-04-04T17:33:59Z"
+    },
+    {
+      "source_id": "E6",
+      "url": "https://api.github.com/repos/davidjerleke/embla-carousel/commits?per_page=1",
+      "title": "Embla latest observed default-branch commit",
+      "publisher": "Embla maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": null,
+      "source_location": "commit SHA and committer date",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "K1",
+      "url": "https://keen-slider.io/docs",
+      "title": "Keen Slider documentation",
+      "publisher": "Keen Slider maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": null,
+      "source_location": "React, breakpoints, renderMode, hooks",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "K2",
+      "url": "https://github.com/rcbyr/keen-slider/blob/master/package.json",
+      "title": "Keen package manifest",
+      "publisher": "Keen Slider maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": "6.8.6",
+      "source_location": "package version, entrypoints, development dependencies",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "K3",
+      "url": "https://github.com/rcbyr/keen-slider/blob/master/LICENSE",
+      "title": "Keen licence",
+      "publisher": "Eric Beyer",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": null,
+      "source_location": "MIT conditions",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    },
+    {
+      "source_id": "K4",
+      "url": "https://api.github.com/repos/rcbyr/keen-slider/releases/latest",
+      "title": "Keen latest release",
+      "publisher": "Keen Slider maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": "6.8.6",
+      "source_location": "tag and published_at",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": "2023-07-05T14:30:10Z"
+    },
+    {
+      "source_id": "K5",
+      "url": "https://api.github.com/repos/rcbyr/keen-slider/commits?per_page=1",
+      "title": "Keen latest observed default-branch commit",
+      "publisher": "Keen Slider maintainers",
+      "accessed_at": "2026-11-01T12:44:50Z",
+      "version": null,
+      "source_location": "commit SHA and committer date",
+      "extraction_limitations": "Documentary read only; demos and installed packages not executed.",
+      "release_date": null
+    }
+  ]
+}

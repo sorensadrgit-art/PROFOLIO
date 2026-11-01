@@ -1,0 +1,73 @@
+{
+  "run_id": "20261101T124229Z-open-source-creative-smoke",
+  "repositories": [
+    {
+      "name": "Embla Carousel",
+      "url": "https://github.com/davidjerleke/embla-carousel",
+      "description": "Customizable carousel with React wrapper",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "CSS"
+      ],
+      "license": "MIT",
+      "license_source": "E4",
+      "license_blob_sha": "2376624f527f4f1e53887552e42b004ab4056898",
+      "release": "v8.6.0",
+      "release_date": "2025-04-04T17:33:59Z",
+      "last_observed_commit": "0423b61463dd6f095d7aca810a49bbf194d6c291",
+      "last_observed_commit_date": "2026-10-12T18:15:02Z",
+      "maintenance": "Recent default-branch commit is not proof of stable-release fixes.",
+      "useful_features": [
+        "React cleanup",
+        "Markup/styling control",
+        "Plugin extension"
+      ],
+      "compatibility": "8.6.0 wrapper declares React 16.8/17/18/19 peer ranges; actual application compatibility untested.",
+      "risks": [
+        "Live docs default to v9 RC; v8 method names differ",
+        "No accessibility certification"
+      ],
+      "future_application": "Original editorial case-study rail with separate navigation controls",
+      "evaluation_date": "2026-11-01",
+      "dependencies": "8.6.0 wrapper depends on embla-carousel and embla-carousel-reactive-utils 8.6.0.",
+      "demos": "https://www.embla-carousel.com/docs/v8/examples/predefined",
+      "hosting": "Client-side library bundled with application; no dedicated backend or MCP service required for this use.",
+      "operational_costs": "Application hosting, media delivery and engineering time; no measured performance or cost estimate."
+    },
+    {
+      "name": "Keen Slider",
+      "url": "https://github.com/rcbyr/keen-slider",
+      "description": "Touch slider with React hook and customizable rendering",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "CSS"
+      ],
+      "license": "MIT",
+      "license_source": "K3",
+      "license_blob_sha": "4ac52c136e2356001e448a71685d36a633308cdd",
+      "release": "v6.8.6",
+      "release_date": "2023-07-05T14:30:10Z",
+      "last_observed_commit": "520c757a80aa10ff224e9c89b0917edfa811adcf",
+      "last_observed_commit_date": "2025-10-06T06:01:45Z",
+      "maintenance": "Older stable release and later default-branch activity; neither proves abandonment nor current framework compatibility.",
+      "useful_features": [
+        "React hook",
+        "Media-query breakpoints",
+        "Custom renderer option"
+      ],
+      "compatibility": "React usage documented; package's React 18 development dependency is not proof of React 19 support.",
+      "risks": [
+        "Framework upgrade compatibility untested",
+        "Custom rendering increases implementation/test ownership"
+      ],
+      "future_application": "Original mixed-width archive rail; evaluate custom rendering only if needed",
+      "evaluation_date": "2026-11-01",
+      "dependencies": "Observed package has development dependencies, including React 18, but no runtime dependencies field.",
+      "demos": "https://keen-slider.io/examples",
+      "hosting": "Browser library plus CSS; no dedicated backend or MCP service required for this use.",
+      "operational_costs": "Application hosting, media bandwidth and maintenance; no benchmark or cost estimate."
+    }
+  ]
+}
