@@ -3,7 +3,7 @@
   "topic_id": "webgl-3d",
   "scheduled_for": "2026-11-01T11:36:00Z",
   "status": "APPROVED",
-  "published": false,
+  "published": true,
   "source_count": 4,
   "question": "How should a React/Three.js scene handle an asset load completing after its owner has unmounted or selected another asset?",
   "limitations": [
@@ -26,5 +26,17 @@
     "20261101T053112-3d-webgl-engineering-01",
     "20261101T064013-webgl-resilience-02"
   ],
-  "publication_note": "Publication receipt is the Git commit and catalog entry; this manifest records the approved pre-publication candidate."
+  "publication_note": "Reviewed research content is unchanged; publication receipt records the verified original artifact commit.",
+  "publication": {
+    "package_commit_sha": "4cefa9a937e821588e368b6f5bc46fd30d4741bd",
+    "package_commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/4cefa9a937e821588e368b6f5bc46fd30d4741bd",
+    "verified_at": "2026-11-01T12:41:00Z",
+    "verified_files": [
+      "research.md",
+      "sources.json",
+      "qa.md",
+      "manifest.json"
+    ],
+    "verification": "Fetched package files at the publication commit and inspected exact commit paths; documentary QA retained. This metadata follow-up is not the original publication commit."
+  }
 }

@@ -29,5 +29,18 @@
     "report": "qa.md",
     "secret_scan": "PASS_BOUNDED_PATTERN_AND_MANUAL_REVIEW",
     "json_validation": "PASS"
+  },
+  "published": true,
+  "publication": {
+    "package_commit_sha": "7e45281505fd8a4f2fe213cbf8061f993c9e7bcb",
+    "package_commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/7e45281505fd8a4f2fe213cbf8061f993c9e7bcb",
+    "verified_at": "2026-11-01T12:41:00Z",
+    "verified_files": [
+      "research.md",
+      "sources.json",
+      "manifest.json",
+      "qa.md"
+    ],
+    "verification": "Fetched package files at the publication commit and inspected exact commit paths; documentary QA retained. This metadata follow-up is not the original publication commit."
   }
 }

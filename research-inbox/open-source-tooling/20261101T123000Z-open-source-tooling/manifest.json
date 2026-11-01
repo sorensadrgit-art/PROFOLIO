@@ -35,6 +35,20 @@
     "Current source and stable release distinguished",
     "No software installed or deployed"
   ],
-  "publication_receipt": "Actual remote commit and catalog entry are the publication receipt; this manifest records the reviewed artifact state.",
-  "reviewed_at": "2026-11-01T12:34:20Z"
+  "publication_receipt": "See publication object for verified original artifact commit; this follow-up changes metadata only.",
+  "reviewed_at": "2026-11-01T12:34:20Z",
+  "published": true,
+  "publication": {
+    "package_commit_sha": "43bc08f81b7368964bf6f79717af40acdeca3ae0",
+    "package_commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/43bc08f81b7368964bf6f79717af40acdeca3ae0",
+    "verified_at": "2026-11-01T12:41:00Z",
+    "verified_files": [
+      "research.md",
+      "qa.md",
+      "sources.json",
+      "repos.json",
+      "manifest.json"
+    ],
+    "verification": "Fetched package files at the publication commit and inspected exact commit paths; documentary QA retained. This metadata follow-up is not the original publication commit."
+  }
 }
