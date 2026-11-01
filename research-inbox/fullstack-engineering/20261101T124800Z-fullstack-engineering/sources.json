@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/updateTag",
+      "title": "updateTag",
+      "publisher": "Vercel / Next.js",
+      "accessed_at": "2026-11-01T12:52:32Z",
+      "applicable_version": "documentation header v16.4.3",
+      "source_location": "Usage; Differences from revalidateTag",
+      "page_updated_at": "2026-08-18",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation read through web retrieval",
+      "extraction_limitations": "Mutable HTML documentation; no package artifact or runtime verification. Version is observed documentation context, not deployed version.",
+      "license": null
+    },
+    {
+      "id": "S2",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag",
+      "title": "revalidateTag",
+      "publisher": "Vercel / Next.js",
+      "accessed_at": "2026-11-01T12:52:32Z",
+      "applicable_version": "documentation header v16.4.3",
+      "source_location": "Usage; Revalidation Behavior; Parameters",
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation read through web retrieval",
+      "extraction_limitations": "Mutable HTML documentation; no package artifact or runtime verification. Version is observed documentation context, not deployed version.",
+      "license": null
+    },
+    {
+      "id": "S3",
+      "url": "https://nextjs.org/docs/app/guides/data-security",
+      "title": "How to think about data security in Next.js",
+      "publisher": "Vercel / Next.js",
+      "accessed_at": "2026-11-01T12:52:32Z",
+      "applicable_version": "documentation header v16.4.3",
+      "source_location": "Mutating Data; Authentication and authorization; DAL; Controlling return values",
+      "page_updated_at": "2026-10-06",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation read through web retrieval",
+      "extraction_limitations": "Mutable HTML documentation; no package artifact or runtime verification. Version is observed documentation context, not deployed version.",
+      "license": null
+    },
+    {
+      "id": "S4",
+      "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+      "title": "3.4. Transactions",
+      "publisher": "PostgreSQL Global Development Group",
+      "accessed_at": "2026-11-01T12:52:32Z",
+      "applicable_version": "documentation 18",
+      "source_location": "Transaction blocks; COMMIT; ROLLBACK; client library note",
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation read through web retrieval",
+      "extraction_limitations": "Mutable HTML documentation; no package artifact or runtime verification. Version is observed documentation context, not deployed version.",
+      "license": null
+    }
+  ],
+  "retrieval_notes": [
+    {
+      "url": "https://nextjs.org/docs/app/getting-started/updating-data",
+      "outcome": "404; excluded from evidence"
+    }
+  ]
+}
