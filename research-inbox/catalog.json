@@ -50,7 +50,7 @@
         "sources.json",
         "manifest.json"
       ],
-      "package_commit_sha": "2f59ee8dbb09a67cf078988a3ce316b4ed9d5646",
+      "package_commit_sha": "62d68b942c8dfd6c3bb30935722f0a846e169b2c",
       "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
     }
   ],
@@ -119,7 +119,7 @@
             "sources.json",
             "manifest.json"
           ],
-          "package_commit_sha": "2f59ee8dbb09a67cf078988a3ce316b4ed9d5646",
+          "package_commit_sha": "62d68b942c8dfd6c3bb30935722f0a846e169b2c",
           "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
         }
       ]
