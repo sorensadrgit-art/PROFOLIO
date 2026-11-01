@@ -15,10 +15,12 @@
     "qa.md",
     "manifest.json"
   ],
-  "package_commit_sha": null,
+  "package_commit_sha": "fb42d6b1d22186d7ab4005a9632f762f7cd056fa",
   "publication": {
-    "status": "not_published",
-    "note": "Actual artifact commit is recorded only after remote publication and read-back, in a separate receipt commit."
+    "status": "published_verified",
+    "artifact_commit_sha": "fb42d6b1d22186d7ab4005a9632f762f7cd056fa",
+    "remote_readback_verified_at": "2026-11-01T17:09:48Z",
+    "note": "This receipt records the preceding artifact commit, not its own containing commit."
   },
   "limitations": [
     "No runtime, browser, screen-reader, accessibility certification, usability or performance testing.",
