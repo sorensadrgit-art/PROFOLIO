@@ -1,0 +1,59 @@
+[
+  {
+    "id": "S1",
+    "url": "https://threejs.org/docs/pages/LoadingManager.html",
+    "title": "LoadingManager",
+    "publisher": "Three.js",
+    "section": "abort()",
+    "claim": "Cancellation is conditional on loader implementation and AbortSignal.any browser support.",
+    "retrieved_at": "2026-11-01T11:38:33Z",
+    "published_at": null,
+    "version": null,
+    "access_status": "read",
+    "capture_status": "original_notes_saved_not_full_page",
+    "license": null
+  },
+  {
+    "id": "S2",
+    "url": "https://threejs.org/docs/pages/GLTFLoader.html",
+    "title": "GLTFLoader",
+    "publisher": "Three.js",
+    "section": "constructor, load, parseAsync and introduction",
+    "claim": "Manager parameter, completion callback, asynchronous parsing and ImageBitmap disposal caveat.",
+    "retrieved_at": "2026-11-01T11:38:33Z",
+    "published_at": null,
+    "version": null,
+    "access_status": "read",
+    "capture_status": "original_notes_saved_not_full_page",
+    "license": null
+  },
+  {
+    "id": "S3",
+    "url": "https://r3f.docs.pmnd.rs/api/hooks",
+    "title": "Hooks",
+    "publisher": "Poimandres",
+    "section": "useLoader cache note and warning",
+    "claim": "URL-based cache and cautions around mutating or disposing reusable assets.",
+    "retrieved_at": "2026-11-01T11:38:33Z",
+    "published_at": null,
+    "version": null,
+    "access_status": "read",
+    "capture_status": "original_notes_saved_not_full_page",
+    "license": null
+  },
+  {
+    "id": "S4",
+    "url": "https://react.dev/reference/react/useEffect",
+    "title": "useEffect",
+    "publisher": "React",
+    "section": "Reference; Fetching data with Effects",
+    "claim": "Cleanup, obsolete response guard and development Strict Mode cycle.",
+    "retrieved_at": "2026-11-01T11:38:33Z",
+    "published_at": null,
+    "version": null,
+    "access_status": "read",
+    "capture_status": "original_notes_saved_not_full_page",
+    "license": null
+  }
+]
+
