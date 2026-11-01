@@ -1,0 +1,58 @@
+{
+  "run_id": "20261101T124211Z-agents-memory-smoke",
+  "evaluated_at": "2026-11-01T12:45:00Z",
+  "sources": [
+    {
+      "source_id": "mcp-auth",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+      "title": "Authorization",
+      "publisher": "Model Context Protocol",
+      "accessed_at": "2026-11-01T12:45:00Z",
+      "applicable_version": "2025-11-25",
+      "source_location": "Protocol Requirements; Token Requirements; Token Handling",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official primary documentation read through web tool",
+      "extraction_limitations": "HTML textual extraction; no runtime verification; no source commit pinned"
+    },
+    {
+      "source_id": "owasp-bola",
+      "url": "https://api-security.owasp.org/editions/2023/en/0xa1-broken-object-level-authorization/",
+      "title": "API1:2023 Broken Object Level Authorization",
+      "publisher": "OWASP",
+      "accessed_at": "2026-11-01T12:45:00Z",
+      "applicable_version": "2023 edition",
+      "source_location": "Is the API Vulnerable?",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official primary documentation read through web tool",
+      "extraction_limitations": "HTML textual extraction; no runtime verification; no source commit pinned"
+    },
+    {
+      "source_id": "postgres-rls",
+      "url": "https://www.postgresql.org/docs/17/ddl-rowsecurity.html",
+      "title": "5.9. Row Security Policies",
+      "publisher": "PostgreSQL Global Development Group",
+      "accessed_at": "2026-11-01T12:45:00Z",
+      "applicable_version": "17",
+      "source_location": "Opening policy semantics and bypass exceptions",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official primary documentation read through web tool",
+      "extraction_limitations": "HTML textual extraction; no runtime verification; no source commit pinned"
+    },
+    {
+      "source_id": "mcp-security",
+      "url": "https://modelcontextprotocol.io/docs/2025-11-25/tutorials/security/security_best_practices",
+      "title": "Security Best Practices",
+      "publisher": "Model Context Protocol",
+      "accessed_at": "2026-11-01T12:45:00Z",
+      "applicable_version": "2025-11-25 documentation path",
+      "source_location": "Token Passthrough; Session Hijacking mitigation",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official primary documentation read through web tool",
+      "extraction_limitations": "HTML textual extraction; no runtime verification; no source commit pinned"
+    }
+  ]
+}
