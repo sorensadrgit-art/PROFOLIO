@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T162400Z-agents-memory",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "LLM Prompt Injection Prevention Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "publisher": "OWASP",
+      "source_location": "RAG Poisoning; Input Validation and Sanitization; Structured Prompts; Agent-Specific Defenses",
+      "applicable_version": null,
+      "publication_date": null,
+      "retrieved_at": "2026-11-01",
+      "evaluation_date": "2026-11-01",
+      "commit_sha": null,
+      "release_date": null,
+      "extraction_limitations": "Public documentation read, not a runtime test. No full-text mirror. Rolling pages may change; document commits not established."
+    },
+    {
+      "id": "S2",
+      "title": "Retrieval-Augmented Generation (RAG) Security Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/RAG_Security_Cheat_Sheet.html",
+      "publisher": "OWASP",
+      "source_location": "Section 1: Document Poisoning; protected baseline and digest checks",
+      "applicable_version": null,
+      "publication_date": null,
+      "retrieved_at": "2026-11-01",
+      "evaluation_date": "2026-11-01",
+      "commit_sha": null,
+      "release_date": null,
+      "extraction_limitations": "Public documentation read, not a runtime test. No full-text mirror. Rolling pages may change; document commits not established."
+    },
+    {
+      "id": "S3",
+      "title": "Tools — Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "publisher": "Model Context Protocol",
+      "source_location": "Tool annotations; Output Schema; Security Considerations",
+      "applicable_version": "2025-11-25",
+      "publication_date": null,
+      "retrieved_at": "2026-11-01",
+      "evaluation_date": "2026-11-01",
+      "commit_sha": null,
+      "release_date": null,
+      "extraction_limitations": "Public documentation read, not a runtime test. No full-text mirror. Rolling pages may change; document commits not established."
+    },
+    {
+      "id": "S4",
+      "title": "PROV-Overview",
+      "url": "https://www.w3.org/TR/prov-overview/",
+      "publisher": "W3C",
+      "source_location": "Abstract; Status; Introduction",
+      "applicable_version": "Working Group Note 30 April 2013",
+      "publication_date": "2013-04-30",
+      "retrieved_at": "2026-11-01",
+      "evaluation_date": "2026-11-01",
+      "commit_sha": null,
+      "release_date": null,
+      "extraction_limitations": "Public documentation read, not a runtime test. No full-text mirror. Rolling pages may change; document commits not established."
+    }
+  ]
+}

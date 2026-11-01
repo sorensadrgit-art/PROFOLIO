@@ -404,6 +404,25 @@
       ],
       "package_commit_sha": "064a8eed189bd9c157f8ce78404f6494488bbae2",
       "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
+    },
+    {
+      "run_id": "20261101T162400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Retrieved memory is evidence, not a tool instruction",
+      "path": "research-inbox/agents-memory/20261101T162400Z-agents-memory/",
+      "created_at": "2026-11-01T16:26:55Z",
+      "scheduled_at": "2026-11-01T16:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -759,6 +778,25 @@
           ],
           "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
           "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
+        },
+        {
+          "run_id": "20261101T162400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Retrieved memory is evidence, not a tool instruction",
+          "path": "research-inbox/agents-memory/20261101T162400Z-agents-memory/",
+          "created_at": "2026-11-01T16:26:55Z",
+          "scheduled_at": "2026-11-01T16:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -858,5 +896,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T15:51:19Z"
+  "updated_at": "2026-11-01T16:26:55Z"
 }
