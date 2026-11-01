@@ -35,8 +35,8 @@
     "source_coverage": "passed",
     "duplicate_run_id": "passed",
     "target_path_nonexistence": "passed",
-    "secret_and_sensitive_data_scan": "pending_remote_readback",
-    "remote_file_readback": "pending",
+    "secret_and_sensitive_data_scan": "passed_bounded_pattern_scan_and_manual_review",
+    "remote_file_readback": "passed_all_three_files_fetched_and_json_validated",
     "catalog_registration": "pending",
     "runtime": "not_performed",
     "accessibility": "not_performed",
@@ -44,13 +44,13 @@
     "integration": "not_performed"
   },
   "publication": {
-    "status": "package_files_prepared",
+    "status": "published_remote_verified",
     "branch": "research-data",
     "package_path": "research-inbox/website-design/20261101T135953Z-editorial-grid-lanes-01/",
-    "package_commit_sha": null,
-    "verified_remote_commit_sha": null,
-    "verified_at": null,
-    "remote_files_exact_match": false
+    "package_commit_sha": "80481dbdf9e60363be4c28824a19f35820c174c1",
+    "verified_remote_commit_sha": "80481dbdf9e60363be4c28824a19f35820c174c1",
+    "verified_at": "2026-11-01T14:00:00Z",
+    "remote_files_exact_match": true
   },
   "limitations": [
     "Documentary review only; no runtime browser matrix or accessibility testing",
