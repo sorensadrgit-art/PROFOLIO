@@ -1,0 +1,75 @@
+{
+  "run_id": "20261101T171800Z-open-source-creative",
+  "repositories": [
+    {
+      "repository": "cmdk",
+      "url": "https://github.com/dip/cmdk",
+      "description": "Composable unstyled React command menu",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Radix Dialog"
+      ],
+      "version": "1.1.1",
+      "license": "MIT",
+      "license_source": "C3",
+      "last_observed_release_date": "2025-03-14T19:22:07Z",
+      "last_observed_commit_date": "2025-10-29T04:13:58Z",
+      "commit_sha": "dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+      "maintenance_observations": "Latest stable release and default-branch commit differ; no abandonment inference.",
+      "useful_features": [
+        "Composable parts",
+        "Custom ranking",
+        "Dialog or inline presentation"
+      ],
+      "compatibility": "Tagged React/React DOM peers 18 or 19; no tested Next.js compatibility.",
+      "risks": [
+        "No built-in virtualization",
+        "Application owns global shortcut",
+        "README warns of manual DOM ordering"
+      ],
+      "future_application": "Original small editorial project navigator",
+      "installation_hosting": "Frontend npm package cmdk with React/React DOM; no separate service",
+      "api_mcp": "React component API; MCP unnecessary",
+      "operational_cost": "No required paid service identified; hosting and engineering costs unmeasured",
+      "examples": "https://github.com/dip/cmdk/tree/main/website",
+      "evaluation_date": "2026-11-01"
+    },
+    {
+      "repository": "kbar",
+      "url": "https://github.com/timc1/kbar",
+      "description": "React action-registry command palette",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Fuse.js",
+        "TanStack React Virtual",
+        "Radix Portal"
+      ],
+      "version": "1.0.0",
+      "license": "MIT",
+      "license_source": "K3",
+      "last_observed_release_date": "2026-08-10T16:10:35Z",
+      "last_observed_commit_date": "2026-08-10T15:59:57Z",
+      "commit_sha": "26ec0f49f92ab34fa6ab59392782d56020f28098",
+      "maintenance_observations": "Stable release observed August 2026; future support unverified.",
+      "useful_features": [
+        "Nested actions",
+        "Registered shortcuts",
+        "Virtualized results"
+      ],
+      "compatibility": "Tagged React/React DOM peers 17–19; application runtime untested.",
+      "risks": [
+        "Action callback authorization remains application responsibility",
+        "Beta tutorials can differ from 1.0.0",
+        "Accessibility/performance claims not reproduced"
+      ],
+      "future_application": "Original categorized navigation/action palette",
+      "installation_hosting": "Frontend npm package kbar with React/React DOM; no separate service",
+      "api_mcp": "Provider, actions and component API; MCP unnecessary",
+      "operational_cost": "No required paid service identified; hosting and engineering costs unmeasured",
+      "examples": "https://github.com/timc1/kbar/tree/main/example",
+      "evaluation_date": "2026-11-01"
+    }
+  ]
+}
