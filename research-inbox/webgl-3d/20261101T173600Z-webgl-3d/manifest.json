@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T173600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "Pick the project, not the instance slot",
+  "scheduled_at": "2026-11-01T17:36:00Z",
+  "scheduled_local": "2026-11-01T12:36:00-05:00",
+  "timezone": "America/New_York",
+  "research_started_at": "2026-11-01T17:32:13Z",
+  "research_status": "completed_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "publication_status": "awaiting_publication",
+  "package_commit_sha": null,
+  "source_count": 4,
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "runtime_tests_performed": false,
+  "limitations": [
+    "Documentary research only; no GPU, browser, performance, accessibility or integration tests.",
+    "Moving documentation; exact installed package versions and application lockfile not inspected.",
+    "Pattern scan and manual review do not guarantee exhaustive secret detection."
+  ],
+  "prior_packages_reviewed": [
+    "20261101T053112-3d-webgl-engineering-01",
+    "20261101T064013-webgl-resilience-02",
+    "20261101T113600Z-webgl-3d",
+    "20261101T123218Z-tsl-material-bridge-03",
+    "20261101T143600Z-webgl-3d"
+  ],
+  "file_sha256": {
+    "research.md": "d5e50253e3aedc70e3a6693f4abf25a4c1cbe5fa96b6c7c5ab465a14fc28f4e7",
+    "qa.md": "aa0d15fd3e00bef373d435de41327a516f7743f8f32dbb23c0776fa51b3ec1b0",
+    "sources.json": "f56ae43f5044ac2287fc7ed4aa362e70652e784d0eefc9f16ac9e7d2144e7ce8"
+  },
+  "prepublication_checks": {
+    "json_parse": "PASS",
+    "markdown_fences": "PASS",
+    "bounded_sensitive_patterns": "PASS",
+    "independent_documentary_review": "PASS",
+    "duplicate_package_check": "PASS"
+  },
+  "publication_note": "Actual artifact commit recorded only after remote readback in a separate receipt commit."
+}
