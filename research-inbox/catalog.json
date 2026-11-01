@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "storage_root": "research-inbox/",
+  "generated_at": "2026-11-01T03:15:00-05:00",
+  "packages": [],
+  "topics": [
+    {
+      "topic_id": "website-design",
+      "name": "Premium Website Design",
+      "root": "research-inbox/website-design/",
+      "packages": []
+    },
+    {
+      "topic_id": "webgl-3d",
+      "name": "3D and WebGL Engineering",
+      "root": "research-inbox/webgl-3d/",
+      "packages": []
+    },
+    {
+      "topic_id": "motion-interaction",
+      "name": "Motion and Interaction",
+      "root": "research-inbox/motion-interaction/",
+      "packages": []
+    },
+    {
+      "topic_id": "fullstack-engineering",
+      "name": "Full-stack Engineering",
+      "root": "research-inbox/fullstack-engineering/",
+      "packages": []
+    },
+    {
+      "topic_id": "agents-memory",
+      "name": "AI Agents and Memory",
+      "root": "research-inbox/agents-memory/",
+      "packages": []
+    }
+  ],
+  "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique."
+}
