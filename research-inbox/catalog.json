@@ -196,6 +196,26 @@
       ],
       "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only.",
       "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a"
+    },
+    {
+      "run_id": "20261101T124945Z-website-design-smoke",
+      "topic_id": "website-design",
+      "title": "Premium controls in forced-colors mode: preserve affordance, not the palette",
+      "path": "research-inbox/website-design/20261101T124945Z-website-design-smoke/",
+      "created_at": "2026-11-01T12:53:44Z",
+      "scheduled_at": "2026-11-01T12:49:45.510387Z",
+      "execution_kind": "manual_smoke",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": null,
+      "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
     }
   ],
   "topics": [
@@ -219,6 +239,26 @@
           ],
           "package_commit_sha": "afd8dc27b68d8ce70201ce111d5b9db39d458c64",
           "summary": "Evidence-based non-3D design system guidance: luxury/editorial case patterns, token architecture, variable typography, OKLCH with contrast validation, responsive composition, glass and motion as progressive enhancements, WCAG 2.2, and media/Core Web Vitals constraints."
+        },
+        {
+          "run_id": "20261101T124945Z-website-design-smoke",
+          "topic_id": "website-design",
+          "title": "Premium controls in forced-colors mode: preserve affordance, not the palette",
+          "path": "research-inbox/website-design/20261101T124945Z-website-design-smoke/",
+          "created_at": "2026-11-01T12:53:44Z",
+          "scheduled_at": "2026-11-01T12:49:45.510387Z",
+          "execution_kind": "manual_smoke",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": null,
+          "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
         }
       ]
     },
@@ -441,5 +481,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-01T12:48:53Z"
+  "updated_at": "2026-11-01T12:54:30Z"
 }
