@@ -43,10 +43,10 @@
     "catalog_path": "research-inbox/catalog.json",
     "research_file_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
     "sources_file_commit_sha": "51ea7d09edd5dcb5b5e15580e1cc11df579294bb",
-    "initial_manifest_commit_sha": null,
+    "initial_manifest_commit_sha": "6883418ea9e6c8229c4a57360dbf361ba36d5299",
     "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
     "catalog_commit_sha": "3a8154a45dabfcd58492bf4d16bc3f330b64e35d",
-    "final_manifest_commit_sha": null,
-    "catalog_blob_sha": "a9fb33e7890e5322efb86d10f5da1daaa6405a2b"
+    "catalog_blob_sha": "a9fb33e7890e5322efb86d10f5da1daaa6405a2b",
+    "manifest_commit_tracking_note": "The initial manifest commit is recorded. The final manifest update is verified by remote blob read-back and its GitHub file history; a manifest cannot contain its own resulting commit SHA without another self-referential update."
   }
 }
