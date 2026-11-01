@@ -1,0 +1,41 @@
+{
+  "run_id": "20261101T231800Z-open-source-creative",
+  "evaluated_at": "2026-11-01T23:21:10Z",
+  "repositories": [
+    {
+      "name": "OGL",
+      "repository": "https://github.com/oframe/ogl",
+      "purpose": "Minimal WebGL primitives for original shader effects",
+      "decision": "Conditional prototype candidate; not adoption approval",
+      "source_version": "1.0.11",
+      "npm_version": null,
+      "release_date": null,
+      "commit_sha": "385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "commit_date": "2025-04-13T07:51:49Z",
+      "license": "Unlicense",
+      "license_evidence": "https://github.com/oframe/ogl/blob/385ce65c352c70734a36dc98c787fdd1d30ddb3b/README.md",
+      "languages": [
+        "JavaScript",
+        "GLSL"
+      ],
+      "types": "TypeScript declarations",
+      "declared_dependencies": [],
+      "react_peer_contract": null,
+      "demo_url": "https://oframe.github.io/ogl/examples/",
+      "demo_executed": false,
+      "requires": [
+        "WebGL-capable browser",
+        "Application-owned GPU/input/lifecycle handling"
+      ],
+      "mcp_required": false,
+      "paid_service_required": false,
+      "costs_measured": false,
+      "limitations": [
+        "No npm artifact verification",
+        "No runtime or compatibility tests",
+        "External demo media rights not established"
+      ]
+    }
+  ]
+}
+

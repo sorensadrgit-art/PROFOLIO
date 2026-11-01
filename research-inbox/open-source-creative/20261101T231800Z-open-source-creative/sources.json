@@ -1,0 +1,83 @@
+{
+  "run_id": "20261101T231800Z-open-source-creative",
+  "sources": [
+    {
+      "retrieved_at": "2026-11-01T23:21:00Z",
+      "evaluated_at": "2026-11-01T23:21:10Z",
+      "provenance": "Primary maintainer repository or official example site",
+      "version": null,
+      "commit_sha": "385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "commit_date": "2025-04-13T07:51:49Z",
+      "release_date": null,
+      "id": "O1",
+      "title": "OGL README and embedded Unlicense",
+      "url": "https://github.com/oframe/ogl/blob/385ce65c352c70734a36dc98c787fdd1d30ddb3b/README.md",
+      "limitations": "README licence text inspected; standalone LICENSE URL returned 404. Maintainer size claims not benchmarked."
+    },
+    {
+      "retrieved_at": "2026-11-01T23:21:00Z",
+      "evaluated_at": "2026-11-01T23:21:10Z",
+      "provenance": "Primary maintainer repository or official example site",
+      "version": "1.0.11",
+      "commit_sha": "385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "commit_date": "2025-04-13T07:51:49Z",
+      "release_date": null,
+      "id": "O2",
+      "title": "OGL package manifest",
+      "url": "https://github.com/oframe/ogl/blob/385ce65c352c70734a36dc98c787fdd1d30ddb3b/package.json",
+      "limitations": "Source manifest, not verified npm artifact. Registry lookup inaccessible."
+    },
+    {
+      "retrieved_at": "2026-11-01T23:21:00Z",
+      "evaluated_at": "2026-11-01T23:21:10Z",
+      "provenance": "Primary maintainer repository or official example site",
+      "version": null,
+      "commit_sha": "385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "commit_date": "2025-04-13T07:51:49Z",
+      "release_date": null,
+      "id": "O3",
+      "title": "OGL Flowmap implementation",
+      "url": "https://github.com/oframe/ogl/blob/385ce65c352c70734a36dc98c787fdd1d30ddb3b/src/extras/Flowmap.js",
+      "limitations": "Static inspection only; device capability and GPU behavior untested."
+    },
+    {
+      "retrieved_at": "2026-11-01T23:21:00Z",
+      "evaluated_at": "2026-11-01T23:21:10Z",
+      "provenance": "Primary maintainer repository or official example site",
+      "version": null,
+      "commit_sha": "385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "commit_date": "2025-04-13T07:51:49Z",
+      "release_date": null,
+      "id": "O4",
+      "title": "OGL mouse-flowmap example source",
+      "url": "https://github.com/oframe/ogl/blob/385ce65c352c70734a36dc98c787fdd1d30ddb3b/examples/mouse-flowmap.html",
+      "limitations": "Source read, demo not executed. External water texture rights not established."
+    },
+    {
+      "retrieved_at": "2026-11-01T23:21:00Z",
+      "evaluated_at": "2026-11-01T23:21:10Z",
+      "provenance": "Primary maintainer repository or official example site",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "id": "O5",
+      "title": "OGL official example index",
+      "url": "https://oframe.github.io/ogl/examples/",
+      "limitations": "Live index inspected, examples not run."
+    },
+    {
+      "retrieved_at": "2026-11-01T23:21:00Z",
+      "evaluated_at": "2026-11-01T23:21:10Z",
+      "provenance": "Primary maintainer repository or official example site",
+      "version": null,
+      "commit_sha": "385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "commit_date": "2025-04-13T07:51:49Z",
+      "release_date": null,
+      "id": "O6",
+      "title": "Observed latest OGL default-branch commit",
+      "url": "https://github.com/oframe/ogl/commit/385ce65c352c70734a36dc98c787fdd1d30ddb3b",
+      "limitations": "Observed branch activity, not a support guarantee; latest-release endpoint returned 404."
+    }
+  ]
+}
