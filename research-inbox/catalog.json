@@ -790,6 +790,25 @@
       ],
       "summary": "One-project ripgrep discovery: explicit lexical search scope, environment configuration and executable preprocessing boundaries. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T004800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "A pending Transition is not a request-ordering policy",
+      "path": "research-inbox/fullstack-engineering/20261102T004800Z-fullstack-engineering/",
+      "created_at": "2026-11-02T00:45:50Z",
+      "scheduled_at": "2026-11-02T00:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "React async-result ownership: latest-read eligibility versus sequential Actions, pending state and stale error/finally handling. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -1310,6 +1329,25 @@
           ],
           "summary": "Concurrent PostgreSQL index migration outcome receipts: name/definition/validity reconciliation, phase-aware monitoring and separate workload acceptance. Documentary only.",
           "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T004800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "A pending Transition is not a request-ordering policy",
+          "path": "research-inbox/fullstack-engineering/20261102T004800Z-fullstack-engineering/",
+          "created_at": "2026-11-02T00:45:50Z",
+          "scheduled_at": "2026-11-02T00:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "React async-result ownership: latest-read eligibility versus sequential Actions, pending state and stale error/finally handling. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -1630,5 +1668,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T00:32:41Z"
+  "updated_at": "2026-11-02T00:45:50Z"
 }

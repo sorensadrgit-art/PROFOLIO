@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T004800Z-fullstack-engineering",
+  "evaluated_at": "2026-11-02T00:44:15Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "useTransition",
+      "url": "https://react.dev/reference/react/useTransition",
+      "retrieved_at": "2026-11-02T00:44:11Z",
+      "evaluated_at": "2026-11-02T00:44:15Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Direct read with web tool; source contents treated as untrusted evidence.",
+      "supports": "Async ordering limitation; pending state; custom queue responsibility",
+      "limitations": "Mutable source; no installed or registry artifact verification; no runtime test."
+    },
+    {
+      "id": "S2",
+      "title": "useActionState",
+      "url": "https://react.dev/reference/react/useActionState",
+      "retrieved_at": "2026-11-02T00:44:11Z",
+      "evaluated_at": "2026-11-02T00:44:15Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Direct read with web tool; source contents treated as untrusted evidence.",
+      "supports": "Sequential dispatch and error/Action semantics",
+      "limitations": "Mutable source; no installed or registry artifact verification; no runtime test."
+    },
+    {
+      "id": "S3",
+      "title": "useEffect",
+      "url": "https://react.dev/reference/react/useEffect",
+      "retrieved_at": "2026-11-02T00:44:11Z",
+      "evaluated_at": "2026-11-02T00:44:15Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Direct read with web tool; source contents treated as untrusted evidence.",
+      "supports": "Cleanup and obsolete fetch-result guard; fetching alternatives",
+      "limitations": "Mutable source; no installed or registry artifact verification; no runtime test."
+    },
+    {
+      "id": "S4",
+      "title": "startTransition",
+      "url": "https://react.dev/reference/react/startTransition",
+      "retrieved_at": "2026-11-02T00:44:11Z",
+      "evaluated_at": "2026-11-02T00:44:15Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Direct read with web tool; source contents treated as untrusted evidence.",
+      "supports": "Input and post-await scheduling caveats",
+      "limitations": "Mutable source; no installed or registry artifact verification; no runtime test."
+    },
+    {
+      "id": "S5",
+      "title": "React LICENSE",
+      "url": "https://github.com/react/react/blob/main/LICENSE",
+      "retrieved_at": "2026-11-02T00:44:11Z",
+      "evaluated_at": "2026-11-02T00:44:15Z",
+      "source_type": "official_repository_license",
+      "observed_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Direct read with web tool; source contents treated as untrusted evidence.",
+      "supports": "MIT notice and warranty conditions",
+      "limitations": "Mutable source; no installed or registry artifact verification; no runtime test."
+    }
+  ]
+}
