@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "question": "Which browser automation layer fits repeatable acceptance versus adaptive exploration?",
+  "repositories": [
+    {
+      "name": "microsoft/playwright",
+      "repository_url": "https://github.com/microsoft/playwright",
+      "evaluated_at": "2026-11-01T12:31:18Z",
+      "observed_commit": "deb7e86201e26cb4a8e25191fce5ef2f7a28aa87",
+      "latest_observed_release": "v1.64.1",
+      "release_date": "2026-10-14T11:51:33Z",
+      "last_observed_commit_date": "2026-10-31T14:56:17Z",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/microsoft/playwright/blob/deb7e86201e26cb4a8e25191fce5ef2f7a28aa87/LICENSE",
+      "maintenance_observation": "Recent GitHub release observed; no support SLA inferred.",
+      "runtime_tested": false,
+      "description": "Scripted browser testing and automation; reviewed as the deterministic test-runner option.",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "Chromium",
+        "Firefox",
+        "WebKit"
+      ],
+      "dependencies": [
+        "@playwright/test 1.64.1 -> playwright 1.64.1",
+        "Node >=20 at v1.64.1",
+        "Browser binaries and OS dependencies"
+      ],
+      "useful_features": [
+        "Auto-waiting",
+        "Web-first assertions",
+        "Isolated test contexts",
+        "Traces"
+      ],
+      "compatibility": "Natural fit for JS/TS frontend test repositories; no application framework coupling required.",
+      "integration_api_mcp": "JS/TS test/library API; agent MCP interface evaluated separately as playwright-mcp.",
+      "hosting_costs": "Self-hosted CPU, RAM, browser storage and CI minutes; no model required for scripted tests. No cost measured.",
+      "demos": "README runnable tests and library examples.",
+      "risks": [
+        "Authentication-state files and traces may contain sensitive content",
+        "Browser contexts are not an OS security boundary"
+      ],
+      "future_application": "Turn a reviewed exploratory browser flow into repeatable acceptance tests."
+    },
+    {
+      "name": "microsoft/playwright-mcp",
+      "repository_url": "https://github.com/microsoft/playwright-mcp",
+      "evaluated_at": "2026-11-01T12:31:18Z",
+      "observed_commit": "be26c080edfae7c761db1e757c4aff9f6453b4d7",
+      "latest_observed_release": "v0.0.84",
+      "release_date": "2026-10-31T15:20:06Z",
+      "last_observed_commit_date": "2026-10-31T15:19:06Z",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/microsoft/playwright-mcp/blob/be26c080edfae7c761db1e757c4aff9f6453b4d7/LICENSE",
+      "maintenance_observation": "Recent GitHub release observed; no support SLA inferred.",
+      "runtime_tested": false,
+      "description": "MCP browser-control server for an existing agent, using structured accessibility observations.",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "MCP",
+        "Playwright"
+      ],
+      "dependencies": [
+        "Node >=18 declared by wrapper",
+        "playwright and playwright-core 1.65.0-alpha-2026-10-30 at 0.0.84"
+      ],
+      "useful_features": [
+        "Accessibility snapshot tools",
+        "Isolated-profile option",
+        "Documented MCP client setup"
+      ],
+      "compatibility": "Existing MCP clients can use its documented server interface; no installed client was tested.",
+      "integration_api_mcp": "Native MCP server; documented stdio invocation and standalone HTTP operation.",
+      "hosting_costs": "Browser/server resources plus external agent inference; no token or cost saving measured.",
+      "demos": "README client configuration and tool catalogue.",
+      "risks": [
+        "Maintainer explicitly says it is not a security boundary",
+        "Origin restrictions do not cover redirects as a secure boundary",
+        "Persistent profile concurrency conflicts",
+        "Alpha browser dependencies require version-specific evaluation"
+      ],
+      "future_application": "Bounded exploratory UI inspection in a separate disposable test identity."
+    },
+    {
+      "name": "browser-use/browser-use",
+      "repository_url": "https://github.com/browser-use/browser-use",
+      "evaluated_at": "2026-11-01T12:31:18Z",
+      "observed_commit": "b49a68e4060acb226da8f784194fef301c53a6d7",
+      "latest_observed_release": "0.13.14",
+      "release_date": "2026-10-26T22:00:34Z",
+      "last_observed_commit_date": "2026-10-30T04:28:48Z",
+      "license": "MIT",
+      "license_url": "https://github.com/browser-use/browser-use/blob/b49a68e4060acb226da8f784194fef301c53a6d7/LICENSE",
+      "maintenance_observation": "Recent GitHub release observed; no support SLA inferred.",
+      "runtime_tested": false,
+      "description": "Python browser-agent loop with model choice and local or hosted browser options.",
+      "technologies": [
+        "Python",
+        "CDP",
+        "MCP"
+      ],
+      "dependencies": [
+        "Python >=3.11,<4",
+        "cdp-use 1.4.5",
+        "mcp 2.1.1",
+        "pydantic 2.13.5",
+        "Model provider or compatible local model",
+        "Browser runtime"
+      ],
+      "useful_features": [
+        "Model-driven browser tasks",
+        "Custom tools",
+        "Structured output",
+        "Documented history replay"
+      ],
+      "compatibility": "Adds a Python environment to a JS/TS stack; library integration is separate from hosted service.",
+      "integration_api_mcp": "server.json advertises stdio --cli-mcp and hosted streamable HTTP, but version 0.13.11 lags package 0.13.14; compatibility unverified.",
+      "hosting_costs": "Local browser/model hardware or paid model inference; optional hosted browser/API adds separate fees. No subscription activated or costs measured.",
+      "demos": "README Python flow and examples directory; replay example linked upstream.",
+      "risks": [
+        "Snapshots/results in saved history may contain secrets despite typed-secret placeholders",
+        "Replay may partially execute before failure",
+        "Manifest/package version discrepancy",
+        "Model-driven actions need bounded authority"
+      ],
+      "future_application": "Evaluate adaptive synthetic research navigation only where scripted flows are insufficient."
+    }
+  ]
+}

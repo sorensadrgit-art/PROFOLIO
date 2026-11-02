@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S1",
+    "url": "https://motion.dev/docs/react-drag",
+    "title": "Drag animation",
+    "publisher": "Motion",
+    "accessed_at": "2026-11-01T15:17:16Z",
+    "release_date": null,
+    "commit_date": null,
+    "applicable_version": null,
+    "source_location": "Axis locking; momentum; drag events",
+    "provenance": "Official primary documentation",
+    "extraction_limitations": "Documentary text review; no browser or package runtime test."
+  },
+  {
+    "id": "S2",
+    "url": "https://motion.dev/docs/react-gestures",
+    "title": "Gesture animation",
+    "publisher": "Motion",
+    "accessed_at": "2026-11-01T15:17:16Z",
+    "release_date": null,
+    "commit_date": null,
+    "applicable_version": null,
+    "source_location": "Tap; pan; event propagation",
+    "provenance": "Official primary documentation",
+    "extraction_limitations": "Documentary text review; no browser or package runtime test."
+  },
+  {
+    "id": "S3",
+    "url": "https://www.w3.org/TR/pointerevents3/",
+    "title": "Pointer Events Level 3",
+    "publisher": "W3C",
+    "accessed_at": "2026-11-01T15:17:16Z",
+    "release_date": "2026-06-30",
+    "commit_date": null,
+    "applicable_version": "Pointer Events Level 3",
+    "source_location": "Sections 4.2.7, 8, 9",
+    "provenance": "Official primary documentation",
+    "extraction_limitations": "Documentary text review; no browser or package runtime test."
+  },
+  {
+    "id": "S4",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+    "title": "Understanding SC 2.5.7 Dragging Movements",
+    "publisher": "W3C WAI",
+    "accessed_at": "2026-11-01T15:17:16Z",
+    "release_date": null,
+    "commit_date": null,
+    "applicable_version": "WCAG 2.2",
+    "source_location": "Intent and relationship to keyboard accessibility",
+    "provenance": "Official primary documentation",
+    "extraction_limitations": "Documentary text review; no browser or package runtime test."
+  }
+]

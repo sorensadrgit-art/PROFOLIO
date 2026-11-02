@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T121200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "scheduled_at": "2026-11-01T12:12:00Z",
+  "scheduled_local": "2026-11-01T07:12:00-05:00",
+  "timezone": "America/New_York",
+  "evaluated_on": "2026-11-01",
+  "title": "Animated dialog exits: separate visual presence from interaction ownership",
+  "status": "APPROVED_DOCUMENTARY",
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "source_count": 4,
+  "research_type": "bounded_documentary_engineering",
+  "runtime_tests": "NOT_RUN",
+  "accessibility_tests": "NOT_RUN",
+  "performance_tests": "NOT_RUN",
+  "prior_packages": [
+    "20261101T061350-motion-orchestration-architecture-01",
+    "20261101T070845-view-transition-navigation-01"
+  ],
+  "publication_scope": "research-data branch research-inbox only",
+  "qa": {
+    "independent_review": "APPROVED_DOCUMENTARY",
+    "report": "qa.md",
+    "secret_scan": "PASS_BOUNDED_PATTERN_AND_MANUAL_REVIEW",
+    "json_validation": "PASS"
+  },
+  "published": true,
+  "publication": {
+    "package_commit_sha": "7e45281505fd8a4f2fe213cbf8061f993c9e7bcb",
+    "package_commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/7e45281505fd8a4f2fe213cbf8061f993c9e7bcb",
+    "verified_at": "2026-11-01T12:41:00Z",
+    "verified_files": [
+      "research.md",
+      "sources.json",
+      "manifest.json",
+      "qa.md"
+    ],
+    "verification": "Fetched package files at the publication commit and inspected exact commit paths; documentary QA retained. This metadata follow-up is not the original publication commit."
+  }
+}

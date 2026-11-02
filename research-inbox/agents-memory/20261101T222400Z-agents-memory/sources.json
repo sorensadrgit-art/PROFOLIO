@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T222400Z-agents-memory",
+  "evaluated_at": "2026-11-01T22:21:43Z",
+  "sources": [
+    {
+      "provenance": "primary official repository or project documentation",
+      "commit_date": null,
+      "id": "S1",
+      "title": "pgvector README: filtering, iterative scans, monitoring",
+      "url": "https://github.com/pgvector/pgvector/blob/1d5ef0a160cadec08f754528669ce17e20eab38c/README.md",
+      "retrieved_at": "2026-11-01T22:21:35Z",
+      "commit": "1d5ef0a160cadec08f754528669ce17e20eab38c",
+      "version": "README installation target 0.8.7",
+      "release_date": null,
+      "limitations": "Documentation inspected; no runtime. Same blob observed through v0.8.7 ref."
+    },
+    {
+      "provenance": "primary official repository or project documentation",
+      "commit_date": null,
+      "id": "S2",
+      "title": "pgvector changelog",
+      "url": "https://github.com/pgvector/pgvector/blob/1d5ef0a160cadec08f754528669ce17e20eab38c/CHANGELOG.md",
+      "retrieved_at": "2026-11-01T22:21:35Z",
+      "commit": "1d5ef0a160cadec08f754528669ce17e20eab38c",
+      "version": "0.8.7; 0.9.0 unreleased",
+      "release_date": "2026-10-01",
+      "limitations": "Date from changelog, not independently verified release artifact."
+    },
+    {
+      "provenance": "primary official repository or project documentation",
+      "commit_date": null,
+      "id": "S3",
+      "title": "pgvector LICENSE",
+      "url": "https://github.com/pgvector/pgvector/blob/1d5ef0a160cadec08f754528669ce17e20eab38c/LICENSE",
+      "retrieved_at": "2026-11-01T22:21:35Z",
+      "commit": "1d5ef0a160cadec08f754528669ce17e20eab38c",
+      "version": null,
+      "release_date": null,
+      "limitations": "Repository license only; deployment dependencies not audited."
+    },
+    {
+      "provenance": "primary official repository or project documentation",
+      "commit_date": null,
+      "id": "S4",
+      "title": "pgvector Makefile",
+      "url": "https://github.com/pgvector/pgvector/blob/1d5ef0a160cadec08f754528669ce17e20eab38c/Makefile",
+      "retrieved_at": "2026-11-01T22:21:43Z",
+      "commit": "1d5ef0a160cadec08f754528669ce17e20eab38c",
+      "version": "EXTVERSION 0.8.7",
+      "release_date": null,
+      "limitations": "First 35 lines inspected; C object build, not full dependency audit."
+    },
+    {
+      "provenance": "primary official repository or project documentation",
+      "commit_date": "2026-10-31T20:35:27Z",
+      "id": "S5",
+      "title": "pgvector observed master commit",
+      "url": "https://github.com/pgvector/pgvector/commit/1d5ef0a160cadec08f754528669ce17e20eab38c",
+      "retrieved_at": "2026-11-01T22:21:30Z",
+      "commit": "1d5ef0a160cadec08f754528669ce17e20eab38c",
+      "version": null,
+      "release_date": null,
+      "limitations": "Activity observation, not support SLA or audit."
+    },
+    {
+      "provenance": "primary official repository or project documentation",
+      "commit_date": null,
+      "id": "S6",
+      "title": "PostgreSQL 18: Using EXPLAIN",
+      "url": "https://www.postgresql.org/docs/18/using-explain.html",
+      "retrieved_at": "2026-11-01T22:21:43Z",
+      "commit": null,
+      "version": "PostgreSQL 18 documentation",
+      "release_date": null,
+      "limitations": "Rolling documentation; not a measured query plan."
+    }
+  ]
+}

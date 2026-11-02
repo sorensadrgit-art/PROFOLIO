@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "playwright-README-md",
+      "title": "microsoft/playwright README.md",
+      "url": "https://github.com/microsoft/playwright/blob/deb7e86201e26cb4a8e25191fce5ef2f7a28aa87/README.md",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "deb7e86201e26cb4a8e25191fce5ef2f7a28aa87",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "playwright-LICENSE",
+      "title": "microsoft/playwright LICENSE",
+      "url": "https://github.com/microsoft/playwright/blob/deb7e86201e26cb4a8e25191fce5ef2f7a28aa87/LICENSE",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "deb7e86201e26cb4a8e25191fce5ef2f7a28aa87",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "playwright-package-json",
+      "title": "microsoft/playwright package.json",
+      "url": "https://github.com/microsoft/playwright/blob/deb7e86201e26cb4a8e25191fce5ef2f7a28aa87/package.json",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "deb7e86201e26cb4a8e25191fce5ef2f7a28aa87",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "playwright-release",
+      "title": "v1.64.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "release": "v1.64.1",
+      "release_published_at": "2026-10-14T11:51:33Z",
+      "source_type": "official_release",
+      "limitations": "GitHub release observed; package registry publication not independently checked."
+    },
+    {
+      "id": "playwright-mcp-README-md",
+      "title": "microsoft/playwright-mcp README.md",
+      "url": "https://github.com/microsoft/playwright-mcp/blob/be26c080edfae7c761db1e757c4aff9f6453b4d7/README.md",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "be26c080edfae7c761db1e757c4aff9f6453b4d7",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "playwright-mcp-LICENSE",
+      "title": "microsoft/playwright-mcp LICENSE",
+      "url": "https://github.com/microsoft/playwright-mcp/blob/be26c080edfae7c761db1e757c4aff9f6453b4d7/LICENSE",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "be26c080edfae7c761db1e757c4aff9f6453b4d7",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "playwright-mcp-package-json",
+      "title": "microsoft/playwright-mcp package.json",
+      "url": "https://github.com/microsoft/playwright-mcp/blob/be26c080edfae7c761db1e757c4aff9f6453b4d7/package.json",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "be26c080edfae7c761db1e757c4aff9f6453b4d7",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "playwright-mcp-release",
+      "title": "v0.0.84",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.84",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "release": "v0.0.84",
+      "release_published_at": "2026-10-31T15:20:06Z",
+      "source_type": "official_release",
+      "limitations": "GitHub release observed; package registry publication not independently checked."
+    },
+    {
+      "id": "browser-use-README-md",
+      "title": "browser-use/browser-use README.md",
+      "url": "https://github.com/browser-use/browser-use/blob/b49a68e4060acb226da8f784194fef301c53a6d7/README.md",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "b49a68e4060acb226da8f784194fef301c53a6d7",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "browser-use-LICENSE",
+      "title": "browser-use/browser-use LICENSE",
+      "url": "https://github.com/browser-use/browser-use/blob/b49a68e4060acb226da8f784194fef301c53a6d7/LICENSE",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "b49a68e4060acb226da8f784194fef301c53a6d7",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "browser-use-pyproject-toml",
+      "title": "browser-use/browser-use pyproject.toml",
+      "url": "https://github.com/browser-use/browser-use/blob/b49a68e4060acb226da8f784194fef301c53a6d7/pyproject.toml",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "commit_sha": "b49a68e4060acb226da8f784194fef301c53a6d7",
+      "source_type": "official_repository",
+      "limitations": "Source inspection, not executable verification."
+    },
+    {
+      "id": "browser-use-release",
+      "title": "0.13.14: Python agent and integration updates",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.14",
+      "retrieved_at": "2026-11-01T12:30:56Z",
+      "release": "0.13.14",
+      "release_published_at": "2026-10-26T22:00:34Z",
+      "source_type": "official_release",
+      "limitations": "GitHub release observed; package registry publication not independently checked."
+    },
+    {
+      "id": "pw-stable-package",
+      "title": "Playwright Test stable package metadata",
+      "url": "https://github.com/microsoft/playwright/blob/v1.64.1/packages/playwright-test/package.json",
+      "retrieved_at": "2026-11-01T12:31:13Z",
+      "source_type": "official_repository",
+      "release": "v1.64.1"
+    },
+    {
+      "id": "bu-server",
+      "title": "Browser Use MCP server manifest",
+      "url": "https://github.com/browser-use/browser-use/blob/b49a68e4060acb226da8f784194fef301c53a6d7/server.json",
+      "retrieved_at": "2026-11-01T12:31:13Z",
+      "source_type": "official_repository",
+      "limitations": "Manifest advertises 0.13.11, while pyproject and latest GitHub release show 0.13.14; interoperability untested."
+    }
+  ]
+}

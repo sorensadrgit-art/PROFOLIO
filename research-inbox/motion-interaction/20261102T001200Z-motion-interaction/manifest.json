@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T001200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "title": "A safe refresh is not proof that layout has settled",
+  "scheduled_at": "2026-11-02T00:12:00Z",
+  "research_started_at": "2026-11-02T00:17:03Z",
+  "evaluated_at": "2026-11-02",
+  "status": "approved_for_publication",
+  "question": "How should dynamic page geometry own and confirm ScrollTrigger remeasurement?",
+  "source_count": 7,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "provenance": {
+    "author": "Dot",
+    "source_findings": "Cited primary documentation and repository metadata",
+    "synthesis": "Original proposed revision-aware refresh lifecycle; unimplemented",
+    "prior_packages_reviewed": [
+      "20261101T061350-motion-orchestration-architecture-01",
+      "20261101T070845-view-transition-navigation-01",
+      "20261101T121200Z-motion-interaction",
+      "20261101T130953Z-native-scroll-smoothing-03",
+      "20261101T151200Z-motion-interaction",
+      "20261101T181200Z-motion-interaction",
+      "20261101T211200Z-motion-interaction"
+    ],
+    "duplicate_check": "Live catalog and branch tree inspected; no same-slot or unindexed topic directory observed"
+  },
+  "review": {
+    "independent_worker": true,
+    "status": "APPROVED_DOCUMENTARY",
+    "scope": "Documentary claim/link review, JSON validation, bounded sensitive-data scan",
+    "completed_at": "2026-11-02T00:20:21Z",
+    "limitations": "Independent source review; prior catalog and tree inspection author-owned. Bounded scan is not exhaustive secret detection."
+  },
+  "tests": {
+    "runtime": "not_run",
+    "browser": "not_run",
+    "accessibility": "not_run",
+    "performance": "not_run",
+    "integration": "not_run"
+  },
+  "limitations": [
+    "No application lockfile or npm artifact checked",
+    "Live documentation may change",
+    "No production implementation or deployment approval implied"
+  ],
+  "package_commit_sha": null
+}

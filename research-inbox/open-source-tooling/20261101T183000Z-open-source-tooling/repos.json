@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T183000Z-open-source-tooling",
+  "selection_kind": "single_repository_two_interfaces",
+  "repositories": [
+    {
+      "repository": "modelcontextprotocol/inspector",
+      "url": "https://github.com/modelcontextprotocol/inspector",
+      "purpose": "MCP protocol inspection and debugging",
+      "evaluated_commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "observed_release": "2.13.0",
+      "release_date": "2026-10-28T18:41:38Z",
+      "npm_artifact_version": null,
+      "npm_retrieval_limitation": "Registry latest endpoint inaccessible via available web tool.",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "Vite",
+        "Ink"
+      ],
+      "node_engine": ">=22.19.0",
+      "licence": {
+        "status": "mixed licensing transition",
+        "new_code": "Apache-2.0",
+        "ordinary_documentation": "CC-BY-4.0",
+        "unrelicensed_legacy_contributions": "MIT",
+        "file": "LICENSE"
+      },
+      "interfaces": [
+        {
+          "name": "Inspector CLI",
+          "experimental": false,
+          "use": "Single-request contract probes"
+        },
+        {
+          "name": "mcpdo",
+          "experimental": true,
+          "use": "Connection-preserving sequences"
+        }
+      ],
+      "installation_performed": false,
+      "integration_tested": false,
+      "costs": "Local or CI compute/storage and target service usage; model usage only if an agent is added.",
+      "maintenance": "Observed 2.13.0 release and main commit on 2026-10-28; no support guarantee.",
+      "demo_or_fixture_source": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/docs/test-servers.md",
+      "risks": [
+        "Same-user stdio execution",
+        "Keychain-less secret persistence",
+        "Persistent daemon lifecycle",
+        "Protocol and package version differences",
+        "Tool-call side effects"
+      ],
+      "future_application": "Three-stage contract, continuity, real-agent-client diagnostic gate."
+    }
+  ]
+}
+

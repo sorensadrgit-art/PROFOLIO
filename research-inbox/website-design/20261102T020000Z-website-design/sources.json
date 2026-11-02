@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Example Disclosure Navigation Menu",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/",
+      "publisher": "W3C WAI",
+      "retrieved_at": "2026-11-02T01:57:43Z",
+      "evaluated_at": "2026-11-02T01:57:43Z",
+      "page_updated_at": "2026-01-20",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "version": null,
+      "provenance": "Primary official documentation retrieved through web tool",
+      "limitations": "Documentary evidence only; demo and assistive-technology behavior not executed. No source code or assets redistributed."
+    },
+    {
+      "id": "S2",
+      "title": "Example Disclosure Navigation Menu with Top-Level Links",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid/",
+      "publisher": "W3C WAI",
+      "retrieved_at": "2026-11-02T01:57:43Z",
+      "evaluated_at": "2026-11-02T01:57:43Z",
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "version": null,
+      "provenance": "Primary official documentation retrieved through web tool",
+      "limitations": "Documentary evidence only; demo and assistive-technology behavior not executed. No source code or assets redistributed."
+    },
+    {
+      "id": "S3",
+      "title": "Disclosure (Show/Hide) Pattern",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/",
+      "publisher": "W3C WAI",
+      "retrieved_at": "2026-11-02T01:57:43Z",
+      "evaluated_at": "2026-11-02T01:57:43Z",
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "version": null,
+      "provenance": "Primary official documentation retrieved through web tool",
+      "limitations": "Documentary evidence only; demo and assistive-technology behavior not executed. No source code or assets redistributed."
+    },
+    {
+      "id": "S4",
+      "title": "Understanding SC 1.4.13: Content on Hover or Focus",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html",
+      "publisher": "W3C WAI",
+      "retrieved_at": "2026-11-02T01:57:43Z",
+      "evaluated_at": "2026-11-02T01:57:43Z",
+      "page_updated_at": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "version": "WCAG 2.2",
+      "provenance": "Primary official documentation retrieved through web tool",
+      "limitations": "Documentary evidence only; demo and assistive-technology behavior not executed. No source code or assets redistributed."
+    },
+    {
+      "id": "S5",
+      "title": "Understanding SC 3.2.1: On Focus",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html",
+      "publisher": "W3C WAI",
+      "retrieved_at": "2026-11-02T01:57:43Z",
+      "evaluated_at": "2026-11-02T01:57:43Z",
+      "page_updated_at": "2025-09-16",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "version": "WCAG 2.2",
+      "provenance": "Primary official documentation retrieved through web tool",
+      "limitations": "Documentary evidence only; demo and assistive-technology behavior not executed. No source code or assets redistributed."
+    }
+  ]
+}

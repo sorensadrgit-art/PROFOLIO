@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T124211Z-agents-memory-smoke",
+  "topic_id": "agents-memory",
+  "title": "Project labels are not authorization: scoped recall for MCP memory services",
+  "scheduled_run_at": "2026-11-01T12:42:11.352837Z",
+  "run_type": "authorized_manual_smoke",
+  "timezone": "America/New_York",
+  "evaluated_at": "2026-11-01T12:46:10Z",
+  "research_status": "completed_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e",
+  "publication_receipt": {
+    "status": "remote_exact_readback_verified",
+    "verified_at": "2026-11-01T12:47:41Z",
+    "artifact_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e",
+    "commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/856399b1045f8680716254d9e8b8b549ee850d6e",
+    "scope": "Four artifacts and atomic catalog content read back exactly; this later metadata commit records that earlier verification."
+  },
+  "runtime_tests": "NOT_RUN",
+  "limitations": [
+    "Public documentation only; no backend or agent integration tested.",
+    "No private operational findings used.",
+    "Version targets are explicit; source release/commit dates are unknown."
+  ],
+  "artifact_sha256": {
+    "research.md": "5c3a7e9581e50f89712f10b5ca72ab151bf6f52f525ca07e9f5265eecf2cbe1f",
+    "sources.json": "e953ba6956ddaf49e747d058fd86f024620c4941e9e5bfbc14bd788e9fc333ff",
+    "qa.md": "0b0b58602bbf44fbae1c71bb53c8bc7c929939fb5e834cfe0629eee859d1450e"
+  },
+  "reviewer": "independent-documentary-qa",
+  "validation": {
+    "json": "passed",
+    "bounded_secret_privacy_scan": "passed",
+    "runtime": "not_run"
+  }
+}

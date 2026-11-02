@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T201800Z-open-source-creative",
+  "topic_id": "open-source-creative",
+  "title": "Split the heading, not its meaning: SplitType or Splitting.js?",
+  "scheduled_at": "2026-11-01T20:18:00Z",
+  "research_started_at": "2026-11-01T20:17:00Z",
+  "evaluation_date": "2026-11-01",
+  "status": "approved_for_publication",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 11,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "catalog_read": true,
+    "prior_topic_packages_read": 3,
+    "same_run_found": false,
+    "unfinished_topic_package_found": false,
+    "new_area": "Typography DOM splitting, lifecycle and license/version diligence"
+  },
+  "scope": "Original documentary comparison; no third-party code or protected media copied",
+  "limitations": [
+    "No package installation or runtime tests",
+    "No browser, accessibility, performance, integration or dependency-security tests",
+    "npm published versions and tarball license terms not verified",
+    "SplitType actual license text not verified; adoption deferred"
+  ],
+  "publication": {
+    "branch": "research-data",
+    "package_commit_sha": null
+  },
+  "secrets_scan": {
+    "status": "passed_bounded_pattern_and_manual_review",
+    "evaluated_on": "2026-11-01",
+    "limitations": "Not a comprehensive security audit"
+  },
+  "tests_performed": [],
+  "qa_reviewed_at": "2026-11-01T20:19:20Z",
+  "sha256": {
+    "research.md": "4ef7fc68f9fc15960af90fa50235776b141537efecfd44bbd3c1ae9ef017c1d7",
+    "sources.json": "98dbd6e05534014f866cb3721fe3c44fb59b188040ad46bc89c3ce12e3ef2835",
+    "repos.json": "2a75634e7f3d99e1bd69317ef794874f016640ec5398e3efd1f0a792532b2b01",
+    "qa.md": "907c9918302d6af5ae688c7a3ddacfb6383bcd115d34b14a83a4843c36f39bde"
+  }
+}

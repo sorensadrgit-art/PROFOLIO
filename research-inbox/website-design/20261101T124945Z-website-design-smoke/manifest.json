@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T124945Z-website-design-smoke",
+  "topic_id": "website-design",
+  "title": "Premium controls in forced-colors mode: preserve affordance, not the palette",
+  "scheduled_at": "2026-11-01T12:49:45.510387Z",
+  "scheduled_timezone": "America/New_York",
+  "execution_kind": "manual_smoke",
+  "created_at": "2026-11-01T12:53:44Z",
+  "research_status": "complete",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "deduplication": {
+    "catalog_checked": true,
+    "topic_directory_checked": true,
+    "prior_run": "20261101T060321-premium-editorial-system-01",
+    "new_question": "Forced-colors mode removes shadow/gradient affordances; narrow control repair and focus-overlay distinction."
+  },
+  "checks": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_regex_and_documentary_review",
+    "runtime": "not_performed",
+    "accessibility": "not_performed",
+    "performance": "not_performed",
+    "integration": "not_performed",
+    "markdown_structure": "passed"
+  },
+  "publication": {
+    "status": "published_verified",
+    "artifact_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
+    "verified_remote_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
+    "verified_at": "2026-11-01T12:55:01Z",
+    "remote_files_exact_match": true,
+    "receipt_policy": "This follow-up metadata records original artifact commit, not its own containing commit."
+  },
+  "limitations": [
+    "Documentary review only",
+    "CSS sketch unexecuted",
+    "No browser/OS/assistive technology matrix tested",
+    "No installations or application changes"
+  ],
+  "artifact_sha256": {
+    "research.md": "dac2be131f49d87821d10e220544ec70b026dd7826523d08fdf10d58e3ccf6be",
+    "qa.md": "d1aad2a05920ce08bcc807ae0dd945b35183bdd43b074344ba16af5469fc8077",
+    "sources.json": "68cc54a83437e149c7e5296f0a00438d1a59d38d216f0219ea5e72fc1c5c03df"
+  }
+}

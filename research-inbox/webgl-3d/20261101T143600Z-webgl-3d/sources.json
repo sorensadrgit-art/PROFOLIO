@@ -1,0 +1,76 @@
+{
+  "run_id": "20261101T143600Z-webgl-3d",
+  "evaluated_at": "2026-11-01T14:41:09Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "SkeletonUtils",
+      "url": "https://threejs.org/docs/pages/module-SkeletonUtils.html",
+      "publisher": "Three.js",
+      "accessed_at": "2026-11-01T14:41:09Z",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "clone",
+      "provenance": "Official maintainer API documentation; page content read directly",
+      "claims_supported": "SkinnedMesh bone association, root constraint, shared geometry/material references",
+      "extraction_limitations": "Moving documentation; package lockfile and exact release revision not inspected."
+    },
+    {
+      "id": "S2",
+      "title": "AnimationMixer",
+      "url": "https://threejs.org/docs/pages/AnimationMixer.html",
+      "publisher": "Three.js",
+      "accessed_at": "2026-11-01T14:41:09Z",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "intro; clipAction; update; uncacheRoot",
+      "provenance": "Official maintainer API documentation; page content read directly",
+      "claims_supported": "Per-root playback, action identity, delta seconds, stop before uncache",
+      "extraction_limitations": "Moving documentation; package lockfile and exact release revision not inspected."
+    },
+    {
+      "id": "S3",
+      "title": "AnimationAction",
+      "url": "https://threejs.org/docs/pages/AnimationAction.html",
+      "publisher": "Three.js",
+      "accessed_at": "2026-11-01T14:41:09Z",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "enabled; reset; clampWhenFinished",
+      "provenance": "Official maintainer API documentation; page content read directly",
+      "claims_supported": "Resume versus reset and completed-loop semantics",
+      "extraction_limitations": "Moving documentation; package lockfile and exact release revision not inspected."
+    },
+    {
+      "id": "S4",
+      "title": "Hooks",
+      "url": "https://r3f.docs.pmnd.rs/api/hooks",
+      "publisher": "Poimandres",
+      "accessed_at": "2026-11-01T14:41:09Z",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "useFrame; useLoader; state.invalidate",
+      "provenance": "Official maintainer API documentation; page content read directly",
+      "claims_supported": "Cached assets, frame callback seconds/unsubscription, demand scheduling",
+      "extraction_limitations": "Moving documentation; package lockfile and exact release revision not inspected."
+    },
+    {
+      "id": "S5",
+      "title": "useAnimations",
+      "url": "https://drei.docs.pmnd.rs/abstractions/use-animations",
+      "publisher": "Poimandres",
+      "accessed_at": "2026-11-01T14:41:09Z",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "source_location": "useAnimations API",
+      "provenance": "Official maintainer API documentation; page content read directly",
+      "claims_supported": "Mixer abstraction and explicit root argument",
+      "extraction_limitations": "Moving documentation displayed v10.7.9-5-gbf6f4ad master; installed version and hook implementation not verified."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "WebGLRenderer \u2014 Three.js Docs",
+      "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+      "evaluated_at": "2026-11-01",
+      "provenance": "Official Three.js documentation via web retrieval",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Moving documentation; not pinned to installed version",
+      "retrieved_date": "2026-11-01"
+    },
+    {
+      "id": "S2",
+      "title": "Texture \u2014 Three.js Docs",
+      "url": "https://threejs.org/docs/pages/Texture.html",
+      "evaluated_at": "2026-11-01",
+      "provenance": "Official Three.js documentation via web retrieval",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Moving documentation; not pinned to installed version",
+      "retrieved_date": "2026-11-01"
+    },
+    {
+      "id": "S3",
+      "title": "Material \u2014 Three.js Docs",
+      "url": "https://threejs.org/docs/pages/Material.html",
+      "evaluated_at": "2026-11-01",
+      "provenance": "Official Three.js documentation via web retrieval",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Moving documentation; not pinned to installed version",
+      "retrieved_date": "2026-11-01"
+    },
+    {
+      "id": "S4",
+      "title": "WebGLRenderer implementation",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/src/renderers/WebGLRenderer.js",
+      "evaluated_at": "2026-11-01",
+      "provenance": "Official repository via GitHub connector",
+      "version": "0.187.0 development snapshot",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "limitations": "Pinned source inspection; not npm artifact or runtime verification",
+      "retrieved_date": "2026-11-01"
+    },
+    {
+      "id": "S5",
+      "title": "Three.js package manifest",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/package.json",
+      "evaluated_at": "2026-11-01",
+      "provenance": "Official repository via GitHub connector",
+      "version": "0.187.0 development snapshot",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "limitations": "Pinned source inspection; not npm artifact or runtime verification",
+      "retrieved_date": "2026-11-01"
+    },
+    {
+      "id": "S6",
+      "title": "Three.js MIT licence",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/LICENSE",
+      "evaluated_at": "2026-11-01",
+      "provenance": "Official repository via GitHub connector",
+      "version": "0.187.0 development snapshot",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "limitations": "Pinned source inspection; not npm artifact or runtime verification",
+      "retrieved_date": "2026-11-01"
+    }
+  ]
+}

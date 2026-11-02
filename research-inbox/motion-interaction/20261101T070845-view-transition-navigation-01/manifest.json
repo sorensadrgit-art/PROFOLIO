@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T070845-view-transition-navigation-01",
+  "topic_id": "motion-interaction",
+  "title": "Route transitions as a motion system: React ViewTransition, browser snapshots, Motion layout, and scroll/focus continuity",
+  "created_at": "2026-11-01T07:08:45-05:00",
+  "research_question": "How should PROFOLIO coordinate route-level cinematic transitions with React rendering, browser snapshots, scroll restoration, focus management, and rapid navigation?",
+  "status": "published",
+  "research_type": "documentary_engineering_research",
+  "source_count": 10,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json"
+  ],
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "package_path": "research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/",
+  "prior_package_compared": "20261101T061350-motion-orchestration-architecture-01",
+  "novelty_statement": "New focused topic: route-transition orchestration, React ViewTransition adoption, router deprecations, snapshot/live-layout trade-offs, focus routing and scroll-restoration interaction. Does not duplicate prior engine-selection and ScrollTrigger architecture report.",
+  "evidence_limitations": [
+    "No PROFOLIO application lockfile inspected.",
+    "No browser runtime tests or performance benchmarks performed.",
+    "Current documentation versions do not prove which versions are installed in the application."
+  ],
+  "quality_checks": {
+    "research_scope": "PASS",
+    "prior_catalog_comparison": "PASS",
+    "source_provenance": "PASS",
+    "fact_vs_synthesis_separation": "PASS",
+    "json_validation": "PASS_REMOTE_READBACK",
+    "secret_scan": "PASS",
+    "source_id_coverage": "PASS",
+    "duplicate_path_check": "PASS",
+    "remote_readback": "PASS"
+  },
+  "safety": {
+    "application_files_modified": false,
+    "deployment_files_modified": false,
+    "main_branch_modified": false,
+    "automatic_merge": false,
+    "code_implemented": false
+  },
+  "package_file_commits": {
+    "research_md": "5c5c36edfee0648717845143a489208f8458bd66",
+    "sources_json": "adfaa6924b5496c143801218345639e7f017982a"
+  },
+  "catalog_update_commit_sha": "c8af6efeaf383018bdafbf4b68af1579fe937c3b",
+  "remote_readback_at": "2026-11-01T07:08:45-05:00",
+  "verified_remote_files": [
+    {
+      "file": "research.md",
+      "blob_sha": "668de6d1b73cef7a757545d98f3f53555372bdf9",
+      "url": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/research.md"
+    },
+    {
+      "file": "sources.json",
+      "blob_sha": "71fe33f46c9941b6423a73b126198e313dc0abaf",
+      "url": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/sources.json"
+    },
+    {
+      "file": "manifest.json",
+      "blob_sha": "e7c3ad37efa1d8d3c3779149cff602d0868c0f17",
+      "url": "https://github.com/sorensadrgit-art/PROFOLIO/blob/research-data/research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/manifest.json"
+    }
+  ]
+}

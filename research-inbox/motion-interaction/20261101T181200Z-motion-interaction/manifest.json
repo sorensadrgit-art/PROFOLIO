@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T181200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "title": "Hover motion should follow current intent, not a queue of old events",
+  "scheduled_at": "2026-11-01T18:12:00Z",
+  "started_at": "2026-11-01T18:08:41Z",
+  "evaluated_at": "2026-11-01T18:10:51Z",
+  "status": "approved_for_publication",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 11,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "research_kind": "bounded_interaction_contract",
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "path": "research-inbox/motion-interaction/20261101T181200Z-motion-interaction/",
+  "prior_packages_checked": [
+    "20261101T061350-motion-orchestration-architecture-01",
+    "20261101T070845-view-transition-navigation-01",
+    "20261101T121200Z-motion-interaction",
+    "20261101T130953Z-native-scroll-smoothing-03",
+    "20261101T151200Z-motion-interaction"
+  ],
+  "duplicate_result": "No same-slot package or overlapping unfinished topic directory observed; distinct hover/focus intent composition gap.",
+  "tests": {
+    "documentary_review": "pass",
+    "json_validation": "pass",
+    "sensitive_data_scan": "pass_bounded_patterns_and_manual_review",
+    "runtime": "not_run",
+    "performance": "not_run",
+    "accessibility": "not_run",
+    "integration": "not_run"
+  },
+  "limitations": [
+    "Live documentation is unversioned.",
+    "Application dependencies and lockfile not inspected.",
+    "No installs, deployments, external connections or application edits."
+  ],
+  "reviewed_at": "2026-11-01T18:12:25Z"
+}

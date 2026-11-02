@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T141800Z-open-source-creative",
+  "topic_id": "open-source-creative",
+  "scheduled_at": "2026-11-01T14:18:00Z",
+  "scheduled_local": "2026-11-01T09:18:00-05:00",
+  "timezone": "America/New_York",
+  "evaluated_at": "2026-11-01T14:20:20Z",
+  "title": "A detail viewer, not another carousel: PhotoSwipe or Yet Another React Lightbox?",
+  "research_status": "complete",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "publication_status": "published_remote_verified",
+  "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9",
+  "source_count": 13,
+  "project_count": 2,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "novelty": "Image-detail and zoom viewer selection; prior creative package covers Embla/Keen card rails.",
+  "limitations": [
+    "No installation or runtime tests",
+    "No accessibility or performance certification",
+    "No demo interactions",
+    "Live docs unversioned",
+    "Release metadata observed, not installed-artifact verification"
+  ],
+  "publication_contract": "research-data only; original artifact commit recorded in metadata receipt after remote verification",
+  "validation": {
+    "json": "passed",
+    "bounded_secret_privacy_scan": "passed_zero_hits",
+    "duplicate_check": "no_matching_run_or_lightbox_package_in_live_catalog",
+    "runtime": "not_tested"
+  },
+  "remote_verification": {
+    "verified_at": "2026-11-01T14:22:10Z",
+    "artifact_commit": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9",
+    "exact_file_count": 5,
+    "catalog_run_id_unique": true,
+    "scope": "Original artifact commit contents; receipt metadata committed separately."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T184800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "title": "A pool is local; the database connection budget is global",
+  "scheduled_at": "2026-11-01T18:48:00Z",
+  "research_started_at": "2026-11-01T18:46:16Z",
+  "evaluated_at": "2026-11-01T18:50:03Z",
+  "status": "APPROVED_DOCUMENTARY",
+  "source_count": 10,
+  "question": "Why can bounded process-local pools exhaust a shared PostgreSQL server, and what should be measured before increasing capacity?",
+  "novelty": "Existing full-stack packages cover mutation cache freshness and lost updates, not aggregate connection ownership/capacity.",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "versions": {
+    "postgresql_documentation": "18",
+    "node_postgres_repository_package": "8.23.1",
+    "node_postgres_commit": "2a5850fb0db18f5e40a642bbb4a4743de412ab54",
+    "npm_release_verified": null,
+    "pgbouncer_version_applicability": null
+  },
+  "review": {
+    "status": "APPROVED_DOCUMENTARY",
+    "independent": true,
+    "review_file": "qa.md",
+    "reviewed_at": "2026-11-01T18:50:03Z",
+    "limitations": "No runtime, integration, security, accessibility or performance testing."
+  },
+  "tests": {
+    "runtime": "NOT_RUN",
+    "database": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "accessibility": "NOT_RUN",
+    "integration": "NOT_RUN"
+  },
+  "scope": {
+    "application_changes": false,
+    "installed_dependencies": false,
+    "external_connections_configured": false,
+    "private_data_included": false
+  },
+  "publication": {
+    "branch": "research-data",
+    "path": "research-inbox/fullstack-engineering/20261101T184800Z-fullstack-engineering/",
+    "commit_sha": null
+  },
+  "limitations": [
+    "Documentary evaluation only.",
+    "Actual deployment topology, server limits, query workload and driver versions are unknown.",
+    "No capacity/cost savings established."
+  ],
+  "checks": {
+    "json_validated": true,
+    "duplicate_run_checked": true,
+    "bounded_secret_scan": "PASS",
+    "runtime": "NOT_RUN"
+  }
+}

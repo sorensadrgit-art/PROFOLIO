@@ -1,0 +1,148 @@
+[
+  {
+    "source_id": "S01",
+    "title": "CSS Grid Layout Module Level 3",
+    "publisher": "World Wide Web Consortium (W3C)",
+    "url": "https://www.w3.org/TR/css-grid-3/",
+    "published_or_updated": "2026-01-21",
+    "version_or_status": "Working Draft",
+    "accessed_at": "2026-11-01",
+    "source_type": "normative specification draft",
+    "supports": [
+      "Grid Lanes layout model and display values",
+      "flow-tolerance behavior",
+      "backtracking risks from spans and explicit placement",
+      "subgrid limited to grid axis in Grid Lanes"
+    ],
+    "notes": "A Working Draft is work in progress, not a W3C Recommendation."
+  },
+  {
+    "source_id": "S02",
+    "title": "WebKit Features for Safari 26.4",
+    "publisher": "WebKit",
+    "url": "https://webkit.org/blog/17862/webkit-features-for-safari-26-4/",
+    "published_or_updated": "2026-03-24",
+    "version_or_status": "Safari 26.4 release feature report",
+    "accessed_at": "2026-11-01",
+    "source_type": "browser-engine release documentation",
+    "supports": [
+      "Safari 26.4 support for display:grid-lanes",
+      "flow-tolerance implementation",
+      "keyboard navigation and lazy-loaded content considerations",
+      "Web Inspector order-number overlays"
+    ],
+    "notes": "Evidence of WebKit/Safari implementation, not universal browser support."
+  },
+  {
+    "source_id": "S03",
+    "title": "Grid lanes layout",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Grid_lanes",
+    "published_or_updated": "2026-08-27",
+    "version_or_status": "Experimental; limited availability; not Baseline",
+    "accessed_at": "2026-11-01",
+    "source_type": "browser compatibility and authoring guide",
+    "supports": [
+      "Current authoring syntax",
+      "grid axis and stacking axis behavior",
+      "feature support caution"
+    ],
+    "notes": "MDN page states feature is not Baseline because it does not work in some widely used browsers."
+  },
+  {
+    "source_id": "S04",
+    "title": "Subgrid",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Subgrid",
+    "published_or_updated": "not stated; retrieved 2026-11-01",
+    "version_or_status": "Baseline; widely available since 2023-09",
+    "accessed_at": "2026-11-01",
+    "source_type": "CSS layout guide",
+    "supports": [
+      "Nested grid can adopt parent tracks",
+      "Shared gaps and line names",
+      "Alignment of nested card content to parent grid"
+    ],
+    "notes": "Compatibility statement is MDN's current baseline classification."
+  },
+  {
+    "source_id": "S05",
+    "title": "CSS container queries",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+    "published_or_updated": "not stated; retrieved 2026-11-01",
+    "version_or_status": "Current MDN guide",
+    "accessed_at": "2026-11-01",
+    "source_type": "CSS layout guide",
+    "supports": [
+      "container-type inline-size setup",
+      "@container size queries",
+      "component adaptation based on nearest query container"
+    ],
+    "notes": "The guide also explains containment behavior and container query length units."
+  },
+  {
+    "source_id": "S06",
+    "title": "reading-flow CSS property",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/reading-flow",
+    "published_or_updated": "not stated; retrieved 2026-11-01",
+    "version_or_status": "Experimental; limited availability; not Baseline",
+    "accessed_at": "2026-11-01",
+    "source_type": "CSS property reference",
+    "supports": [
+      "reading-flow values for grid and flex",
+      "effect on speech and sequential navigation",
+      "limited availability caveat"
+    ],
+    "notes": "Not recommended as the sole accessibility repair for a production portfolio."
+  },
+  {
+    "source_id": "S07",
+    "title": "Grid layout and accessibility",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
+    "published_or_updated": "not stated; retrieved 2026-11-01",
+    "version_or_status": "Current MDN accessibility guide",
+    "accessed_at": "2026-11-01",
+    "source_type": "accessibility guidance",
+    "supports": [
+      "visual grid placement does not change source order",
+      "source structure should express logical reading order",
+      "tab-through testing for responsive layouts"
+    ],
+    "notes": "Explains why visual reordering is not a substitute for logical document order."
+  },
+  {
+    "source_id": "S08",
+    "title": "aspect-ratio CSS property",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
+    "published_or_updated": "not stated; retrieved 2026-11-01",
+    "version_or_status": "Baseline; widely available since 2021-09",
+    "accessed_at": "2026-11-01",
+    "source_type": "CSS property reference",
+    "supports": [
+      "preferred aspect-ratio behavior",
+      "reserved media frame sizing",
+      "replaced element intrinsic ratio behavior"
+    ],
+    "notes": "Use width/height or a ratio with one auto dimension; explicit width and height can override the preferred ratio."
+  },
+  {
+    "source_id": "S09",
+    "title": "Using responsive images in HTML",
+    "publisher": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+    "published_or_updated": "not stated; retrieved 2026-11-01",
+    "version_or_status": "Current MDN HTML guide",
+    "accessed_at": "2026-11-01",
+    "source_type": "HTML responsive media guide",
+    "supports": [
+      "srcset and sizes candidate selection",
+      "picture art direction",
+      "mobile crop changes and responsive image selection"
+    ],
+    "notes": "Use to distinguish resolution switching from art direction."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T162400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "title": "Retrieved memory is evidence, not a tool instruction",
+  "scheduled_at": "2026-11-01T16:24:00Z",
+  "scheduled_local": "2026-11-01T11:24:00-05:00",
+  "timezone": "America/New_York",
+  "evaluated_at": "2026-11-01",
+  "research_status": "complete_documentary",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "artifact_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152",
+  "publication_status": "remote_content_verified",
+  "limitations": [
+    "No runtime, persistence, security attack, performance or integration tests performed.",
+    "Sources provide documentary guidance, not deployed controls.",
+    "No private infrastructure or confidential research used."
+  ],
+  "novelty": {
+    "catalog_head": "ecdea45f19d3e29ffc7ac2efd5196bcc04f10aab",
+    "prior_packages": 22,
+    "compared_topic_runs": [
+      "20261101T124211Z-agents-memory-smoke",
+      "20261101T132400Z-agents-memory"
+    ],
+    "difference": "Trust propagation across extraction, summary and persistent recall; not project membership or exactly-once effects."
+  },
+  "remote_verified_at": "2026-11-01T16:27:45Z",
+  "receipt_note": "This manifest revision records the earlier artifact commit; its own metadata commit is distinct."
+}

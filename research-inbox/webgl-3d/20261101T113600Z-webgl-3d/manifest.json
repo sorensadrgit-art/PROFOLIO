@@ -1,0 +1,42 @@
+{
+  "run_id": "20261101T113600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "scheduled_for": "2026-11-01T11:36:00Z",
+  "status": "APPROVED",
+  "published": true,
+  "source_count": 4,
+  "question": "How should a React/Three.js scene handle an asset load completing after its owner has unmounted or selected another asset?",
+  "limitations": [
+    "Documentary review only; no runtime, performance or accessibility testing",
+    "Moving documentation, no tested package lockfile"
+  ],
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "artifact_sha256": {
+    "research.md": "c0d3b8f4566042a2141f16fc1b39eac92173aba8daa227d4f9850b9f70a14490",
+    "sources.json": "b66bcad7dd6e26a3845f9e64c281ec046543a5541915936317f8be7d77e92de6",
+    "qa.md": "48098de97415f9ae4d73c8b7421ecfe38fb0b48af7e54fe4f9ac20eda94d2333"
+  },
+  "related_runs": [
+    "20261101T053112-3d-webgl-engineering-01",
+    "20261101T064013-webgl-resilience-02"
+  ],
+  "publication_note": "Reviewed research content is unchanged; publication receipt records the verified original artifact commit.",
+  "publication": {
+    "package_commit_sha": "4cefa9a937e821588e368b6f5bc46fd30d4741bd",
+    "package_commit_url": "https://github.com/sorensadrgit-art/PROFOLIO/commit/4cefa9a937e821588e368b6f5bc46fd30d4741bd",
+    "verified_at": "2026-11-01T12:41:00Z",
+    "verified_files": [
+      "research.md",
+      "sources.json",
+      "qa.md",
+      "manifest.json"
+    ],
+    "verification": "Fetched package files at the publication commit and inspected exact commit paths; documentary QA retained. This metadata follow-up is not the original publication commit."
+  }
+}

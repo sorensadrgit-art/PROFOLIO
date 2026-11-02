@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T123218Z-tsl-material-bridge-03",
+  "topic_id": "webgl-3d",
+  "title": "A portable shader and material architecture for PROFOLIO: TSL, WebGPU/WebGL backends, and the Blender-to-glTF boundary",
+  "created_at": "2026-11-01T12:32:18Z",
+  "status": "published",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "path": "research-inbox/webgl-3d/20261101T123218Z-tsl-material-bridge-03/",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json"
+  ],
+  "source_count": 13,
+  "source_ids": [
+    "r3f-v10-webgpu-overview",
+    "r3f-v10-migration",
+    "r3f-tsl-hooks",
+    "r3f-render-pipeline",
+    "r3f-compute-storage",
+    "three-webgpurenderer-manual",
+    "three-tsl-reference",
+    "three-functionnode-reference",
+    "three-shadermaterial-reference",
+    "three-gltfloader-reference",
+    "blender-54-gltf-manual",
+    "khronos-gltf-20-spec",
+    "three-webgpu-postprocessing"
+  ],
+  "commits": {
+    "research_md": "88a9ef5551fa2025a91fce5a2d0d4ad3b597a38f",
+    "sources_json": "dd156f639e4034cffd1addda1fdc887e2ee8e11a",
+    "catalog_json": "337cba44ee6660c4410562f2d4ad3789b5b6a391"
+  },
+  "evidence_scope": "Official documentation and specification review; no code execution, GLB export, shader compilation, or physical-device benchmarking.",
+  "checks": {
+    "catalog_read_before_research": true,
+    "unique_run_id": true,
+    "target_paths_previously_absent": true,
+    "source_ids_unique": true,
+    "all_source_urls_https": true,
+    "json_parse_validation": true,
+    "secret_pattern_scan": "0 matches in authored research and sources",
+    "source_traceability_section": true,
+    "application_or_deployment_files_modified": false,
+    "main_branch_modified": false
+  },
+  "limitations": [
+    "R3F v10 documentation identifies v10 as alpha; exact compatible package versions must be pinned before adoption.",
+    "The Blender 5.4 official manual was readable via indexed search content, but direct page retrieval returned an access error.",
+    "No PROFOLIO dependency lockfile was inspected.",
+    "No shader compilation, GLB export, runtime test, or device benchmark was performed."
+  ],
+  "catalog_entry_verified": true,
+  "finalized_at": "2026-11-01T12:32:18Z"
+}

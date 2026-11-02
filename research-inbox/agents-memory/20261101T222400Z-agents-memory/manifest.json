@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T222400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "title": "A missing memory hit is not proof that the memory is absent",
+  "scheduled_at": "2026-11-01T22:24:00Z",
+  "evaluation_started_at": "2026-11-01T22:21:09Z",
+  "created_at": "2026-11-01T22:22:37Z",
+  "author": "Dot",
+  "status": "approved_for_publication",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "research_kind": "bounded_engineering_reference",
+  "question": "How should an agent distinguish absent knowledge from a filtered approximate-nearest-neighbor retrieval miss?",
+  "novelty": "Filtered retrieval completeness and exact-baseline acceptance; prior topic packages cover authorization, replay, trust and freshness.",
+  "tests": {
+    "runtime": "NOT_RUN",
+    "database": "NOT_RUN",
+    "integration": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "accessibility": "NOT_RUN"
+  },
+  "publication": {
+    "repository": "sorensadrgit-art/PROFOLIO",
+    "branch": "research-data",
+    "path": "research-inbox/agents-memory/20261101T222400Z-agents-memory/",
+    "commit_sha": null,
+    "commit_note": "Commit identity is established by the containing Git commit; no circular self-hash."
+  },
+  "limitations": [
+    "Documentary evidence only.",
+    "No complete dependency audit or hosted-provider compatibility test.",
+    "Documentation version and unreleased branch differences recorded."
+  ],
+  "qa_completed_at": "2026-11-01T22:23:32Z",
+  "validation": {
+    "json": "PASS",
+    "sensitive_data_scan": "PASS_BOUNDED_PATTERNS_AND_MANUAL_REVIEW",
+    "duplicate_review": "PASS",
+    "independent_documentary_review": "PASS"
+  }
+}

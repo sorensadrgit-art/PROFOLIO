@@ -1,0 +1,31 @@
+{
+  "repositories": [
+    {
+      "name": "Rough Notation",
+      "repository": "https://github.com/rough-stuff/rough-notation",
+      "purpose": "Decorative hand-drawn DOM/SVG annotations",
+      "source_commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "source_commit_date": "2020-10-30T01:30:31Z",
+      "source_version": "0.5.1",
+      "published_version": null,
+      "release_date": null,
+      "license": "MIT",
+      "license_source": "https://github.com/rough-stuff/rough-notation/blob/668ba82ac89c903d6f59c9351b9b85855da9882c/LICENSE",
+      "restrictions": "Retain copyright and permission notices; independent asset rights not established.",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "SVG",
+        "DOM"
+      ],
+      "dependencies": "RoughJS ^4.3.1 in devDependencies and source import; Rollup/TypeScript build tooling",
+      "demo": "https://roughnotation.com/",
+      "compatibility": "Browser DOM required; exact React/Next.js and distributed artifact untested",
+      "installation": "Future verified pinned npm package; not installed",
+      "hosting_api_mcp": "Application frontend; no backend/API/authentication/MCP required",
+      "costs": "No required paid service; hosting/layout/maintenance costs unmeasured",
+      "recommendation": "Evaluate narrowly against CSS baseline; source age and cleanup/style ownership require testing",
+      "status": "documentary_candidate"
+    }
+  ]
+}

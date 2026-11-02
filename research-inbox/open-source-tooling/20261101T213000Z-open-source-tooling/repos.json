@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T213000Z-open-source-tooling",
+  "repositories": [
+    {
+      "repository": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "purpose": "Local secret-pattern scanning of Git history, directories and streams",
+      "language": "Go",
+      "license": "MIT",
+      "license_source": "S2",
+      "source_commit": "5f6ec56cfa6f8c67648d863582c7ae2f206d5c1c",
+      "source_commit_date": "2026-10-23T20:44:59Z",
+      "observed_latest_github_release": "v8.30.1",
+      "release_date": "2026-03-21T02:17:58Z",
+      "build_go_directive": "1.24.11",
+      "maintenance": "README declares feature complete; future releases security patches only",
+      "selection": "Conditional shortlist for version-pinned local detection with separate content review",
+      "api_mcp": "Direct CLI evaluated; no MCP integration evaluated",
+      "costs": "Local/CI compute, storage and review; no inference required for direct CLI",
+      "runtime_tested": false,
+      "limitations": [
+        "Source and README defaults disagree",
+        "Release artifact not downloaded or executed",
+        "Scanner cannot establish confidentiality or authorization"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S10"
+      ]
+    }
+  ]
+}
+

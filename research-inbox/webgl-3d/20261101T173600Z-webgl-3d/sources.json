@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T173600Z-webgl-3d",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://threejs.org/docs/pages/Raycaster.html",
+      "title": "Raycaster",
+      "publisher": "Three.js",
+      "source_location": "Intersection; intersectObject",
+      "claims": [
+        "instanceId is an instance index",
+        "world-space point",
+        "distance order and face-side caveat"
+      ],
+      "accessed_at": "2026-11-01T17:32:43Z",
+      "evaluation_date": "2026-11-01",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official maintainer documentation, directly read with web retrieval.",
+      "extraction_limitations": "Moving documentation; no installed-version or runtime verification; no full-text mirror."
+    },
+    {
+      "id": "S2",
+      "url": "https://threejs.org/docs/pages/InstancedMesh.html",
+      "title": "InstancedMesh",
+      "publisher": "Three.js",
+      "source_location": "instanceMatrix; setMatrixAt; setColorAt; computeBoundingBox; computeBoundingSphere",
+      "claims": [
+        "local instance matrices and update flags",
+        "bounds recomputation responsibilities"
+      ],
+      "accessed_at": "2026-11-01T17:32:43Z",
+      "evaluation_date": "2026-11-01",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official maintainer documentation, directly read with web retrieval.",
+      "extraction_limitations": "Moving documentation; no installed-version or runtime verification; no full-text mirror."
+    },
+    {
+      "id": "S3",
+      "url": "https://threejs.org/docs/pages/Object3D.html",
+      "title": "Object3D",
+      "publisher": "Three.js",
+      "source_location": "matrix; matrixWorld; updateMatrixWorld; updateWorldMatrix",
+      "claims": [
+        "local/world matrix distinction and application update responsibility"
+      ],
+      "accessed_at": "2026-11-01T17:32:43Z",
+      "evaluation_date": "2026-11-01",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official maintainer documentation, directly read with web retrieval.",
+      "extraction_limitations": "Moving documentation; no installed-version or runtime verification; no full-text mirror."
+    },
+    {
+      "id": "S4",
+      "url": "https://r3f.docs.pmnd.rs/api/events",
+      "title": "Events — React Three Fiber",
+      "publisher": "Poimandres",
+      "source_location": "Event propagation; event data notes; Allow raycast without user interaction",
+      "claims": [
+        "farther-hit propagation and pointerout behavior",
+        "explicit stationary-pointer event update"
+      ],
+      "accessed_at": "2026-11-01T17:32:43Z",
+      "evaluation_date": "2026-11-01",
+      "applicable_version": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official maintainer documentation, directly read with web retrieval.",
+      "extraction_limitations": "Moving documentation; no installed-version or runtime verification; no full-text mirror."
+    }
+  ]
+}

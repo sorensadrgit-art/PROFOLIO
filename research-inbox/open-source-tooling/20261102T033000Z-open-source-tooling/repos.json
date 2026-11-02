@@ -1,0 +1,40 @@
+{
+  "run_id": "20261102T033000Z-open-source-tooling",
+  "repositories": [
+    {
+      "name": "jq",
+      "url": "https://github.com/jqlang/jq",
+      "purpose": "Local JSON transformation and explicit result predicates",
+      "decision": "Conditional shortlist for a reviewed bounded result adapter",
+      "language": "C",
+      "source_commit": "992db9b7e5e3059b764bf430bd97716829e99578",
+      "source_commit_date": "2026-11-01T12:19:41Z",
+      "observed_release": "1.8.2",
+      "release_date": "2026-06-20T14:11:27Z",
+      "licence": "MIT software; CC BY 3.0 documentation; included-code notices in COPYING",
+      "licence_url": "https://github.com/jqlang/jq/blob/992db9b7e5e3059b764bf430bd97716829e99578/COPYING",
+      "dependencies": "C/autotools source build, optional or bundled Oniguruma; decimal support build option",
+      "installation": "Official standalone binaries, container or source; not installed",
+      "hosting": "Local executable; no public hosting required",
+      "api_mcp": "CLI; no MCP wrapper evaluated or connected",
+      "authentication": "None for ordinary local processing",
+      "costs": "Local compute, memory and storage; no price benchmark",
+      "demo": "https://play.jqlang.org/",
+      "demo_tested": false,
+      "compatibility": "Distribution artifact, shell, installed build and application compatibility unverified",
+      "risks": [
+        "Last-output exit semantics",
+        "Empty collections",
+        "Suppressed errors",
+        "Untrusted data interpolation",
+        "Unbounded input size"
+      ],
+      "alternatives": [
+        "Language-native parser and assertions",
+        "Dedicated schema validator"
+      ],
+      "maintenance": "Observed release and commit only; no support guarantee"
+    }
+  ]
+}
+

@@ -1,0 +1,80 @@
+{
+  "evaluated_at": "2026-11-02T03:47:00Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Env Variables and Modes",
+      "url": "https://vite.dev/guide/env-and-mode",
+      "retrieved_at": "2026-11-02T03:46:00Z",
+      "evaluated_at": "2026-11-02T03:47:00Z",
+      "source_type": "official documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Directly read primary page through web tool",
+      "supports": "Build replacement, public strings, priorities, modes.",
+      "limitations": "Mutable page; installed and registry artifact compatibility not verified."
+    },
+    {
+      "id": "S2",
+      "title": "Shared Options",
+      "url": "https://vite.dev/config/shared-options#envprefix",
+      "retrieved_at": "2026-11-02T03:46:00Z",
+      "evaluated_at": "2026-11-02T03:47:00Z",
+      "source_type": "official documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Directly read primary page through web tool",
+      "supports": "envPrefix, define and publicDir exposure paths.",
+      "limitations": "Mutable page; installed and registry artifact compatibility not verified."
+    },
+    {
+      "id": "S3",
+      "title": "Building for Production",
+      "url": "https://vite.dev/guide/build",
+      "retrieved_at": "2026-11-02T03:46:00Z",
+      "evaluated_at": "2026-11-02T03:47:00Z",
+      "source_type": "official documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Directly read primary page through web tool",
+      "supports": "Static build, base path and old-client chunk failures.",
+      "limitations": "Mutable page; installed and registry artifact compatibility not verified."
+    },
+    {
+      "id": "S4",
+      "title": "Backend Integration",
+      "url": "https://vite.dev/guide/backend-integration",
+      "retrieved_at": "2026-11-02T03:46:00Z",
+      "evaluated_at": "2026-11-02T03:47:00Z",
+      "source_type": "official documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Directly read primary page through web tool",
+      "supports": "Manifest mapping and backend HTML integration.",
+      "limitations": "Mutable page; installed and registry artifact compatibility not verified."
+    },
+    {
+      "id": "S5",
+      "title": "Vite LICENSE",
+      "url": "https://github.com/vitejs/vite/blob/main/LICENSE",
+      "retrieved_at": "2026-11-02T03:46:00Z",
+      "evaluated_at": "2026-11-02T03:47:00Z",
+      "source_type": "maintainer repository licence",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Directly read primary page through web tool",
+      "supports": "Actual MIT notice and warranty terms.",
+      "limitations": "Mutable page; installed and registry artifact compatibility not verified."
+    }
+  ]
+}

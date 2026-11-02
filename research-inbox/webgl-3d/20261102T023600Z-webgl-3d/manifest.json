@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T023600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "Renderer counters need a measurement contract",
+  "scheduled_at": "2026-11-02T02:36:00Z",
+  "evaluation_started_at": "2026-11-02T02:34:13Z",
+  "created_at": "2026-11-02T02:36:24Z",
+  "status": "approved_documentary",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "research_kind": "bounded_engineering_note",
+  "original_synthesis": true,
+  "prior_packages_reviewed": 8,
+  "duplicate_check": "Live catalog, eight prior research files and topic directory read; no same-run or unfinished directory observed.",
+  "qa": {
+    "status": "APPROVED_DOCUMENTARY",
+    "independent_worker": true,
+    "review_file": "qa.md",
+    "reviewed_at": "2026-11-02T02:37:27Z",
+    "corrections": [
+      "Clarified WebGLInfo render.calls as draw calls."
+    ]
+  },
+  "tests": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_regex_and_manual_review",
+    "runtime": "not_performed",
+    "browser": "not_performed",
+    "gpu": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed"
+  },
+  "limitations": [
+    "Moving official documentation",
+    "Development snapshot is not verified npm release",
+    "Application lockfile and wrapper compatibility unknown",
+    "No executed fixture or device measurements"
+  ],
+  "publication": {
+    "branch": "research-data",
+    "package_commit_sha": null,
+    "method": "atomic package and append-only catalog, expected-head CAS"
+  }
+}

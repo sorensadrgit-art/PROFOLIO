@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T183000Z-open-source-tooling",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Repository README",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/README.md",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:36:25Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S2",
+      "title": "Root package manifest",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/package.json",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S3",
+      "title": "Repository licence transition",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/LICENSE",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S4",
+      "title": "CLI client guide",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/clients/cli/README.md",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S5",
+      "title": "Experimental connection CLI guide",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/clients/mcpdo/README.md",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S6",
+      "title": "Secret storage",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/docs/secret-storage.md",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S7",
+      "title": "Version 1 to 2 migration",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/docs/v1-to-v2-migration.md",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S8",
+      "title": "Synthetic test server fixtures",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/e3217388c8590bcf6796fd8d0528a875ade1ac1f/docs/test-servers.md",
+      "type": "primary_repository",
+      "retrieved_at": "2026-11-01T18:35:46Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+      "commit_date": "2026-10-28T18:29:12Z",
+      "version": "2.13.0",
+      "limitations": "Documentary source; not installed or executed."
+    },
+    {
+      "id": "S9",
+      "title": "Inspector 2.13.0 release",
+      "url": "https://github.com/modelcontextprotocol/inspector/releases/tag/2.13.0",
+      "type": "primary_release",
+      "retrieved_at": "2026-11-01T18:35:37Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "release_date": "2026-10-28T18:41:38Z",
+      "version": "2.13.0",
+      "limitations": "Release claims not independently runtime-tested."
+    },
+    {
+      "id": "S10",
+      "title": "Inspector security model",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/security",
+      "type": "primary_documentation",
+      "retrieved_at": "2026-11-01T18:35:52Z",
+      "evaluated_at": "2026-11-01T18:37:23Z",
+      "commit": null,
+      "release_date": null,
+      "version": null,
+      "limitations": "Live documentation; pinned repository governs version-specific interpretation."
+    }
+  ],
+  "failed_retrievals": [
+    {
+      "url": "https://registry.npmjs.org/@modelcontextprotocol/inspector/latest",
+      "retrieved_at": "2026-11-01T18:35:52Z",
+      "result": "inaccessible",
+      "metadata": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "repositories": [
+    {
+      "name": "ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "purpose": "Local lexical code navigation with explicit search scope",
+      "shortlist_status": "conditional_documentary",
+      "languages": [
+        "Rust"
+      ],
+      "version": "15.2.0",
+      "commit_sha": "91f5d22ef48bde459d90a8c7dbeab416e97d0f2b",
+      "commit_date": "2026-10-27T18:31:24Z",
+      "release_date": "2026-07-15T16:26:10Z",
+      "license": "Unlicense OR MIT",
+      "license_sources": [
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "source_build_rust": "1.96",
+      "dependencies": [
+        "grep",
+        "ignore",
+        "lexopt",
+        "serde_json",
+        "optional PCRE2"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "mcp_required": false,
+      "api_key_required": false,
+      "hosting": "Local CLI; no server required",
+      "costs": "Local compute/storage and optional calling-agent inference; no measured costs",
+      "artifact_verified": false,
+      "runtime_tested": false,
+      "limitations": [
+        "No dependency audit",
+        "No binary or registry artifact verification",
+        "No benchmark or confinement test"
+      ]
+    }
+  ]
+}

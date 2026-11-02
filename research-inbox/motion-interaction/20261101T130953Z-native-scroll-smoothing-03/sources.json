@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T130953Z-native-scroll-smoothing-03",
+  "topic_id": "motion-interaction",
+  "retrieved_at": "2026-11-01T13:09:53Z",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Lenis README",
+      "publisher": "darkroom.engineering / GitHub",
+      "url": "https://github.com/darkroomengineering/lenis/blob/main/README.md",
+      "source_type": "official_project_documentation",
+      "published_at": null,
+      "version_or_scope": "Repository README observed 2026-11-01; stable CDN example 1.3.27; MIT license; documents native scroll, GSAP integration, settings, limitations and nested scroll.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "native scroll model",
+        "GSAP ticker integration",
+        "anchors and nested scroll",
+        "syncTouch and Safari limitations",
+        "stable version context"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Lenis package registry",
+      "publisher": "npm",
+      "url": "https://www.npmjs.com/package/lenis",
+      "source_type": "package_registry_metadata",
+      "published_at": null,
+      "version_or_scope": "Package metadata observed 2026-11-01; version 1.3.27. Used for version cross-check only.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "Lenis 1.3.27 version cross-check"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Smooth scroll with Lenis and Motion",
+      "publisher": "Motion",
+      "url": "https://motion.dev/docs/lenis",
+      "source_type": "official_integration_documentation",
+      "published_at": null,
+      "version_or_scope": "Current documentation observed 2026-11-01; documents Lenis 1.3.26 reduced-motion behavior and Motion frame.setup integration.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "Motion frame.setup ordering",
+        "one Lenis loop and cleanup",
+        "native scroll position",
+        "main-thread wheel trade-off",
+        "reduced motion",
+        "nested scroll and iframe limitations"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "useScroll",
+      "publisher": "Motion",
+      "url": "https://motion.dev/docs/react-use-scroll",
+      "source_type": "official_api_documentation",
+      "published_at": null,
+      "version_or_scope": "Current React documentation observed 2026-11-01; package version not specified on page.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "scroll motion values",
+        "ScrollTimeline acceleration for eligible properties",
+        "trackContentSize behavior"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "ScrollTrigger",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+      "source_type": "official_api_documentation",
+      "published_at": null,
+      "version_or_scope": "GSAP v3 documentation observed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "ScrollTrigger native-scroll behavior",
+        "pin/scrub/snap",
+        "refresh and rendering synchronization",
+        "custom scroller support"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "ScrollTrigger.scrollerProxy()",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.scrollerProxy/",
+      "source_type": "official_api_documentation",
+      "published_at": null,
+      "version_or_scope": "GSAP v3 documentation; scrollerProxy added in 3.4.0.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "custom scrollTop/scrollLeft proxy semantics",
+        "when a proxy is needed"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "gsap.ticker",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/GSAP/gsap.ticker/",
+      "source_type": "official_api_documentation",
+      "published_at": null,
+      "version_or_scope": "GSAP v3 documentation observed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "ticker timing units",
+        "global lagSmoothing defaults and effects",
+        "tab throttling",
+        "global timing policy"
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "ScrollSmoother",
+      "publisher": "GSAP",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollSmoother/",
+      "source_type": "official_plugin_documentation",
+      "published_at": null,
+      "version_or_scope": "GSAP v3 plugin documentation; added in 3.10.0; Club/members-only access noted in documentation.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "native scroll and transformed content wrapper",
+        "ScrollTrigger integration",
+        "licensing/access consideration"
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "Firefox 159 release notes for developers",
+      "publisher": "Mozilla / MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/159",
+      "source_type": "official_browser_release_notes",
+      "published_at": "2026-10-27",
+      "version_or_scope": "Firefox 159 stable; scroll-driven animations enabled by default.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "new stable browser compatibility milestone"
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "WebKit Features for Safari 26.4",
+      "publisher": "WebKit",
+      "url": "https://webkit.org/blog/17862/webkit-features-for-safari-26-4/",
+      "source_type": "official_browser_engine_release_notes",
+      "published_at": "2026-03-24",
+      "version_or_scope": "Safari/WebKit 26.4; threaded scroll-driven animations run on compositor thread.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "Safari threaded scroll-driven animation behavior"
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Scroll-driven animation timelines",
+      "publisher": "MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines",
+      "source_type": "platform_documentation",
+      "published_at": null,
+      "version_or_scope": "Current MDN guide observed 2026-11-01; describes scroll-progress and view-progress timelines.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "scroll() and view() timeline semantics",
+        "scroll progress and view progress",
+        "asynchronous implementation caveat and authoring details"
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "Scroll-driven Animations Level 1",
+      "publisher": "W3C CSS Working Group",
+      "url": "https://www.w3.org/TR/scroll-animations-1/",
+      "source_type": "technical_specification",
+      "published_at": null,
+      "version_or_scope": "W3C Technical Report snapshot; specification describes async scrolling compatibility but does not require asynchronous sampling.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "scroll and view timeline model",
+        "user-agent asynchronous sampling is permitted, not required"
+      ]
+    },
+    {
+      "id": "S13",
+      "title": "Understanding Success Criterion 2.3.3: Animation from Interactions",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions",
+      "source_type": "accessibility_guidance",
+      "published_at": "2025-09-16",
+      "version_or_scope": "WCAG 2.2 SC 2.3.3, Level AAA; page updated 2025-09-16.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "interaction-triggered animation opt-out",
+        "parallax and vestibular risk"
+      ]
+    },
+    {
+      "id": "S14",
+      "title": "overscroll-behavior",
+      "publisher": "MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior",
+      "source_type": "platform_documentation",
+      "published_at": null,
+      "version_or_scope": "Current MDN CSS reference observed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "nested scroll chaining control"
+      ]
+    },
+    {
+      "id": "S15",
+      "title": "scroll-behavior",
+      "publisher": "MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior",
+      "source_type": "platform_documentation",
+      "published_at": null,
+      "version_or_scope": "Baseline widely available since March 2022; applies to navigation/CSSOM scroll, not ordinary user scrolling.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "native smooth anchor/programmatic scrolling",
+        "scope and user-agent discretion"
+      ]
+    },
+    {
+      "id": "S16",
+      "title": "CSS scroll anchoring",
+      "publisher": "MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll_anchoring",
+      "source_type": "platform_documentation",
+      "published_at": null,
+      "version_or_scope": "Current MDN guide observed 2026-11-01.",
+      "retrieved_at": "2026-11-01",
+      "supports": [
+        "browser scroll anchoring purpose",
+        "avoid broad overflow-anchor suppression"
+      ]
+    }
+  ]
+}

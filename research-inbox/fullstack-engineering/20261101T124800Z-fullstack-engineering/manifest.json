@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T124800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "scheduled_at": "2026-11-01T12:48:00Z",
+  "scheduled_local": "2026-11-01T07:48:00-05:00",
+  "timezone": "America/New_York",
+  "execution_kind": "scheduled",
+  "evaluated_at": "2026-11-01T12:53:33Z",
+  "title": "After a successful mutation: choose freshness without confusing cache invalidation with commit",
+  "research_status": "published",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "github_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
+  "commit_sha_semantics": "Original verified artifact commit; filled by subsequent receipt commit, never claimed as self-referential hash.",
+  "runtime_tests": "NOT_RUN",
+  "limitations": [
+    "Documentary research only",
+    "Mutable source documentation",
+    "No installed application or dependency versions verified"
+  ],
+  "reviewed_at": "2026-11-01T12:54:40Z",
+  "remote_verified_at": "2026-11-01T12:56:16Z"
+}

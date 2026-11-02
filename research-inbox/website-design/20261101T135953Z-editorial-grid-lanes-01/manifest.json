@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T135953Z-editorial-grid-lanes-01",
+  "topic_id": "website-design",
+  "title": "A content-first editorial grid system for PROFOLIO: Grid Lanes, subgrid, container queries, and reading order",
+  "created_at": "2026-11-01T13:59:53Z",
+  "research_status": "complete",
+  "review_status": "APPROVED_DOCUMENTARY",
+  "source_count": 9,
+  "artifacts": [
+    "research.md",
+    "sources.json",
+    "manifest.json"
+  ],
+  "deduplication": {
+    "catalog_checked": true,
+    "topic_directory_checked": true,
+    "prior_packages_reviewed": [
+      "20261101T060321-premium-editorial-system-01",
+      "20261101T124945Z-website-design-smoke"
+    ],
+    "new_question": "When to use CSS Grid, subgrid, container queries or Grid Lanes for a premium project gallery while preserving logical reading and keyboard order."
+  },
+  "evidence_summary": {
+    "primary_sources": 9,
+    "official_specifications": 1,
+    "browser_engine_documentation": 2,
+    "mdn_guides_and_references": 6,
+    "evidence_cutoff": "2026-11-01"
+  },
+  "checks": {
+    "json_validation": "passed_prepublication",
+    "markdown_structure": "passed",
+    "source_identifier_uniqueness": "passed",
+    "source_coverage": "passed",
+    "duplicate_run_id": "passed",
+    "target_path_nonexistence": "passed",
+    "secret_and_sensitive_data_scan": "passed_bounded_pattern_scan_and_manual_review",
+    "remote_file_readback": "passed_all_three_files_fetched_and_json_validated",
+    "catalog_registration": "pending",
+    "runtime": "not_performed",
+    "accessibility": "not_performed",
+    "performance": "not_performed",
+    "integration": "not_performed"
+  },
+  "publication": {
+    "status": "published_remote_verified",
+    "branch": "research-data",
+    "package_path": "research-inbox/website-design/20261101T135953Z-editorial-grid-lanes-01/",
+    "package_commit_sha": "80481dbdf9e60363be4c28824a19f35820c174c1",
+    "verified_remote_commit_sha": "80481dbdf9e60363be4c28824a19f35820c174c1",
+    "verified_at": "2026-11-01T14:00:00Z",
+    "remote_files_exact_match": true
+  },
+  "limitations": [
+    "Documentary review only; no runtime browser matrix or accessibility testing",
+    "No performance benchmark or implementation in PROFOLIO",
+    "Grid Lanes remains limited availability according to MDN at research time",
+    "CSS Grid Layout Module Level 3 is a Working Draft"
+  ]
+}

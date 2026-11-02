@@ -1,0 +1,176 @@
+[
+  {
+    "source_id": "S01",
+    "title": "<ViewTransition> – React",
+    "publisher": "React",
+    "url": "https://react.dev/reference/react/ViewTransition",
+    "source_type": "official_api_reference",
+    "version_or_status": "React documentation version 19.3",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "ViewTransition activation and React Transition requirements",
+      "React-owned startViewTransition orchestration",
+      "font/layout/navigation coordination",
+      "flushSync caveat",
+      "shared element naming and cleanup",
+      "DOM-only scope",
+      "reduced-motion requirement",
+      "popstate and router integration caveats"
+    ],
+    "license_note": "Official documentation; no license assertion made for reproduced text. This package paraphrases."
+  },
+  {
+    "source_id": "S02",
+    "title": "View Transitions – React Router",
+    "publisher": "React Router",
+    "url": "https://reactrouter.com/how-to/view-transitions",
+    "source_type": "official_framework_guide",
+    "version_or_status": "Current documentation selector shows React Router 8.5.1; requires React and React DOM 19.3+ for React ViewTransition",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "Persistent ViewTransition boundary around Outlet",
+      "Router startTransition behavior",
+      "deprecated legacy router viewTransition props",
+      "popstate Back/Forward transition caveat",
+      "migration advice"
+    ],
+    "license_note": "Official documentation; content paraphrased."
+  },
+  {
+    "source_id": "S03",
+    "title": "View Transition API – Web APIs",
+    "publisher": "MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API",
+    "source_type": "official_web_api_guide",
+    "version_or_status": "Current MDN reference; feature-level compatibility varies",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "SPA and MPA transition scope",
+      "snapshot model and transition concepts",
+      "accessibility risks around focus and duplicate views",
+      "progressive enhancement and skip behavior"
+    ],
+    "license_note": "MDN content licensing applies; package uses paraphrase and short factual summaries."
+  },
+  {
+    "source_id": "S04",
+    "title": "ViewTransition – Web APIs",
+    "publisher": "MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition",
+    "source_type": "official_web_api_reference",
+    "version_or_status": "Baseline 2025; newly available since October 2025, with individual feature support varying",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "ViewTransition interface",
+      "finished and ready promises",
+      "skipTransition behavior",
+      "same-document and cross-document transition objects"
+    ],
+    "license_note": "MDN content licensing applies; package uses paraphrase."
+  },
+  {
+    "source_id": "S05",
+    "title": "Layout animation – Motion for React",
+    "publisher": "Motion",
+    "url": "https://motion.dev/docs/react-layout-animations",
+    "source_type": "official_library_documentation",
+    "version_or_status": "Current online documentation; exact package version not stated on page",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "Motion layout/layoutId behavior",
+      "live element transform-based layout projection",
+      "comparison with snapshot-based View Transitions",
+      "interruptibility, pointer interaction, scroll and scaling caveats"
+    ],
+    "license_note": "Official documentation; package uses paraphrase, not copied examples."
+  },
+  {
+    "source_id": "S06",
+    "title": "View animations – Motion",
+    "publisher": "Motion",
+    "url": "https://motion.dev/docs/animate-view",
+    "source_type": "official_library_documentation",
+    "version_or_status": "Current online documentation; exact package version not stated on page",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "animateView wrapper around native View Transition API",
+      "queueing and interruption options",
+      "shared element matching",
+      "scroll-offset limitation"
+    ],
+    "license_note": "Official documentation; package uses paraphrase."
+  },
+  {
+    "source_id": "S07",
+    "title": "ScrollRestoration – React Router",
+    "publisher": "React Router",
+    "url": "https://reactrouter.com/api/components/ScrollRestoration",
+    "source_type": "official_api_reference",
+    "version_or_status": "Current documentation selector shows React Router 8.5.1",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "scroll restoration on location changes",
+      "getKey and storageKey behavior",
+      "scroll flash prevention"
+    ],
+    "license_note": "Official documentation; package uses paraphrase."
+  },
+  {
+    "source_id": "S08",
+    "title": "Same Document Transitions",
+    "publisher": "Chrome for Developers – Modern Web Guidance",
+    "url": "https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/same-document-transitions",
+    "source_type": "official_browser_guidance",
+    "version_or_status": "Last updated 2026-07-18",
+    "published_or_updated": "2026-07-18",
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "shared element uniqueness",
+      "temporary name cleanup",
+      "focus routing after route changes",
+      "reduced-motion handling",
+      "progressive enhancement",
+      "text snapshot aspect-ratio guidance"
+    ],
+    "license_note": "Page states content is CC BY 4.0 except code samples, which are Apache 2.0; no code samples reproduced."
+  },
+  {
+    "source_id": "S09",
+    "title": "Same-document view transitions for single-page applications",
+    "publisher": "Chrome for Developers",
+    "url": "https://developer.chrome.com/docs/web-platform/view-transitions/same-document",
+    "source_type": "official_browser_guide",
+    "version_or_status": "Published 2021-08-17; last updated 2024-09-25; used for mechanism explanation only",
+    "published_or_updated": "2024-09-25",
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "old/new snapshot sequence",
+      "transition pseudo-element tree",
+      "uniqueness of view-transition-name",
+      "one active transition behavior"
+    ],
+    "license_note": "Official documentation; content paraphrased."
+  },
+  {
+    "source_id": "S10",
+    "title": "startTransition – React",
+    "publisher": "React",
+    "url": "https://react.dev/reference/react/startTransition",
+    "source_type": "official_api_reference",
+    "version_or_status": "React documentation version 19.3",
+    "published_or_updated": null,
+    "retrieved_at": "2026-11-01",
+    "claims_supported": [
+      "marking updates as non-blocking React Transitions",
+      "interruption and batching behavior"
+    ],
+    "license_note": "Official documentation; package uses paraphrase."
+  }
+]

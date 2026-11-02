@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T064013-webgl-resilience-02",
+  "topic_id": "webgl-3d",
+  "title": "Resilient 3D runtime architecture for PROFOLIO: R3F lifecycle fixes, WebGL context recovery, and WebGPU device loss",
+  "executed_at": "2026-11-01T06:40:13-05:00",
+  "research_question": "How should PROFOLIO keep its 3D experience available and avoid GPU/renderer leaks across React hide/unmount cycles, WebGL context loss, WebGPU device loss, background tabs, and mobile resource pressure?",
+  "status": "published",
+  "package_path": "research-inbox/webgl-3d/20261101T064013-webgl-resilience-02/",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json"
+  ],
+  "source_count": 15,
+  "source_quality": {
+    "primary_or_official_sources": 15,
+    "independent_benchmarks": 0,
+    "notes": "Research uses official R3F release notes and API docs, Three.js manuals, MDN platform API docs, Khronos WebGL guidance, and the W3C WebGPU Editor's Draft. No PROFOLIO app lockfile or target-device benchmark was available."
+  },
+  "version_context": {
+    "react_three_fiber_stable": "v9.8.2 release dated 2026-10-15; verify project peer dependencies before adoption",
+    "react_three_fiber_prerelease": "v10.0.0-alpha.6 release dated 2026-10-17; pre-release only",
+    "threejs": "Current official WebGLRenderer and WebGPURenderer docs; exact npm semver not pinned by retrieved docs",
+    "webgpu_spec": "W3C GPU for the Web Editor's Draft dated 2026-10-30",
+    "browser_api_docs": "MDN pages retrieved 2026-11-01; WebGPU device-loss pages marked limited availability"
+  },
+  "relationship_to_prior_research": {
+    "prior_run_id": "20261101T053112-3d-webgl-engineering-01",
+    "delta": "Adds R3F 9.8.x lifecycle release changes, React Activity hide/show behavior, portal and DPR fixes, explicit WebGL/WebGPU loss recovery distinctions, renderer ownership, and a failure-state QA matrix. Earlier asset pipeline and compression recommendations are not duplicated."
+  },
+  "quality_assurance": {
+    "duplicate_check": "passed: catalog had one prior webgl-3d package; this run addresses an uncovered resilience/lifecycle follow-up. All three target file paths returned 404 before creation.",
+    "source_provenance": "passed: sources.json records publisher, URL, retrieval date, release/publication date where available, version/scope, evidence summary, and report usage.",
+    "licensing": "passed: original synthesis; no third-party assets or long source passages copied.",
+    "secrets_scan": "passed: report and metadata contain no credentials, tokens, private URLs, or personal data.",
+    "limitations": "No PROFOLIO application source/lockfile or physical-device benchmark was available. R3F v10 alpha 6 is pre-release. No stable public Three.js WebGPURenderer app-level device-loss callback contract was found in the public docs reviewed.",
+    "catalog_update": "passed: catalog was refreshed before each serialized read-modify-write; unique run ID verified; global and webgl-3d topic entries point to the corrected research-file commit."
+  },
+  "publication": {
+    "repository": "sorensadrgit-art/PROFOLIO",
+    "branch": "research-data",
+    "catalog_path": "research-inbox/catalog.json",
+    "research_file_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
+    "sources_file_commit_sha": "51ea7d09edd5dcb5b5e15580e1cc11df579294bb",
+    "initial_manifest_commit_sha": "6883418ea9e6c8229c4a57360dbf361ba36d5299",
+    "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
+    "catalog_commit_sha": "3a8154a45dabfcd58492bf4d16bc3f330b64e35d",
+    "catalog_blob_sha": "a9fb33e7890e5322efb86d10f5da1daaa6405a2b",
+    "manifest_commit_tracking_note": "The initial manifest commit is recorded. The final manifest update is verified by remote blob read-back and its GitHub file history; a manifest cannot contain its own resulting commit SHA without another self-referential update."
+  }
+}

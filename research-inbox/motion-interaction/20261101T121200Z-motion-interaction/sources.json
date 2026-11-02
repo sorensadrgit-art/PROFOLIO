@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "AnimatePresence — Motion for React",
+      "url": "https://motion.dev/docs/react-animate-presence",
+      "publisher": "Motion",
+      "retrieved_at": "2026-11-01T12:16:58Z",
+      "evaluated_on": "2026-11-01",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "source_type": "official_documentation",
+      "claims": "Exit DOM retention, unique keys, presence state, completion callback",
+      "limitation": "Live unpinned documentation; no application runtime test."
+    },
+    {
+      "id": "S2",
+      "title": "Dialog (Modal) Pattern",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+      "publisher": "W3C WAI",
+      "retrieved_at": "2026-11-01T12:16:58Z",
+      "evaluated_on": "2026-11-01",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "source_type": "official_documentation",
+      "claims": "Keyboard/focus modal interaction",
+      "limitation": "Live unpinned documentation; no application runtime test."
+    },
+    {
+      "id": "S3",
+      "title": "<dialog> HTML dialog element",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog",
+      "publisher": "MDN Web Docs",
+      "retrieved_at": "2026-11-01T12:16:58Z",
+      "evaluated_on": "2026-11-01",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "source_type": "official_documentation",
+      "claims": "Native modal semantics and CSS exit caveats",
+      "limitation": "Live unpinned documentation; no application runtime test."
+    },
+    {
+      "id": "S4",
+      "title": "inert HTML global attribute",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert",
+      "publisher": "MDN Web Docs",
+      "retrieved_at": "2026-11-01T12:16:58Z",
+      "evaluated_on": "2026-11-01",
+      "release_date": null,
+      "commit_date": null,
+      "version": null,
+      "source_type": "official_documentation",
+      "claims": "Inert subtree focus and interaction",
+      "limitation": "Live unpinned documentation; no application runtime test."
+    }
+  ]
+}

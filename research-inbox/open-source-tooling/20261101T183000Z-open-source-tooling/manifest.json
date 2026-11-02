@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261101T183000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "title": "A successful MCP connection is not a session test",
+  "scheduled_at": "2026-11-01T18:30:00Z",
+  "evaluated_at": "2026-11-01T18:38:34Z",
+  "status": "APPROVED_DOCUMENTARY",
+  "question": "When should MCP diagnostic verification use a one-shot client versus preserve a connection?",
+  "source_count": 10,
+  "repository_count": 1,
+  "interfaces_compared": 2,
+  "independent_qa": {
+    "status": "PASS",
+    "kind": "documentary",
+    "artifact": "qa.md"
+  },
+  "checks": {
+    "json_validation": "PASS",
+    "duplicate_check": "PASS",
+    "bounded_sensitive_data_scan": "PASS",
+    "runtime": "NOT_RUN",
+    "integration": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "accessibility": "NOT_RUN",
+    "security_testing": "NOT_RUN"
+  },
+  "limitations": [
+    "npm registry artifact metadata unverified",
+    "No installation or live server operation",
+    "Source review is not a deployment or private-data suitability assessment"
+  ],
+  "files": [
+    {
+      "path": "research.md",
+      "sha256": "71a823674d7f57f55b219ea86fe86af89e4d06397aab37600dbd59010df60294",
+      "bytes": 7124
+    },
+    {
+      "path": "sources.json",
+      "sha256": "e1db295938c115a5e6da6b91aaf6454666f0ec88c60b21cefaebaa8e5bcddc4f",
+      "bytes": 5494
+    },
+    {
+      "path": "repos.json",
+      "sha256": "9ea667d9bae73c1d13c306f8d6ac6ab51c8f1dccd2b07abeff1699ff51f8c43a",
+      "bytes": 2144
+    },
+    {
+      "path": "qa.md",
+      "sha256": "d81830dfe661b933bd9f18976fe53a6d0c87a13bda1834a9a94771087db03f2f",
+      "bytes": 1211
+    }
+  ],
+  "publication": {
+    "branch": "research-data",
+    "path": "research-inbox/open-source-tooling/20261101T183000Z-open-source-tooling/",
+    "commit_sha": null,
+    "note": "Commit identity is verified outside self-referential package content."
+  }
+}

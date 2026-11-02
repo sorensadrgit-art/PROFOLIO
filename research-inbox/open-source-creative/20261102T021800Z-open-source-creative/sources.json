@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "id": "R1",
+      "title": "Rough Notation README",
+      "url": "https://github.com/rough-stuff/rough-notation/blob/668ba82ac89c903d6f59c9351b9b85855da9882c/README.md",
+      "retrieved_at": "2026-11-02T02:14:01Z",
+      "evaluated_at": "2026-11-02T02:14:11Z",
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "commit_date": "2020-10-30T01:30:31Z",
+      "version": "0.5.1 (source manifest, not verified registry artifact)",
+      "release_date": null,
+      "provenance": "Official repository file at observed default-branch commit",
+      "limitations": "Static source inspection only; distributed artifact not verified"
+    },
+    {
+      "id": "R2",
+      "title": "Rough Notation source package manifest",
+      "url": "https://github.com/rough-stuff/rough-notation/blob/668ba82ac89c903d6f59c9351b9b85855da9882c/package.json",
+      "retrieved_at": "2026-11-02T02:14:01Z",
+      "evaluated_at": "2026-11-02T02:14:11Z",
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "commit_date": "2020-10-30T01:30:31Z",
+      "version": "0.5.1 (source manifest, not verified registry artifact)",
+      "release_date": null,
+      "provenance": "Official repository file at observed default-branch commit",
+      "limitations": "Static source inspection only; distributed artifact not verified"
+    },
+    {
+      "id": "R3",
+      "title": "Rough Notation MIT licence",
+      "url": "https://github.com/rough-stuff/rough-notation/blob/668ba82ac89c903d6f59c9351b9b85855da9882c/LICENSE",
+      "retrieved_at": "2026-11-02T02:14:01Z",
+      "evaluated_at": "2026-11-02T02:14:11Z",
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "commit_date": "2020-10-30T01:30:31Z",
+      "version": "0.5.1 (source manifest, not verified registry artifact)",
+      "release_date": null,
+      "provenance": "Official repository file at observed default-branch commit",
+      "limitations": "Static source inspection only; distributed artifact not verified"
+    },
+    {
+      "id": "R4",
+      "title": "Rough Notation annotation implementation",
+      "url": "https://github.com/rough-stuff/rough-notation/blob/668ba82ac89c903d6f59c9351b9b85855da9882c/src/rough-notation.ts",
+      "retrieved_at": "2026-11-02T02:14:01Z",
+      "evaluated_at": "2026-11-02T02:14:11Z",
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "commit_date": "2020-10-30T01:30:31Z",
+      "version": "0.5.1 (source manifest, not verified registry artifact)",
+      "release_date": null,
+      "provenance": "Official repository file at observed default-branch commit",
+      "limitations": "Static source inspection only; distributed artifact not verified"
+    },
+    {
+      "id": "R5",
+      "title": "Rough Notation official demonstrations",
+      "url": "https://roughnotation.com/",
+      "retrieved_at": "2026-11-02T02:13:56Z",
+      "evaluated_at": "2026-11-02T02:14:11Z",
+      "commit": null,
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "provenance": "Maintainer website via web retrieval",
+      "limitations": "Text read only; demonstrations not operated; size claims not benchmarked"
+    },
+    {
+      "id": "R6",
+      "title": "Rough Notation latest observed default-branch commit",
+      "url": "https://api.github.com/repos/rough-stuff/rough-notation/commits?per_page=1",
+      "retrieved_at": "2026-11-02T02:13:56Z",
+      "evaluated_at": "2026-11-02T02:14:11Z",
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "commit_date": "2020-10-30T01:30:31Z",
+      "version": null,
+      "release_date": null,
+      "provenance": "GitHub public API",
+      "limitations": "Observed activity, not proof of abandonment or future support"
+    }
+  ],
+  "failed_metadata_checks": [
+    {
+      "url": "https://api.github.com/repos/rough-stuff/rough-notation/releases/latest",
+      "result": "404; release unknown"
+    },
+    {
+      "url": "https://registry.npmjs.org/rough-notation/latest",
+      "result": "web tool inaccessible; npm version/artifact unknown"
+    }
+  ]
+}

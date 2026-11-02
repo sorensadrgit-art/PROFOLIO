@@ -1,0 +1,1980 @@
+{
+  "schema_version": "1.0",
+  "repository": "sorensadrgit-art/PROFOLIO",
+  "branch": "research-data",
+  "storage_root": "research-inbox/",
+  "generated_at": "2026-11-01T14:00:00Z",
+  "packages": [
+    {
+      "run_id": "20261101T053112-3d-webgl-engineering-01",
+      "topic_id": "webgl-3d",
+      "title": "Production-ready 3D delivery for PROFOLIO: asset pipeline, renderer compatibility, and runtime performance",
+      "path": "research-inbox/webgl-3d/20261101T053112-3d-webgl-engineering-01/",
+      "created_at": "2026-11-01T05:31:12-05:00",
+      "status": "published",
+      "source_count": 24,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "2800302089cbe51cc1dd9cf01b49c2031b8497f5",
+      "summary": "Evidence-based architecture guidance for WebGL/WebGPU renderer selection, Blender-to-glTF optimization and validation, R3F performance/lifecycle, Spline trade-offs, and mobile resilience."
+    },
+    {
+      "run_id": "20261101T060321-premium-editorial-system-01",
+      "topic_id": "website-design",
+      "title": "Premium non-3D website design: an editorial system that stays cinematic, accessible, and fast",
+      "path": "research-inbox/website-design/20261101T060321-premium-editorial-system-01/",
+      "created_at": "2026-11-01T06:03:21-05:00",
+      "status": "published",
+      "source_count": 17,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "afd8dc27b68d8ce70201ce111d5b9db39d458c64",
+      "summary": "Evidence-based non-3D design system guidance: luxury/editorial case patterns, token architecture, variable typography, OKLCH with contrast validation, responsive composition, glass and motion as progressive enhancements, WCAG 2.2, and media/Core Web Vitals constraints."
+    },
+    {
+      "run_id": "20261101T061350-motion-orchestration-architecture-01",
+      "topic_id": "motion-interaction",
+      "title": "A coherent motion system for PROFOLIO: choosing the right scroll engine, owning animated properties, and making motion resilient",
+      "path": "research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/",
+      "created_at": "2026-11-01T06:13:50-05:00",
+      "status": "published",
+      "source_count": 24,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "62d68b942c8dfd6c3bb30935722f0a846e169b2c",
+      "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
+    },
+    {
+      "run_id": "20261101T064013-webgl-resilience-02",
+      "topic_id": "webgl-3d",
+      "title": "Resilient 3D runtime architecture for PROFOLIO: R3F lifecycle fixes, WebGL context recovery, and WebGPU device loss",
+      "path": "research-inbox/webgl-3d/20261101T064013-webgl-resilience-02/",
+      "created_at": "2026-11-01T06:40:13-05:00",
+      "status": "published",
+      "source_count": 15,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
+      "summary": "Follow-up to the initial asset-pipeline report: current R3F 9.8.1/9.8.2 lifecycle fixes, v10 alpha WebGPU-first migration implications, explicit WebGL context and WebGPU device-loss recovery, renderer ownership, lazy/hidden scene lifecycle, and failure-state QA matrix."
+    },
+    {
+      "run_id": "20261101T113600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "Prevent stale GLB loads from attaching after a route changes",
+      "path": "research-inbox/webgl-3d/20261101T113600Z-webgl-3d/",
+      "created_at": "2026-11-01T11:44:41Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Narrow implementation addendum: conditional request cancellation versus stale-completion guards and exclusive/shared resource ownership. No runtime testing.",
+      "package_commit_sha": "4cefa9a937e821588e368b6f5bc46fd30d4741bd"
+    },
+    {
+      "run_id": "20261101T070845-view-transition-navigation-01",
+      "topic_id": "motion-interaction",
+      "title": "Route transitions as a motion system: React ViewTransition, browser snapshots, Motion layout, and scroll/focus continuity",
+      "path": "research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/",
+      "created_at": "2026-11-01T07:08:45-05:00",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "5c5c36edfee0648717845143a489208f8458bd66",
+      "summary": "New navigation-layer research: React 19.3 ViewTransition and React Router 8.5.1 guidance, snapshot versus live Motion layout trade-offs, shared-element identity, focus routing, scroll restoration, Back/Forward caveats, reduced-motion and progressive enhancement."
+    },
+    {
+      "run_id": "20261101T121200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "Animated dialog exits: separate visual presence from interaction ownership",
+      "path": "research-inbox/motion-interaction/20261101T121200Z-motion-interaction/",
+      "created_at": "2026-11-01T12:19:31Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Narrow dialog-lifecycle addendum: retained exit DOM, modal interaction ownership, focus restoration and stale-close guards. Documentary review only; no runtime or accessibility testing.",
+      "package_commit_sha": "7e45281505fd8a4f2fe213cbf8061f993c9e7bcb"
+    },
+    {
+      "run_id": "20261101T123218Z-tsl-material-bridge-03",
+      "topic_id": "webgl-3d",
+      "title": "A portable shader and material architecture for PROFOLIO: TSL, WebGPU/WebGL backends, and the Blender-to-glTF boundary",
+      "path": "research-inbox/webgl-3d/20261101T123218Z-tsl-material-bridge-03/",
+      "created_at": "2026-11-01T07:32:18-05:00",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 13,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "88a9ef5551fa2025a91fce5a2d0d4ad3b597a38f",
+      "summary": "New shader/material portability research: distinguishes WebGPURenderer WebGL2 backend fallback from legacy WebGLRenderer, maps TSL graph/uniform lifecycles, defines Blender 5.4 Principled BSDF to glTF PBR boundaries, checks material-extension support, and documents R3F v10 RenderPipeline/experimental compute implications."
+    },
+    {
+      "run_id": "20261101T123000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "Browser automation: deterministic tests, MCP tools, or a browser-agent loop?",
+      "path": "research-inbox/open-source-tooling/20261101T123000Z-open-source-tooling/",
+      "created_at": "2026-11-01T12:34:32Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 14,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json"
+      ],
+      "summary": "Three-tool shortlist comparing scripted Playwright tests, Playwright MCP and Browser Use; verified licences, version caveats, security boundaries and untested evaluation plan.",
+      "package_commit_sha": "43bc08f81b7368964bf6f79717af40acdeca3ae0"
+    },
+    {
+      "run_id": "20261101T124211Z-agents-memory-smoke",
+      "topic_id": "agents-memory",
+      "title": "Project labels are not authorization: scoped recall for MCP memory services",
+      "path": "research-inbox/agents-memory/20261101T124211Z-agents-memory-smoke/",
+      "created_at": "2026-11-01T12:47:05Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract.",
+      "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e"
+    },
+    {
+      "run_id": "20261101T124229Z-open-source-creative-smoke",
+      "topic_id": "open-source-creative",
+      "title": "Embla or Keen for an original editorial portfolio rail?",
+      "path": "research-inbox/open-source-creative/20261101T124229Z-open-source-creative-smoke/",
+      "created_at": "2026-11-01T12:47:21Z",
+      "scheduled_at": "2026-11-01T12:42:29.430845Z",
+      "execution_kind": "manual_smoke",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 11,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only.",
+      "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a"
+    },
+    {
+      "run_id": "20261101T124945Z-website-design-smoke",
+      "topic_id": "website-design",
+      "title": "Premium controls in forced-colors mode: preserve affordance, not the palette",
+      "path": "research-inbox/website-design/20261101T124945Z-website-design-smoke/",
+      "created_at": "2026-11-01T12:53:44Z",
+      "scheduled_at": "2026-11-01T12:49:45.510387Z",
+      "execution_kind": "manual_smoke",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
+      "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
+    },
+    {
+      "run_id": "20261101T124800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "After a successful mutation: choose freshness without confusing cache invalidation with commit",
+      "path": "research-inbox/fullstack-engineering/20261101T124800Z-fullstack-engineering/",
+      "created_at": "2026-11-01T12:54:48Z",
+      "scheduled_at": "2026-11-01T12:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
+      "summary": "Narrow Next.js mutation-to-cache consistency reference: updateTag versus revalidateTag, transaction receipts and partial failure. Documentary review only."
+    },
+    {
+      "run_id": "20261101T130953Z-native-scroll-smoothing-03",
+      "topic_id": "motion-interaction",
+      "title": "Smooth scroll is a cost, not a default: a native-first orchestration policy for PROFOLIO",
+      "path": "research-inbox/motion-interaction/20261101T130953Z-native-scroll-smoothing-03/",
+      "created_at": "2026-11-01T13:09:53Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 16,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
+      "summary": "Native-first scroll orchestration decision: Firefox 159 enables CSS scroll-driven animations by default; compares Lenis 1.3.27 main-thread wheel smoothing with Motion frame.setup and GSAP ticker integration, scrollerProxy requirements, nested-scroll/reduced-motion safeguards and a 12-scenario prototype matrix. Documentary only; no runtime benchmark."
+    },
+    {
+      "run_id": "20261101T132400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Resuming an agent is not exactly-once execution: checkpoint and effect receipts",
+      "path": "research-inbox/agents-memory/20261101T132400Z-agents-memory/",
+      "created_at": "2026-11-01T13:31:11Z",
+      "scheduled_at": "2026-11-01T13:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
+      "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
+    },
+    {
+      "run_id": "20261101T135953Z-editorial-grid-lanes-01",
+      "topic_id": "website-design",
+      "title": "A content-first editorial grid system for PROFOLIO: Grid Lanes, subgrid, container queries, and reading order",
+      "path": "research-inbox/website-design/20261101T135953Z-editorial-grid-lanes-01/",
+      "created_at": "2026-11-01T13:59:53Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 9,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "fbf6dd322fa6acc8c37c3697e5764d90fd1b6f23",
+      "summary": "New layout-engineering addendum: compares CSS Grid, subgrid, container queries and progressive Grid Lanes for premium project galleries; documents masonry backtracking and reading-order risks, limited reading-flow support, and image geometry safeguards. Documentary only."
+    },
+    {
+      "run_id": "20261101T140000Z-website-design",
+      "topic_id": "website-design",
+      "title": "Editorial headlines that survive real text: wrapping is a layout contract",
+      "path": "research-inbox/website-design/20261101T140000Z-website-design/",
+      "created_at": "2026-11-01T14:03:40Z",
+      "scheduled_at": "2026-11-01T14:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
+      "summary": "Editorial text geometry under spacing overrides, narrow widths and long names; balanced wrapping versus intrinsic sizing. Documentary only."
+    },
+    {
+      "run_id": "20261101T141800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "A detail viewer, not another carousel: PhotoSwipe or Yet Another React Lightbox?",
+      "path": "research-inbox/open-source-creative/20261101T141800Z-open-source-creative/",
+      "created_at": "2026-11-01T14:21:31Z",
+      "scheduled_at": "2026-11-01T14:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 13,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json"
+      ],
+      "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
+      "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9"
+    },
+    {
+      "run_id": "20261101T143600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "One cached GLB, two independent animated characters",
+      "path": "research-inbox/webgl-3d/20261101T143600Z-webgl-3d/",
+      "created_at": "2026-11-01T14:43:18Z",
+      "scheduled_at": "2026-11-01T14:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
+      "package_commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0"
+    },
+    {
+      "run_id": "20261101T151200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "Drag is a preview, not a command: cancel-safe interaction with a click alternative",
+      "path": "research-inbox/motion-interaction/20261101T151200Z-motion-interaction/",
+      "created_at": "2026-11-01T15:19:44Z",
+      "scheduled_at": "2026-11-01T15:12:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "0f8370023c77593c3c47ae74723bfb189728e05e",
+      "summary": "Cancel-safe drag preview/commit ownership, native scrolling and non-drag alternatives. Documentary only; no runtime testing."
+    },
+    {
+      "run_id": "20261101T153000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "Evaluate the agent, not its confidence: Promptfoo or DeepEval?",
+      "path": "research-inbox/open-source-tooling/20261101T153000Z-open-source-tooling/",
+      "created_at": "2026-11-01T15:39:20Z",
+      "scheduled_at": "2026-11-01T15:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 14,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "aeb9c9451f1419215c51face48bebab30e572e4e",
+      "summary": "Two-tool evaluation-harness shortlist, deterministic versus judge gates, version divergence and telemetry/MCP privacy caveats. Documentary only."
+    },
+    {
+      "run_id": "20261101T154800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "Two editors, one record: prevent lost updates at the write boundary",
+      "path": "research-inbox/fullstack-engineering/20261101T154800Z-fullstack-engineering/",
+      "created_at": "2026-11-01T15:50:54Z",
+      "scheduled_at": "2026-11-01T15:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "package_commit_sha": "064a8eed189bd9c157f8ce78404f6494488bbae2",
+      "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
+    },
+    {
+      "run_id": "20261101T162400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Retrieved memory is evidence, not a tool instruction",
+      "path": "research-inbox/agents-memory/20261101T162400Z-agents-memory/",
+      "created_at": "2026-11-01T16:26:55Z",
+      "scheduled_at": "2026-11-01T16:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
+      "package_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152"
+    },
+    {
+      "run_id": "20261101T170000Z-website-design",
+      "topic_id": "website-design",
+      "title": "A premium contact form must explain failure, not erase the conversation",
+      "path": "research-inbox/website-design/20261101T170000Z-website-design/",
+      "created_at": "2026-11-01T17:09:19Z",
+      "scheduled_at": "2026-11-01T17:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "package_commit_sha": "fb42d6b1d22186d7ab4005a9632f762f7cd056fa",
+      "summary": "Contact-form identity, correction and pending/result feedback contract; documentary review only."
+    },
+    {
+      "run_id": "20261101T171800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "A portfolio command menu: cmdk or kbar?",
+      "path": "research-inbox/open-source-creative/20261101T171800Z-open-source-creative/",
+      "created_at": "2026-11-01T17:21:03Z",
+      "scheduled_at": "2026-11-01T17:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json"
+      ],
+      "summary": "Two-project command-menu shortlist, MIT licenses, pinned peer dependencies and action/shortcut ownership. Documentary only.",
+      "package_commit_sha": "d6caae9a23d3208c94875cd497d447458dc91fd1"
+    },
+    {
+      "run_id": "20261101T173600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "Pick the project, not the instance slot",
+      "path": "research-inbox/webgl-3d/20261101T173600Z-webgl-3d/",
+      "created_at": "2026-11-01T17:36:28Z",
+      "scheduled_at": "2026-11-01T17:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 4,
+      "files": [
+        "research.md",
+        "qa.md",
+        "sources.json",
+        "manifest.json"
+      ],
+      "summary": "Stable project selection across dynamic instance slots, bounds and hover refresh. Documentary only; no runtime tests.",
+      "package_commit_sha": "7c1a686192fa4abf299e048afc08a0ade2d1a3ca"
+    },
+    {
+      "run_id": "20261101T181200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "Hover motion should follow current intent, not a queue of old events",
+      "path": "research-inbox/motion-interaction/20261101T181200Z-motion-interaction/",
+      "created_at": "2026-11-01T18:12:30Z",
+      "scheduled_at": "2026-11-01T18:12:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 11,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Interruptible hover/focus intent composition, numeric retargeting and additional-content safeguards. Documentary only; no runtime tests.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T183000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "A successful MCP connection is not a session test",
+      "path": "research-inbox/open-source-tooling/20261101T183000Z-open-source-tooling/",
+      "created_at": "2026-11-01T18:38:51Z",
+      "scheduled_at": "2026-11-01T18:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "repos.json",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "MCP Inspector one-shot CLI versus experimental connection-preserving mcpdo, version/licence and credential-storage boundaries. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T184800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "A pool is local; the database connection budget is global",
+      "path": "research-inbox/fullstack-engineering/20261101T184800Z-fullstack-engineering/",
+      "created_at": "2026-11-01T18:50:20Z",
+      "scheduled_at": "2026-11-01T18:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Process-local pool budgets across replicas, ownership leaks versus idle reuse, transaction-pooler compatibility and unexecuted capacity tests. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T192400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Memory TTL is retention, not factual freshness",
+      "path": "research-inbox/agents-memory/20261101T192400Z-agents-memory/",
+      "created_at": "2026-11-01T19:24:41Z",
+      "scheduled_at": "2026-11-01T19:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Sliding retention versus factual validity, expiry visibility, source revision invalidation and an unexecuted synthetic test contract. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T200000Z-website-design",
+      "topic_id": "website-design",
+      "title": "Art-directed project images: preserve meaning across crops",
+      "path": "research-inbox/website-design/20261101T200000Z-website-design/",
+      "created_at": "2026-11-01T20:03:50Z",
+      "scheduled_at": "2026-11-01T20:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "package_commit_sha": null,
+      "summary": "A crop-level content and alternative-text contract for responsive project imagery; native selection versus visual framing, contextual link purpose and unexecuted acceptance checks. Documentary only."
+    },
+    {
+      "run_id": "20261101T201800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "Split the heading, not its meaning: SplitType or Splitting.js?",
+      "path": "research-inbox/open-source-creative/20261101T201800Z-open-source-creative/",
+      "created_at": "2026-11-01T20:19:56Z",
+      "scheduled_at": "2026-11-01T20:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 11,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Two-candidate typography splitter comparison, DOM ownership, line reflow and actual-license/version caveats. SplitType adoption deferred pending license terms; documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T203600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "Resize the pipeline, not just the canvas",
+      "path": "research-inbox/webgl-3d/20261101T203600Z-webgl-3d/",
+      "created_at": "2026-11-01T20:45:27Z",
+      "scheduled_at": "2026-11-01T20:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Logical versus physical sizing across renderer, composer, camera and standalone targets; ownership and unexecuted resize tests. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T211200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "Returning to a tab must not undo a user's motion pause",
+      "path": "research-inbox/motion-interaction/20261101T211200Z-motion-interaction/",
+      "created_at": "2026-11-01T21:16:00Z",
+      "scheduled_at": "2026-11-01T21:12:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Ambient playback permission across explicit user pause, page visibility and reduced motion; rebuild-safe ownership and unexecuted acceptance matrix. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T213000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "Zero findings is not publication clearance: a Gitleaks coverage receipt",
+      "path": "research-inbox/open-source-tooling/20261101T213000Z-open-source-tooling/",
+      "created_at": "2026-11-01T21:29:32Z",
+      "scheduled_at": "2026-11-01T21:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 10,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "One-project secret-scanner discovery: input coverage, suppression receipts, source/documentation defaults and maintenance limits. Documentary only; no Gitleaks execution.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T214800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "An index name is not a completed migration",
+      "path": "research-inbox/fullstack-engineering/20261101T214800Z-fullstack-engineering/",
+      "created_at": "2026-11-01T21:50:00Z",
+      "scheduled_at": "2026-11-01T21:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Concurrent PostgreSQL index migration outcome receipts: name/definition/validity reconciliation, phase-aware monitoring and separate workload acceptance. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T222400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "A missing memory hit is not proof that the memory is absent",
+      "path": "research-inbox/agents-memory/20261101T222400Z-agents-memory/",
+      "created_at": "2026-11-01T22:22:37Z",
+      "scheduled_at": "2026-11-01T22:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Filtered approximate-search misses versus stored-document existence; scoped exact baselines, recall and factual answer support. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T230000Z-website-design",
+      "topic_id": "website-design",
+      "title": "Sticky navigation needs a reading-space budget",
+      "path": "research-inbox/website-design/20261101T230000Z-website-design/",
+      "created_at": "2026-11-01T23:04:24Z",
+      "scheduled_at": "2026-11-01T23:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Persistent navigation reading-space, scroll-owner and boundary-space contract with an unexecuted acceptance matrix. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T231800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "A flowmap is an effect primitive, not a production interaction system",
+      "path": "research-inbox/open-source-creative/20261101T231800Z-open-source-creative/",
+      "created_at": "2026-11-01T23:23:18Z",
+      "scheduled_at": "2026-11-01T23:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "repos.json",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "One-project OGL flowmap discovery: swapping texture ownership, component lifecycle, actual licence and demo-to-production boundaries. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261101T233600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "Shader-ready is not first-frame-ready",
+      "path": "research-inbox/webgl-3d/20261101T233600Z-webgl-3d/",
+      "created_at": "2026-11-01T23:41:50Z",
+      "scheduled_at": "2026-11-01T23:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Shader preparation versus texture initialization and first-frame acceptance, with stale warm-up completion guards. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T001200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "A safe refresh is not proof that layout has settled",
+      "path": "research-inbox/motion-interaction/20261102T001200Z-motion-interaction/",
+      "created_at": "2026-11-02T00:20:21Z",
+      "scheduled_at": "2026-11-02T00:12:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Revision-aware ScrollTrigger remeasurement, bounded safe delay versus layout settlement, font cycles and refresh receipts. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T003000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "Before an agent says not found: make ripgrep's search scope explicit",
+      "path": "research-inbox/open-source-tooling/20261102T003000Z-open-source-tooling/",
+      "created_at": "2026-11-02T00:32:41Z",
+      "scheduled_at": "2026-11-02T00:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "repos.json",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "One-project ripgrep discovery: explicit lexical search scope, environment configuration and executable preprocessing boundaries. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T004800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "A pending Transition is not a request-ordering policy",
+      "path": "research-inbox/fullstack-engineering/20261102T004800Z-fullstack-engineering/",
+      "created_at": "2026-11-02T00:45:50Z",
+      "scheduled_at": "2026-11-02T00:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "React async-result ownership: latest-read eligibility versus sequential Actions, pending state and stale error/finally handling. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T012400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "Cancelled is not evidence that an agent's external work stopped",
+      "path": "research-inbox/agents-memory/20261102T012400Z-agents-memory/",
+      "created_at": "2026-11-02T01:31:27Z",
+      "scheduled_at": "2026-11-02T01:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "MCP cancellation state versus external execution outcome, task-purge races and an untested reconciliation contract. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T020000Z-website-design",
+      "topic_id": "website-design",
+      "title": "A navigation label should not hide two different commands",
+      "path": "research-inbox/website-design/20261102T020000Z-website-design/",
+      "created_at": "2026-11-02T01:59:00Z",
+      "scheduled_at": "2026-11-02T02:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "qa.md",
+        "manifest.json"
+      ],
+      "summary": "Distinct category links and disclosure commands, navigation semantics and an unexecuted cross-input acceptance exercise. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T021800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "Hand-drawn emphasis needs an owner, not just an SVG",
+      "path": "research-inbox/open-source-creative/20261102T021800Z-open-source-creative/",
+      "created_at": "2026-11-02T02:16:31Z",
+      "scheduled_at": "2026-11-02T02:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "repos.json",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "One-project Rough Notation discovery: annotation geometry, semantic boundaries, style cleanup and source-age compatibility gates. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T023600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "Renderer counters need a measurement contract",
+      "path": "research-inbox/webgl-3d/20261102T023600Z-webgl-3d/",
+      "created_at": "2026-11-02T02:37:46Z",
+      "scheduled_at": "2026-11-02T02:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "Renderer-specific statistics, multipass measurement boundaries and tracked-memory estimate limitations. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T031200Z-motion-interaction",
+      "topic_id": "motion-interaction",
+      "title": "Stopping an animation is not returning control to CSS",
+      "path": "research-inbox/motion-interaction/20261102T031200Z-motion-interaction/",
+      "created_at": "2026-11-02T03:21:21Z",
+      "scheduled_at": "2026-11-02T03:12:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "GSAP stop/reset/revert/clearProps distinctions and an untested inline-style ownership handoff contract. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T033000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "Valid JSON is not a passing acceptance gate",
+      "path": "research-inbox/open-source-tooling/20261102T033000Z-open-source-tooling/",
+      "created_at": "2026-11-02T03:34:38Z",
+      "scheduled_at": "2026-11-02T03:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "repos.json",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "One-project jq discovery: input cardinality, last-output exit semantics and explicit structured-result acceptance. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T034800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "A deployment variable cannot rewrite an already-built browser bundle",
+      "path": "research-inbox/fullstack-engineering/20261102T034800Z-fullstack-engineering/",
+      "created_at": "2026-11-02T03:48:36Z",
+      "scheduled_at": "2026-11-02T03:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Vite build-time public configuration versus runtime deployment settings; immutable artifact promotion contracts and exposure review. Documentary only.",
+      "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T042400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "A remembered tool catalog is not a live capability contract",
+      "path": "research-inbox/agents-memory/20261102T042400Z-agents-memory/",
+      "created_at": "2026-11-02T04:29:29Z",
+      "scheduled_at": "2026-11-02T04:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "MCP catalog completeness, paginated discovery and definition invalidation versus persisted capability memory. Documentary only.",
+      "package_commit_sha": null
+    }
+  ],
+  "topics": [
+    {
+      "topic_id": "website-design",
+      "name": "Premium Website Design",
+      "root": "research-inbox/website-design/",
+      "packages": [
+        {
+          "run_id": "20261101T060321-premium-editorial-system-01",
+          "topic_id": "website-design",
+          "title": "Premium non-3D website design: an editorial system that stays cinematic, accessible, and fast",
+          "path": "research-inbox/website-design/20261101T060321-premium-editorial-system-01/",
+          "created_at": "2026-11-01T06:03:21-05:00",
+          "status": "published",
+          "source_count": 17,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "afd8dc27b68d8ce70201ce111d5b9db39d458c64",
+          "summary": "Evidence-based non-3D design system guidance: luxury/editorial case patterns, token architecture, variable typography, OKLCH with contrast validation, responsive composition, glass and motion as progressive enhancements, WCAG 2.2, and media/Core Web Vitals constraints."
+        },
+        {
+          "run_id": "20261101T124945Z-website-design-smoke",
+          "topic_id": "website-design",
+          "title": "Premium controls in forced-colors mode: preserve affordance, not the palette",
+          "path": "research-inbox/website-design/20261101T124945Z-website-design-smoke/",
+          "created_at": "2026-11-01T12:53:44Z",
+          "scheduled_at": "2026-11-01T12:49:45.510387Z",
+          "execution_kind": "manual_smoke",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "89fb3a308112851d4ddc0db0599da296ebf5e4fe",
+          "summary": "Narrow forced-colors affordance repair: native semantics, shadow/gradient loss, system-color controls and sticky-overlay focus distinction; documentary review only."
+        },
+        {
+          "run_id": "20261101T135953Z-editorial-grid-lanes-01",
+          "topic_id": "website-design",
+          "title": "A content-first editorial grid system for PROFOLIO: Grid Lanes, subgrid, container queries, and reading order",
+          "path": "research-inbox/website-design/20261101T135953Z-editorial-grid-lanes-01/",
+          "created_at": "2026-11-01T13:59:53Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 9,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "fbf6dd322fa6acc8c37c3697e5764d90fd1b6f23",
+          "summary": "New layout-engineering addendum: compares CSS Grid, subgrid, container queries and progressive Grid Lanes for premium project galleries; documents masonry backtracking and reading-order risks, limited reading-flow support, and image geometry safeguards. Documentary only."
+        },
+        {
+          "run_id": "20261101T140000Z-website-design",
+          "topic_id": "website-design",
+          "title": "Editorial headlines that survive real text: wrapping is a layout contract",
+          "path": "research-inbox/website-design/20261101T140000Z-website-design/",
+          "created_at": "2026-11-01T14:03:40Z",
+          "scheduled_at": "2026-11-01T14:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "d1a5407b668afa9977f0b2b00664678f5a405407",
+          "summary": "Editorial text geometry under spacing overrides, narrow widths and long names; balanced wrapping versus intrinsic sizing. Documentary only."
+        },
+        {
+          "run_id": "20261101T170000Z-website-design",
+          "topic_id": "website-design",
+          "title": "A premium contact form must explain failure, not erase the conversation",
+          "path": "research-inbox/website-design/20261101T170000Z-website-design/",
+          "created_at": "2026-11-01T17:09:19Z",
+          "scheduled_at": "2026-11-01T17:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "package_commit_sha": "fb42d6b1d22186d7ab4005a9632f762f7cd056fa",
+          "summary": "Contact-form identity, correction and pending/result feedback contract; documentary review only."
+        },
+        {
+          "run_id": "20261101T200000Z-website-design",
+          "topic_id": "website-design",
+          "title": "Art-directed project images: preserve meaning across crops",
+          "path": "research-inbox/website-design/20261101T200000Z-website-design/",
+          "created_at": "2026-11-01T20:03:50Z",
+          "scheduled_at": "2026-11-01T20:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "package_commit_sha": null,
+          "summary": "A crop-level content and alternative-text contract for responsive project imagery; native selection versus visual framing, contextual link purpose and unexecuted acceptance checks. Documentary only."
+        },
+        {
+          "run_id": "20261101T230000Z-website-design",
+          "topic_id": "website-design",
+          "title": "Sticky navigation needs a reading-space budget",
+          "path": "research-inbox/website-design/20261101T230000Z-website-design/",
+          "created_at": "2026-11-01T23:04:24Z",
+          "scheduled_at": "2026-11-01T23:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Persistent navigation reading-space, scroll-owner and boundary-space contract with an unexecuted acceptance matrix. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T020000Z-website-design",
+          "topic_id": "website-design",
+          "title": "A navigation label should not hide two different commands",
+          "path": "research-inbox/website-design/20261102T020000Z-website-design/",
+          "created_at": "2026-11-02T01:59:00Z",
+          "scheduled_at": "2026-11-02T02:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Distinct category links and disclosure commands, navigation semantics and an unexecuted cross-input acceptance exercise. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    },
+    {
+      "topic_id": "webgl-3d",
+      "name": "3D and WebGL Engineering",
+      "root": "research-inbox/webgl-3d/",
+      "packages": [
+        {
+          "run_id": "20261101T053112-3d-webgl-engineering-01",
+          "topic_id": "webgl-3d",
+          "title": "Production-ready 3D delivery for PROFOLIO: asset pipeline, renderer compatibility, and runtime performance",
+          "path": "research-inbox/webgl-3d/20261101T053112-3d-webgl-engineering-01/",
+          "created_at": "2026-11-01T05:31:12-05:00",
+          "status": "published",
+          "source_count": 24,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "2800302089cbe51cc1dd9cf01b49c2031b8497f5",
+          "summary": "Evidence-based architecture guidance for WebGL/WebGPU renderer selection, Blender-to-glTF optimization and validation, R3F performance/lifecycle, Spline trade-offs, and mobile resilience."
+        },
+        {
+          "run_id": "20261101T064013-webgl-resilience-02",
+          "topic_id": "webgl-3d",
+          "title": "Resilient 3D runtime architecture for PROFOLIO: R3F lifecycle fixes, WebGL context recovery, and WebGPU device loss",
+          "path": "research-inbox/webgl-3d/20261101T064013-webgl-resilience-02/",
+          "created_at": "2026-11-01T06:40:13-05:00",
+          "status": "published",
+          "source_count": 15,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "8df50cd6bb3ecf21960e8c95d809a70472c7dbfd",
+          "summary": "Follow-up to the initial asset-pipeline report: current R3F 9.8.1/9.8.2 lifecycle fixes, v10 alpha WebGPU-first migration implications, explicit WebGL context and WebGPU device-loss recovery, renderer ownership, lazy/hidden scene lifecycle, and failure-state QA matrix."
+        },
+        {
+          "run_id": "20261101T113600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "Prevent stale GLB loads from attaching after a route changes",
+          "path": "research-inbox/webgl-3d/20261101T113600Z-webgl-3d/",
+          "created_at": "2026-11-01T11:44:41Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Narrow implementation addendum: conditional request cancellation versus stale-completion guards and exclusive/shared resource ownership. No runtime testing.",
+          "package_commit_sha": "4cefa9a937e821588e368b6f5bc46fd30d4741bd"
+        },
+        {
+          "run_id": "20261101T123218Z-tsl-material-bridge-03",
+          "topic_id": "webgl-3d",
+          "title": "A portable shader and material architecture for PROFOLIO: TSL, WebGPU/WebGL backends, and the Blender-to-glTF boundary",
+          "path": "research-inbox/webgl-3d/20261101T123218Z-tsl-material-bridge-03/",
+          "created_at": "2026-11-01T07:32:18-05:00",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 13,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "88a9ef5551fa2025a91fce5a2d0d4ad3b597a38f",
+          "summary": "New shader/material portability research: distinguishes WebGPURenderer WebGL2 backend fallback from legacy WebGLRenderer, maps TSL graph/uniform lifecycles, defines Blender 5.4 Principled BSDF to glTF PBR boundaries, checks material-extension support, and documents R3F v10 RenderPipeline/experimental compute implications."
+        },
+        {
+          "run_id": "20261101T143600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "One cached GLB, two independent animated characters",
+          "path": "research-inbox/webgl-3d/20261101T143600Z-webgl-3d/",
+          "created_at": "2026-11-01T14:43:18Z",
+          "scheduled_at": "2026-11-01T14:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Independent skinned GLB copies: bone hierarchy, per-root mixers, shared-resource ownership and cleanup. Documentary only.",
+          "package_commit_sha": "eaa64c162877993dd9c8d7ebfdeacb69cf4cb9a0"
+        },
+        {
+          "run_id": "20261101T173600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "Pick the project, not the instance slot",
+          "path": "research-inbox/webgl-3d/20261101T173600Z-webgl-3d/",
+          "created_at": "2026-11-01T17:36:28Z",
+          "scheduled_at": "2026-11-01T17:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "summary": "Stable project selection across dynamic instance slots, bounds and hover refresh. Documentary only; no runtime tests.",
+          "package_commit_sha": "7c1a686192fa4abf299e048afc08a0ade2d1a3ca"
+        },
+        {
+          "run_id": "20261101T203600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "Resize the pipeline, not just the canvas",
+          "path": "research-inbox/webgl-3d/20261101T203600Z-webgl-3d/",
+          "created_at": "2026-11-01T20:45:27Z",
+          "scheduled_at": "2026-11-01T20:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Logical versus physical sizing across renderer, composer, camera and standalone targets; ownership and unexecuted resize tests. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261101T233600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "Shader-ready is not first-frame-ready",
+          "path": "research-inbox/webgl-3d/20261101T233600Z-webgl-3d/",
+          "created_at": "2026-11-01T23:41:50Z",
+          "scheduled_at": "2026-11-01T23:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Shader preparation versus texture initialization and first-frame acceptance, with stale warm-up completion guards. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T023600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "Renderer counters need a measurement contract",
+          "path": "research-inbox/webgl-3d/20261102T023600Z-webgl-3d/",
+          "created_at": "2026-11-02T02:37:46Z",
+          "scheduled_at": "2026-11-02T02:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "Renderer-specific statistics, multipass measurement boundaries and tracked-memory estimate limitations. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    },
+    {
+      "topic_id": "motion-interaction",
+      "name": "Motion and Interaction",
+      "root": "research-inbox/motion-interaction/",
+      "packages": [
+        {
+          "run_id": "20261101T061350-motion-orchestration-architecture-01",
+          "topic_id": "motion-interaction",
+          "title": "A coherent motion system for PROFOLIO: choosing the right scroll engine, owning animated properties, and making motion resilient",
+          "path": "research-inbox/motion-interaction/20261101T061350-motion-orchestration-architecture-01/",
+          "created_at": "2026-11-01T06:13:50-05:00",
+          "status": "published",
+          "source_count": 24,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "62d68b942c8dfd6c3bb30935722f0a846e169b2c",
+          "summary": "Architecture decision framework for combining CSS scroll timelines, Motion, GSAP/ScrollTrigger, SVG/text animation and R3F without competing property ownership; includes reduced-motion, React cleanup, pin geometry, font/layout refresh, and performance guardrails."
+        },
+        {
+          "run_id": "20261101T070845-view-transition-navigation-01",
+          "topic_id": "motion-interaction",
+          "title": "Route transitions as a motion system: React ViewTransition, browser snapshots, Motion layout, and scroll/focus continuity",
+          "path": "research-inbox/motion-interaction/20261101T070845-view-transition-navigation-01/",
+          "created_at": "2026-11-01T07:08:45-05:00",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "5c5c36edfee0648717845143a489208f8458bd66",
+          "summary": "New navigation-layer research: React 19.3 ViewTransition and React Router 8.5.1 guidance, snapshot versus live Motion layout trade-offs, shared-element identity, focus routing, scroll restoration, Back/Forward caveats, reduced-motion and progressive enhancement."
+        },
+        {
+          "run_id": "20261101T121200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "Animated dialog exits: separate visual presence from interaction ownership",
+          "path": "research-inbox/motion-interaction/20261101T121200Z-motion-interaction/",
+          "created_at": "2026-11-01T12:19:31Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Narrow dialog-lifecycle addendum: retained exit DOM, modal interaction ownership, focus restoration and stale-close guards. Documentary review only; no runtime or accessibility testing.",
+          "package_commit_sha": "7e45281505fd8a4f2fe213cbf8061f993c9e7bcb"
+        },
+        {
+          "run_id": "20261101T130953Z-native-scroll-smoothing-03",
+          "topic_id": "motion-interaction",
+          "title": "Smooth scroll is a cost, not a default: a native-first orchestration policy for PROFOLIO",
+          "path": "research-inbox/motion-interaction/20261101T130953Z-native-scroll-smoothing-03/",
+          "created_at": "2026-11-01T13:09:53Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 16,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "3103ba21cb07fc74dc713f562887aaee251275da",
+          "summary": "Native-first scroll orchestration decision: Firefox 159 enables CSS scroll-driven animations by default; compares Lenis 1.3.27 main-thread wheel smoothing with Motion frame.setup and GSAP ticker integration, scrollerProxy requirements, nested-scroll/reduced-motion safeguards and a 12-scenario prototype matrix. Documentary only; no runtime benchmark."
+        },
+        {
+          "run_id": "20261101T151200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "Drag is a preview, not a command: cancel-safe interaction with a click alternative",
+          "path": "research-inbox/motion-interaction/20261101T151200Z-motion-interaction/",
+          "created_at": "2026-11-01T15:19:44Z",
+          "scheduled_at": "2026-11-01T15:12:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "0f8370023c77593c3c47ae74723bfb189728e05e",
+          "summary": "Cancel-safe drag preview/commit ownership, native scrolling and non-drag alternatives. Documentary only; no runtime testing."
+        },
+        {
+          "run_id": "20261101T181200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "Hover motion should follow current intent, not a queue of old events",
+          "path": "research-inbox/motion-interaction/20261101T181200Z-motion-interaction/",
+          "created_at": "2026-11-01T18:12:30Z",
+          "scheduled_at": "2026-11-01T18:12:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 11,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Interruptible hover/focus intent composition, numeric retargeting and additional-content safeguards. Documentary only; no runtime tests.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261101T211200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "Returning to a tab must not undo a user's motion pause",
+          "path": "research-inbox/motion-interaction/20261101T211200Z-motion-interaction/",
+          "created_at": "2026-11-01T21:16:00Z",
+          "scheduled_at": "2026-11-01T21:12:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Ambient playback permission across explicit user pause, page visibility and reduced motion; rebuild-safe ownership and unexecuted acceptance matrix. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T001200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "A safe refresh is not proof that layout has settled",
+          "path": "research-inbox/motion-interaction/20261102T001200Z-motion-interaction/",
+          "created_at": "2026-11-02T00:20:21Z",
+          "scheduled_at": "2026-11-02T00:12:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Revision-aware ScrollTrigger remeasurement, bounded safe delay versus layout settlement, font cycles and refresh receipts. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T031200Z-motion-interaction",
+          "topic_id": "motion-interaction",
+          "title": "Stopping an animation is not returning control to CSS",
+          "path": "research-inbox/motion-interaction/20261102T031200Z-motion-interaction/",
+          "created_at": "2026-11-02T03:21:21Z",
+          "scheduled_at": "2026-11-02T03:12:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "GSAP stop/reset/revert/clearProps distinctions and an untested inline-style ownership handoff contract. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    },
+    {
+      "topic_id": "fullstack-engineering",
+      "name": "Full-stack Engineering",
+      "root": "research-inbox/fullstack-engineering/",
+      "packages": [
+        {
+          "run_id": "20261101T124800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "After a successful mutation: choose freshness without confusing cache invalidation with commit",
+          "path": "research-inbox/fullstack-engineering/20261101T124800Z-fullstack-engineering/",
+          "created_at": "2026-11-01T12:54:48Z",
+          "scheduled_at": "2026-11-01T12:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "520add384b6ea809b2d29931a5fcd67d3c69af62",
+          "summary": "Narrow Next.js mutation-to-cache consistency reference: updateTag versus revalidateTag, transaction receipts and partial failure. Documentary review only."
+        },
+        {
+          "run_id": "20261101T154800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "Two editors, one record: prevent lost updates at the write boundary",
+          "path": "research-inbox/fullstack-engineering/20261101T154800Z-fullstack-engineering/",
+          "created_at": "2026-11-01T15:50:54Z",
+          "scheduled_at": "2026-11-01T15:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "064a8eed189bd9c157f8ce78404f6494488bbae2",
+          "summary": "HTTP preconditions and atomic revision predicates for lost-update prevention; conflict UI and zero-row interpretation. Documentary only."
+        },
+        {
+          "run_id": "20261101T184800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "A pool is local; the database connection budget is global",
+          "path": "research-inbox/fullstack-engineering/20261101T184800Z-fullstack-engineering/",
+          "created_at": "2026-11-01T18:50:20Z",
+          "scheduled_at": "2026-11-01T18:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Process-local pool budgets across replicas, ownership leaks versus idle reuse, transaction-pooler compatibility and unexecuted capacity tests. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261101T214800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "An index name is not a completed migration",
+          "path": "research-inbox/fullstack-engineering/20261101T214800Z-fullstack-engineering/",
+          "created_at": "2026-11-01T21:50:00Z",
+          "scheduled_at": "2026-11-01T21:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Concurrent PostgreSQL index migration outcome receipts: name/definition/validity reconciliation, phase-aware monitoring and separate workload acceptance. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T004800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "A pending Transition is not a request-ordering policy",
+          "path": "research-inbox/fullstack-engineering/20261102T004800Z-fullstack-engineering/",
+          "created_at": "2026-11-02T00:45:50Z",
+          "scheduled_at": "2026-11-02T00:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "React async-result ownership: latest-read eligibility versus sequential Actions, pending state and stale error/finally handling. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T034800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "A deployment variable cannot rewrite an already-built browser bundle",
+          "path": "research-inbox/fullstack-engineering/20261102T034800Z-fullstack-engineering/",
+          "created_at": "2026-11-02T03:48:36Z",
+          "scheduled_at": "2026-11-02T03:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Vite build-time public configuration versus runtime deployment settings; immutable artifact promotion contracts and exposure review. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    },
+    {
+      "topic_id": "agents-memory",
+      "name": "AI Agents and Memory",
+      "root": "research-inbox/agents-memory/",
+      "packages": [
+        {
+          "run_id": "20261101T124211Z-agents-memory-smoke",
+          "topic_id": "agents-memory",
+          "title": "Project labels are not authorization: scoped recall for MCP memory services",
+          "path": "research-inbox/agents-memory/20261101T124211Z-agents-memory-smoke/",
+          "created_at": "2026-11-01T12:47:05Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Why project labels and relevance filters do not establish authorization; MCP identity, object permissions, RLS exceptions, and unexecuted synthetic test contract.",
+          "package_commit_sha": "856399b1045f8680716254d9e8b8b549ee850d6e"
+        },
+        {
+          "run_id": "20261101T132400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Resuming an agent is not exactly-once execution: checkpoint and effect receipts",
+          "path": "research-inbox/agents-memory/20261101T132400Z-agents-memory/",
+          "created_at": "2026-11-01T13:31:11Z",
+          "scheduled_at": "2026-11-01T13:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "package_commit_sha": "d5240cc2af1bba49713001e0ef4b5a56d0814f1c",
+          "summary": "Checkpoint resume/replay versus external-effect receipts, idempotency limitations and an unexecuted failure-injection contract. Documentary only."
+        },
+        {
+          "run_id": "20261101T162400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Retrieved memory is evidence, not a tool instruction",
+          "path": "research-inbox/agents-memory/20261101T162400Z-agents-memory/",
+          "created_at": "2026-11-01T16:26:55Z",
+          "scheduled_at": "2026-11-01T16:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 4,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Evidence-to-instruction trust propagation across extraction, summaries and memory; protected provenance and tool-boundary controls. Documentary only.",
+          "package_commit_sha": "9d411b301898b5521c00b685e7d866c1dc757152"
+        },
+        {
+          "run_id": "20261101T192400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Memory TTL is retention, not factual freshness",
+          "path": "research-inbox/agents-memory/20261101T192400Z-agents-memory/",
+          "created_at": "2026-11-01T19:24:41Z",
+          "scheduled_at": "2026-11-01T19:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Sliding retention versus factual validity, expiry visibility, source revision invalidation and an unexecuted synthetic test contract. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261101T222400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "A missing memory hit is not proof that the memory is absent",
+          "path": "research-inbox/agents-memory/20261101T222400Z-agents-memory/",
+          "created_at": "2026-11-01T22:22:37Z",
+          "scheduled_at": "2026-11-01T22:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "qa.md",
+            "manifest.json"
+          ],
+          "summary": "Filtered approximate-search misses versus stored-document existence; scoped exact baselines, recall and factual answer support. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T012400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "Cancelled is not evidence that an agent's external work stopped",
+          "path": "research-inbox/agents-memory/20261102T012400Z-agents-memory/",
+          "created_at": "2026-11-02T01:31:27Z",
+          "scheduled_at": "2026-11-02T01:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "MCP cancellation state versus external execution outcome, task-purge races and an untested reconciliation contract. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T042400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "A remembered tool catalog is not a live capability contract",
+          "path": "research-inbox/agents-memory/20261102T042400Z-agents-memory/",
+          "created_at": "2026-11-02T04:29:29Z",
+          "scheduled_at": "2026-11-02T04:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "MCP catalog completeness, paginated discovery and definition invalidation versus persisted capability memory. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    },
+    {
+      "topic_id": "open-source-creative",
+      "name": "Open-Source Creative Discovery",
+      "root": "research-inbox/open-source-creative/",
+      "packages": [
+        {
+          "run_id": "20261101T124229Z-open-source-creative-smoke",
+          "topic_id": "open-source-creative",
+          "title": "Embla or Keen for an original editorial portfolio rail?",
+          "path": "research-inbox/open-source-creative/20261101T124229Z-open-source-creative-smoke/",
+          "created_at": "2026-11-01T12:47:21Z",
+          "scheduled_at": "2026-11-01T12:42:29.430845Z",
+          "execution_kind": "manual_smoke",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 11,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Two-project carousel shortlist with verified MIT licences, maintenance dates, React declarations and v8/v9 documentation caveats. Documentary only.",
+          "package_commit_sha": "2a6863d354b0c0cd890504bd91a7f585675bb42a"
+        },
+        {
+          "run_id": "20261101T141800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "A detail viewer, not another carousel: PhotoSwipe or Yet Another React Lightbox?",
+          "path": "research-inbox/open-source-creative/20261101T141800Z-open-source-creative/",
+          "created_at": "2026-11-01T14:21:31Z",
+          "scheduled_at": "2026-11-01T14:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 13,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json"
+          ],
+          "summary": "Two-project image-detail viewer shortlist with MIT licences, React state and Next.js Zoom caveats. Documentary review only.",
+          "package_commit_sha": "d0d9055aa8cb5496f78aa34539bc6f219986f5b9"
+        },
+        {
+          "run_id": "20261101T171800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "A portfolio command menu: cmdk or kbar?",
+          "path": "research-inbox/open-source-creative/20261101T171800Z-open-source-creative/",
+          "created_at": "2026-11-01T17:21:03Z",
+          "scheduled_at": "2026-11-01T17:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json"
+          ],
+          "summary": "Two-project command-menu shortlist, MIT licenses, pinned peer dependencies and action/shortcut ownership. Documentary only.",
+          "package_commit_sha": "d6caae9a23d3208c94875cd497d447458dc91fd1"
+        },
+        {
+          "run_id": "20261101T201800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "Split the heading, not its meaning: SplitType or Splitting.js?",
+          "path": "research-inbox/open-source-creative/20261101T201800Z-open-source-creative/",
+          "created_at": "2026-11-01T20:19:56Z",
+          "scheduled_at": "2026-11-01T20:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 11,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Two-candidate typography splitter comparison, DOM ownership, line reflow and actual-license/version caveats. SplitType adoption deferred pending license terms; documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261101T231800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "A flowmap is an effect primitive, not a production interaction system",
+          "path": "research-inbox/open-source-creative/20261101T231800Z-open-source-creative/",
+          "created_at": "2026-11-01T23:23:18Z",
+          "scheduled_at": "2026-11-01T23:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "repos.json",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "One-project OGL flowmap discovery: swapping texture ownership, component lifecycle, actual licence and demo-to-production boundaries. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T021800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "Hand-drawn emphasis needs an owner, not just an SVG",
+          "path": "research-inbox/open-source-creative/20261102T021800Z-open-source-creative/",
+          "created_at": "2026-11-02T02:16:31Z",
+          "scheduled_at": "2026-11-02T02:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "repos.json",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "One-project Rough Notation discovery: annotation geometry, semantic boundaries, style cleanup and source-age compatibility gates. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    },
+    {
+      "topic_id": "open-source-tooling",
+      "name": "Open-Source Agent Tools Discovery",
+      "root": "research-inbox/open-source-tooling/",
+      "packages": [
+        {
+          "run_id": "20261101T123000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "Browser automation: deterministic tests, MCP tools, or a browser-agent loop?",
+          "path": "research-inbox/open-source-tooling/20261101T123000Z-open-source-tooling/",
+          "created_at": "2026-11-01T12:34:32Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 14,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json"
+          ],
+          "summary": "Three-tool shortlist comparing scripted Playwright tests, Playwright MCP and Browser Use; verified licences, version caveats, security boundaries and untested evaluation plan.",
+          "package_commit_sha": "43bc08f81b7368964bf6f79717af40acdeca3ae0"
+        },
+        {
+          "run_id": "20261101T153000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "Evaluate the agent, not its confidence: Promptfoo or DeepEval?",
+          "path": "research-inbox/open-source-tooling/20261101T153000Z-open-source-tooling/",
+          "created_at": "2026-11-01T15:39:20Z",
+          "scheduled_at": "2026-11-01T15:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 14,
+          "files": [
+            "research.md",
+            "qa.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json"
+          ],
+          "package_commit_sha": "aeb9c9451f1419215c51face48bebab30e572e4e",
+          "summary": "Two-tool evaluation-harness shortlist, deterministic versus judge gates, version divergence and telemetry/MCP privacy caveats. Documentary only."
+        },
+        {
+          "run_id": "20261101T183000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "A successful MCP connection is not a session test",
+          "path": "research-inbox/open-source-tooling/20261101T183000Z-open-source-tooling/",
+          "created_at": "2026-11-01T18:38:51Z",
+          "scheduled_at": "2026-11-01T18:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "repos.json",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "MCP Inspector one-shot CLI versus experimental connection-preserving mcpdo, version/licence and credential-storage boundaries. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261101T213000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "Zero findings is not publication clearance: a Gitleaks coverage receipt",
+          "path": "research-inbox/open-source-tooling/20261101T213000Z-open-source-tooling/",
+          "created_at": "2026-11-01T21:29:32Z",
+          "scheduled_at": "2026-11-01T21:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 10,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "One-project secret-scanner discovery: input coverage, suppression receipts, source/documentation defaults and maintenance limits. Documentary only; no Gitleaks execution.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T003000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "Before an agent says not found: make ripgrep's search scope explicit",
+          "path": "research-inbox/open-source-tooling/20261102T003000Z-open-source-tooling/",
+          "created_at": "2026-11-02T00:32:41Z",
+          "scheduled_at": "2026-11-02T00:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "repos.json",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "One-project ripgrep discovery: explicit lexical search scope, environment configuration and executable preprocessing boundaries. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T033000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "Valid JSON is not a passing acceptance gate",
+          "path": "research-inbox/open-source-tooling/20261102T033000Z-open-source-tooling/",
+          "created_at": "2026-11-02T03:34:38Z",
+          "scheduled_at": "2026-11-02T03:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "repos.json",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "One-project jq discovery: input cardinality, last-output exit semantics and explicit structured-result acceptance. Documentary only.",
+          "package_commit_sha": null
+        }
+      ]
+    }
+  ],
+  "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
+  "updated_at": "2026-11-02T04:29:29Z"
+}
