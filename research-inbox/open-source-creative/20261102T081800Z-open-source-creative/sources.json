@@ -1,0 +1,127 @@
+{
+  "run_id": "20261102T081800Z-open-source-creative",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Flubber README.md",
+      "url": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/README.md",
+      "source_type": "first-party repository file",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": null,
+      "blob_sha": "3b188d541ecd69f528d0bb8c29507dd3063319b7",
+      "provenance": "GitHub connector fetch_file at pinned commit",
+      "limitations": "Documentary/static source inspection only; no execution or npm artifact equivalence verification."
+    },
+    {
+      "id": "S2",
+      "title": "Flubber package.json",
+      "url": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/package.json",
+      "source_type": "first-party repository file",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": "0.4.2",
+      "blob_sha": "74d01fba8c8d8a93a20c5a8cbf2f27fc5625c67b",
+      "provenance": "GitHub connector fetch_file at pinned commit",
+      "limitations": "Documentary/static source inspection only; no execution or npm artifact equivalence verification."
+    },
+    {
+      "id": "S3",
+      "title": "Flubber LICENSE",
+      "url": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/LICENSE",
+      "source_type": "first-party repository file",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": null,
+      "blob_sha": "6373181d9fc9946673965bb25bcd0ab52f7ff137",
+      "provenance": "GitHub connector fetch_file at pinned commit",
+      "limitations": "Documentary/static source inspection only; no execution or npm artifact equivalence verification."
+    },
+    {
+      "id": "S4",
+      "title": "Flubber src/interpolate.js",
+      "url": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/src/interpolate.js",
+      "source_type": "first-party repository file",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": null,
+      "blob_sha": "296bb4e50bde4628528e83894f31c608618d37b0",
+      "provenance": "GitHub connector fetch_file at pinned commit",
+      "limitations": "Documentary/static source inspection only; no execution or npm artifact equivalence verification."
+    },
+    {
+      "id": "S5",
+      "title": "Flubber src/svg.js",
+      "url": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/src/svg.js",
+      "source_type": "first-party repository file",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": null,
+      "blob_sha": "05de053f92e6292bc82221d77c19f55a21521c46",
+      "provenance": "GitHub connector fetch_file at pinned commit",
+      "limitations": "Documentary/static source inspection only; no execution or npm artifact equivalence verification."
+    },
+    {
+      "id": "S6",
+      "title": "Flubber src/normalize.js",
+      "url": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/src/normalize.js",
+      "source_type": "first-party repository file",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": null,
+      "blob_sha": "264800e7d4207a318fcf1dc5fb44a547efd201a5",
+      "provenance": "GitHub connector fetch_file at pinned commit",
+      "limitations": "Documentary/static source inspection only; no execution or npm artifact equivalence verification."
+    },
+    {
+      "id": "S7",
+      "title": "Flubber observed master commit",
+      "url": "https://github.com/veltman/flubber/commit/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "source_type": "GitHub commit metadata",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "commit_sha": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "commit_date": "2019-10-16T01:49:53Z",
+      "release_date": null,
+      "version": null,
+      "provenance": "GitHub fetch_commit(master)",
+      "limitations": "Observed mainline head, not an npm release or comprehensive maintenance audit."
+    }
+  ],
+  "unresolved_checks": [
+    {
+      "url": "https://api.github.com/repos/veltman/flubber/releases/latest",
+      "title": "GitHub latest release metadata",
+      "retrieved_at": "2026-11-02",
+      "result": "404 Not Found",
+      "release_date": null,
+      "limitation": "Does not establish a latest release date or prove absence of tags."
+    },
+    {
+      "url": "https://registry.npmjs.org/flubber/latest",
+      "title": "npm latest package metadata",
+      "retrieved_at": "2026-11-02",
+      "result": "Not retrieved successfully through available web access",
+      "version": null,
+      "limitation": "Registry current version, release timing and integrity are unverified."
+    }
+  ]
+}

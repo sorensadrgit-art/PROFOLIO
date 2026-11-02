@@ -1,0 +1,59 @@
+{
+  "run_id": "20261102T081800Z-open-source-creative",
+  "evaluated_at": "2026-11-02",
+  "shortlist": [
+    {
+      "repository": "veltman/flubber",
+      "url": "https://github.com/veltman/flubber",
+      "purpose": "Best-guess interpolation between 2-D filled shapes",
+      "decision": "Candidate only for simple decorative silhouettes; compound topology preservation is out of scope.",
+      "language": "JavaScript",
+      "source_commit": "0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3",
+      "source_commit_date": "2019-10-16T01:49:53Z",
+      "manifest_version": "0.4.2",
+      "npm_latest_version": null,
+      "release_date": null,
+      "license": {
+        "identifier": "MIT",
+        "source": "https://github.com/veltman/flubber/blob/0cadadf3eb15cd5b2ec7c45c70601ff88b76a6c3/LICENSE",
+        "restrictions": "Retain copyright and permission notice; no warranty; unrelated assets require their own rights."
+      },
+      "dependencies": {
+        "d3-array": "^1.2.0",
+        "d3-polygon": "^1.0.3",
+        "earcut": "^2.1.1",
+        "svg-path-properties": "^0.2.1",
+        "svgpath": "^2.2.1",
+        "topojson-client": "^3.0.0"
+      },
+      "compatibility": "CommonJS/browser build and module entries observed; framework, TypeScript and SSR compatibility untested.",
+      "installation": "Verify registry artifact, then pin version; not installed.",
+      "hosting_api_mcp": "Local library; no hosted API, authentication or MCP required for proposed use.",
+      "operational_costs": "No MIT license fee; normal hosting, bundle, rendering and maintenance costs unmeasured.",
+      "demos": [
+        "https://veltman.github.io/flubber/demos/basic-svg.html",
+        "https://veltman.github.io/flubber/demos/vanilla-canvas.html"
+      ],
+      "risks": [
+        "Compound subpaths omitted in intermediate geometry",
+        "Exact string endpoints can mask intermediate loss",
+        "Old observed mainline and dependency ranges",
+        "No runtime/performance/accessibility verification"
+      ],
+      "alternatives": [
+        "Unmodified SVG crossfade",
+        "Static original icon"
+      ],
+      "future_application": "Category badge silhouette with separate semantic text and controlled animation lifecycle",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ]
+    }
+  ]
+}
