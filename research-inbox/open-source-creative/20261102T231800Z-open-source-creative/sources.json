@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T231800Z-open-source-creative",
+  "evaluated_at": "2026-11-02T23:23:05Z",
+  "sources": [
+    {
+      "id": "misc",
+      "url": "https://tweakpane.github.io/docs/misc/",
+      "title": "Tweakpane — Misc",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Live official documentation; state API, manual refresh, disposal. Version not independently embedded.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "setup",
+      "url": "https://tweakpane.github.io/docs/getting-started/",
+      "title": "Tweakpane — Getting started",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Official setup example explicitly references 4.0.5; npm and TypeScript instructions.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "readme",
+      "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/README.md",
+      "title": "Tweakpane 4.0.5 README",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Repository tag: purpose, controls, ESM and dependency-free description.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "package",
+      "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/packages/tweakpane/package.json",
+      "title": "Tweakpane package manifest",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Repository manifest: module type, types, dev tooling; no runtime dependencies field.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "license",
+      "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/LICENSE.txt",
+      "title": "Tweakpane MIT licence",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Actual licence file, not inferred from public visibility.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "container",
+      "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/packages/core/src/blade/common/controller/container-blade.ts",
+      "title": "Container blade state implementation",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Source inspection: existing child controllers import array entries by index.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "binding",
+      "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/packages/core/src/blade/binding/controller/binding.ts",
+      "title": "Binding state implementation",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Source inspection: export includes bound key/value.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "input",
+      "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/packages/core/src/blade/binding/controller/input-binding.ts",
+      "title": "Input binding state implementation",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Source inspection: import injects value then fetches.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "release",
+      "url": "https://github.com/cocopon/tweakpane/releases/tag/4.0.5",
+      "title": "Tweakpane 4.0.5 release",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": "4.0.5",
+      "release_date": "2024-11-03T16:37:01Z",
+      "commit_date": null,
+      "provenance": "Latest GitHub release endpoint observed; not an npm latest claim.",
+      "limitations": "Documentary inspection only; no execution."
+    },
+    {
+      "id": "commit",
+      "url": "https://github.com/cocopon/tweakpane/commit/50a18c3dba67cb78431d7248dbe4d5a76336885a",
+      "title": "Latest repository commit observed",
+      "retrieved_at": "2026-11-02T23:23:05Z",
+      "evaluated_at": "2026-11-02T23:23:05Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": "2026-03-15T08:28:49Z",
+      "provenance": "Default-branch commit API observed; not the 4.0.5 source snapshot.",
+      "limitations": "Documentary inspection only; no execution."
+    }
+  ],
+  "retrieval_limitations": [
+    {
+      "url": "https://registry.npmjs.org/tweakpane/4.0.5",
+      "result": "Web retrieval inaccessible; npm registry metadata not verified. Version based on tag manifest and GitHub release."
+    }
+  ]
+}

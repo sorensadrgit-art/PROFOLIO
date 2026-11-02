@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T231800Z-open-source-creative",
+  "repositories": [
+    {
+      "name": "Tweakpane",
+      "repository_url": "https://github.com/cocopon/tweakpane",
+      "version": "4.0.5",
+      "source_ref": "4.0.5",
+      "purpose": "Optional visual parameter authoring panel; durable presets remain application-owned.",
+      "technologies": [
+        "TypeScript",
+        "ES modules",
+        "browser DOM",
+        "Rollup build tooling",
+        "Sass"
+      ],
+      "runtime_dependencies_observed": [],
+      "dependency_limitations": "Tagged package manifest only; npm registry unreachable. TypeScript docs additionally require @tweakpane/core; compatible version unresolved.",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/cocopon/tweakpane/blob/4.0.5/LICENSE.txt",
+        "restrictions": "Retain copyright and permission notices; no warranty. Third-party assets/plugins not cleared."
+      },
+      "release_date": "2024-11-03T16:37:01Z",
+      "latest_observed_commit": "50a18c3dba67cb78431d7248dbe4d5a76336885a",
+      "latest_observed_commit_date": "2026-03-15T08:28:49Z",
+      "demo_url": "https://tweakpane.github.io/docs/",
+      "demo_executed": false,
+      "install_recommendation": "Evaluate pinned tweakpane@4.0.5; resolve matching @tweakpane/core for TypeScript before use.",
+      "hosting": "Local browser UI; static bundling possible. No mandatory backend/API/MCP for documented setup.",
+      "operational_costs": "No mandatory paid service for proposed local setup; hosting and engineering costs not quantified.",
+      "compatibility": "ESM v4; browser/framework/plugin matrix unverified.",
+      "risks": [
+        "Control-order coupling of state import",
+        "Unvalidated application presets",
+        "Cleanup and refresh omissions",
+        "Unverified accessibility and integration"
+      ],
+      "decision": "Shortlist for authoring-only evaluation; not deployment approval."
+    }
+  ]
+}

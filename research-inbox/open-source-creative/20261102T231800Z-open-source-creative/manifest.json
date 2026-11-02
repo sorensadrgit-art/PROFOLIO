@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T231800Z-open-source-creative",
+  "topic_id": "open-source-creative",
+  "title": "Tweakpane: authoring panel state versus versioned scene presets",
+  "scheduled_at": "2026-11-02T23:18:00Z",
+  "evaluated_at": "2026-11-02T23:24:01Z",
+  "status": "published",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 10,
+  "provenance": "Original Dot synthesis from primary official docs and tagged source; no Gemini output.",
+  "limitations": [
+    "Documentary only",
+    "No runtime/build/performance/accessibility/integration tests",
+    "npm metadata retrieval unsuccessful",
+    "TypeScript core version not resolved"
+  ],
+  "tests": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_patterns_and_manual_review",
+    "independent_review": "APPROVED_DOCUMENTARY",
+    "runtime": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed"
+  },
+  "duplicate_check": {
+    "same_run_found": false,
+    "existing_creative_reports_read": 12,
+    "scope": "Live catalog, topic directory and all existing creative research.md",
+    "unrelated_index_mismatch": "Preserved, not reconciled"
+  },
+  "reviewed_at": "2026-11-02T23:25:14Z"
+}
