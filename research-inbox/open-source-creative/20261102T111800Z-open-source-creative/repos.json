@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "repos": [
+    {
+      "repository": "shuding/cobe",
+      "url": "https://github.com/shuding/cobe",
+      "purpose": "Optional WebGL globe with markers/arcs and DOM bindings",
+      "recommendation": "Conditional documentary shortlist; verify artifact/API/cleanup before adoption",
+      "source_version": "2.0.1",
+      "observed_commit": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "commit_date": "2026-09-22T07:38:35Z",
+      "release_tag": "2.0.1",
+      "release_date": "2026-03-19T17:02:49Z",
+      "npm_version": null,
+      "license": "MIT",
+      "license_url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/LICENSE",
+      "restrictions": [
+        "Retain copyright and permission notices",
+        "Upstream map/demo asset rights not independently cleared"
+      ],
+      "technologies": [
+        "JavaScript",
+        "GLSL",
+        "WebGL",
+        "TypeScript declarations",
+        "CSS anchor positioning"
+      ],
+      "runtime_dependencies_declared": [],
+      "development_tools": [
+        "esbuild",
+        "glslx",
+        "terser",
+        "Next.js",
+        "React",
+        "TypeScript"
+      ],
+      "demo_url": "https://cobe.vercel.app",
+      "demo_executed": false,
+      "api": "createGlobe(canvas, options), update, destroy",
+      "mcp_required": false,
+      "hosted_service_required": false,
+      "authentication_required": false,
+      "costs": "Application hosting/bandwidth, GPU rendering and engineering; unmeasured",
+      "compatibility": "Browser DOM required at construction; WebGL2/WebGL1 paths inspected, framework/browser matrix untested",
+      "risks": [
+        "README onRender example differs from inspected v2 API",
+        "Main texture cleanup differs from tagged source",
+        "DPR sizing and wrapper ownership",
+        "Asset rights and actual npm artifact unverified"
+      ]
+    }
+  ]
+}
+

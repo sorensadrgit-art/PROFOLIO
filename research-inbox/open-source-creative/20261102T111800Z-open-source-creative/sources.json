@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "README.md",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/README.md",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "e3dd5572b7c9ad2e2d226aaa7c511fcb3a3eebd7",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "tag": null,
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S2",
+      "title": "Package manifest",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/package.json",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "f350ed5915ac6e934b1acba19c1bb5f7358d7b8d",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "tag": null,
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S3",
+      "title": "Actual MIT licence",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/LICENSE",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "9cacf6095713dc9e6c20e75c512c8c0c51932f11",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "tag": null,
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S4",
+      "title": "Main implementation",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/src/index.js",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "9fa430f0f9e3eb7dbddb5952aaecda3d1b9f7b7a",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "tag": null,
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S5",
+      "title": "Type declarations",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/src/index.d.ts",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "dd90fb067057828e6c689cc0250a239062645280",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "tag": null,
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S6",
+      "title": "Tagged implementation",
+      "url": "https://github.com/shuding/cobe/blob/2.0.1/src/index.js",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "c8af8325213083b2bc1b5edf2cba055104c2508e",
+      "commit_sha": "1f37b2233a64beda6d114d332e201f6310667d60",
+      "tag": "2.0.1",
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S8",
+      "title": "Build pipeline",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/scripts/build.js",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "cfe99f8d069c085a17cf490f8595ff88bac29b27",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "tag": null,
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    },
+    {
+      "id": "S7",
+      "title": "Latest release metadata",
+      "url": "https://api.github.com/repos/shuding/cobe/releases/latest",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "GitHub repository release API",
+      "version": "2.0.1",
+      "release_date": "2026-03-19T17:02:49Z",
+      "commit_sha": null,
+      "limitations": "Mutable latest endpoint; observed tag 2.0.1."
+    },
+    {
+      "id": "S9",
+      "title": "Observed mainline commit metadata",
+      "url": "https://api.github.com/repos/shuding/cobe/commits/7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "GitHub commit API",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "commit_date": "2026-09-22T07:38:35Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Mainline activity is not a released artifact guarantee."
+    },
+    {
+      "id": "S10",
+      "title": "DOM anchor management",
+      "url": "https://github.com/shuding/cobe/blob/7e94076fa8c38707f4c9cd114ff4f7c5c880971e/src/anchor.js",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "provenance": "first-party repository file",
+      "git_blob_sha": "80dc8c0e13d387993407b5e57bb8058321af76e2",
+      "commit_sha": "7e94076fa8c38707f4c9cd114ff4f7c5c880971e",
+      "version": "2.0.1",
+      "release_date": null,
+      "limitations": "Static source inspection; published artifact equivalence unverified."
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://registry.npmjs.org/cobe/latest",
+      "attempted_at": "2026-11-02T11:24:08Z",
+      "reason": "URL inaccessible through web tool",
+      "registry_latest": null,
+      "integrity": null
+    }
+  ]
+}

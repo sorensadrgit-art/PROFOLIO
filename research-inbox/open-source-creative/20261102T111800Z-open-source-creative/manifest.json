@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T111800Z-open-source-creative",
+  "topic_id": "open-source-creative",
+  "title": "COBE v2: a globe demo is not an animation lifecycle contract",
+  "scheduled_at": "2026-11-02T11:18:00Z",
+  "evaluated_at": "2026-11-02",
+  "status": "approved",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 10,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "limitations": [
+    "Documentary static-source review only",
+    "npm metadata/artifact equivalence unverified",
+    "Upstream map-asset rights not independently cleared",
+    "No runtime, performance, accessibility, dependency-security or integration tests"
+  ],
+  "duplicate_check": {
+    "prior_topic_packages": 8,
+    "same_run_found": false,
+    "unindexed_topic_runs": 0
+  },
+  "publication_scope": "Sanitized original research only; research-data topic output and catalog.",
+  "review": {
+    "independent_worker": "qa_cobe",
+    "reviewed_at": "2026-11-02",
+    "scope": "Independent primary-source and important-claim review",
+    "report": "qa.md"
+  },
+  "validation": {
+    "json": "passed",
+    "sensitive_data_scan": "passed_bounded_patterns_and_review",
+    "runtime": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed"
+  }
+}
