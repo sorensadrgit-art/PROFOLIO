@@ -1,0 +1,70 @@
+{
+  "run_id": "20261102T012400Z-agents-memory",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Cancellation",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/cancellation",
+      "evaluated_on": "2026-11-02",
+      "version": "2025-11-25",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Primary official specification or repository license",
+      "limitations": "Documentary behavior only; deployed implementation unverified.",
+      "retrieved_on": "2026-11-02"
+    },
+    {
+      "id": "S2",
+      "title": "Tasks",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/tasks",
+      "evaluated_on": "2026-11-02",
+      "version": "2025-11-25",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Primary official specification or repository license",
+      "limitations": "Documentary behavior only; deployed implementation unverified.",
+      "retrieved_on": "2026-11-02"
+    },
+    {
+      "id": "S3",
+      "title": "Transports",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+      "evaluated_on": "2026-11-02",
+      "version": "2025-11-25",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Primary official specification or repository license",
+      "limitations": "Documentary behavior only; deployed implementation unverified.",
+      "retrieved_on": "2026-11-02"
+    },
+    {
+      "id": "S4",
+      "title": "Tools",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "evaluated_on": "2026-11-02",
+      "version": "2025-11-25",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Primary official specification or repository license",
+      "limitations": "Documentary behavior only; deployed implementation unverified.",
+      "retrieved_on": "2026-11-02"
+    },
+    {
+      "id": "S5",
+      "title": "MCP repository LICENSE",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/d0e246ea3c69eafaa2806bc4cd28025703ba2c2b/LICENSE",
+      "evaluated_on": "2026-11-02",
+      "version": null,
+      "commit": "d0e246ea3c69eafaa2806bc4cd28025703ba2c2b",
+      "commit_date": "2026-10-31T15:43:32Z",
+      "release_date": null,
+      "provenance": "Primary official specification or repository license",
+      "limitations": "Mixed licensing transition; per-contribution scope not audited.",
+      "retrieved_on": "2026-11-02"
+    }
+  ]
+}

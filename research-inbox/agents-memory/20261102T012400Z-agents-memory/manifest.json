@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T012400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "title": "Cancelled is not evidence that an agent's external work stopped",
+  "scheduled_at": "2026-11-02T01:24:00Z",
+  "evaluated_on": "2026-11-02",
+  "status": "approved_documentary",
+  "source_count": 5,
+  "question": "What may an orchestrator safely conclude after cancelling an MCP operation?",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "prior_packages_read": 5,
+    "same_run_exists": false,
+    "unfinished_topic_packages_observed": false,
+    "new_material": "MCP ordinary versus task cancellation, continued execution despite cancelled state, immediate task purge and external outcome reconciliation."
+  },
+  "tests": {
+    "documentary_qa": "passed",
+    "json_validation": "passed",
+    "bounded_sensitive_scan": "passed",
+    "runtime": "not_run",
+    "integration": "not_run",
+    "performance": "not_run",
+    "accessibility": "not_run"
+  },
+  "publication": {
+    "branch": "research-data",
+    "commit_sha": null,
+    "strategy": "Atomic package and catalog append with expected-head compare-and-swap; verify remote bytes."
+  },
+  "limitations": [
+    "No cancellation race or external provider tests",
+    "No SDK/package compatibility validation",
+    "Source publication dates unknown",
+    "Mixed repository license transition is not a per-file license audit"
+  ],
+  "checksums": {
+    "sources.json": "290150297eaf8d90199502ffc7488f0f19013e0386ab0aac9efc14effa7a8188",
+    "qa.md": "c2df28a01f2bdeead85d2bc89f4df3086bfe1dda228749942046cbf2d78d11c6",
+    "research.md": "d1dbca39a57443155f5445778a66c0c0929a6c5f3d8c0ea3ab3ad136210dc9ed"
+  }
+}
