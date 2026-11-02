@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T123000Z-open-source-tooling",
+  "evaluated_at": "2026-11-02T12:34:00Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ast-grep README",
+      "url": "https://github.com/ast-grep/ast-grep/blob/5a204b1ef3facef94de125d990dddc7cf90011c0/README.md",
+      "retrieved_at": "2026-11-02T12:32:40Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": "0.51.1",
+      "commit_sha": "5a204b1ef3facef94de125d990dddc7cf90011c0",
+      "commit_date": "2026-11-02T05:29:50Z",
+      "release_date": null,
+      "provenance": "Pinned maintainer repository: purpose, interfaces, installation and demo",
+      "limitations": "Source/release metadata only; binaries and runtime untested."
+    },
+    {
+      "id": "S2",
+      "title": "ast-grep release 0.51.1",
+      "url": "https://github.com/ast-grep/ast-grep/releases/tag/0.51.1",
+      "retrieved_at": "2026-11-02T12:32:24Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": "0.51.1",
+      "commit_sha": "5a204b1ef3facef94de125d990dddc7cf90011c0",
+      "commit_date": "2026-11-02T05:29:50Z",
+      "release_date": "2026-11-02T05:33:13Z",
+      "provenance": "GitHub latest release metadata and resolved tag commit",
+      "limitations": "Source/release metadata only; binaries and runtime untested.",
+      "retrieval_urls": [
+        "https://api.github.com/repos/ast-grep/ast-grep/releases/latest",
+        "https://api.github.com/repos/ast-grep/ast-grep/commits/0.51.1"
+      ],
+      "commit_retrieved_at": "2026-11-02T12:32:32Z"
+    },
+    {
+      "id": "S3",
+      "title": "ast-grep Cargo workspace",
+      "url": "https://github.com/ast-grep/ast-grep/blob/5a204b1ef3facef94de125d990dddc7cf90011c0/Cargo.toml",
+      "retrieved_at": "2026-11-02T12:32:40Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": "0.51.1",
+      "commit_sha": "5a204b1ef3facef94de125d990dddc7cf90011c0",
+      "commit_date": "2026-11-02T05:29:50Z",
+      "release_date": null,
+      "provenance": "Pinned manifest declarations, not installed dependency resolution",
+      "limitations": "Source/release metadata only; binaries and runtime untested."
+    },
+    {
+      "id": "S4",
+      "title": "ast-grep MIT LICENSE",
+      "url": "https://github.com/ast-grep/ast-grep/blob/5a204b1ef3facef94de125d990dddc7cf90011c0/LICENSE",
+      "retrieved_at": "2026-11-02T12:32:40Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": "0.51.1",
+      "commit_sha": "5a204b1ef3facef94de125d990dddc7cf90011c0",
+      "commit_date": "2026-11-02T05:29:50Z",
+      "release_date": null,
+      "provenance": "Actual pinned licence text",
+      "limitations": "Source/release metadata only; binaries and runtime untested."
+    },
+    {
+      "id": "S5",
+      "title": "ast-grep npm CLI source manifest",
+      "url": "https://github.com/ast-grep/ast-grep/blob/5a204b1ef3facef94de125d990dddc7cf90011c0/npm/package.json",
+      "retrieved_at": "2026-11-02T12:33:17Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": "0.51.1",
+      "commit_sha": "5a204b1ef3facef94de125d990dddc7cf90011c0",
+      "commit_date": "2026-11-02T05:29:50Z",
+      "release_date": null,
+      "provenance": "Source package metadata, not registry artifact verification",
+      "limitations": "Source/release metadata only; binaries and runtime untested."
+    },
+    {
+      "id": "S6",
+      "title": "Frequently Asked Questions",
+      "url": "https://ast-grep.github.io/advanced/faq.html",
+      "retrieved_at": "2026-11-02T12:33:09Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Maintainer documentation: analysis limits and parser differences",
+      "limitations": "Living documentation; version and publication date unknown, release parity untested."
+    },
+    {
+      "id": "S7",
+      "title": "Rewrite Code",
+      "url": "https://ast-grep.github.io/guide/rewrite-code.html",
+      "retrieved_at": "2026-11-02T12:33:17Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Maintainer documentation: application controls and fix behavior",
+      "limitations": "Living documentation; version and publication date unknown, release parity untested."
+    },
+    {
+      "id": "S8",
+      "title": "Test Your Rule",
+      "url": "https://ast-grep.github.io/guide/test-rule.html",
+      "retrieved_at": "2026-11-02T12:32:40Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Maintainer documentation: fixture and snapshot semantics",
+      "limitations": "Living documentation; version and publication date unknown, release parity untested."
+    },
+    {
+      "id": "S9",
+      "title": "ast-grep run",
+      "url": "https://ast-grep.github.io/reference/cli/run.html",
+      "retrieved_at": "2026-11-02T12:33:17Z",
+      "evaluated_at": "2026-11-02T12:34:00Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Maintainer command reference",
+      "limitations": "Living documentation; version and publication date unknown, release parity untested."
+    }
+  ],
+  "failed_retrievals": [
+    {
+      "url": "https://registry.npmjs.org/@ast-grep%2Fcli/latest",
+      "retrieved_at": "2026-11-02T12:33:09Z",
+      "result": "Web tool reported inaccessible; registry version/integrity/publication date remain null."
+    }
+  ]
+}

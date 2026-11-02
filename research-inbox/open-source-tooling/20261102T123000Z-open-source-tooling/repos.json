@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T123000Z-open-source-tooling",
+  "repositories": [
+    {
+      "name": "ast-grep",
+      "url": "https://github.com/ast-grep/ast-grep",
+      "decision": "conditional_shortlist",
+      "purpose": "Structural code search, lint rules and reviewable codemods",
+      "version": "0.51.1",
+      "release_published_at": "2026-11-02T05:33:13Z",
+      "commit_sha": "5a204b1ef3facef94de125d990dddc7cf90011c0",
+      "commit_date": "2026-11-02T05:29:50Z",
+      "languages": [
+        "Rust",
+        "JavaScript package wrapper",
+        "YAML rule configuration"
+      ],
+      "license": "MIT",
+      "license_source": "S4",
+      "source_build_rust_minimum": "1.90.0",
+      "npm_source_node_engine": ">=12.0.0",
+      "npm_registry_version": null,
+      "npm_integrity": null,
+      "dependencies": [
+        "tree-sitter",
+        "serde",
+        "regex",
+        "ignore",
+        "detect-libc 2.1.2",
+        "platform-specific optional binary packages"
+      ],
+      "installation": "Evaluate pinned trusted binary/package only after approval; no installation performed.",
+      "hosting": "Local CLI; no service required.",
+      "api_mcp": "CLI/JSON evaluated documentarily; no MCP or API binding tested.",
+      "authentication": "No credential required for ordinary local CLI use.",
+      "costs": "Local compute, storage, CI and review; optional calling-agent inference separate.",
+      "maintenance": "Release observed on evaluation date; no support SLA inferred.",
+      "demo_url": "https://ast-grep.github.io/playground.html",
+      "risks": [
+        "Syntax lacks scope/type/dataflow analysis",
+        "Unmatched fix metavariables become empty strings",
+        "Automatic application and baseline updates require independent review",
+        "Parser/platform/configuration differences",
+        "npm postinstall script and distribution identity not evaluated"
+      ],
+      "alternatives": [
+        "Lexical search for text questions",
+        "Compiler/language-service refactoring for symbol/type-sensitive transformations",
+        "Manually reviewed patch plus existing tests"
+      ],
+      "future_application": "Hash-bound codemod evidence bundle separating candidate diff, fixture baselines and semantic acceptance",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "tests_performed": [],
+      "limitations": "Documentary only; no package installation, runtime, integration or security audit."
+    }
+  ]
+}
