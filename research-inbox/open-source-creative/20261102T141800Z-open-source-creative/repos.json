@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T141800Z-open-source-creative",
+  "repositories": [
+    {
+      "name": "Atropos",
+      "repository": "https://github.com/nolimits4web/atropos",
+      "purpose": "Optional DOM/CSS layered parallax card",
+      "shortlist_status": "CONDITIONAL_EVALUATION_ONLY",
+      "version": "2.0.2",
+      "release_published_at": "2023-07-04T06:52:07Z",
+      "observed_head": "eb4b4c5682117a53f60fccd459f64d06a99e9445",
+      "head_date": "2026-10-06T17:16:44Z",
+      "license": {
+        "spdx": "MIT",
+        "verified_file": "https://github.com/nolimits4web/atropos/blob/v2.0.2/LICENSE",
+        "restrictions": "Retain copyright and permission notice; no asset-rights blanket clearance."
+      },
+      "technologies": [
+        "JavaScript",
+        "React JSX",
+        "CSS/SCSS",
+        "TypeScript declarations"
+      ],
+      "dependencies": {
+        "distribution_runtime_fields": "No dependencies or peerDependencies fields in inspected distribution manifest",
+        "react_entry": "Imports React hooks; React required",
+        "artifact_verified": false
+      },
+      "compatibility": {
+        "documented_features": [
+          "Pointer Events",
+          "CSS 3D Transforms",
+          "CSS Transitions"
+        ],
+        "framework_versions_tested": [],
+        "ssr_tested": false
+      },
+      "demo": "https://atroposjs.com",
+      "features": [
+        "Layer offsets",
+        "Highlights and shadows",
+        "Directional touch modes",
+        "React and custom-element exports"
+      ],
+      "risks": [
+        "React non-callback options are initialization-time in inspected wrapper",
+        "Destroy does not restore DOM styles/classes/decorations",
+        "Continuous queue frame scheduling, cost unmeasured",
+        "Old release; npm artifact unverified"
+      ],
+      "integration": "Pin verified package, import CSS, own client mount/teardown and static fallback. No API/MCP/account needed.",
+      "costs": "No required paid service; normal hosting/rendering/maintenance costs unmeasured.",
+      "alternatives": [
+        "Static original image/SVG",
+        "Simple CSS decorative transform"
+      ],
+      "original_application": "Optional layered architecture case-study illustration with independent ordinary content.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ]
+    }
+  ]
+}

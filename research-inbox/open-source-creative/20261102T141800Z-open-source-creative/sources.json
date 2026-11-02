@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T141800Z-open-source-creative",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Atropos core source",
+      "url": "https://github.com/nolimits4web/atropos/blob/v2.0.2/src/atropos.js",
+      "retrieved_at": "2026-11-02T15:50:32Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "ref": "v2.0.2",
+      "blob_sha": "e1f075b0e3b9a19dffba9e9ba9478598b9b4a016",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "Primary repository tagged file",
+      "limitations": "Static source inspection; published npm artifact not verified."
+    },
+    {
+      "id": "S2",
+      "title": "Atropos React wrapper",
+      "url": "https://github.com/nolimits4web/atropos/blob/v2.0.2/src/react/atropos-react.js",
+      "retrieved_at": "2026-11-02T15:50:32Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "ref": "v2.0.2",
+      "blob_sha": "7355feea43c48ca032f278bc79237f9e1bd6fdc5",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "Primary repository tagged file",
+      "limitations": "Static source inspection; published npm artifact not verified."
+    },
+    {
+      "id": "S3",
+      "title": "Atropos styles",
+      "url": "https://github.com/nolimits4web/atropos/blob/v2.0.2/src/atropos.scss",
+      "retrieved_at": "2026-11-02T15:50:32Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "ref": "v2.0.2",
+      "blob_sha": "ed5361866a0af62104c0e865fd18d263e553875c",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "Primary repository tagged file",
+      "limitations": "Static source inspection; published npm artifact not verified."
+    },
+    {
+      "id": "S4",
+      "title": "Distribution package manifest",
+      "url": "https://github.com/nolimits4web/atropos/blob/v2.0.2/package/package.json",
+      "retrieved_at": "2026-11-02T15:50:32Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "ref": "v2.0.2",
+      "blob_sha": "ed685af4cdf1045ac1fd7b992e27688d3fc9627b",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "Primary repository tagged file",
+      "limitations": "Static source inspection; published npm artifact not verified."
+    },
+    {
+      "id": "S5",
+      "title": "Actual MIT licence",
+      "url": "https://github.com/nolimits4web/atropos/blob/v2.0.2/LICENSE",
+      "retrieved_at": "2026-11-02T15:50:32Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "ref": "v2.0.2",
+      "blob_sha": "e62ff75c2079f09e593db7234dc0177785779cbe",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "Primary repository tagged file",
+      "limitations": "Static source inspection; published npm artifact not verified."
+    },
+    {
+      "id": "S6",
+      "title": "Repository README",
+      "url": "https://github.com/nolimits4web/atropos/blob/v2.0.2/README.md",
+      "retrieved_at": "2026-11-02T15:50:32Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "ref": "v2.0.2",
+      "blob_sha": "b23dae4ae5cd78995421af767385efa3d79aea52",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "Primary repository tagged file",
+      "limitations": "Static source inspection; published npm artifact not verified."
+    },
+    {
+      "id": "S7",
+      "title": "Latest release metadata",
+      "url": "https://api.github.com/repos/nolimits4web/atropos/releases/latest",
+      "retrieved_at": "2026-11-02T15:50:11Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2",
+      "release_date": "2023-07-04T06:52:07Z",
+      "commit_date": null,
+      "provenance": "GitHub release API",
+      "limitations": "Latest at retrieval; not a support guarantee."
+    },
+    {
+      "id": "S8",
+      "title": "Latest default-branch commit",
+      "url": "https://api.github.com/repos/nolimits4web/atropos/commits?per_page=1",
+      "retrieved_at": "2026-11-02T15:50:11Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": null,
+      "commit_sha": "eb4b4c5682117a53f60fccd459f64d06a99e9445",
+      "commit_date": "2026-10-06T17:16:44Z",
+      "release_date": null,
+      "provenance": "GitHub commit API",
+      "limitations": "Latest commit is sponsor maintenance, not evidence of runtime changes."
+    },
+    {
+      "id": "S9",
+      "title": "Official Atropos documentation",
+      "url": "https://atroposjs.com/docs",
+      "retrieved_at": "2026-11-02T15:50:20Z",
+      "evaluated_at": "2026-11-02T15:50:32Z",
+      "version": "2.0.2 displayed",
+      "release_date": null,
+      "commit_date": null,
+      "provenance": "Maintainer documentation",
+      "limitations": "Live documentation; demos not operated."
+    }
+  ],
+  "failed_retrievals": [
+    {
+      "url": "https://registry.npmjs.org/atropos/latest",
+      "attempted_at": "2026-11-02T15:50:27Z",
+      "result": "Web tool endpoint inaccessible",
+      "npm_latest": null,
+      "integrity": null
+    }
+  ]
+}
