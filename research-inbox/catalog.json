@@ -1657,6 +1657,26 @@
       ],
       "summary": "Case-study accordion content hierarchy, simultaneous-reading policy, semantic structure and focus safeguards. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T201800Z-open-source-creative",
+      "topic_id": "open-source-creative",
+      "title": "Lottie: an image-load event is not a successful asset audit",
+      "path": "research-inbox/open-source-creative/20261102T201800Z-open-source-creative/",
+      "created_at": "2026-11-02T20:25:19Z",
+      "scheduled_at": "2026-11-02T20:18:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 8,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "One-project lottie-web discovery: image settlement versus success, renderer readiness, segmented data and fallback ownership. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -3112,6 +3132,26 @@
             "manifest.json"
           ],
           "summary": "One-project Troika text discovery: no-change callbacks, queued result readiness, font preparation and geometry/material ownership. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T201800Z-open-source-creative",
+          "topic_id": "open-source-creative",
+          "title": "Lottie: an image-load event is not a successful asset audit",
+          "path": "research-inbox/open-source-creative/20261102T201800Z-open-source-creative/",
+          "created_at": "2026-11-02T20:25:19Z",
+          "scheduled_at": "2026-11-02T20:18:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 8,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "One-project lottie-web discovery: image settlement versus success, renderer readiness, segmented data and fallback ownership. Documentary only.",
           "package_commit_sha": null
         }
       ]

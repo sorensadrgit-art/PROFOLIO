@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T201800Z-open-source-creative",
+  "repositories": [
+    {
+      "name": "lottie-web",
+      "repository_url": "https://github.com/airbnb/lottie-web",
+      "purpose": "Browser playback of authored animation exports",
+      "version": "5.13.0",
+      "observed_commit": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+      "commit_date": "2024-11-19T12:25:21Z",
+      "npm_published_at": "2025-05-21T17:23:47.288Z",
+      "github_release_date": null,
+      "licence": "MIT",
+      "licence_url": "https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/LICENSE.md",
+      "restrictions": [
+        "Retain copyright and permission notices",
+        "Asset/font/animation rights require separate verification"
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript declarations",
+        "SVG",
+        "Canvas",
+        "HTML"
+      ],
+      "dependencies": {
+        "runtime_manifest_field": null,
+        "development": "Build and test dependencies exist; not installed"
+      },
+      "maintenance": "Observed commit and npm publication dates only; no abandonment/support guarantee",
+      "demos": [
+        "https://codepen.io/airnan/project/editor/ZeNONO/"
+      ],
+      "demos_tested": false,
+      "integration": "Browser-owned instance; client-side framework boundary and cleanup require testing",
+      "hosting": "Static player/data/assets on existing application hosting",
+      "api_mcp": "JavaScript API; no MCP or credentials required for basic playback",
+      "costs": "No mandatory paid runtime service in inspected setup; authoring, bandwidth and QA unpriced",
+      "alternatives": [
+        "Static poster",
+        "Small native SVG/CSS transition",
+        "Pre-rendered licensed video"
+      ],
+      "risks": [
+        "Image settlement is not successful asset loading",
+        "Renderer-specific readiness",
+        "Stale callbacks",
+        "Untrusted asset origins",
+        "Release/source age and framework compatibility"
+      ],
+      "recommendation": "Conditional evaluation only after original asset and fallback contract",
+      "source_ids": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8"
+      ]
+    }
+  ]
+}
