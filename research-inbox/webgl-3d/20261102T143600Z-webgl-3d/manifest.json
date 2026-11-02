@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T143600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "A frozen shadow needs two update gates and a frame",
+  "scheduled_at": "2026-11-02T14:36:00Z",
+  "created_at": "2026-11-02T14:53:34Z",
+  "status": "approved",
+  "question": "How should an occasionally changing Three.js scene refresh frozen shadow maps without silently keeping stale shadows?",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "catalog_package_count": 73,
+    "existing_topic_reports_read": 12,
+    "same_run_found": false,
+    "unfinished_topic_entry_found": false
+  },
+  "publication": {
+    "branch": "research-data",
+    "path": "research-inbox/webgl-3d/20261102T143600Z-webgl-3d/",
+    "commit_sha": null,
+    "method": "atomic package and append-only catalog; expected branch head compare-and-swap"
+  },
+  "review": {
+    "status": "APPROVED_DOCUMENTARY",
+    "independent": true,
+    "report": "qa.md",
+    "reviewed_at": "2026-11-02T14:54:46Z"
+  },
+  "tests": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed: bounded token/private-key/email/credential patterns plus manual review; not an exhaustive security certification",
+    "runtime": "not performed",
+    "integration": "not performed",
+    "visual": "not performed",
+    "accessibility": "not performed",
+    "performance": "not performed"
+  },
+  "limitations": [
+    "No installed version, npm release or runtime combination verified.",
+    "Pinned dev package declares 0.187.0; source snapshot is not a release recommendation.",
+    "Original refresh protocol and acceptance fixture are untested.",
+    "Documentary approval is not permission to deploy."
+  ]
+}

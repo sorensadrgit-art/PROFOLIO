@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T143600Z-webgl-3d",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "LightShadow — Three.js documentation",
+      "url": "https://threejs.org/docs/pages/LightShadow.html",
+      "finding": "Per-light automatic and explicit shadow updates, map size and disposal.",
+      "version": null,
+      "retrieved_at": "2026-11-02T14:51:10Z",
+      "evaluated_at": "2026-11-02T14:51:22Z",
+      "provenance": "official rolling documentation",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary inspection only; not installed or executed. Rolling docs and dev source are not a tested release combination."
+    },
+    {
+      "id": "S2",
+      "title": "WebGLShadowMap.js — pinned renderer implementation",
+      "url": "https://github.com/mrdoob/three.js/blob/104aa0bc3cd4894da6349048948d92ccd5332bfa/src/renderers/webgl/WebGLShadowMap.js",
+      "finding": "Global and per-light update gates, flag resets, six point-light faces, shadow caster selection.",
+      "version": "0.187.0 (dev package declaration, not release verification)",
+      "retrieved_at": "2026-11-02T14:51:10Z",
+      "evaluated_at": "2026-11-02T14:51:22Z",
+      "provenance": "maintainer repository pinned source",
+      "commit_sha": "104aa0bc3cd4894da6349048948d92ccd5332bfa",
+      "commit_date": "2026-11-02T13:16:24Z",
+      "release_date": null,
+      "limitations": "Documentary inspection only; not installed or executed. Rolling docs and dev source are not a tested release combination."
+    },
+    {
+      "id": "S3",
+      "title": "Scaling performance — React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/advanced/scaling-performance",
+      "finding": "Demand loop requires invalidation for imperative mutation; invalidation schedules rather than renders immediately.",
+      "version": null,
+      "retrieved_at": "2026-11-02T14:51:10Z",
+      "evaluated_at": "2026-11-02T14:51:22Z",
+      "provenance": "official rolling documentation",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary inspection only; not installed or executed. Rolling docs and dev source are not a tested release combination."
+    },
+    {
+      "id": "S4",
+      "title": "Three.js package.json — pinned package metadata",
+      "url": "https://github.com/mrdoob/three.js/blob/104aa0bc3cd4894da6349048948d92ccd5332bfa/package.json",
+      "finding": "JavaScript module package, declared version 0.187.0; no runtime dependencies field; development tooling separate.",
+      "version": "0.187.0 (dev declaration)",
+      "retrieved_at": "2026-11-02T14:51:10Z",
+      "evaluated_at": "2026-11-02T14:51:22Z",
+      "provenance": "maintainer repository pinned source",
+      "commit_sha": "104aa0bc3cd4894da6349048948d92ccd5332bfa",
+      "commit_date": "2026-11-02T13:16:24Z",
+      "release_date": null,
+      "limitations": "Documentary inspection only; not installed or executed. Rolling docs and dev source are not a tested release combination."
+    },
+    {
+      "id": "S5",
+      "title": "Three.js LICENSE — pinned actual terms",
+      "url": "https://github.com/mrdoob/three.js/blob/104aa0bc3cd4894da6349048948d92ccd5332bfa/LICENSE",
+      "finding": "MIT permission with copyright/permission notice preservation and warranty disclaimer.",
+      "version": null,
+      "retrieved_at": "2026-11-02T14:51:10Z",
+      "evaluated_at": "2026-11-02T14:51:22Z",
+      "provenance": "maintainer repository pinned source",
+      "commit_sha": "104aa0bc3cd4894da6349048948d92ccd5332bfa",
+      "commit_date": "2026-11-02T13:16:24Z",
+      "release_date": null,
+      "limitations": "Documentary inspection only; not installed or executed. Rolling docs and dev source are not a tested release combination."
+    },
+    {
+      "id": "S6",
+      "title": "WebGLRenderer — Three.js documentation",
+      "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+      "finding": "WebGL2 renderer; WebGL1 unsupported since r163; render interface and shadowMap access.",
+      "version": null,
+      "retrieved_at": "2026-11-02T14:51:10Z",
+      "evaluated_at": "2026-11-02T14:51:22Z",
+      "provenance": "official rolling documentation",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary inspection only; not installed or executed. Rolling docs and dev source are not a tested release combination."
+    }
+  ]
+}
