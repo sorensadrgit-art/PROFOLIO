@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T121200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "title": "A refreshed loop is not a retimed loop",
+  "scheduled_at": "2026-11-02T12:12:00Z",
+  "evaluation_started_at": "2026-11-02T12:08:41Z",
+  "created_at": "2026-11-02T12:11:30Z",
+  "author": "Dot",
+  "status": "approved_for_publication",
+  "source_count": 5,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "discovery_shortlist": false,
+  "duplicate_check": {
+    "base_head": "3a1478b6d1a3541bdfdcc23cb20876edae1eb69e",
+    "prior_topic_packages": 11,
+    "same_run_found": false,
+    "unindexed_topic_package_found": false
+  },
+  "tests": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_heuristic_and_manual",
+    "runtime": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed"
+  },
+  "provenance": {
+    "source_findings": "Official docs/repository/licence",
+    "synthesis": "Original Dot sampling/timing contract",
+    "recommendations": "Untested"
+  },
+  "limitations": [
+    "Repository version is not npm or installed-version verification",
+    "Release date unknown",
+    "Evaluation started before scheduled slot; slot retained for stable identity"
+  ],
+  "publication_commit_sha": null,
+  "qa_reviewed_at": "2026-11-02T12:13:39Z",
+  "qa_limitations": "Documentary review only, not Gemini approval or deployment permission"
+}
