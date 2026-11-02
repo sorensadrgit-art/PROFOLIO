@@ -1,0 +1,44 @@
+{
+  "run_id": "20261102T080000Z-website-design",
+  "topic_id": "website-design",
+  "scheduled_at": "2026-11-02T08:00:00Z",
+  "evaluated_at": "2026-11-02T09:36:09Z",
+  "title": "A responsive comparison table must preserve the comparison",
+  "status": "approved_documentary",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "approved": true,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 7,
+  "question": "How should responsive comparison tables preserve relationships and operable local scrolling?",
+  "prior_topic_packages_checked": [
+    "20261101T060321-premium-editorial-system-01",
+    "20261101T124945Z-website-design-smoke",
+    "20261101T135953Z-editorial-grid-lanes-01",
+    "20261101T140000Z-website-design",
+    "20261101T170000Z-website-design",
+    "20261101T200000Z-website-design",
+    "20261101T230000Z-website-design",
+    "20261102T020000Z-website-design",
+    "20261102T050000Z-website-design"
+  ],
+  "duplicate_check": "Nine prior topic research packages and live directory checked; no matching run or unfinished unindexed topic directory.",
+  "tests": {
+    "runtime": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed"
+  },
+  "scope": "Sanitized original documentary research only; no application changes or deployment.",
+  "qa_reviewed_at": "2026-11-02T09:38:19Z",
+  "validation": {
+    "json": "passed",
+    "bounded_sensitive_data_scan": "passed",
+    "independent_source_review": "passed",
+    "runtime": "not_performed"
+  }
+}
