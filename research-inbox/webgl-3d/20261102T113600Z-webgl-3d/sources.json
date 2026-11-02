@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T113600Z-webgl-3d",
+  "evaluated_at": "2026-11-02T11:38:41Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Three.js — src/materials/Material.js",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/src/materials/Material.js",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S2",
+      "title": "Three.js — src/renderers/webgl/WebGLRenderLists.js",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/src/renderers/webgl/WebGLRenderLists.js",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S3",
+      "title": "Three.js — src/renderers/WebGLRenderer.js",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/src/renderers/WebGLRenderer.js",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S4",
+      "title": "Three.js — src/core/Object3D.js",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/src/core/Object3D.js",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S5",
+      "title": "Three.js — src/materials/MeshPhysicalMaterial.js",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/src/materials/MeshPhysicalMaterial.js",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S6",
+      "title": "Three.js — LICENSE",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/LICENSE",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S7",
+      "title": "Three.js — package.json",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/package.json",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Documentary inspection only; repository snapshot is not deployed-version verification"
+    },
+    {
+      "id": "S8",
+      "title": "Three.js — examples/webgl_materials_physical_transmission.html",
+      "url": "https://github.com/mrdoob/three.js/blob/7e89746a687bb88271253698fa108b1dd59825d0/examples/webgl_materials_physical_transmission.html",
+      "retrieved_at": "2026-11-02T11:38:41Z",
+      "evaluated_at": "2026-11-02T11:38:41Z",
+      "commit_sha": "7e89746a687bb88271253698fa108b1dd59825d0",
+      "commit_date": "2026-10-30T07:56:52Z",
+      "release_date": null,
+      "version": "0.187.0 (repository package.json)",
+      "provenance": "Official upstream repository; commit-pinned source inspected via GitHub connector",
+      "limitations": "Source presence verified; demo not executed"
+    }
+  ],
+  "failed_lookups": [
+    {
+      "url": "https://threejs.org/manual/en/transparency.html",
+      "status": 404,
+      "note": "Not used as evidence"
+    }
+  ]
+}
