@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T171800Z-open-source-creative",
+  "repositories": [
+    {
+      "name": "Troika Three Text",
+      "repository": "https://github.com/protectwise/troika",
+      "package": "troika-three-text",
+      "purpose": "Dynamic SDF typography inside Three.js scenes",
+      "version": "0.53.1",
+      "npm_published_at": "2026-11-02T15:06:25.483Z",
+      "observed_commit": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "github_release_published_at": null,
+      "licence": {
+        "spdx": "MIT",
+        "source": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/LICENSE",
+        "restrictions": "Retain copyright and permission notices; separate font and asset licences require review."
+      },
+      "technologies": [
+        "JavaScript",
+        "Three.js",
+        "WebGL",
+        "web workers",
+        "SDF"
+      ],
+      "dependencies": {
+        "bidi-js": "^1.0.2",
+        "troika-three-utils": "^0.53.1",
+        "troika-worker-utils": "^0.53.0",
+        "webgl-sdf-generator": "1.1.1"
+      },
+      "peer_dependencies": {
+        "three": ">=0.125.0"
+      },
+      "demos": [
+        "https://troika-examples.netlify.app/#text",
+        "https://codesandbox.io/embed/troika-3d-text-via-react-three-fiber-ntfx2?fontsize=14"
+      ],
+      "demo_tested": false,
+      "requirements": [
+        "Compatible Three.js application",
+        "Permitted font origins and worker/CSP behavior",
+        "Explicit asynchronous result and resource ownership"
+      ],
+      "api_mcp": "Frontend JavaScript API; no MCP/server/account required for reviewed use",
+      "costs": {
+        "licence_fee_required": false,
+        "hosting_bandwidth_cost": null,
+        "performance_cost": null,
+        "notes": "No new paid service used; font bandwidth, glyph generation and atlas memory unmeasured."
+      },
+      "decision": "Evaluate in an isolated authorized fixture, not production adoption.",
+      "alternatives": [
+        "Ordinary HTML/CSS typography",
+        "Pre-rendered text texture"
+      ],
+      "risks": [
+        "No-change sync callback is not called",
+        "Completion events can precede a queued newer result",
+        "Geometry disposal is not material ownership or async cancellation",
+        "Font licensing and network/CSP constraints"
+      ],
+      "status": "DOCUMENTARY_CANDIDATE_NOT_RUNTIME_VERIFIED"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T171800Z-open-source-creative",
+  "sources": [
+    {
+      "id": "T1",
+      "title": "Troika Three Text README",
+      "url": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/packages/troika-three-text/README.md",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": null,
+      "limitations": "Maintainer usage guide; demos not operated."
+    },
+    {
+      "id": "T2",
+      "title": "Text synchronization and disposal implementation",
+      "url": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/packages/troika-three-text/src/Text.js",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": null,
+      "limitations": "Static source inspection; races and cleanup not executed."
+    },
+    {
+      "id": "T3",
+      "title": "TextBuilder preloadFont implementation",
+      "url": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/packages/troika-three-text/src/TextBuilder.js",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": null,
+      "limitations": "Static source inspection; cache warming not benchmarked."
+    },
+    {
+      "id": "T4",
+      "title": "troika-three-text package manifest",
+      "url": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/packages/troika-three-text/package.json",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": null,
+      "limitations": "Dependency declarations do not certify framework compatibility."
+    },
+    {
+      "id": "T5",
+      "title": "Troika MIT licence",
+      "url": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/LICENSE",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": null,
+      "limitations": "Does not establish rights to unrelated fonts or demo assets."
+    },
+    {
+      "id": "T6",
+      "title": "npm troika-three-text metadata",
+      "url": "https://registry.npmjs.org/troika-three-text",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "official_package_registry",
+      "version": "0.53.1",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": "2026-11-02T15:06:25.483Z",
+      "limitations": "Metadata inspected; npm archive and signature were not verified."
+    },
+    {
+      "id": "T7",
+      "title": "Observed Troika commit",
+      "url": "https://api.github.com/repos/protectwise/troika/commits/9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": null,
+      "limitations": "Commit date, not a GitHub release timestamp."
+    },
+    {
+      "id": "T8",
+      "title": "Troika changelog",
+      "url": "https://github.com/protectwise/troika/blob/9c89d51f828f94a21e33d6f24b38128d78014d5f/CHANGELOG.md",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "source_type": "maintainer_repository",
+      "version": "0.53.1",
+      "commit_sha": "9c89d51f828f94a21e33d6f24b38128d78014d5f",
+      "commit_date": "2026-11-02T15:01:47Z",
+      "release_date": "2026-11-02",
+      "limitations": "Maintainer change descriptions; no benchmarks reproduced."
+    }
+  ],
+  "failed_source_checks": [
+    {
+      "url": "https://api.github.com/repos/protectwise/troika/releases/latest",
+      "retrieved_at": "2026-11-02T17:20:26Z",
+      "result": "404 Not Found",
+      "github_release_published_at": null
+    }
+  ]
+}
