@@ -944,6 +944,25 @@
       ],
       "summary": "Vite build-time public configuration versus runtime deployment settings; immutable artifact promotion contracts and exposure review. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T042400Z-agents-memory",
+      "topic_id": "agents-memory",
+      "title": "A remembered tool catalog is not a live capability contract",
+      "path": "research-inbox/agents-memory/20261102T042400Z-agents-memory/",
+      "created_at": "2026-11-02T04:29:29Z",
+      "scheduled_at": "2026-11-02T04:24:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "MCP catalog completeness, paginated discovery and definition invalidation versus persisted capability memory. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -1679,6 +1698,25 @@
           ],
           "summary": "MCP cancellation state versus external execution outcome, task-purge races and an untested reconciliation contract. Documentary only.",
           "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T042400Z-agents-memory",
+          "topic_id": "agents-memory",
+          "title": "A remembered tool catalog is not a live capability contract",
+          "path": "research-inbox/agents-memory/20261102T042400Z-agents-memory/",
+          "created_at": "2026-11-02T04:29:29Z",
+          "scheduled_at": "2026-11-02T04:24:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "MCP catalog completeness, paginated discovery and definition invalidation versus persisted capability memory. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -1938,5 +1976,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T03:48:36Z"
+  "updated_at": "2026-11-02T04:29:29Z"
 }

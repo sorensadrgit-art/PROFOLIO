@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T042400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "scheduled_at": "2026-11-02T04:24:00Z",
+  "evaluated_at": "2026-11-02T04:28:40Z",
+  "title": "A remembered tool catalog is not a live capability contract",
+  "status": "APPROVED_DOCUMENTARY",
+  "author": "Dot",
+  "source_count": 5,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "research_type": "bounded_protocol_design_reference",
+  "discovery_shortlist": false,
+  "prior_packages_read": 6,
+  "same_run_artifact_found": false,
+  "unfinished_same_topic_found": false,
+  "tests_performed": [
+    "JSON parse validation"
+  ],
+  "tests_not_performed": [
+    "runtime",
+    "pagination-race",
+    "integration",
+    "security",
+    "performance",
+    "accessibility"
+  ],
+  "limitations": [
+    "SDK and npm-artifact compatibility unverified",
+    "No runtime or live MCP invocation tests",
+    "Per-file historical licensing not audited",
+    "No protocol-wide atomic catalog snapshot guarantee claimed"
+  ],
+  "publication": {
+    "repository": "sorensadrgit-art/PROFOLIO",
+    "branch": "research-data",
+    "path": "research-inbox/agents-memory/20261102T042400Z-agents-memory/",
+    "commit_sha": null
+  },
+  "qa": {
+    "status": "APPROVED_DOCUMENTARY",
+    "independent_review": "qa.md",
+    "limitations": [
+      "Reviewer verified five sources; duplicate comparison limited to draft summaries, primary researcher read all six prior reports."
+    ],
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_patterns_and_manual_review",
+    "runtime_tests": "not_run"
+  },
+  "artifact_sha256": {
+    "research.md": "cd5dc51267bad9f45e327232786335ac45a1730503e63705e87d620349dfdd9b",
+    "sources.json": "5f4afa9232d0063209c314ede382f0a2049a2c0c6ec3604ffc75e1d9b7d0610f",
+    "qa.md": "e48321b3ff7343aee4297100dfd8b455b16acd27eb995bdda9ce3af505694749"
+  }
+}

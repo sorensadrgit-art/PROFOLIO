@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Tools",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "version": "2025-11-25",
+      "retrieved_at": "2026-11-02T04:27:22Z",
+      "evaluated_at": "2026-11-02T04:27:22Z",
+      "publication_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary official specification or repository file, directly retrieved",
+      "limitations": "Versioned documentation; SDK/runtime and deployed behavior not tested"
+    },
+    {
+      "id": "S2",
+      "title": "Pagination",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/pagination",
+      "version": "2025-11-25",
+      "retrieved_at": "2026-11-02T04:27:22Z",
+      "evaluated_at": "2026-11-02T04:27:22Z",
+      "publication_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary official specification or repository file, directly retrieved",
+      "limitations": "Versioned documentation; SDK/runtime and deployed behavior not tested"
+    },
+    {
+      "id": "S3",
+      "title": "Lifecycle",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "version": "2025-11-25",
+      "retrieved_at": "2026-11-02T04:27:22Z",
+      "evaluated_at": "2026-11-02T04:27:22Z",
+      "publication_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary official specification or repository file, directly retrieved",
+      "limitations": "Versioned documentation; SDK/runtime and deployed behavior not tested"
+    },
+    {
+      "id": "S4",
+      "title": "Authorization",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+      "version": "2025-11-25",
+      "retrieved_at": "2026-11-02T04:27:22Z",
+      "evaluated_at": "2026-11-02T04:27:22Z",
+      "publication_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary official specification or repository file, directly retrieved",
+      "limitations": "Versioned documentation; SDK/runtime and deployed behavior not tested"
+    },
+    {
+      "id": "S5",
+      "title": "Model Context Protocol repository LICENSE",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/d0e246ea3c69eafaa2806bc4cd28025703ba2c2b/LICENSE",
+      "version": null,
+      "retrieved_at": "2026-11-02T04:27:22Z",
+      "evaluated_at": "2026-11-02T04:27:22Z",
+      "publication_date": null,
+      "commit_date": null,
+      "commit": "d0e246ea3c69eafaa2806bc4cd28025703ba2c2b",
+      "provenance": "Primary official specification or repository file, directly retrieved",
+      "limitations": "Per-file historical licensing not audited"
+    }
+  ]
+}
