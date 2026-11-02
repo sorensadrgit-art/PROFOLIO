@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T170000Z-website-design",
+  "topic_id": "website-design",
+  "title": "A tooltip is supplementary copy, not a hidden control panel",
+  "scheduled_at": "2026-11-02T17:00:00Z",
+  "created_at": "2026-11-02T17:06:10Z",
+  "status": "published",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 7,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "author": "Dot",
+  "main_question": "How should a premium portfolio expose contextual help without confusing a tooltip with an interactive detail panel?",
+  "scope": "Bounded documentary reference; not a discovery shortlist",
+  "novelty": "Content classification and dismissal-suppression contract; twelve prior website reports read.",
+  "duplicate_check": {
+    "catalog_packages": 79,
+    "prior_topic_packages": 12,
+    "same_run_found": false,
+    "unfinished_unindexed_topic_directory_found": false,
+    "prior_reports_read": true
+  },
+  "tests": {
+    "runtime": "NOT_RUN",
+    "integration": "NOT_RUN",
+    "accessibility": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "usability": "NOT_RUN"
+  },
+  "publication": {
+    "branch": "research-data",
+    "commit_sha": null
+  },
+  "package_commit_sha": null,
+  "limitations": [
+    "No browser or assistive-technology testing.",
+    "APG tooltip pattern is work in progress.",
+    "No installation or deployment; document dates do not establish browser compatibility."
+  ],
+  "validation": {
+    "json": "PASSED",
+    "duplicate_check": "PASSED",
+    "sensitive_scan": "PASSED_BOUNDED",
+    "scan_limitations": "Regex patterns and manual review; not exhaustive detection"
+  },
+  "review": {
+    "independent_worker": true,
+    "report": "qa.md",
+    "reviewed_at": "2026-11-02T17:07:48Z"
+  }
+}
