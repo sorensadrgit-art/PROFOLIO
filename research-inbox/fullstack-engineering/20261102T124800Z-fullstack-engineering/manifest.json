@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T124800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "title": "A pagination cursor is not a snapshot",
+  "scheduled_at": "2026-11-02T12:48:00Z",
+  "started_at": "2026-11-02T12:45:25Z",
+  "evaluated_at": "2026-11-02T12:48:09Z",
+  "status": "approved_documentary",
+  "source_count": 5,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "novelty": "Live catalog, eight prior full-stack reports and topic directory inspected; pagination membership versus snapshot contract is new. No unfinished same-topic directory or same-run package observed.",
+  "tests_performed": [],
+  "limitations": [
+    "No SQL, concurrency, runtime, security, performance, accessibility or integration tests.",
+    "Installed versions, driver/ORM/replica compatibility and operational costs unknown.",
+    "Early automation delivery: intake preceded the scheduled slot; stable scheduled run ID retained."
+  ],
+  "publication": {
+    "branch": "research-data",
+    "commit_sha": null
+  },
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "qa_scope": "Separate worker independently retrieved five primary sources, checked claims and catalog novelty. Final local JSON validation and bounded sensitive-data scan; no runtime tests."
+}

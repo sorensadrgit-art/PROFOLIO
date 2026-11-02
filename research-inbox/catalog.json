@@ -1330,6 +1330,25 @@
       ],
       "summary": "One-project ast-grep discovery: syntax versus semantic acceptance, fix-capture loss, parser identity and independently reviewed snapshot baselines. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T124800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "A pagination cursor is not a snapshot",
+      "path": "research-inbox/fullstack-engineering/20261102T124800Z-fullstack-engineering/",
+      "created_at": "2026-11-02T12:49:01Z",
+      "scheduled_at": "2026-11-02T12:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "PostgreSQL live keyset continuation versus fixed dataset, tuple boundary assumptions and original pagination acceptance contract. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -2154,6 +2173,25 @@
           ],
           "summary": "Node stream thresholds, separate resource budgets and HTTP delivery semantics; original untested export-contract guidance. Documentary only.",
           "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T124800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "A pagination cursor is not a snapshot",
+          "path": "research-inbox/fullstack-engineering/20261102T124800Z-fullstack-engineering/",
+          "created_at": "2026-11-02T12:49:01Z",
+          "scheduled_at": "2026-11-02T12:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "PostgreSQL live keyset continuation versus fixed dataset, tuple boundary assumptions and original pagination acceptance contract. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -2690,5 +2728,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T12:37:05Z"
+  "updated_at": "2026-11-02T12:49:01Z"
 }

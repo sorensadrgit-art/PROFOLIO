@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T124800Z-fullstack-engineering",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "PostgreSQL 18 — LIMIT and OFFSET",
+      "url": "https://www.postgresql.org/docs/current/queries-limit.html",
+      "retrieved_at": null,
+      "evaluated_at": "2026-11-02T12:47:30Z",
+      "source_type": "official_documentation",
+      "publisher": "PostgreSQL Global Development Group",
+      "version": "18 (documentation major)",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Direct official-page retrieval; S2/S3 version-pinned pages also inspected after current pages.",
+      "findings": "Unique ORDER BY; skipped offset rows are computed.",
+      "limitations": "Mutable web documentation, not installed-version or runtime evidence.",
+      "observed_site_banner": {
+        "title": "PostgreSQL 19 RC 1 Released!",
+        "date": "2026-10-15",
+        "limitation": "Banner observation only; release artifact not independently inspected."
+      },
+      "retrieved_date": "2026-11-02",
+      "retrieval_window_utc": [
+        "2026-11-02T12:45:47Z",
+        "2026-11-02T12:46:19Z"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "PostgreSQL 18 — Transaction Isolation",
+      "url": "https://www.postgresql.org/docs/18/transaction-iso.html",
+      "retrieved_at": null,
+      "evaluated_at": "2026-11-02T12:47:30Z",
+      "source_type": "official_documentation",
+      "publisher": "PostgreSQL Global Development Group",
+      "version": "18 (documentation major)",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Direct official-page retrieval; S2/S3 version-pinned pages also inspected after current pages.",
+      "findings": "Statement versus transaction snapshots; own-write and serializability limits.",
+      "limitations": "Mutable web documentation, not installed-version or runtime evidence.",
+      "observed_site_banner": {
+        "title": "PostgreSQL 19 RC 1 Released!",
+        "date": "2026-10-15",
+        "limitation": "Banner observation only; release artifact not independently inspected."
+      },
+      "retrieved_date": "2026-11-02",
+      "retrieval_window_utc": [
+        "2026-11-02T12:45:47Z",
+        "2026-11-02T12:46:19Z"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "PostgreSQL 18 — Row and Array Comparisons",
+      "url": "https://www.postgresql.org/docs/18/functions-comparisons.html",
+      "retrieved_at": null,
+      "evaluated_at": "2026-11-02T12:47:30Z",
+      "source_type": "official_documentation",
+      "publisher": "PostgreSQL Global Development Group",
+      "version": "18 (documentation major)",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Direct official-page retrieval; S2/S3 version-pinned pages also inspected after current pages.",
+      "findings": "Lexicographic comparison and null/operator requirements.",
+      "limitations": "Mutable web documentation, not installed-version or runtime evidence.",
+      "observed_site_banner": {
+        "title": "PostgreSQL 19 RC 1 Released!",
+        "date": "2026-10-15",
+        "limitation": "Banner observation only; release artifact not independently inspected."
+      },
+      "retrieved_date": "2026-11-02",
+      "retrieval_window_utc": [
+        "2026-11-02T12:45:47Z",
+        "2026-11-02T12:46:19Z"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "PostgreSQL 18 — Indexes and ORDER BY",
+      "url": "https://www.postgresql.org/docs/current/indexes-ordering.html",
+      "retrieved_at": null,
+      "evaluated_at": "2026-11-02T12:47:30Z",
+      "source_type": "official_documentation",
+      "publisher": "PostgreSQL Global Development Group",
+      "version": "18 (documentation major)",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Direct official-page retrieval; S2/S3 version-pinned pages also inspected after current pages.",
+      "findings": "Matching B-tree order; planner choices and mixed directions.",
+      "limitations": "Mutable web documentation, not installed-version or runtime evidence.",
+      "observed_site_banner": {
+        "title": "PostgreSQL 19 RC 1 Released!",
+        "date": "2026-10-15",
+        "limitation": "Banner observation only; release artifact not independently inspected."
+      },
+      "retrieved_date": "2026-11-02",
+      "retrieval_window_utc": [
+        "2026-11-02T12:45:47Z",
+        "2026-11-02T12:46:19Z"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "PostgreSQL — License",
+      "url": "https://www.postgresql.org/about/licence/",
+      "retrieved_at": null,
+      "evaluated_at": "2026-11-02T12:47:30Z",
+      "source_type": "official_documentation",
+      "publisher": "PostgreSQL Global Development Group",
+      "version": null,
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Direct official-page retrieval; S2/S3 version-pinned pages also inspected after current pages.",
+      "findings": "Actual PostgreSQL License notice conditions and warranty disclaimer.",
+      "limitations": "Mutable web documentation, not installed-version or runtime evidence.",
+      "observed_site_banner": {
+        "title": "PostgreSQL 19 RC 1 Released!",
+        "date": "2026-10-15",
+        "limitation": "Banner observation only; release artifact not independently inspected."
+      },
+      "retrieved_date": "2026-11-02",
+      "retrieval_window_utc": [
+        "2026-11-02T12:45:47Z",
+        "2026-11-02T12:46:19Z"
+      ]
+    }
+  ]
+}
