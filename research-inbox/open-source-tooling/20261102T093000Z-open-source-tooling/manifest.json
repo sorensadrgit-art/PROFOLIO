@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "run_id": "20261102T093000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "title": "Direct benchmark execution is not a shell-free lifecycle",
+  "scheduled_at": "2026-11-02T09:30:00Z",
+  "created_at": "2026-11-02T09:34:00Z",
+  "status": "approved",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "question": "Does Hyperfine v2 direct execution make the full benchmark lifecycle shell-free or safe for arbitrary agent commands?",
+  "original_synthesis": true,
+  "source_commit": "c5161524980522320c7d3425e714cc0965a869a5",
+  "version": "2.0.0",
+  "duplicate_check": {
+    "catalog_read": true,
+    "existing_topic_packages_read": 7,
+    "same_run_found": false,
+    "unfinished_topic_package_found": false,
+    "novelty": "Benchmark lifecycle shell boundaries and v2 evidence schema, distinct from prior ShellCheck static diagnostics."
+  },
+  "tests": {
+    "json_validation": "passed; final full-package check recorded in qa.md",
+    "sensitive_scan": "bounded regex and manual review; final full-package check recorded in qa.md",
+    "runtime": "not performed",
+    "performance": "not performed",
+    "accessibility": "not performed",
+    "integration": "not performed",
+    "installation": "not performed"
+  },
+  "limitations": [
+    "Documentary evaluation only",
+    "No release binary or resolved dependency audit",
+    "No whole-host memory measurement"
+  ],
+  "package_commit_sha": null,
+  "qa_reviewer": "independent QA worker"
+}

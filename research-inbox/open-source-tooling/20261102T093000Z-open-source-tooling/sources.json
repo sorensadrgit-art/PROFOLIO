@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Hyperfine README at inspected commit",
+      "url": "https://github.com/sharkdp/hyperfine/blob/c5161524980522320c7d3425e714cc0965a869a5/README.md",
+      "retrieved_at": "2026-11-02T09:31:00Z",
+      "evaluated_at": "2026-11-02T09:33:00Z",
+      "provenance": "upstream repository documentation",
+      "version": "2.0.0",
+      "commit_sha": "c5161524980522320c7d3425e714cc0965a869a5",
+      "release_published_at": null,
+      "commit_committer_date": null,
+      "limitations": "Documentary inspection only; no installed binary or platform behavior verified. Current repository snapshot is later than the release.",
+      "source_path": "README.md"
+    },
+    {
+      "id": "S2",
+      "title": "Hyperfine Cargo package manifest",
+      "url": "https://github.com/sharkdp/hyperfine/blob/c5161524980522320c7d3425e714cc0965a869a5/Cargo.toml",
+      "retrieved_at": "2026-11-02T09:31:00Z",
+      "evaluated_at": "2026-11-02T09:33:00Z",
+      "provenance": "upstream dependency and package metadata",
+      "version": "2.0.0",
+      "commit_sha": "c5161524980522320c7d3425e714cc0965a869a5",
+      "release_published_at": null,
+      "commit_committer_date": null,
+      "limitations": "Documentary inspection only; no installed binary or platform behavior verified. Current repository snapshot is later than the release.",
+      "source_path": "Cargo.toml"
+    },
+    {
+      "id": "S3",
+      "title": "Hyperfine MIT license",
+      "url": "https://github.com/sharkdp/hyperfine/blob/c5161524980522320c7d3425e714cc0965a869a5/LICENSE-MIT",
+      "retrieved_at": "2026-11-02T09:31:00Z",
+      "evaluated_at": "2026-11-02T09:33:00Z",
+      "provenance": "actual upstream license text",
+      "version": "2.0.0",
+      "commit_sha": "c5161524980522320c7d3425e714cc0965a869a5",
+      "release_published_at": null,
+      "commit_committer_date": null,
+      "limitations": "Documentary inspection only; no installed binary or platform behavior verified. Current repository snapshot is later than the release.",
+      "source_path": "LICENSE-MIT"
+    },
+    {
+      "id": "S4",
+      "title": "Hyperfine Apache-2.0 license",
+      "url": "https://github.com/sharkdp/hyperfine/blob/c5161524980522320c7d3425e714cc0965a869a5/LICENSE-APACHE",
+      "retrieved_at": "2026-11-02T09:31:00Z",
+      "evaluated_at": "2026-11-02T09:33:00Z",
+      "provenance": "actual upstream license text",
+      "version": "2.0.0",
+      "commit_sha": "c5161524980522320c7d3425e714cc0965a869a5",
+      "release_published_at": null,
+      "commit_committer_date": null,
+      "limitations": "Documentary inspection only; no installed binary or platform behavior verified. Current repository snapshot is later than the release.",
+      "source_path": "LICENSE-APACHE"
+    },
+    {
+      "id": "S5",
+      "title": "Hyperfine v2.0.0 release",
+      "url": "https://github.com/sharkdp/hyperfine/releases/tag/v2.0.0",
+      "retrieved_at": "2026-11-02T09:31:00Z",
+      "evaluated_at": "2026-11-02T09:33:00Z",
+      "provenance": "official GitHub release",
+      "version": "2.0.0",
+      "commit_sha": null,
+      "release_published_at": "2026-10-07T21:13:36Z",
+      "commit_committer_date": null,
+      "limitations": "Documentary inspection only; no installed binary or platform behavior verified. Current repository snapshot is later than the release.",
+      "source_path": null
+    },
+    {
+      "id": "S6",
+      "title": "Hyperfine inspected commit",
+      "url": "https://github.com/sharkdp/hyperfine/commit/c5161524980522320c7d3425e714cc0965a869a5",
+      "retrieved_at": "2026-11-02T09:31:00Z",
+      "evaluated_at": "2026-11-02T09:33:00Z",
+      "provenance": "official GitHub commit metadata",
+      "version": "2.0.0",
+      "commit_sha": "c5161524980522320c7d3425e714cc0965a869a5",
+      "release_published_at": null,
+      "commit_committer_date": "2026-10-12T08:33:47Z",
+      "limitations": "Documentary inspection only; no installed binary or platform behavior verified. Current repository snapshot is later than the release.",
+      "source_path": null
+    }
+  ]
+}
+

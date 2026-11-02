@@ -1156,6 +1156,26 @@
       ],
       "summary": "GSAP fromTo initialization writes versus timeline scheduling, explicit immediateRender policy and an untested scene-ownership contract. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T093000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "Direct benchmark execution is not a shell-free lifecycle",
+      "path": "research-inbox/open-source-tooling/20261102T093000Z-open-source-tooling/",
+      "created_at": "2026-11-02T09:35:34Z",
+      "scheduled_at": "2026-11-02T09:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "repos.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "One-project Hyperfine v2 discovery: shell-based lifecycle hooks despite direct benchmark execution, repetition authority and schema-aware evidence. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -2357,10 +2377,30 @@
           ],
           "summary": "ShellCheck source-following versus sourced-warning reporting, dialect and coverage receipts; documentary shortlist, no runtime tests.",
           "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T093000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "Direct benchmark execution is not a shell-free lifecycle",
+          "path": "research-inbox/open-source-tooling/20261102T093000Z-open-source-tooling/",
+          "created_at": "2026-11-02T09:35:34Z",
+          "scheduled_at": "2026-11-02T09:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "repos.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "One-project Hyperfine v2 discovery: shell-based lifecycle hooks despite direct benchmark execution, repetition authority and schema-aware evidence. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T09:32:54Z"
+  "updated_at": "2026-11-02T09:35:34Z"
 }

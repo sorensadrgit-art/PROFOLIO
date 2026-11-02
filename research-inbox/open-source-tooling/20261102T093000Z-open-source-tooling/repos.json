@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "name": "Hyperfine",
+      "repository": "https://github.com/sharkdp/hyperfine",
+      "purpose": "CLI statistical benchmarking",
+      "languages": [
+        "Rust"
+      ],
+      "version": "2.0.0",
+      "inspected_commit": "c5161524980522320c7d3425e714cc0965a869a5",
+      "license_expression": "MIT OR Apache-2.0",
+      "license_sources": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "release_published_at": "2026-10-07T21:13:36Z",
+      "commit_committer_date": "2026-10-12T08:33:47Z",
+      "installation_tested": false,
+      "integration_tested": false,
+      "mcp_status": "not evaluated; CLI/JSON integration only",
+      "operational_cost_estimate": null,
+      "selection": "One-project shortlist: benchmark execution lifecycle and evidence boundary",
+      "limitations": [
+        "Development snapshot differs from release date",
+        "No runtime or performance tests",
+        "No transitive dependency or binary provenance audit"
+      ]
+    }
+  ]
+}
+
