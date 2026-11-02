@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T083600Z-webgl-3d",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Three.js src/core/BufferGeometry.js",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/src/core/BufferGeometry.js",
+      "provenance": "Official repository; GitHub connector read at pinned commit",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "version": "0.187.0 (development source package.json; npm release unverified)",
+      "release_date": null,
+      "limitations": "Source review only; deployed version compatibility not tested",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    },
+    {
+      "id": "S2",
+      "title": "Three.js src/math/Frustum.js",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/src/math/Frustum.js",
+      "provenance": "Official repository; GitHub connector read at pinned commit",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "version": "0.187.0 (development source package.json; npm release unverified)",
+      "release_date": null,
+      "limitations": "Source review only; deployed version compatibility not tested",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    },
+    {
+      "id": "S3",
+      "title": "Three.js src/objects/Mesh.js",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/src/objects/Mesh.js",
+      "provenance": "Official repository; GitHub connector read at pinned commit",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "version": "0.187.0 (development source package.json; npm release unverified)",
+      "release_date": null,
+      "limitations": "Source review only; deployed version compatibility not tested",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    },
+    {
+      "id": "S4",
+      "title": "Three.js package.json",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/package.json",
+      "provenance": "Official repository; GitHub connector read at pinned commit",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "version": "0.187.0 (development source package.json; npm release unverified)",
+      "release_date": null,
+      "limitations": "Source review only; deployed version compatibility not tested",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    },
+    {
+      "id": "S5",
+      "title": "Three.js LICENSE",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/LICENSE",
+      "provenance": "Official repository; GitHub connector read at pinned commit",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "version": "0.187.0 (development source package.json; npm release unverified)",
+      "release_date": null,
+      "limitations": "Source review only; deployed version compatibility not tested",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    },
+    {
+      "id": "S6",
+      "title": "Three.js Object3D documentation",
+      "url": "https://threejs.org/docs/pages/Object3D.html",
+      "provenance": "Official documentation via web tool",
+      "commit_sha": null,
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "limitations": "Moving documentation; no runtime verification",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    },
+    {
+      "id": "S7",
+      "title": "Three.js BufferGeometry documentation",
+      "url": "https://threejs.org/docs/pages/BufferGeometry.html",
+      "provenance": "Official documentation via web tool",
+      "commit_sha": null,
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "limitations": "Moving documentation; no runtime verification",
+      "retrieved_date": "2026-11-02",
+      "evaluated_date": "2026-11-02"
+    }
+  ]
+}
