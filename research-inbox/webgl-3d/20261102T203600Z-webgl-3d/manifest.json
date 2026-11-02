@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T203600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "A finished animation event is not a committed final pose",
+  "scheduled_at": "2026-11-02T20:36:00Z",
+  "research_started_at": "2026-11-02T20:40:33Z",
+  "evaluated_at": "2026-11-02T20:43:00Z",
+  "status": "approved_for_publication",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 7,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "catalog_head": "cdff1b71280c5552b4ea777882a547f7079e04e8",
+    "catalog_count": 88,
+    "prior_topic_reports": 14,
+    "same_run_found": false,
+    "unindexed_topic_run_found": false,
+    "unrelated_cobe_mismatch": "preserved"
+  },
+  "tests": {
+    "runtime": "NOT_PERFORMED",
+    "integration": "NOT_PERFORMED",
+    "visual": "NOT_PERFORMED",
+    "accessibility": "NOT_PERFORMED",
+    "performance": "NOT_PERFORMED"
+  },
+  "publication": {
+    "branch": "research-data",
+    "method": "atomic_expected_head_compare_and_swap",
+    "commit_sha": null
+  },
+  "qa_completed_at": "2026-11-02T20:46:01Z",
+  "validation": {
+    "json": "PASSED",
+    "sensitive_data_scan": "PASSED_BOUNDED_PATTERN_AND_CONTENT_REVIEW",
+    "independent_documentary_qa": "PASSED"
+  },
+  "artifact_sha256": {
+    "research.md": "a724792e6f8e32cbfba9653f04ebd293d87412f8605ff55a4d5b3abba4793edf",
+    "sources.json": "4e231db6a654288267044dd736e293dfab91d895911ebe027be90bbf6a03cc6e",
+    "qa.md": "26288eec8ef3c830f3aaf36984e9113a67d05d9d19a8a06032fbe362496b665b"
+  }
+}
