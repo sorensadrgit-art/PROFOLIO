@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T184800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "title": "Skipping a locked job is not a durable execution lease",
+  "scheduled_at": "2026-11-02T18:48:00Z",
+  "created_at": "2026-11-02T18:53:00Z",
+  "status": "approved_for_publication",
+  "approval_scope": "Independent documentary review only; not Gemini approval or permission to deploy",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "question": "How should a PostgreSQL-backed queue separate transaction claim locks from ownership after commit?",
+  "provenance": "Original synthesis of six official PostgreSQL sources; no private system data",
+  "duplicate_check": {
+    "catalog_packages_before": 84,
+    "fullstack_packages_read": 10,
+    "same_run_found": false,
+    "unfinished_topic_directory_found": false
+  },
+  "qa": {
+    "status": "APPROVED_DOCUMENTARY",
+    "report": "qa.md",
+    "independent_worker": true,
+    "json_validation": "passed",
+    "bounded_secret_scan": "passed",
+    "manual_sensitive_content_review": "passed"
+  },
+  "tests": {
+    "sql": "not_run",
+    "concurrency": "not_run",
+    "runtime": "not_run",
+    "integration": "not_run",
+    "security": "not_run",
+    "accessibility": "not_run",
+    "performance": "not_run"
+  },
+  "publication": {
+    "branch": "research-data",
+    "expected_parent": "4adef8737383bc51f1b5cca578a452271b25cc31",
+    "commit_sha": null,
+    "method": "atomic tree and commit with expected-head compare-and-swap; no force"
+  },
+  "limitations": [
+    "No runtime or SQL tests",
+    "Documentation major18 not installed/latest release verification",
+    "Unknown patch, source commit and release dates null",
+    "Bounded scan is not exhaustive",
+    "UPDATE documentation fetch timed out twice; excluded"
+  ]
+}

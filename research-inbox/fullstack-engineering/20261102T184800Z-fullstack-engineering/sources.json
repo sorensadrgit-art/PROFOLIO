@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T184800Z-fullstack-engineering",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "PostgreSQL: SELECT",
+      "url": "https://www.postgresql.org/docs/18/sql-select.html",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "version": "18 documentation",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Official PostgreSQL documentation/licence, read through web tool",
+      "finding": "SKIP LOCKED and row/table locking scope",
+      "limitations": "Mutable documentation; installed version and runtime behavior not verified"
+    },
+    {
+      "id": "S2",
+      "title": "PostgreSQL: Explicit Locking",
+      "url": "https://www.postgresql.org/docs/18/explicit-locking.html",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "version": "18 documentation",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Official PostgreSQL documentation/licence, read through web tool",
+      "finding": "Row lock lifetime",
+      "limitations": "Mutable documentation; installed version and runtime behavior not verified"
+    },
+    {
+      "id": "S3",
+      "title": "PostgreSQL: Transaction Isolation",
+      "url": "https://www.postgresql.org/docs/18/transaction-iso.html",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "version": "18 documentation",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Official PostgreSQL documentation/licence, read through web tool",
+      "finding": "Read Committed update predicate reevaluation",
+      "limitations": "Mutable documentation; installed version and runtime behavior not verified"
+    },
+    {
+      "id": "S4",
+      "title": "PostgreSQL: Date/Time Functions and Operators",
+      "url": "https://www.postgresql.org/docs/18/functions-datetime.html",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "version": "18 documentation",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Official PostgreSQL documentation/licence, read through web tool",
+      "finding": "Transaction, statement and clock time",
+      "limitations": "Mutable documentation; installed version and runtime behavior not verified"
+    },
+    {
+      "id": "S5",
+      "title": "PostgreSQL: Transactions",
+      "url": "https://www.postgresql.org/docs/18/tutorial-transactions.html",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "version": "18 documentation",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Official PostgreSQL documentation/licence, read through web tool",
+      "finding": "Atomic transaction and driver boundaries",
+      "limitations": "Mutable documentation; installed version and runtime behavior not verified"
+    },
+    {
+      "id": "S6",
+      "title": "PostgreSQL: License",
+      "url": "https://www.postgresql.org/about/licence/",
+      "retrieved_at": "2026-11-02",
+      "evaluated_at": "2026-11-02",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Official PostgreSQL documentation/licence, read through web tool",
+      "finding": "Actual reuse conditions",
+      "limitations": "Mutable documentation; installed version and runtime behavior not verified"
+    }
+  ]
+}
