@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "evaluated_at": "2026-11-02",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://gsap.com/docs/v3/GSAP/Tween/revert()/",
+      "title": "Tween.revert",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official maintainer documentation",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    },
+    {
+      "id": "S2",
+      "url": "https://gsap.com/docs/v3/GSAP/Tween/kill()/",
+      "title": "Tween.kill",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official maintainer documentation",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    },
+    {
+      "id": "S3",
+      "url": "https://gsap.com/docs/v3/GSAP/CorePlugins/CSS/",
+      "title": "CSSPlugin and clearProps",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official maintainer documentation",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    },
+    {
+      "id": "S4",
+      "url": "https://gsap.com/docs/v3/GSAP/gsap.context()/",
+      "title": "gsap.context",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official maintainer documentation",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    },
+    {
+      "id": "S5",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/package.json",
+      "title": "GSAP package metadata",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official repository",
+      "version": "3.15.0",
+      "commit_sha": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    },
+    {
+      "id": "S6",
+      "url": "https://github.com/greensock/GSAP/commit/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "title": "GSAP repository commit",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official repository",
+      "version": null,
+      "commit_sha": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    },
+    {
+      "id": "S7",
+      "url": "https://gsap.com/community/standard-license/",
+      "title": "Standard No Charge GSAP License",
+      "retrieved_at": "2026-11-02",
+      "provenance": "Official maintainer documentation",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Documentary evidence only; live docs may change; no npm artifact or runtime verification."
+    }
+  ]
+}
