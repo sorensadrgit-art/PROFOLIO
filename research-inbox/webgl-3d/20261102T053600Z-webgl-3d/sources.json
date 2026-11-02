@@ -1,0 +1,97 @@
+{
+  "run_id": "20261102T053600Z-webgl-3d",
+  "evaluated_at": "2026-11-02T05:41:41Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "OutputPass documentation",
+      "url": "https://threejs.org/docs/pages/OutputPass.html",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Official documentation via web retrieval",
+      "limitations": "Moving documentation; release/version not pinned"
+    },
+    {
+      "id": "S2",
+      "title": "Texture documentation",
+      "url": "https://threejs.org/docs/pages/Texture.html",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Official documentation via web retrieval",
+      "limitations": "Moving documentation; release/version not pinned"
+    },
+    {
+      "id": "S3",
+      "title": "WebGLRenderer documentation",
+      "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Official documentation via web retrieval",
+      "limitations": "Moving documentation; release/version not pinned"
+    },
+    {
+      "id": "S4",
+      "title": "OutputPass implementation",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/examples/jsm/postprocessing/OutputPass.js",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": "0.187.0",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "provenance": "Official repository via GitHub connector",
+      "limitations": "Development snapshot; npm artifact and application compatibility unverified"
+    },
+    {
+      "id": "S5",
+      "title": "OutputShader implementation",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/examples/jsm/shaders/OutputShader.js",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": "0.187.0",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "provenance": "Official repository via GitHub connector",
+      "limitations": "Development snapshot; npm artifact and application compatibility unverified"
+    },
+    {
+      "id": "S6",
+      "title": "Package manifest",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/package.json",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": "0.187.0",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "provenance": "Official repository via GitHub connector",
+      "limitations": "Development snapshot; npm artifact and application compatibility unverified"
+    },
+    {
+      "id": "S7",
+      "title": "MIT licence",
+      "url": "https://github.com/mrdoob/three.js/blob/8086b3fda07a70bffad7ee39265c9617994ec482/LICENSE",
+      "retrieved_at": "2026-11-02T05:41:41Z",
+      "evaluated_at": "2026-11-02T05:41:41Z",
+      "version": "0.187.0",
+      "commit_sha": "8086b3fda07a70bffad7ee39265c9617994ec482",
+      "commit_date": "2026-11-01T22:25:58Z",
+      "release_date": null,
+      "provenance": "Official repository via GitHub connector",
+      "limitations": "Development snapshot; npm artifact and application compatibility unverified"
+    }
+  ]
+}

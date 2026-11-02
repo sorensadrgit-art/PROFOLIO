@@ -1002,6 +1002,25 @@
       ],
       "summary": "One-project Perfect Freehand discovery: pressure/finalization defaults, editable source samples and geometry-versus-document ownership. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T053600Z-webgl-3d",
+      "topic_id": "webgl-3d",
+      "title": "Color output needs one owner per rendering path",
+      "path": "research-inbox/webgl-3d/20261102T053600Z-webgl-3d/",
+      "created_at": "2026-11-02T05:45:02Z",
+      "scheduled_at": "2026-11-02T05:36:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 7,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Output-stage ownership, texture interpretation versus tone mapping and display conversion, with the documented FXAA ordering exception. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -1344,6 +1363,25 @@
             "sources.json"
           ],
           "summary": "Renderer-specific statistics, multipass measurement boundaries and tracked-memory estimate limitations. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T053600Z-webgl-3d",
+          "topic_id": "webgl-3d",
+          "title": "Color output needs one owner per rendering path",
+          "path": "research-inbox/webgl-3d/20261102T053600Z-webgl-3d/",
+          "created_at": "2026-11-02T05:45:02Z",
+          "scheduled_at": "2026-11-02T05:36:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 7,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Output-stage ownership, texture interpretation versus tone mapping and display conversion, with the documented FXAA ordering exception. Documentary only.",
           "package_commit_sha": null
         }
       ]
@@ -2054,5 +2092,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T05:32:06Z"
+  "updated_at": "2026-11-02T05:45:02Z"
 }
