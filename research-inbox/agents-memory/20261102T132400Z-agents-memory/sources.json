@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T132400Z-agents-memory",
+  "evaluated_at": "2026-11-02T13:30:35Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Memory \u2014 manage short-term memory",
+      "url": "https://docs.langchain.com/oss/python/langgraph/add-memory",
+      "retrieved_at": "2026-11-02T13:29:58Z",
+      "evaluated_at": "2026-11-02T13:30:35Z",
+      "version": null,
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "publication_date": null,
+      "provenance": "Primary official documentation or maintainer repository, retrieved read-only",
+      "limitations": "Rolling official guide; inspected trim/delete/summarize sections; not an erasure or provider-universal guarantee."
+    },
+    {
+      "id": "S2",
+      "title": "LangChain core message utilities",
+      "url": "https://github.com/langchain-ai/langchain/blob/aa13e9c0e94c4e9d203a15a5960b91e29088a98a/libs/core/langchain_core/messages/utils.py",
+      "retrieved_at": "2026-11-02T13:30:26Z",
+      "evaluated_at": "2026-11-02T13:30:35Z",
+      "version": "1.7.3",
+      "commit": "aa13e9c0e94c4e9d203a15a5960b91e29088a98a",
+      "commit_date": "2026-11-02T00:44:54Z",
+      "release_date": null,
+      "publication_date": null,
+      "provenance": "Primary official documentation or maintainer repository, retrieved read-only",
+      "limitations": "Pinned interface and helpers inspected; no execution."
+    },
+    {
+      "id": "S3",
+      "title": "INVALID_TOOL_RESULTS",
+      "url": "https://docs.langchain.com/oss/python/langchain/errors/INVALID_TOOL_RESULTS",
+      "retrieved_at": "2026-11-02T13:30:35Z",
+      "evaluated_at": "2026-11-02T13:30:35Z",
+      "version": null,
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "publication_date": null,
+      "provenance": "Primary official documentation or maintainer repository, retrieved read-only",
+      "limitations": "Named error is documented JavaScript/TypeScript-only; actual provider adapters must be checked."
+    },
+    {
+      "id": "S4",
+      "title": "langchain-core package metadata",
+      "url": "https://github.com/langchain-ai/langchain/blob/aa13e9c0e94c4e9d203a15a5960b91e29088a98a/libs/core/pyproject.toml",
+      "retrieved_at": "2026-11-02T13:30:26Z",
+      "evaluated_at": "2026-11-02T13:30:35Z",
+      "version": "1.7.3",
+      "commit": "aa13e9c0e94c4e9d203a15a5960b91e29088a98a",
+      "commit_date": "2026-11-02T00:44:54Z",
+      "release_date": null,
+      "publication_date": null,
+      "provenance": "Primary official documentation or maintainer repository, retrieved read-only",
+      "limitations": "Repository version only, not release/install confirmation."
+    },
+    {
+      "id": "S5",
+      "title": "LangChain MIT licence",
+      "url": "https://github.com/langchain-ai/langchain/blob/aa13e9c0e94c4e9d203a15a5960b91e29088a98a/LICENSE",
+      "retrieved_at": "2026-11-02T13:30:26Z",
+      "evaluated_at": "2026-11-02T13:30:35Z",
+      "version": null,
+      "commit": "aa13e9c0e94c4e9d203a15a5960b91e29088a98a",
+      "commit_date": "2026-11-02T00:44:54Z",
+      "release_date": null,
+      "publication_date": null,
+      "provenance": "Primary official documentation or maintainer repository, retrieved read-only",
+      "limitations": "Repository covered software only; dependencies/service terms not audited."
+    },
+    {
+      "id": "S6",
+      "title": "LangChain source commit",
+      "url": "https://github.com/langchain-ai/langchain/commit/aa13e9c0e94c4e9d203a15a5960b91e29088a98a",
+      "retrieved_at": "2026-11-02T13:30:20Z",
+      "evaluated_at": "2026-11-02T13:30:35Z",
+      "version": null,
+      "commit": "aa13e9c0e94c4e9d203a15a5960b91e29088a98a",
+      "commit_date": "2026-11-02T00:44:54Z",
+      "release_date": null,
+      "publication_date": null,
+      "provenance": "Primary official documentation or maintainer repository, retrieved read-only",
+      "limitations": "Observed commit, not release cadence or stability proof."
+    }
+  ],
+  "dependencies": {
+    "python": ">=3.10.0,<4.0.0",
+    "constraints": [
+      "langsmith>=0.14.9,<1.0.0",
+      "httpx>=0.23.0",
+      "certifi>=2026.10.19",
+      "tenacity!=8.4.0,>=8.1.0",
+      "jsonpatch>=1.33.0",
+      "PyYAML>=5.3.0",
+      "typing-extensions>=4.7.0",
+      "packaging>=23.2.0",
+      "pydantic>=2.7.4,<3.0.0",
+      "uuid-utils>=0.12.0",
+      "langchain-protocol>=0.0.20"
+    ]
+  },
+  "retrieval_limitations": [
+    "Rendered API reference fetch returned unsupported text/markdown; pinned source inspected instead."
+  ]
+}
