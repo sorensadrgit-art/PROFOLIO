@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T181200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "scheduled_at": "2026-11-02T18:12:00Z",
+  "evaluation_started_at": "2026-11-02T18:10:41Z",
+  "title": "Context-safe animation is not cancellation of a late callback",
+  "status": "approved_documentary",
+  "source_count": 7,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "base_head": "a74a1c9656107a12b123c8616038126df0c7f4b0",
+    "topic_reports_read": 13,
+    "same_run_found": false,
+    "unfinished_topic_directory_found": false
+  },
+  "tests": {
+    "runtime": "not_run",
+    "integration": "not_run",
+    "visual": "not_run",
+    "accessibility": "not_run",
+    "performance": "not_run"
+  },
+  "limitations": [
+    "Source-derived async-boundary inference is not runtime verification.",
+    "Repository versions are not npm-latest or installed versions."
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "reviewed_at": "2026-11-02T18:15:03Z",
+  "qa_scope": "Independent seven-source documentary review; JSON validation and bounded sensitive-data scan. No runtime certification.",
+  "corrections": [
+    "Cosmetic spacing in licence date metadata."
+  ]
+}
