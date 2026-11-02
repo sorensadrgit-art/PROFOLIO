@@ -1,0 +1,34 @@
+{
+  "shortlist": [
+    {
+      "name": "Perfect Freehand",
+      "repository": "https://github.com/steveruizok/perfect-freehand",
+      "purpose": "Generate variable-width freehand outline geometry from input samples",
+      "languages": [
+        "TypeScript"
+      ],
+      "source_version": "1.2.3",
+      "npm_version": null,
+      "source_commit": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "release_date": "2026-02-01T00:45:16Z",
+      "license": "MIT",
+      "license_source": "https://github.com/steveruizok/perfect-freehand/blob/176e00f2399f4969e1b0965c5921d96a3e50ce9f/LICENSE",
+      "restrictions": [
+        "Retain copyright and permission notices",
+        "No third-party media rights inferred"
+      ],
+      "runtime_dependencies_declared": [],
+      "integration": "ESM/CommonJS exports and TypeScript declarations; application supplies rendering and interaction state",
+      "hosting": "Application-side library; no required hosted API/MCP",
+      "costs": "Engineering, transfer and computation unmeasured; no required paid service observed",
+      "status": "Candidate for later evaluation; not installed or tested",
+      "risks": [
+        "README/implementation defaults diverge",
+        "Raw samples and pressure mode must remain application-owned",
+        "Self-crossing outlines need downstream validation"
+      ],
+      "demo": "https://perfect-freehand-example.vercel.app/",
+      "demo_tested": false
+    }
+  ]
+}

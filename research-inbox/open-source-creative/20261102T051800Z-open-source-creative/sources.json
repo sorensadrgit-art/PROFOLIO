@@ -1,0 +1,97 @@
+{
+  "evaluated_at": "2026-11-02T05:29:22Z",
+  "sources": [
+    {
+      "id": "P1",
+      "title": "Perfect Freehand README",
+      "url": "https://github.com/steveruizok/perfect-freehand/blob/176e00f2399f4969e1b0965c5921d96a3e50ce9f/README.md",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "commit_date": null,
+      "release_date": null,
+      "version": null,
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    },
+    {
+      "id": "P2",
+      "title": "Package manifest",
+      "url": "https://github.com/steveruizok/perfect-freehand/blob/176e00f2399f4969e1b0965c5921d96a3e50ce9f/packages/perfect-freehand/package.json",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "commit_date": null,
+      "release_date": null,
+      "version": "1.2.3",
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    },
+    {
+      "id": "P3",
+      "title": "Actual MIT licence",
+      "url": "https://github.com/steveruizok/perfect-freehand/blob/176e00f2399f4969e1b0965c5921d96a3e50ce9f/LICENSE",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "commit_date": null,
+      "release_date": null,
+      "version": null,
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    },
+    {
+      "id": "P4",
+      "title": "getStroke composition",
+      "url": "https://github.com/steveruizok/perfect-freehand/blob/176e00f2399f4969e1b0965c5921d96a3e50ce9f/packages/perfect-freehand/src/getStroke.ts",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "commit_date": null,
+      "release_date": null,
+      "version": null,
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    },
+    {
+      "id": "P5",
+      "title": "getStrokePoints implementation",
+      "url": "https://github.com/steveruizok/perfect-freehand/blob/176e00f2399f4969e1b0965c5921d96a3e50ce9f/packages/perfect-freehand/src/getStrokePoints.ts",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "commit_date": null,
+      "release_date": null,
+      "version": null,
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    },
+    {
+      "id": "P6",
+      "title": "Latest release metadata",
+      "url": "https://api.github.com/repos/steveruizok/perfect-freehand/releases/latest",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": "2026-02-01T00:45:16Z",
+      "version": "1.2.3",
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    },
+    {
+      "id": "P7",
+      "title": "Latest observed default-branch commit",
+      "url": "https://api.github.com/repos/steveruizok/perfect-freehand/commits?per_page=1",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "provenance": "Primary maintainer repository, retrieved through GitHub connector",
+      "commit_sha": "176e00f2399f4969e1b0965c5921d96a3e50ce9f",
+      "commit_date": "2026-02-01T00:57:39Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Documentary source inspection; no runtime or artifact verification."
+    }
+  ],
+  "unavailable_sources": [
+    {
+      "url": "https://registry.npmjs.org/perfect-freehand/latest",
+      "retrieved_at": "2026-11-02T05:29:15Z",
+      "result": "Web tool could not access endpoint",
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "20261102T051800Z-open-source-creative",
+  "topic_id": "open-source-creative",
+  "scheduled_at": "2026-11-02T05:18:00Z",
+  "evaluated_at": "2026-11-02T05:29:22Z",
+  "status": "approved_documentary",
+  "title": "A freehand outline is not an editable drawing document",
+  "source_count": 7,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "prior_packages_read": 6,
+  "same_run_remote_artifact_found": false,
+  "runtime_tests": "not_performed",
+  "limitations": [
+    "npm artifact unverified",
+    "framework compatibility untested",
+    "third-party media rights unverified"
+  ],
+  "resume_history": [
+    {
+      "at": "2026-11-02T05:17:42Z",
+      "status": "blocked_missing_branch"
+    },
+    {
+      "at": "2026-11-02T05:28:52Z",
+      "status": "resumed_after_branch_restoration"
+    }
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "reviewed_at": "2026-11-02T05:32:06Z",
+  "json_validation": "passed",
+  "sensitive_data_scan": "passed_bounded_patterns_and_manual_review"
+}
