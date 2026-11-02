@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T151200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "scheduled_at": "2026-11-02T15:12:00Z",
+  "evaluated_at": "2026-11-02T15:22:47Z",
+  "title": "A horizontal-looking scene is not a horizontal scroller",
+  "status": "approved_documentary",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "base_head": "2d68f1ac30099267efb205225105e85c8885f58e",
+    "topic_reports_read": 12,
+    "same_run_found": false,
+    "unfinished_topic_directory_found": false
+  },
+  "tests": {
+    "runtime": "not_run",
+    "integration": "not_run",
+    "visual": "not_run",
+    "accessibility": "not_run",
+    "performance": "not_run"
+  },
+  "limitations": [
+    "Repository version is not npm latest or installed version.",
+    "No demo executed.",
+    "No runtime claims."
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "reviewed_at": "2026-11-02T15:25:47Z",
+  "qa_scope": "Independent six-source documentary review; JSON validation and bounded sensitive-data scan. No execution certification.",
+  "corrections": [
+    "Licence effective date separated from unknown publication date."
+  ]
+}

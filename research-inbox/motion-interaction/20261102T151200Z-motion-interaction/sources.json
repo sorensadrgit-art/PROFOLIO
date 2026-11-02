@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ScrollTrigger configuration reference",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+      "retrieved_at": "2026-11-02T15:22:47Z",
+      "evaluated_at": "2026-11-02T15:22:47Z",
+      "published_at": null,
+      "commit_date": null,
+      "release_date": null,
+      "version": "Live v3 documentation",
+      "provenance": "Primary official maintainer documentation or repository",
+      "claims": [
+        "containerAnimation mapping",
+        "linear easing restriction",
+        "child pin/snap restriction",
+        "horizontal option"
+      ],
+      "limitations": "Live docs; not pinned to installed project."
+    },
+    {
+      "id": "S2",
+      "title": "GSAP 3.8 release",
+      "url": "https://gsap.com/blog/3-8/",
+      "retrieved_at": "2026-11-02T15:22:47Z",
+      "evaluated_at": "2026-11-02T15:22:47Z",
+      "published_at": "2021-09-27",
+      "commit_date": null,
+      "release_date": null,
+      "version": "3.8",
+      "provenance": "Primary official maintainer documentation or repository",
+      "claims": [
+        "feature introduction",
+        "parent pin with child containerAnimation",
+        "official embedded example"
+      ],
+      "limitations": "Historical release article; example not executed."
+    },
+    {
+      "id": "S3",
+      "title": "GSAP pinned package.json",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/package.json",
+      "retrieved_at": "2026-11-02T15:22:47Z",
+      "evaluated_at": "2026-11-02T15:22:47Z",
+      "published_at": null,
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "version": "3.15.0",
+      "provenance": "Primary official maintainer documentation or repository",
+      "claims": [
+        "entry points",
+        "TypeScript declarations",
+        "no dependency fields",
+        "licence pointer"
+      ],
+      "limitations": "Repository manifest, not npm metadata or app lockfile."
+    },
+    {
+      "id": "S4",
+      "title": "GSAP observed head commit",
+      "url": "https://github.com/greensock/GSAP/commit/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "retrieved_at": "2026-11-02T15:22:47Z",
+      "evaluated_at": "2026-11-02T15:22:47Z",
+      "published_at": null,
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "version": "3.15.0",
+      "provenance": "Primary official maintainer documentation or repository",
+      "claims": [
+        "observed maintenance snapshot"
+      ],
+      "limitations": "Not npm publication date or support guarantee."
+    },
+    {
+      "id": "S5",
+      "title": "Standard No Charge GSAP License",
+      "url": "https://gsap.com/community/standard-license/",
+      "retrieved_at": "2026-11-02T15:22:47Z",
+      "evaluated_at": "2026-11-02T15:22:47Z",
+      "published_at": null,
+      "effective_date": "2025-04-30",
+      "modified_at": "2025-05-30",
+      "commit_date": null,
+      "release_date": null,
+      "version": null,
+      "provenance": "Primary official maintainer documentation or repository",
+      "claims": [
+        "permitted commercial use",
+        "visual-builder restrictions",
+        "proprietary notices"
+      ],
+      "limitations": "Page last modified 2025-05-30; full terms govern, not legal advice."
+    },
+    {
+      "id": "S6",
+      "title": "GSAP installation",
+      "url": "https://gsap.com/docs/v3/Installation/",
+      "retrieved_at": "2026-11-02T15:22:47Z",
+      "evaluated_at": "2026-11-02T15:22:47Z",
+      "published_at": null,
+      "commit_date": null,
+      "release_date": null,
+      "version": "Live v3 documentation",
+      "provenance": "Primary official maintainer documentation or repository",
+      "claims": [
+        "npm/script installation",
+        "plugin registration",
+        "public npm from3.13"
+      ],
+      "limitations": "Installation not performed; actual app build untested."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://raw.githubusercontent.com/greensock/GSAP/master/LICENSE",
+      "result": "404; used package licence pointer and official licence instead"
+    },
+    {
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.labelToScroll/",
+      "result": "Incorrect method URL inaccessible; not used for claims"
+    }
+  ]
+}
+
