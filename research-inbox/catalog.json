@@ -1233,6 +1233,25 @@
       ],
       "summary": "LangGraph concurrent shared-state reducers, message identity replacement and an original conflict-aware observation/adjudication contract. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T110000Z-website-design",
+      "topic_id": "website-design",
+      "title": "A project preview needs an exit contract, not just a backdrop",
+      "path": "research-inbox/website-design/20261102T110000Z-website-design/",
+      "created_at": "2026-11-02T11:07:00Z",
+      "scheduled_at": "2026-11-02T11:00:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 6,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Modal preview entry, focus, dismissal and return contract; native hidden-versus-closed boundary and unexecuted acceptance exercise. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -1425,6 +1444,25 @@
             "qa.md"
           ],
           "summary": "Preserve comparison-table relationships, distinguish local reflow exceptions from cell text, and verify keyboard-operable overflow. Documentary only.",
+          "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T110000Z-website-design",
+          "topic_id": "website-design",
+          "title": "A project preview needs an exit contract, not just a backdrop",
+          "path": "research-inbox/website-design/20261102T110000Z-website-design/",
+          "created_at": "2026-11-02T11:07:00Z",
+          "scheduled_at": "2026-11-02T11:00:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 6,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Modal preview entry, focus, dismissal and return contract; native hidden-versus-closed boundary and unexecuted acceptance exercise. Documentary only.",
           "package_commit_sha": null
         }
       ]
@@ -2516,5 +2554,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T10:27:18Z"
+  "updated_at": "2026-11-02T11:09:00Z"
 }
