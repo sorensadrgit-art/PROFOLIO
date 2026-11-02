@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T102400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "title": "A reducer merges agent state, not conflicting conclusions",
+  "scheduled_at": "2026-11-02T10:24:00Z",
+  "started_at": "2026-11-02T10:22:30Z",
+  "evaluated_at": "2026-11-02T10:25:23Z",
+  "status": "approved_documentary",
+  "author": "Dot",
+  "source_count": 8,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "research_type": "bounded_engineering_design_reference",
+  "discovery_shortlist": false,
+  "prior_packages_read": 8,
+  "same_run_artifact_found": false,
+  "unfinished_same_topic_found": false,
+  "tests_performed": [],
+  "tests_not_performed": [
+    "runtime",
+    "concurrency",
+    "integration",
+    "security",
+    "performance",
+    "accessibility"
+  ],
+  "limitations": [
+    "Published package release not verified",
+    "Python source inspection only; no installed compatibility test",
+    "Early actual retrieval preserved separately from scheduled slot"
+  ],
+  "publication": {
+    "repository": "sorensadrgit-art/PROFOLIO",
+    "branch": "research-data",
+    "path": "research-inbox/agents-memory/20261102T102400Z-agents-memory/",
+    "commit_sha": null
+  },
+  "qa": {
+    "status": "APPROVED_DOCUMENTARY",
+    "reviewer": "independent QA worker",
+    "reviewed_at": "2026-11-02",
+    "report": "qa.md",
+    "scope": "Independent source/claim review, JSON validation and bounded sensitive-data scan; no runtime certification",
+    "time_precision": "date; independent review around 10:26 UTC"
+  },
+  "validation": {
+    "json": "passed",
+    "sensitive_data_scan": "bounded pattern scan plus manual review; no findings",
+    "duplicate_check": "Eight prior topic reports plus live directory checked; no duplicate merge-semantics package or unfinished directory observed"
+  }
+}
