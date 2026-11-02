@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "just release 1.59.0",
+      "url": "https://github.com/casey/just/releases/tag/1.59.0",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": "1.59.0",
+      "release_date": "2026-10-15T06:41:04Z",
+      "commit_date": null,
+      "provenance": "Official release metadata",
+      "limitations": "Release metadata, not binary verification"
+    },
+    {
+      "id": "S2",
+      "title": "just annotated release tag",
+      "url": "https://api.github.com/repos/casey/just/git/tags/86955cf7350674082802c8e886f36769537e0d22",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": "1.59.0",
+      "release_date": null,
+      "commit_date": "2026-10-15T06:39:17Z",
+      "provenance": "Official Git tag metadata",
+      "limitations": "Resolves to 2638e9c0941edb1f409da7426fa7842887656973; unsigned tag"
+    },
+    {
+      "id": "S3",
+      "title": "just Cargo manifest",
+      "url": "https://github.com/casey/just/blob/7b7b51bec9359a5b4a76321018db65d07978fecc/Cargo.toml",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": "1.59.0",
+      "release_date": null,
+      "commit_date": "2026-11-02T05:24:07Z",
+      "provenance": "Pinned official manifest",
+      "limitations": "Newer source retains release version string"
+    },
+    {
+      "id": "S4",
+      "title": "just README",
+      "url": "https://github.com/casey/just/blob/7b7b51bec9359a5b4a76321018db65d07978fecc/README.md",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": "2026-11-02T05:24:07Z",
+      "provenance": "Pinned official documentation",
+      "limitations": "dry-run setting labelled master"
+    },
+    {
+      "id": "S5",
+      "title": "just execution gates",
+      "url": "https://github.com/casey/just/blob/7b7b51bec9359a5b4a76321018db65d07978fecc/src/settings.rs",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": "2026-11-02T05:24:07Z",
+      "provenance": "Pinned official implementation",
+      "limitations": "Static inspection only"
+    },
+    {
+      "id": "S6",
+      "title": "just dry-run test definitions",
+      "url": "https://github.com/casey/just/blob/7b7b51bec9359a5b4a76321018db65d07978fecc/tests/dry_run.rs",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": "2026-11-02T05:24:07Z",
+      "provenance": "Pinned official test source",
+      "limitations": "Tests read, not executed"
+    },
+    {
+      "id": "S7",
+      "title": "just 1.59.0 evaluator",
+      "url": "https://github.com/casey/just/blob/2638e9c0941edb1f409da7426fa7842887656973/src/evaluator.rs",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": "1.59.0",
+      "release_date": null,
+      "commit_date": "2026-10-15T06:39:17Z",
+      "provenance": "Release-tag implementation",
+      "limitations": "Fetched through tag, resolved immutable commit; backtick path inspected"
+    },
+    {
+      "id": "S8",
+      "title": "just LICENSE",
+      "url": "https://github.com/casey/just/blob/7b7b51bec9359a5b4a76321018db65d07978fecc/LICENSE",
+      "retrieved_at": "2026-11-02T18:29:00Z",
+      "evaluated_at": "2026-11-02T18:32:00Z",
+      "version": "CC0-1.0",
+      "release_date": null,
+      "commit_date": "2026-11-02T05:24:07Z",
+      "provenance": "Pinned official licence",
+      "limitations": "Dependencies and third-party rights separate"
+    }
+  ],
+  "retrieval_note": "Retrieval timestamps rounded down to minute; fetched between 18:29 and 18:30 UTC. Commit dates describe snapshot or tag, not individual file changes."
+}

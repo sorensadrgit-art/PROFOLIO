@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "repositories": [
+    {
+      "name": "just",
+      "url": "https://github.com/casey/just",
+      "purpose": "Project-specific command runner",
+      "source_commit": "7b7b51bec9359a5b4a76321018db65d07978fecc",
+      "source_commit_date": "2026-11-02T05:24:07Z",
+      "release_version": "1.59.0",
+      "release_published_at": "2026-10-15T06:41:04Z",
+      "release_commit": "2638e9c0941edb1f409da7426fa7842887656973",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/casey/just/blob/7b7b51bec9359a5b4a76321018db65d07978fecc/LICENSE",
+      "restrictions": "Trademark/patent rights and third-party rights not granted by CC0; dependencies and services separately governed.",
+      "languages": [
+        "Rust",
+        "justfile recipe DSL"
+      ],
+      "source_build_requirements": [
+        "Rust >=1.89.0",
+        "edition 2024"
+      ],
+      "runtime_requirements": [
+        "Chosen shell/interpreters",
+        "Programs invoked by recipes"
+      ],
+      "dependencies_sample": [
+        "clap",
+        "serde",
+        "serde_json",
+        "regex",
+        "dotenvy",
+        "tempfile"
+      ],
+      "installation": "Official package managers, release binaries or Cargo; none performed.",
+      "hosting": "Local CLI, no server required.",
+      "api_mcp": "No MCP required for shell invocation; wrappers separate.",
+      "costs": "Local/CI compute and invoked services, no measured price.",
+      "demos": "README examples, not executed.",
+      "compatibility": "Linux/macOS/Windows documented; shell and recipe portability untested.",
+      "risks": [
+        "Master-only dry-run setting differs from release",
+        "Repository-selected evaluation behavior",
+        "Invoked-command authority"
+      ],
+      "alternatives": [
+        "Reviewed shell scripts",
+        "Existing package scripts",
+        "Incremental build system"
+      ],
+      "recommendation_status": "SHORTLIST_FOR_SEPARATE_AUTHORIZED_EVALUATION",
+      "tests": "NOT_PERFORMED"
+    }
+  ]
+}

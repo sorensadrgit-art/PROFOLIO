@@ -1580,6 +1580,26 @@
       ],
       "summary": "GSAP context recording versus late-result admission and async-boundary ownership, with an unexecuted acceptance exercise. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T183000Z-open-source-tooling",
+      "topic_id": "open-source-tooling",
+      "title": "A just dry run is a versioned execution mode, not a trust boundary",
+      "path": "research-inbox/open-source-tooling/20261102T183000Z-open-source-tooling/",
+      "created_at": "2026-11-02T18:34:20Z",
+      "scheduled_at": "2026-11-02T18:30:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 8,
+      "files": [
+        "manifest.json",
+        "qa.md",
+        "repos.json",
+        "research.md",
+        "sources.json"
+      ],
+      "summary": "One-project just discovery: development-only preview modes, stable-source differences and execution-mode receipts. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -3185,10 +3205,30 @@
           ],
           "summary": "One-project actionlint discovery: optional analyzers, bundled action-interface coverage and configuration-aware receipts. Documentary only.",
           "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T183000Z-open-source-tooling",
+          "topic_id": "open-source-tooling",
+          "title": "A just dry run is a versioned execution mode, not a trust boundary",
+          "path": "research-inbox/open-source-tooling/20261102T183000Z-open-source-tooling/",
+          "created_at": "2026-11-02T18:34:20Z",
+          "scheduled_at": "2026-11-02T18:30:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 8,
+          "files": [
+            "manifest.json",
+            "qa.md",
+            "repos.json",
+            "research.md",
+            "sources.json"
+          ],
+          "summary": "One-project just discovery: development-only preview modes, stable-source differences and execution-mode receipts. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T17:08:00Z"
+  "updated_at": "2026-11-02T18:34:20Z"
 }
