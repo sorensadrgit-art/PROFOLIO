@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "repositories": [
+    {
+      "name": "actionlint",
+      "url": "https://github.com/rhysd/actionlint",
+      "purpose": "Static GitHub Actions workflow checker",
+      "decision": "SHORTLIST_FOR_LATER_BOUNDED_EVALUATION",
+      "language": "Go",
+      "license": "MIT",
+      "license_url": "https://github.com/rhysd/actionlint/blob/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7/LICENSE.txt",
+      "license_restrictions": "Retain copyright and permission notices in copies/substantial portions; dependencies and external assets require separate review.",
+      "inspected_commit": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "latest_observed_release": "v1.7.12",
+      "release_date": "2026-03-30T17:49:21Z",
+      "retrieved_at": "2026-11-02T15:40:35Z",
+      "evaluated_at": "2026-11-02T15:42:00Z",
+      "dependencies": [
+        "Go 1.25.0 declared",
+        "go.yaml.in/yaml/v4 v4.0.0-rc.3",
+        "Optional ShellCheck and Pyflakes executables"
+      ],
+      "installation": "Official binaries, package managers or Go build; none performed",
+      "hosting": "Local CLI; no hosted service required",
+      "api_mcp": "CLI and Go API documented; no MCP integration evaluated",
+      "costs": "Local/CI compute, subprocesses, storage and review; no measured estimate",
+      "demo": "https://rhysd.github.io/actionlint/",
+      "risks": [
+        "Coverage varies with analyzer availability and configuration",
+        "Bundled popular-action database has reference-form limits",
+        "Composite action internals not checked per pinned docs",
+        "Inspected main includes post-release fix not assumed in stable binary"
+      ],
+      "runtime_tested": false,
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ]
+    }
+  ]
+}

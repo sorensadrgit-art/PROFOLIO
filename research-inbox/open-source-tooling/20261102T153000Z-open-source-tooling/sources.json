@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "README",
+      "url": "https://github.com/rhysd/actionlint/blob/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7/README.md",
+      "retrieved_at": "2026-11-02T15:40:35Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official maintainer repository, pinned source read through GitHub connector",
+      "commit_sha": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Main snapshot newer than stable release; installed artifact parity untested."
+    },
+    {
+      "id": "S2",
+      "title": "Usage and integration controls",
+      "url": "https://github.com/rhysd/actionlint/blob/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7/docs/usage.md",
+      "retrieved_at": "2026-11-02T15:40:35Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official maintainer repository, pinned source read through GitHub connector",
+      "commit_sha": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Main snapshot newer than stable release; installed artifact parity untested."
+    },
+    {
+      "id": "S3",
+      "title": "Checks and coverage limitations",
+      "url": "https://github.com/rhysd/actionlint/blob/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7/docs/checks.md",
+      "retrieved_at": "2026-11-02T15:40:35Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official maintainer repository, pinned source read through GitHub connector",
+      "commit_sha": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Main snapshot newer than stable release; installed artifact parity untested."
+    },
+    {
+      "id": "S4",
+      "title": "Go module dependency declarations",
+      "url": "https://github.com/rhysd/actionlint/blob/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7/go.mod",
+      "retrieved_at": "2026-11-02T15:40:35Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official maintainer repository, pinned source read through GitHub connector",
+      "commit_sha": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Main snapshot newer than stable release; installed artifact parity untested."
+    },
+    {
+      "id": "S5",
+      "title": "MIT license",
+      "url": "https://github.com/rhysd/actionlint/blob/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7/LICENSE.txt",
+      "retrieved_at": "2026-11-02T15:40:35Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official maintainer repository, pinned source read through GitHub connector",
+      "commit_sha": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "version": null,
+      "release_date": null,
+      "limitations": "Main snapshot newer than stable release; installed artifact parity untested."
+    },
+    {
+      "id": "S6",
+      "title": "actionlint v1.7.12 release",
+      "url": "https://github.com/rhysd/actionlint/releases/tag/v1.7.12",
+      "retrieved_at": "2026-11-02T15:40:22Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official GitHub latest-release API metadata and release notes",
+      "version": "v1.7.12",
+      "release_date": "2026-03-30T17:49:21Z",
+      "commit_sha": null,
+      "commit_date": null,
+      "limitations": "Latest GitHub release at retrieval, not binary provenance verification."
+    },
+    {
+      "id": "S7",
+      "title": "Inspected main commit",
+      "url": "https://github.com/rhysd/actionlint/commit/011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "retrieved_at": "2026-11-02T15:40:22Z",
+      "evaluated_at": "2026-11-02T15:41:00Z",
+      "provenance": "Official GitHub commit endpoint",
+      "version": null,
+      "release_date": null,
+      "commit_sha": "011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7",
+      "commit_date": "2026-04-19T14:46:58Z",
+      "limitations": "Observed activity is not a support commitment."
+    }
+  ]
+}
