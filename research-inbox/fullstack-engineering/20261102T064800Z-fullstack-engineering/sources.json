@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Assertions",
+      "url": "https://playwright.dev/docs/test-assertions",
+      "retrieved_at": "2026-11-02T06:45:38Z",
+      "evaluated_at": "2026-11-02T06:46:00Z",
+      "source_type": "official_documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Read via web tool from official maintainer source",
+      "findings": "Web assertions versus generic assertions; poll/toPass scope and timeout.",
+      "limitations": "Mutable page; installed package/browser compatibility not verified."
+    },
+    {
+      "id": "S2",
+      "title": "Locators",
+      "url": "https://playwright.dev/docs/locators",
+      "retrieved_at": "2026-11-02T06:45:38Z",
+      "evaluated_at": "2026-11-02T06:46:00Z",
+      "source_type": "official_documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Read via web tool from official maintainer source",
+      "findings": "Live locator resolution and strictness.",
+      "limitations": "Mutable page; installed package/browser compatibility not verified."
+    },
+    {
+      "id": "S3",
+      "title": "Auto-waiting",
+      "url": "https://playwright.dev/docs/actionability",
+      "retrieved_at": "2026-11-02T06:45:38Z",
+      "evaluated_at": "2026-11-02T06:46:00Z",
+      "source_type": "official_documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Read via web tool from official maintainer source",
+      "findings": "Actionability checks and force caveat.",
+      "limitations": "Mutable page; installed package/browser compatibility not verified."
+    },
+    {
+      "id": "S4",
+      "title": "Retries",
+      "url": "https://playwright.dev/docs/test-retries",
+      "retrieved_at": "2026-11-02T06:45:38Z",
+      "evaluated_at": "2026-11-02T06:46:00Z",
+      "source_type": "official_documentation",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Read via web tool from official maintainer source",
+      "findings": "Worker replacement and flaky classification.",
+      "limitations": "Mutable page; installed package/browser compatibility not verified."
+    },
+    {
+      "id": "S5",
+      "title": "Playwright LICENSE",
+      "url": "https://github.com/microsoft/playwright/blob/main/LICENSE",
+      "retrieved_at": "2026-11-02T06:45:38Z",
+      "evaluated_at": "2026-11-02T06:46:00Z",
+      "source_type": "official_repository_license",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Read via web tool from official maintainer source",
+      "findings": "Actual Apache-2.0 licence text.",
+      "limitations": "Mutable page; installed package/browser compatibility not verified."
+    }
+  ]
+}

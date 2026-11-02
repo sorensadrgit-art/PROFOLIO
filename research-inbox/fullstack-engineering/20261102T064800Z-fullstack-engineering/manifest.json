@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T064800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "title": "Retrying an observation is not retrying the user command",
+  "scheduled_at": "2026-11-02T06:48:00Z",
+  "started_at": "2026-11-02T06:45:07Z",
+  "evaluated_at": "2026-11-02T06:49:56Z",
+  "status": "approved_documentary",
+  "source_count": 5,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "novelty": "Test observation retry boundaries versus repeated commands; live catalog/tree and six full-stack packages checked.",
+  "tests_performed": [],
+  "limitations": [
+    "No browser, runtime, integration, retry-race, security, accessibility or performance tests.",
+    "Installed package/browser and framework compatibility unverified."
+  ],
+  "publication": {
+    "branch": "research-data",
+    "commit_sha": null
+  },
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "qa_scope": "Independent official-source review; JSON validation and bounded sensitive-data scan. No runtime tests."
+}
