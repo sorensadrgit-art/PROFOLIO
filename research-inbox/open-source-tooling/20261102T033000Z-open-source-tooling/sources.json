@@ -1,0 +1,89 @@
+{
+  "run_id": "20261102T033000Z-open-source-tooling",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "jq README",
+      "url": "https://github.com/jqlang/jq/blob/992db9b7e5e3059b764bf430bd97716829e99578/README.md",
+      "retrieved_at": "2026-11-02T03:33:23Z",
+      "evaluated_at": "2026-11-02T03:33:23Z",
+      "observed_date": null,
+      "version": null,
+      "commit": "992db9b7e5e3059b764bf430bd97716829e99578",
+      "provenance": "Primary maintainer repository; GitHub connector read",
+      "purpose": "Purpose, installation, demos and dependencies",
+      "limitations": "Documentary inspection only; installed binary and distribution artifact not verified.",
+      "qa_retrieved_at": "2026-11-02T03:35:17Z"
+    },
+    {
+      "id": "S2",
+      "title": "jq 1.8.2 release",
+      "url": "https://github.com/jqlang/jq/releases/tag/jq-1.8.2",
+      "retrieved_at": "2026-11-02T03:33:23Z",
+      "evaluated_at": "2026-11-02T03:33:23Z",
+      "observed_date": "2026-06-20T14:11:27Z",
+      "version": "1.8.2",
+      "commit": null,
+      "provenance": "Primary maintainer repository; GitHub connector read",
+      "purpose": "Observed latest release metadata and maintenance",
+      "limitations": "Documentary inspection only; installed binary and distribution artifact not verified.",
+      "qa_retrieved_at": "2026-11-02T03:35:17Z"
+    },
+    {
+      "id": "S3",
+      "title": "jq COPYING",
+      "url": "https://github.com/jqlang/jq/blob/992db9b7e5e3059b764bf430bd97716829e99578/COPYING",
+      "retrieved_at": "2026-11-02T03:33:23Z",
+      "evaluated_at": "2026-11-02T03:33:23Z",
+      "observed_date": null,
+      "version": null,
+      "commit": "992db9b7e5e3059b764bf430bd97716829e99578",
+      "provenance": "Primary maintainer repository; GitHub connector read",
+      "purpose": "Actual software, documentation and included-code licence notices",
+      "limitations": "Documentary inspection only; installed binary and distribution artifact not verified.",
+      "qa_retrieved_at": "2026-11-02T03:35:17Z"
+    },
+    {
+      "id": "S4",
+      "title": "jq configure.ac",
+      "url": "https://github.com/jqlang/jq/blob/992db9b7e5e3059b764bf430bd97716829e99578/configure.ac",
+      "retrieved_at": "2026-11-02T03:33:23Z",
+      "evaluated_at": "2026-11-02T03:33:23Z",
+      "observed_date": null,
+      "version": null,
+      "commit": "992db9b7e5e3059b764bf430bd97716829e99578",
+      "provenance": "Primary maintainer repository; GitHub connector read",
+      "purpose": "Build and optional dependency configuration",
+      "limitations": "Documentary inspection only; installed binary and distribution artifact not verified.",
+      "qa_retrieved_at": "2026-11-02T03:35:17Z"
+    },
+    {
+      "id": "S5",
+      "title": "jq inspected commit",
+      "url": "https://github.com/jqlang/jq/commit/992db9b7e5e3059b764bf430bd97716829e99578",
+      "retrieved_at": "2026-11-02T03:33:23Z",
+      "evaluated_at": "2026-11-02T03:33:23Z",
+      "observed_date": "2026-11-01T12:19:41Z",
+      "version": null,
+      "commit": "992db9b7e5e3059b764bf430bd97716829e99578",
+      "provenance": "Primary maintainer repository; GitHub connector read",
+      "purpose": "Observed default-branch revision and date",
+      "limitations": "Documentary inspection only; installed binary and distribution artifact not verified.",
+      "qa_retrieved_at": "2026-11-02T03:35:17Z"
+    },
+    {
+      "id": "S6",
+      "title": "jq 1.8 manual source",
+      "url": "https://github.com/jqlang/jq/blob/992db9b7e5e3059b764bf430bd97716829e99578/docs/content/manual/v1.8/manual.yml",
+      "retrieved_at": "2026-11-02T03:33:32Z",
+      "evaluated_at": "2026-11-02T03:34:38Z",
+      "observed_date": null,
+      "version": "manual 1.8",
+      "commit": "992db9b7e5e3059b764bf430bd97716829e99578",
+      "provenance": "Primary maintainer repository; GitHub connector read",
+      "purpose": "Exit status, input stream, truth values, all, optional fields and arguments",
+      "limitations": "Documentary inspection only; installed binary and distribution artifact not verified.",
+      "qa_retrieved_at": "2026-11-02T03:35:17Z"
+    }
+  ]
+}
