@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T222400Z-agents-memory",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Roots (2025-11-25 specification)",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/client/roots",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": "2025-11-25",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Legacy protocol requirements; not runtime enforcement."
+    },
+    {
+      "id": "S2",
+      "title": "Understanding MCP clients (2026-07-28)",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/client-concepts",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": "2026-07-28",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Official explanation explicitly distinguishes roots from OS security."
+    },
+    {
+      "id": "S3",
+      "title": "Deprecated Features (2026-07-28)",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/deprecated",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": "2026-07-28",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Derived registry; earliest removal is not a promised removal date."
+    },
+    {
+      "id": "S4",
+      "title": "Filesystem MCP Server README",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/src/filesystem/README.md",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": null,
+      "commit": "194cc86e3ae6400958555bd4116849d822d69263",
+      "commit_date": "2026-10-28T20:43:56Z",
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Documented implementation behavior; not executed."
+    },
+    {
+      "id": "S5",
+      "title": "Filesystem package manifest",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/src/filesystem/package.json",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": "2.1.0",
+      "commit": "194cc86e3ae6400958555bd4116849d822d69263",
+      "commit_date": "2026-10-28T20:43:56Z",
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Repository package version only; npm metadata retrieval failed, published version unknown."
+    },
+    {
+      "id": "S6",
+      "title": "Repository LICENSE",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/LICENSE",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": null,
+      "commit": "194cc86e3ae6400958555bd4116849d822d69263",
+      "commit_date": "2026-10-28T20:43:56Z",
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Mixed licensing transition; no contribution-by-contribution audit."
+    },
+    {
+      "id": "S7",
+      "title": "Filesystem stdio entry point",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/src/filesystem/index.ts",
+      "retrieved_at": "2026-11-02T22:23:52Z",
+      "evaluated_at": "2026-11-02T22:23:52Z",
+      "version": null,
+      "commit": "194cc86e3ae6400958555bd4116849d822d69263",
+      "commit_date": "2026-10-28T20:43:56Z",
+      "release_date": null,
+      "provenance": "primary official documentation or repository",
+      "limitations": "Read lines 1–110; not a complete security audit."
+    }
+  ]
+}
+
