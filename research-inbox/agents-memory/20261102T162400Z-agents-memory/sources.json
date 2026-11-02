@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T162400Z-agents-memory",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Resources",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/resources",
+      "retrieved_at": "2026-11-02T16:27:12Z",
+      "evaluated_at": "2026-11-02T16:28:21Z",
+      "source_type": "official specification",
+      "version": "2025-11-25",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Official MCP website retrieved through web tool",
+      "limitations": "Versioned website page; exact publication/last-edit date unknown. No implementation tests."
+    },
+    {
+      "id": "S2",
+      "title": "Transports",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+      "retrieved_at": "2026-11-02T16:27:12Z",
+      "evaluated_at": "2026-11-02T16:28:21Z",
+      "source_type": "official specification",
+      "version": "2025-11-25",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Official MCP website retrieved through web tool",
+      "limitations": "Versioned website page; exact publication/last-edit date unknown. No implementation tests."
+    },
+    {
+      "id": "S3",
+      "title": "Lifecycle",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "retrieved_at": "2026-11-02T16:27:12Z",
+      "evaluated_at": "2026-11-02T16:28:21Z",
+      "source_type": "official specification",
+      "version": "2025-11-25",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "provenance": "Official MCP website retrieved through web tool",
+      "limitations": "Versioned website page; exact publication/last-edit date unknown. No implementation tests."
+    },
+    {
+      "id": "S4",
+      "title": "MCP resource notification TypeScript schema",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/38c84e9f93ad191d9eb26d92b945d17bd0efcaf3/schema/2025-11-25/schema.ts",
+      "retrieved_at": "2026-11-02T16:27:12Z",
+      "evaluated_at": "2026-11-02T16:28:21Z",
+      "source_type": "official repository",
+      "version": "2025-11-25",
+      "commit_sha": "38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "commit_date": "2025-11-25T21:14:08Z",
+      "release_date": null,
+      "provenance": "Official GitHub source/tag metadata retrieved through GitHub connector",
+      "limitations": "Pinned source inspection only; no SDK compatibility or runtime tests."
+    },
+    {
+      "id": "S5",
+      "title": "Pinned MCP repository LICENSE",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/38c84e9f93ad191d9eb26d92b945d17bd0efcaf3/LICENSE",
+      "retrieved_at": "2026-11-02T16:27:12Z",
+      "evaluated_at": "2026-11-02T16:28:21Z",
+      "source_type": "official repository",
+      "version": "2025-11-25",
+      "commit_sha": "38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "commit_date": "2025-11-25T21:14:08Z",
+      "release_date": null,
+      "provenance": "Official GitHub source/tag metadata retrieved through GitHub connector",
+      "limitations": "Pinned source inspection only; no SDK compatibility or runtime tests."
+    },
+    {
+      "id": "S6",
+      "title": "MCP 2025-11-25 tag commit",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "retrieved_at": "2026-11-02T16:27:12Z",
+      "evaluated_at": "2026-11-02T16:28:21Z",
+      "source_type": "official repository",
+      "version": "2025-11-25",
+      "commit_sha": "38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "commit_date": "2025-11-25T21:14:08Z",
+      "release_date": null,
+      "provenance": "Official GitHub source/tag metadata retrieved through GitHub connector",
+      "limitations": "Pinned source inspection only; no SDK compatibility or runtime tests."
+    }
+  ]
+}
