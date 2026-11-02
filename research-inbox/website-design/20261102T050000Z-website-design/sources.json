@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "HTML Standard \u2014 The a element",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+      "page_updated_at": "2026-10-30",
+      "version": "Living Standard",
+      "retrieved_at": "2026-11-02T05:25:33Z",
+      "evaluated_at": "2026-11-02T05:25:40Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary standards or platform documentation, directly retrieved",
+      "limitations": "Documentary evidence; no runtime or assistive-technology testing"
+    },
+    {
+      "id": "S2",
+      "title": "Understanding SC 2.4.4: Link Purpose (In Context)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html",
+      "page_updated_at": "2026-05-18",
+      "version": "WCAG 2.2 Understanding",
+      "retrieved_at": "2026-11-02T05:25:33Z",
+      "evaluated_at": "2026-11-02T05:25:40Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary standards or platform documentation, directly retrieved",
+      "limitations": "Documentary evidence; no runtime or assistive-technology testing"
+    },
+    {
+      "id": "S3",
+      "title": "Understanding SC 2.5.8: Target Size (Minimum)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "page_updated_at": "2026-05-11",
+      "version": "WCAG 2.2 Understanding",
+      "retrieved_at": "2026-11-02T05:25:33Z",
+      "evaluated_at": "2026-11-02T05:25:40Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary standards or platform documentation, directly retrieved",
+      "limitations": "Documentary evidence; no runtime or assistive-technology testing"
+    },
+    {
+      "id": "S4",
+      "title": "MDN: HTML anchor element",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a",
+      "page_updated_at": "2026-10-28",
+      "version": null,
+      "retrieved_at": "2026-11-02T05:25:33Z",
+      "evaluated_at": "2026-11-02T05:25:40Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit": null,
+      "provenance": "Primary standards or platform documentation, directly retrieved",
+      "limitations": "Documentary evidence; no runtime or assistive-technology testing"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T050000Z-website-design",
+  "topic_id": "website-design",
+  "scheduled_at": "2026-11-02T05:00:00Z",
+  "evaluated_at": "2026-11-02T05:27:00Z",
+  "title": "A project card is not automatically one giant link",
+  "author": "Dot",
+  "status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "files": [
+    "research.md",
+    "sources.json",
+    "qa.md",
+    "manifest.json"
+  ],
+  "research_type": "bounded_design_reference",
+  "discovery_shortlist": false,
+  "prior_packages_read": 8,
+  "same_run_artifact_found": false,
+  "unfinished_same_topic_found": false,
+  "resumed_same_run": true,
+  "tests_performed": [
+    "JSON parse validation"
+  ],
+  "tests_not_performed": [
+    "browser",
+    "runtime",
+    "integration",
+    "performance",
+    "assistive-technology",
+    "accessibility-conformance"
+  ],
+  "limitations": [
+    "No implementation or framework compatibility tests",
+    "No external asset rights audit",
+    "No conversion or performance measurements"
+  ],
+  "publication": {
+    "repository": "sorensadrgit-art/PROFOLIO",
+    "branch": "research-data",
+    "path": "research-inbox/website-design/20261102T050000Z-website-design/",
+    "commit_sha": null
+  },
+  "qa": {
+    "status": "APPROVED_DOCUMENTARY",
+    "independent_review": "qa.md",
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_patterns_and_manual_review",
+    "runtime_tests": "not_run"
+  },
+  "artifact_sha256": {
+    "research.md": "6d360c2ae6d5ecd5705d1829132807fa671f28286c27d61fbe751e08b66df9c2",
+    "sources.json": "0daff1ef27689e1455077db7fa3e12c6e8d7492e327696754817e45d1b6bf373",
+    "qa.md": "abc872531eafffc9664ec9f294fa6fbce549f2485b9595683b4f7c8de9e4c777"
+  }
+}
