@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "JSON-RPC 2.0 Specification",
+      "url": "https://www.jsonrpc.org/specification",
+      "version": "2.0",
+      "updated_date": "2013-01-04",
+      "retrieved_at": "2026-11-02T07:33:40Z",
+      "evaluated_at": "2026-11-02T07:34:13Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "source_type": "primary_specification",
+      "provenance": "Official primary source read through web tool; independent QA reopened this URL.",
+      "findings": "Result/error exclusivity and response correlation; notifications.",
+      "limitations": "SDK/package compatibility and per-file historical licensing unverified; versioned pages may change."
+    },
+    {
+      "id": "S2",
+      "title": "Tools",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "version": "2025-11-25",
+      "updated_date": null,
+      "retrieved_at": "2026-11-02T07:33:40Z",
+      "evaluated_at": "2026-11-02T07:34:13Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "source_type": "primary_specification",
+      "provenance": "Official primary source read through web tool; independent QA reopened this URL.",
+      "findings": "Protocol errors versus tool execution errors and output schemas.",
+      "limitations": "SDK/package compatibility and per-file historical licensing unverified; versioned pages may change."
+    },
+    {
+      "id": "S3",
+      "title": "Progress",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/progress",
+      "version": "2025-11-25",
+      "updated_date": null,
+      "retrieved_at": "2026-11-02T07:33:40Z",
+      "evaluated_at": "2026-11-02T07:34:13Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "source_type": "primary_specification",
+      "provenance": "Official primary source read through web tool; independent QA reopened this URL.",
+      "findings": "Optional progress, omitted totals and task progress lifetime.",
+      "limitations": "SDK/package compatibility and per-file historical licensing unverified; versioned pages may change."
+    },
+    {
+      "id": "S4",
+      "title": "MCP repository LICENSE",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/d0e246ea3c69eafaa2806bc4cd28025703ba2c2b/LICENSE",
+      "version": null,
+      "updated_date": null,
+      "retrieved_at": "2026-11-02T07:33:40Z",
+      "evaluated_at": "2026-11-02T07:34:13Z",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": "d0e246ea3c69eafaa2806bc4cd28025703ba2c2b",
+      "source_type": "official_repository_license",
+      "provenance": "Official repository licence read through GitHub connector and web tool; independent QA reopened commit-pinned URL.",
+      "findings": "Actual licensing transition and retained original terms.",
+      "limitations": "SDK/package compatibility and per-file historical licensing unverified; versioned pages may change."
+    }
+  ]
+}
