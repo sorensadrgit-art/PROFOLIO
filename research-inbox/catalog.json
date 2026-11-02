@@ -1195,6 +1195,25 @@
       ],
       "summary": "Preserve comparison-table relationships, distinguish local reflow exceptions from cell text, and verify keyboard-operable overflow. Documentary only.",
       "package_commit_sha": null
+    },
+    {
+      "run_id": "20261102T094800Z-fullstack-engineering",
+      "topic_id": "fullstack-engineering",
+      "title": "Backpressure is neither a memory ceiling nor a delivery receipt",
+      "path": "research-inbox/fullstack-engineering/20261102T094800Z-fullstack-engineering/",
+      "created_at": "2026-11-02T09:56:30Z",
+      "scheduled_at": "2026-11-02T09:48:00Z",
+      "status": "published",
+      "qa_status": "APPROVED_DOCUMENTARY",
+      "source_count": 5,
+      "files": [
+        "research.md",
+        "sources.json",
+        "manifest.json",
+        "qa.md"
+      ],
+      "summary": "Node stream thresholds, separate resource budgets and HTTP delivery semantics; original untested export-contract guidance. Documentary only.",
+      "package_commit_sha": null
     }
   ],
   "topics": [
@@ -1943,6 +1962,25 @@
           ],
           "summary": "Playwright observation retries versus command replay and whole-test retry boundaries. Documentary only.",
           "package_commit_sha": null
+        },
+        {
+          "run_id": "20261102T094800Z-fullstack-engineering",
+          "topic_id": "fullstack-engineering",
+          "title": "Backpressure is neither a memory ceiling nor a delivery receipt",
+          "path": "research-inbox/fullstack-engineering/20261102T094800Z-fullstack-engineering/",
+          "created_at": "2026-11-02T09:56:30Z",
+          "scheduled_at": "2026-11-02T09:48:00Z",
+          "status": "published",
+          "qa_status": "APPROVED_DOCUMENTARY",
+          "source_count": 5,
+          "files": [
+            "research.md",
+            "sources.json",
+            "manifest.json",
+            "qa.md"
+          ],
+          "summary": "Node stream thresholds, separate resource budgets and HTTP delivery semantics; original untested export-contract guidance. Documentary only.",
+          "package_commit_sha": null
         }
       ]
     },
@@ -2440,5 +2478,5 @@
     }
   ],
   "notes": "Research package entries are append-only. Unknown metadata remains null. Run IDs must be unique.",
-  "updated_at": "2026-11-02T09:39:03Z"
+  "updated_at": "2026-11-02T09:56:30Z"
 }
