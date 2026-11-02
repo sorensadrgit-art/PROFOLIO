@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Locking and syncing",
+      "url": "https://github.com/astral-sh/uv/blob/9b11efe914e01b9dfaa53beebc2180f37dafb19b/docs/concepts/projects/sync.md",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Primary maintainer repository, pinned commit",
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Source snapshot; not a runtime test or proof of released artifact parity."
+    },
+    {
+      "source_id": "S2",
+      "title": "Project configuration",
+      "url": "https://github.com/astral-sh/uv/blob/9b11efe914e01b9dfaa53beebc2180f37dafb19b/docs/concepts/projects/config.md",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Primary maintainer repository, pinned commit",
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Source snapshot; not a runtime test or proof of released artifact parity."
+    },
+    {
+      "source_id": "S3",
+      "title": "uv README",
+      "url": "https://github.com/astral-sh/uv/blob/9b11efe914e01b9dfaa53beebc2180f37dafb19b/README.md",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Primary maintainer repository, pinned commit",
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Source snapshot; not a runtime test or proof of released artifact parity."
+    },
+    {
+      "source_id": "S4",
+      "title": "uv workspace manifest",
+      "url": "https://github.com/astral-sh/uv/blob/9b11efe914e01b9dfaa53beebc2180f37dafb19b/Cargo.toml",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Primary maintainer repository, pinned commit",
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Source snapshot; not a runtime test or proof of released artifact parity."
+    },
+    {
+      "source_id": "S5",
+      "title": "MIT licence",
+      "url": "https://github.com/astral-sh/uv/blob/9b11efe914e01b9dfaa53beebc2180f37dafb19b/LICENSE-MIT",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Primary maintainer repository, pinned commit",
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Source snapshot; not a runtime test or proof of released artifact parity."
+    },
+    {
+      "source_id": "S6",
+      "title": "Apache-2.0 licence",
+      "url": "https://github.com/astral-sh/uv/blob/9b11efe914e01b9dfaa53beebc2180f37dafb19b/LICENSE-APACHE",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Primary maintainer repository, pinned commit",
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "release_date": null,
+      "version": null,
+      "limitations": "Source snapshot; not a runtime test or proof of released artifact parity."
+    },
+    {
+      "source_id": "S7",
+      "title": "uv 0.13.6 release",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Official GitHub latest-release API",
+      "version": "0.13.6",
+      "release_date": "2026-10-27T00:47:49Z",
+      "commit_sha": null,
+      "commit_date": null,
+      "limitations": "Latest at retrieval, not a future guarantee."
+    },
+    {
+      "source_id": "S8",
+      "title": "uv inspected main commit",
+      "url": "https://github.com/astral-sh/uv/commit/9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "retrieved_at": "2026-11-02T21:26:00Z",
+      "evaluated_at": "2026-11-02T21:28:00Z",
+      "provenance": "Official GitHub commits/main API",
+      "version": null,
+      "release_date": null,
+      "commit_sha": "9b11efe914e01b9dfaa53beebc2180f37dafb19b",
+      "commit_date": "2026-11-02T20:02:08Z",
+      "limitations": "Commit activity does not establish binary equivalence or stability."
+    }
+  ]
+}
