@@ -1,0 +1,33 @@
+{
+  "run_id": "20261102T003000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "scheduled_at": "2026-11-02T00:30:00Z",
+  "evaluated_at": "2026-11-02T00:31:00Z",
+  "title": "Before an agent says not found: make ripgrep's search scope explicit",
+  "status": "approved_documentary",
+  "source_count": 7,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "prior_topic_packages_read": 4,
+    "same_id_found": false,
+    "unfinished_topic_directory_found": false
+  },
+  "tests": {
+    "runtime": "not_performed",
+    "integration": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed"
+  },
+  "limitations": [
+    "Documentary only",
+    "Registry and installed binary compatibility unverified"
+  ],
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "reviewed_at": "2026-11-02T00:32:35Z"
+}
