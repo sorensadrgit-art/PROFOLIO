@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T063000Z-open-source-tooling",
+  "selection": "One-project conditional shortlist; documentary only",
+  "repositories": [
+    {
+      "name": "ShellCheck",
+      "url": "https://github.com/koalaman/shellcheck",
+      "purpose": "Static shell-language diagnostics with explicit source/reporting scope",
+      "languages": [
+        "Haskell"
+      ],
+      "dependencies": [
+        "GHC/Cabal for source build",
+        "Aeson",
+        "Parsec",
+        "containers",
+        "regex-tdfa"
+      ],
+      "license": {
+        "file": "GPL version 3 text",
+        "manual": "GPL version 3 or later",
+        "manifest": "GPL-3",
+        "restrictions": "Not permissive; covered redistribution requires applicable GPL compliance. Exact artifact/dependency review remains required."
+      },
+      "commit": "919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5",
+      "commit_date": "2026-10-26T01:55:51Z",
+      "manifest_version": "0.11.0",
+      "latest_release": "v0.11.0",
+      "release_published_at": "2025-08-04T00:27:19Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "demo": "https://www.shellcheck.net/",
+      "demo_tested": false,
+      "installation": "Existing trusted executable; package manager, prebuilt binary or container documented. Source builds require Haskell toolchain.",
+      "compatibility": "Multiple OS installation routes documented; dialect chosen explicitly. Exact installed artifact and application compatibility untested.",
+      "api_mcp": "No API credentials or new MCP required for local CLI",
+      "costs": "Local compute and review time; no paid service proposed; resource measurements null",
+      "measured_memory": null,
+      "measured_performance": null,
+      "risks": [
+        "Following helpers differs from reporting helper warnings",
+        "Dynamic paths and suppressions can leave incomplete coverage",
+        "Clean diagnostics do not authorize external effects",
+        "Current development docs may differ from stable binary"
+      ],
+      "alternatives": [
+        "Shell syntax-only checking (narrower)",
+        "Behavioral tests (different layer)",
+        "shfmt (formatting, not independently evaluated)"
+      ],
+      "future_application": "Separate language-diagnostic receipts from external-effect authorization",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "status": "conditional documentary shortlist; runtime untested"
+    }
+  ]
+}
+

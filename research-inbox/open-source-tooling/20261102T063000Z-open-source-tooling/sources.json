@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ShellCheck README",
+      "url": "https://github.com/koalaman/shellcheck/blob/919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5/README.md",
+      "retrieved_at": "2026-11-02T06:35:58Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary pinned repository file",
+      "commit": "919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5",
+      "commit_date": "2026-10-26T01:55:51Z",
+      "version": null,
+      "release_date": null,
+      "provenance": "GitHub connector fetch_file; commit date from GitHub commit metadata",
+      "limitations": "Current development source is not proof of released binary behavior."
+    },
+    {
+      "id": "S2",
+      "title": "ShellCheck manual",
+      "url": "https://github.com/koalaman/shellcheck/blob/919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5/shellcheck.1.md",
+      "retrieved_at": "2026-11-02T06:35:58Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary pinned repository file",
+      "commit": "919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5",
+      "commit_date": "2026-10-26T01:55:51Z",
+      "version": null,
+      "release_date": null,
+      "provenance": "GitHub connector fetch_file; commit date from GitHub commit metadata",
+      "limitations": "Current development source is not proof of released binary behavior."
+    },
+    {
+      "id": "S3",
+      "title": "GNU GPL version 3 licence text",
+      "url": "https://github.com/koalaman/shellcheck/blob/919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5/LICENSE",
+      "retrieved_at": "2026-11-02T06:35:58Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary pinned repository file",
+      "commit": "919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5",
+      "commit_date": "2026-10-26T01:55:51Z",
+      "version": null,
+      "release_date": null,
+      "provenance": "GitHub connector fetch_file; commit date from GitHub commit metadata",
+      "limitations": "Current development source is not proof of released binary behavior."
+    },
+    {
+      "id": "S4",
+      "title": "ShellCheck Cabal manifest",
+      "url": "https://github.com/koalaman/shellcheck/blob/919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5/ShellCheck.cabal",
+      "retrieved_at": "2026-11-02T06:35:58Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary pinned repository file",
+      "commit": "919d37c4d77a7ce16cfc76ebdd781dd6e8081fa5",
+      "commit_date": "2026-10-26T01:55:51Z",
+      "version": "0.11.0",
+      "release_date": null,
+      "provenance": "GitHub connector fetch_file; commit date from GitHub commit metadata",
+      "limitations": "Current development source is not proof of released binary behavior."
+    },
+    {
+      "id": "S5",
+      "title": "ShellCheck stable v0.11.0 release",
+      "url": "https://github.com/koalaman/shellcheck/releases/tag/v0.11.0",
+      "retrieved_at": "2026-11-02T06:36:11Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary release metadata",
+      "commit": null,
+      "commit_date": null,
+      "version": "0.11.0",
+      "release_date": "2025-08-04T00:27:19Z",
+      "provenance": "GitHub releases/latest API and official release page",
+      "limitations": "Release body changelog dated 2025-08-03; binary bytes/signatures and distribution packages not verified."
+    },
+    {
+      "id": "S6",
+      "title": "ShellCheck SC1090 source-following guidance",
+      "url": "https://www.shellcheck.net/wiki/SC1090",
+      "retrieved_at": "2026-11-02T06:35:58Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary maintainer documentation",
+      "commit": null,
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "provenance": "Official wiki opened via web tool",
+      "limitations": "Living documentation; exact revision date unknown."
+    },
+    {
+      "id": "S7",
+      "title": "ShellCheck SC1091 source-following guidance",
+      "url": "https://www.shellcheck.net/wiki/SC1091",
+      "retrieved_at": "2026-11-02T06:35:58Z",
+      "evaluated_at": "2026-11-02T06:36:11Z",
+      "source_type": "primary maintainer documentation",
+      "commit": null,
+      "commit_date": null,
+      "version": null,
+      "release_date": null,
+      "provenance": "Official wiki opened via web tool",
+      "limitations": "Living documentation; exact revision date unknown."
+    }
+  ]
+}
