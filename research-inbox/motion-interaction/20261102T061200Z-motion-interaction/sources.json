@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ScrollTrigger",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+      "retrieved_at": "2026-11-02T06:15:29Z",
+      "evaluated_at": "2026-11-02",
+      "provenance": "Official API documentation: numeric scrub and callback semantics",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "last_modified_date": null,
+      "limitations": "Documentary inspection only; no runtime or npm artifact verification."
+    },
+    {
+      "id": "S2",
+      "title": "Timeline.eventCallback()",
+      "url": "https://gsap.com/docs/v3/GSAP/Timeline/eventCallback()/",
+      "retrieved_at": "2026-11-02T06:15:23Z",
+      "evaluated_at": "2026-11-02",
+      "provenance": "Official API documentation: one callback per event type",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "last_modified_date": null,
+      "limitations": "Documentary inspection only; no runtime or npm artifact verification."
+    },
+    {
+      "id": "S3",
+      "title": "GSAP package.json",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/package.json",
+      "retrieved_at": "2026-11-02T06:15:29Z",
+      "evaluated_at": "2026-11-02",
+      "provenance": "Pinned official repository package metadata",
+      "version": "3.15.0",
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "last_modified_date": null,
+      "limitations": "Documentary inspection only; no runtime or npm artifact verification."
+    },
+    {
+      "id": "S4",
+      "title": "GSAP commit 13e2b79",
+      "url": "https://github.com/greensock/GSAP/commit/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "retrieved_at": "2026-11-02T06:15:38Z",
+      "evaluated_at": "2026-11-02",
+      "provenance": "Official repository commit metadata",
+      "version": "3.15.0",
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "last_modified_date": null,
+      "limitations": "Documentary inspection only; no runtime or npm artifact verification."
+    },
+    {
+      "id": "S5",
+      "title": "Standard No Charge GSAP License",
+      "url": "https://gsap.com/community/standard-license/",
+      "retrieved_at": "2026-11-02T06:15:23Z",
+      "evaluated_at": "2026-11-02",
+      "provenance": "Actual official licence terms",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "last_modified_date": "2025-05-30",
+      "limitations": "Documentary inspection only; no runtime or npm artifact verification."
+    }
+  ]
+}
