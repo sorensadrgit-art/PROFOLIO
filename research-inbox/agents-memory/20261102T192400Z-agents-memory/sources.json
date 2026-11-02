@@ -1,0 +1,85 @@
+{
+  "run_id": "20261102T192400Z-agents-memory",
+  "evaluated_at": "2026-11-02T19:28:37Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sampling",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/client/sampling",
+      "version": "2025-11-25",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "retrieved_at": null,
+      "provenance": "Primary official documentation or maintainer repository; directly retrieved",
+      "limitations": "Capability, review guidance, tool loop and context inclusion; rolling page, not implementation evidence.",
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "id": "S2",
+      "title": "MCP sampling TypeScript schema",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/38c84e9f93ad191d9eb26d92b945d17bd0efcaf3/schema/2025-11-25/schema.ts",
+      "version": "2025-11-25",
+      "commit_sha": "38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "commit_date": "2025-11-25T21:14:08Z",
+      "release_date": null,
+      "retrieved_at": null,
+      "provenance": "Primary official documentation or maintainer repository; directly retrieved",
+      "limitations": "Pinned types and comments; internal DRAFT-2025-v3 constant not used as negotiated version.",
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "id": "S3",
+      "title": "Architecture",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture",
+      "version": "2025-11-25",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "retrieved_at": null,
+      "provenance": "Primary official documentation or maintainer repository; directly retrieved",
+      "limitations": "Host responsibilities and server isolation principles; not deployed enforcement proof.",
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "id": "S4",
+      "title": "Lifecycle",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "version": "2025-11-25",
+      "commit_sha": null,
+      "commit_date": null,
+      "release_date": null,
+      "retrieved_at": null,
+      "provenance": "Primary official documentation or maintainer repository; directly retrieved",
+      "limitations": "Negotiation and timeout guidance; not a measured SDK behavior.",
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "id": "S5",
+      "title": "MIT licence at pinned revision",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/38c84e9f93ad191d9eb26d92b945d17bd0efcaf3/LICENSE",
+      "version": null,
+      "commit_sha": "38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "commit_date": "2025-11-25T21:14:08Z",
+      "release_date": null,
+      "retrieved_at": null,
+      "provenance": "Primary official documentation or maintainer repository; directly retrieved",
+      "limitations": "Applies to covered repository material, not third-party services.",
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "id": "S6",
+      "title": "MCP November 2025 release commit",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "version": null,
+      "commit_sha": "38c84e9f93ad191d9eb26d92b945d17bd0efcaf3",
+      "commit_date": "2025-11-25T21:14:08Z",
+      "release_date": null,
+      "retrieved_at": null,
+      "provenance": "Primary official documentation or maintainer repository; directly retrieved",
+      "limitations": "Commit metadata observed; latest SDK release and health not audited.",
+      "retrieved_date": "2026-11-02"
+    }
+  ],
+  "retrieval_batch_completed_at": "2026-11-02T19:27:42Z"
+}
