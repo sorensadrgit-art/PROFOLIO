@@ -1,0 +1,88 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "TypeScript 4.9 release notes",
+      "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html",
+      "version": "4.9",
+      "purpose": "satisfies static compatibility",
+      "retrieved_at": "2026-11-02T15:49:17Z",
+      "evaluated_at": "2026-11-02",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Primary TypeScript maintainer documentation or tagged repository file",
+      "limitations": "Documentary observation only; no installed-version or runtime verification. Mutable docs except tagged licence."
+    },
+    {
+      "id": "S2",
+      "title": "Everyday Types",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+      "version": null,
+      "purpose": "Assertions and any",
+      "retrieved_at": "2026-11-02T15:49:17Z",
+      "evaluated_at": "2026-11-02",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Primary TypeScript maintainer documentation or tagged repository file",
+      "limitations": "Documentary observation only; no installed-version or runtime verification. Mutable docs except tagged licence."
+    },
+    {
+      "id": "S3",
+      "title": "Narrowing",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html",
+      "version": null,
+      "purpose": "Runtime checks and type predicates",
+      "retrieved_at": "2026-11-02T15:49:17Z",
+      "evaluated_at": "2026-11-02",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Primary TypeScript maintainer documentation or tagged repository file",
+      "limitations": "Documentary observation only; no installed-version or runtime verification. Mutable docs except tagged licence."
+    },
+    {
+      "id": "S4",
+      "title": "Object Types",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+      "version": null,
+      "purpose": "Contextual excess-property checks",
+      "retrieved_at": "2026-11-02T15:49:17Z",
+      "evaluated_at": "2026-11-02",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Primary TypeScript maintainer documentation or tagged repository file",
+      "limitations": "Documentary observation only; no installed-version or runtime verification. Mutable docs except tagged licence."
+    },
+    {
+      "id": "S5",
+      "title": "noEmitOnError",
+      "url": "https://www.typescriptlang.org/tsconfig/noEmitOnError.html",
+      "version": null,
+      "purpose": "Emit gate defaults",
+      "retrieved_at": "2026-11-02T15:49:17Z",
+      "evaluated_at": "2026-11-02",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Primary TypeScript maintainer documentation or tagged repository file",
+      "limitations": "Documentary observation only; no installed-version or runtime verification. Mutable docs except tagged licence."
+    },
+    {
+      "id": "S6",
+      "title": "TypeScript v4.9.5 Apache License",
+      "url": "https://raw.githubusercontent.com/microsoft/TypeScript/v4.9.5/LICENSE.txt",
+      "version": "4.9.5",
+      "purpose": "Pinned source licence only",
+      "retrieved_at": "2026-11-02T15:49:17Z",
+      "evaluated_at": "2026-11-02",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null,
+      "provenance": "Primary TypeScript maintainer documentation or tagged repository file",
+      "limitations": "Documentary observation only; no installed-version or runtime verification. Mutable docs except tagged licence."
+    }
+  ]
+}
