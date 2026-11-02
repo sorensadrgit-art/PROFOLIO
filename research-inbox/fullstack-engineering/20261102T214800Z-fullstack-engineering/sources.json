@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T214800Z-fullstack-engineering",
+  "evaluated_at": "2026-11-02T21:50:24Z",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "hydrateRoot — React",
+      "url": "https://react.dev/reference/react-dom/client/hydrateRoot",
+      "retrieved_at": "2026-11-02T21:48:53Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Directly read with web browsing; original Dot paraphrase and synthesis.",
+      "limitations": "Mutable source; no installed package verification or runtime test.",
+      "license": null
+    },
+    {
+      "id": "S2",
+      "title": "useId — React",
+      "url": "https://react.dev/reference/react/useId",
+      "retrieved_at": "2026-11-02T21:48:53Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Directly read with web browsing; original Dot paraphrase and synthesis.",
+      "limitations": "Mutable source; no installed package verification or runtime test.",
+      "license": null
+    },
+    {
+      "id": "S3",
+      "title": "renderToPipeableStream — React",
+      "url": "https://react.dev/reference/react-dom/server/renderToPipeableStream",
+      "retrieved_at": "2026-11-02T21:48:53Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Directly read with web browsing; original Dot paraphrase and synthesis.",
+      "limitations": "Mutable source; no installed package verification or runtime test.",
+      "license": null
+    },
+    {
+      "id": "S4",
+      "title": "renderToString — React",
+      "url": "https://react.dev/reference/react-dom/server/renderToString",
+      "retrieved_at": "2026-11-02T21:48:53Z",
+      "source_type": "official_documentation",
+      "observed_version": "documentation label v19.3",
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Directly read with web browsing; original Dot paraphrase and synthesis.",
+      "limitations": "Mutable source; no installed package verification or runtime test.",
+      "license": null
+    },
+    {
+      "id": "S5",
+      "title": "React repository LICENSE",
+      "url": "https://github.com/react/react/blob/main/LICENSE",
+      "retrieved_at": "2026-11-02T21:48:53Z",
+      "source_type": "official_repository_license",
+      "observed_version": null,
+      "release_date": null,
+      "commit_sha": null,
+      "commit_date": null,
+      "provenance": "Directly read with web browsing; original Dot paraphrase and synthesis.",
+      "limitations": "Mutable source; no installed package verification or runtime test.",
+      "license": "MIT"
+    }
+  ]
+}
+
