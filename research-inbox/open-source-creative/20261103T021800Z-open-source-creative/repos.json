@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T021800Z-open-source-creative",
+  "evaluated_at": "2026-11-03",
+  "shortlist": [
+    {
+      "name": "Satori",
+      "repository": "https://github.com/vercel/satori",
+      "purpose": "Static JSX/style to SVG for original portfolio share cards",
+      "version": "0.63.2",
+      "commit_sha": "074f0b38ed0f5d8fa768f709c0bb072b2d6c99e1",
+      "release_date": "2026-10-20T09:08:32Z",
+      "commit_date": "2026-10-20T09:06:28Z",
+      "npm_latest": null,
+      "npm_published_at": null,
+      "license": "MPL-2.0",
+      "license_url": "https://github.com/vercel/satori/blob/074f0b38ed0f5d8fa768f709c0bb072b2d6c99e1/LICENSE",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Rust/WASM layout component"
+      ],
+      "dependencies": {
+        "@shuding/opentype.js": "1.4.0-beta.0",
+        "css-background-parser": "^0.1.0",
+        "css-box-shadow": "1.0.0-3",
+        "css-gradient-parser": "^0.0.17",
+        "css-to-react-native": "^3.0.0",
+        "emoji-regex-xs": "^2.0.1",
+        "escape-html": "^1.0.3",
+        "fflate": "0.7.3",
+        "harfbuzzjs": "0.10.0",
+        "linebreak": "^1.1.0",
+        "parse-css-color": "^0.2.1",
+        "postcss-value-parser": "^4.2.0"
+      },
+      "demo": "https://og-playground.vercel.app/",
+      "installation": "Future evaluation only: pin satori@0.63.2 and lock dependencies; no installation performed",
+      "hosting": "Build-time, Node, browser or worker; WASM/loading policy needs validation",
+      "api_or_mcp_required": false,
+      "cost": "No mandatory paid runtime service; compute/assets/storage/maintenance unmeasured",
+      "compatibility": "Declared Node >=16; specific runtime/framework combinations untested",
+      "useful_pattern": "Dedicated versioned card template, explicit static fonts and diagnostic acceptance gate",
+      "risks": [
+        "Browser fidelity not guaranteed",
+        "Variable fonts default instance",
+        "Dropped styles can still yield output",
+        "Font and image rights separate from code",
+        "npm metadata unavailable"
+      ],
+      "recommendation": "Evaluate only; not approved for deployment"
+    }
+  ]
+}
