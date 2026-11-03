@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261102T233600Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "Disabling orbit input does not transfer camera ownership",
+  "scheduled_at": "2026-11-02T23:36:00Z",
+  "evaluated_at": "2026-11-03T00:10:15Z",
+  "status": "published",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 5,
+  "provenance": "Original Dot synthesis from primary source and official documentation; no Gemini output.",
+  "duplicate_check": {
+    "same_run_found": false,
+    "existing_topic_reports_retrieved": 15,
+    "scope": "Live catalog, topic directory and report question/control passages",
+    "unindexed_topic_run_found": false,
+    "unrelated_catalog_omission": "preserved"
+  },
+  "tests": {
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_patterns_and_manual_review",
+    "independent_review": "APPROVED_DOCUMENTARY",
+    "runtime": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed"
+  },
+  "limitations": [
+    "Documentary only",
+    "One pinned development snapshot, not installed or npm release",
+    "No R3F/Drei adapter audit",
+    "No runtime, performance, accessibility or integration tests"
+  ],
+  "reviewed_at": "2026-11-03T00:12:21Z"
+}
