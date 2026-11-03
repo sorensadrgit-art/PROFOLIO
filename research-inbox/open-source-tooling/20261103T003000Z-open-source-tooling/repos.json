@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "repositories": [
+    {
+      "name": "pre-commit",
+      "url": "https://github.com/pre-commit/pre-commit",
+      "commit": "8cb5845c835b1ff72240eb2484239411ec481d92",
+      "commit_date": "2026-10-20T17:15:51Z",
+      "observed_release": "v4.7.0",
+      "release_date": "2026-10-13T15:35:39Z",
+      "license": "MIT",
+      "license_url": "https://github.com/pre-commit/pre-commit/blob/8cb5845c835b1ff72240eb2484239411ec481d92/LICENSE",
+      "language": "Python",
+      "python_requirement": ">=3.11",
+      "dependencies": [
+        "cfgv>=2.0.0",
+        "identify>=1.0.0",
+        "nodeenv>=0.11.1",
+        "pyyaml>=5.1",
+        "virtualenv>=20.10.0"
+      ],
+      "decision": "Conditional documentary shortlist for reviewed multi-language hook orchestration; not an independent mandatory-check or sandbox gate.",
+      "demo_url": "https://pre-commit.com/",
+      "npm_metadata": null,
+      "installed": false,
+      "tested": false
+    }
+  ]
+}

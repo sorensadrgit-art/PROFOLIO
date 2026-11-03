@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "pre-commit official documentation",
+      "url": "https://pre-commit.com/",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": null,
+      "commit_date": null,
+      "release_date": null,
+      "version": null,
+      "provenance": "Official maintainer documentation; mutable",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    },
+    {
+      "id": "S2",
+      "title": "Pinned hook selection and execution implementation",
+      "url": "https://github.com/pre-commit/pre-commit/blob/8cb5845c835b1ff72240eb2484239411ec481d92/pre_commit/commands/run.py",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": "8cb5845c835b1ff72240eb2484239411ec481d92",
+      "commit_date": "2026-10-20T17:15:51Z",
+      "release_date": null,
+      "version": "4.7.0",
+      "provenance": "Official upstream repository via GitHub connector",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    },
+    {
+      "id": "S3",
+      "title": "Pinned Git file inventory implementation",
+      "url": "https://github.com/pre-commit/pre-commit/blob/8cb5845c835b1ff72240eb2484239411ec481d92/pre_commit/git.py",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": "8cb5845c835b1ff72240eb2484239411ec481d92",
+      "commit_date": "2026-10-20T17:15:51Z",
+      "release_date": null,
+      "version": "4.7.0",
+      "provenance": "Official upstream repository via GitHub connector",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    },
+    {
+      "id": "S4",
+      "title": "Pinned package metadata",
+      "url": "https://github.com/pre-commit/pre-commit/blob/8cb5845c835b1ff72240eb2484239411ec481d92/setup.cfg",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": "8cb5845c835b1ff72240eb2484239411ec481d92",
+      "commit_date": "2026-10-20T17:15:51Z",
+      "release_date": null,
+      "version": "4.7.0",
+      "provenance": "Official upstream repository via GitHub connector",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    },
+    {
+      "id": "S5",
+      "title": "Actual MIT licence text",
+      "url": "https://github.com/pre-commit/pre-commit/blob/8cb5845c835b1ff72240eb2484239411ec481d92/LICENSE",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": "8cb5845c835b1ff72240eb2484239411ec481d92",
+      "commit_date": "2026-10-20T17:15:51Z",
+      "release_date": null,
+      "version": "4.7.0",
+      "provenance": "Official upstream repository via GitHub connector",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    },
+    {
+      "id": "S6",
+      "title": "pre-commit v4.7.0 release",
+      "url": "https://github.com/pre-commit/pre-commit/releases/tag/v4.7.0",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": null,
+      "commit_date": null,
+      "release_date": "2026-10-13T15:35:39Z",
+      "version": "4.7.0",
+      "provenance": "Official upstream repository via GitHub connector",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    },
+    {
+      "id": "S7",
+      "title": "Inspected main commit",
+      "url": "https://github.com/pre-commit/pre-commit/commit/8cb5845c835b1ff72240eb2484239411ec481d92",
+      "retrieved_at": "2026-11-03T00:27:30Z",
+      "evaluated_at": "2026-11-03",
+      "commit": "8cb5845c835b1ff72240eb2484239411ec481d92",
+      "commit_date": "2026-10-20T17:15:51Z",
+      "release_date": null,
+      "version": "4.7.0",
+      "provenance": "Official upstream repository via GitHub connector",
+      "limitations": "Documentary inspection; no installed artifact or runtime verification."
+    }
+  ]
+}

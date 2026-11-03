@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T003000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "scheduled_at": "2026-11-03T00:30:00Z",
+  "actual_started_at": "2026-11-03T00:25:00Z",
+  "evaluated_at": "2026-11-03",
+  "title": "A successful pre-commit run is not proof that every required hook ran",
+  "status": "approved",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 7,
+  "prior_catalog_count": 97,
+  "prior_topic_package_count": 12,
+  "tests_performed": [
+    "Documentary source inspection"
+  ],
+  "tests_not_performed": [
+    "Installation",
+    "Runtime",
+    "Integration",
+    "Performance",
+    "Accessibility",
+    "Security"
+  ],
+  "limitations": [
+    "Main-source observations are not verified installed-release behavior.",
+    "PyPI artifact identity and full dependency licence closure unverified."
+  ]
+}
