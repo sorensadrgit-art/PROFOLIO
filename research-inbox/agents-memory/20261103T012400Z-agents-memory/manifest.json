@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T012400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "scheduled_at": "2026-11-03T01:24:00Z",
+  "created_at": "2026-11-03T01:31:34Z",
+  "title": "Changing an embedding model is a memory-index migration",
+  "author": "Dot",
+  "status": "approved",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "package_type": "bounded-engineering-reference",
+  "source_count": 6,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "novelty": "Embedding recipe and index-generation migration; distinct from earlier filtered ANN absence, TTL and provenance work.",
+  "prior_topic_packages_reviewed": 13,
+  "duplicate_check": {
+    "same_run_found": false,
+    "unindexed_topic_directories_found": false
+  },
+  "tests": {
+    "runtime": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "accessibility": "NOT_RUN",
+    "integration": "NOT_RUN",
+    "security": "NOT_RUN",
+    "model_inference": "NOT_RUN",
+    "migration": "NOT_RUN"
+  },
+  "limitations": [
+    "Rolling docs can change; package and model runtime untested.",
+    "No Gemini approval or deployment permission implied."
+  ],
+  "reviewed_at": "2026-11-03T01:33:18Z",
+  "sensitive_data_scan": {
+    "status": "PASS_BOUNDED",
+    "scope": "Four candidate package files; patterns and human review, not exhaustive certification"
+  },
+  "json_validation": "PASS"
+}

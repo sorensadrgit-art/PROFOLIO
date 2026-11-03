@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T012400Z-agents-memory",
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Semantic Search \u2014 Sentence Transformers",
+      "url": "https://www.sbert.net/examples/sentence_transformer/applications/semantic-search/README.html",
+      "retrieved_at": "2026-11-03T01:30:29Z",
+      "evaluated_at": "2026-11-03T01:31:34Z",
+      "version": null,
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation or official repository",
+      "limitations": "Rolling maintainer documentation; runtime and model version not established."
+    },
+    {
+      "source_id": "S2",
+      "title": "Collections \u2014 Qdrant",
+      "url": "https://qdrant.tech/documentation/manage-data/collections/",
+      "retrieved_at": "2026-11-03T01:30:29Z",
+      "evaluated_at": "2026-11-03T01:31:34Z",
+      "version": null,
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation or official repository",
+      "limitations": "Rolling maintainer documentation; source publication date unknown."
+    },
+    {
+      "source_id": "S3",
+      "title": "Migrate to a New Embedding Model \u2014 Qdrant",
+      "url": "https://qdrant.tech/documentation/tutorials-operations/embedding-model-migration/",
+      "retrieved_at": "2026-11-03T01:30:29Z",
+      "evaluated_at": "2026-11-03T01:31:34Z",
+      "version": "1.19.0 (publisher-tested); named-vector addition requires 1.18+",
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary maintainer documentation or official repository",
+      "limitations": "Publisher test claim only; no local replication. Cloud Inference examples need adaptation for other encoders."
+    },
+    {
+      "source_id": "S4",
+      "title": "Qdrant v1.20.0 release",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.20.0",
+      "retrieved_at": "2026-11-03T01:30:29Z",
+      "evaluated_at": "2026-11-03T01:31:34Z",
+      "version": "1.20.0",
+      "release_date": "2026-10-22T14:14:12Z",
+      "commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+      "commit_date": "2026-10-21T17:45:09Z",
+      "provenance": "Primary maintainer documentation or official repository",
+      "limitations": "Release record and tag commit inspected through GitHub API; not installed.",
+      "verification_urls": [
+        "https://api.github.com/repos/qdrant/qdrant/releases/latest",
+        "https://api.github.com/repos/qdrant/qdrant/commits/v1.20.0"
+      ]
+    },
+    {
+      "source_id": "S5",
+      "title": "Qdrant Cargo metadata",
+      "url": "https://github.com/qdrant/qdrant/blob/222b2e44ab1c3f17e8246396ead6558e45041df7/Cargo.toml",
+      "retrieved_at": "2026-11-03T01:30:29Z",
+      "evaluated_at": "2026-11-03T01:31:34Z",
+      "version": "1.20.0",
+      "release_date": null,
+      "commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+      "commit_date": "2026-10-21T17:45:09Z",
+      "provenance": "Primary maintainer documentation or official repository",
+      "limitations": "Pinned repository metadata, not a compiled dependency audit."
+    },
+    {
+      "source_id": "S6",
+      "title": "Qdrant Apache-2.0 LICENSE",
+      "url": "https://github.com/qdrant/qdrant/blob/222b2e44ab1c3f17e8246396ead6558e45041df7/LICENSE",
+      "retrieved_at": "2026-11-03T01:30:29Z",
+      "evaluated_at": "2026-11-03T01:31:34Z",
+      "version": "Apache-2.0",
+      "release_date": null,
+      "commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+      "commit_date": "2026-10-21T17:45:09Z",
+      "provenance": "Primary maintainer documentation or official repository",
+      "limitations": "Covers repository software, not all model weights or hosted services."
+    }
+  ]
+}
