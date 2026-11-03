@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T004800Z-fullstack-engineering",
+  "retrieved_at": "2026-11-03",
+  "evaluated_at": "2026-11-03",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Node.js HTTP API",
+      "url": "https://nodejs.org/docs/latest-v24.x/api/http.html#serverclosecallback",
+      "version": "24.22.2 (displayed documentation label)",
+      "provenance": "Official Node.js documentation",
+      "limitations": "Mutable latest-v24.x URL; release artifact and installed runtime not verified.",
+      "retrieved_at": "2026-11-03",
+      "evaluated_at": "2026-11-03",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null
+    },
+    {
+      "id": "S2",
+      "title": "Node.js Process API",
+      "url": "https://nodejs.org/docs/latest-v24.x/api/process.html#signal-events",
+      "version": "24.22.2 (displayed documentation label)",
+      "provenance": "Official Node.js documentation",
+      "limitations": "Mutable URL; platform-specific semantics; no signals executed.",
+      "retrieved_at": "2026-11-03",
+      "evaluated_at": "2026-11-03",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null
+    },
+    {
+      "id": "S3",
+      "title": "Node.js net API source documentation",
+      "url": "https://github.com/nodejs/node/blob/v24.0.0/doc/api/net.md#serverclosecallback",
+      "version": "v24.0.0",
+      "provenance": "Official nodejs/node repository pinned tag; retrieved via GitHub connector",
+      "limitations": "Historical tag; not a current-release claim.",
+      "retrieved_at": "2026-11-03",
+      "evaluated_at": "2026-11-03",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null
+    },
+    {
+      "id": "S4",
+      "title": "Node.js licence and bundled-library terms",
+      "url": "https://github.com/nodejs/node/blob/v24.0.0/LICENSE",
+      "version": "v24.0.0",
+      "provenance": "Official nodejs/node repository pinned tag; licence header and dependency-terms boundary inspected",
+      "limitations": "Not an exhaustive legal audit of every bundled dependency or website asset.",
+      "retrieved_at": "2026-11-03",
+      "evaluated_at": "2026-11-03",
+      "release_date": null,
+      "commit_date": null,
+      "commit_sha": null
+    }
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://nodejs.org/docs/latest-v24.x/api/net.html#serverclosecallback",
+      "reason": "Web retrieval unavailable; replaced by pinned official repository documentation."
+    }
+  ]
+}
+

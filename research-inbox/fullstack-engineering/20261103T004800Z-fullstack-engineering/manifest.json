@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T004800Z-fullstack-engineering",
+  "topic_id": "fullstack-engineering",
+  "title": "A closed listener is not a completed shutdown",
+  "scheduled_at": "2026-11-03T00:48:00Z",
+  "created_at": "2026-11-03T00:52:00Z",
+  "evaluated_at": "2026-11-03",
+  "author": "Dot",
+  "status": "published",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 4,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "scope": "Documentary Node.js planned HTTP service shutdown reference; not a discovery shortlist.",
+  "provenance": "Original synthesis from four primary sources; no Gemini outputs.",
+  "duplicate_check": {
+    "base_commit": "b65ed1a60b6a9d771ff2441c63455b1543e6872c",
+    "prior_topic_packages": 12,
+    "same_run_present": false,
+    "unfinished_topic_artifacts_observed": false
+  },
+  "tests": {
+    "runtime": "NOT_RUN",
+    "integration": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "accessibility": "NOT_RUN",
+    "security": "NOT_RUN"
+  },
+  "limitations": [
+    "Documentation label is not release-artifact verification.",
+    "No runtime or deployment changes.",
+    "Approval is documentary review only."
+  ],
+  "qa": {
+    "independent_review": "APPROVED_DOCUMENTARY",
+    "report": "qa.md",
+    "json_validation": "PASS",
+    "bounded_sensitive_data_scan": "PASS",
+    "scan_scope": "Four package files only; heuristic and manual review, not exhaustive certification"
+  }
+}
