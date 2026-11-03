@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "run_id": "20261103T001200Z-motion-interaction",
+  "topic_id": "motion-interaction",
+  "scheduled_at": "2026-11-03T00:12:00Z",
+  "evaluated_at": "2026-11-03T00:10:40Z",
+  "title": "Flip layout transitions: commit the new order before animating its appearance",
+  "status": "approved_documentary",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 10,
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "scope": "Original documentary research only",
+  "duplicate_check": {
+    "prior_motion_packages_read": 15,
+    "same_run_found": false,
+    "unfinished_topic_directory_found": false
+  },
+  "tests": {
+    "runtime": "not_run",
+    "integration": "not_run",
+    "performance": "not_run",
+    "accessibility": "not_run"
+  },
+  "limitations": [
+    "No installed project lockfile examined.",
+    "No release date inferred from commit date.",
+    "No permission to deploy or Gemini approval implied."
+  ],
+  "reviewed_at": "2026-11-03T00:12:51Z",
+  "validation": {
+    "json": "PASS",
+    "bounded_secret_privacy_scan": "PASS",
+    "independent_documentary_review": "PASS"
+  },
+  "publication": {
+    "method": "atomic package and append-only catalog, expected-head compare-and-swap",
+    "package_commit_sha": null
+  }
+}

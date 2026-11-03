@@ -1,0 +1,132 @@
+{
+  "run_id": "20261103T001200Z-motion-interaction",
+  "evaluated_at": "2026-11-03T00:10:40Z",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "GSAP Flip overview",
+      "url": "https://gsap.com/docs/v3/Plugins/Flip/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Purpose, capture/mutate/play explanation and demos",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S02",
+      "title": "Flip.getState",
+      "url": "https://gsap.com/docs/v3/Plugins/Flip/static.getState()/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Capture properties, default interruption, kill and simple options",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S03",
+      "title": "Flip.from",
+      "url": "https://gsap.com/docs/v3/Plugins/Flip/static.from()/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Destination sequencing, resizing, absolute subset and nested options",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S04",
+      "title": "Flip.batch",
+      "url": "https://gsap.com/docs/v3/Plugins/Flip/static.batch()/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "All captures before all state changes",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S05",
+      "title": "Timeline.reverse",
+      "url": "https://gsap.com/docs/v3/GSAP/Timeline/reverse()/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Playback direction only; semantic undo conclusion is synthesis",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S06",
+      "title": "React useLayoutEffect",
+      "url": "https://react.dev/reference/react/useLayoutEffect",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": "19.3 documentation label",
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Commit/repaint ordering, client-only effects and Strict Mode",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S07",
+      "title": "GSAP package metadata",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/package.json",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": "3.15.0",
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Package version, exports, types and dependency-field absence",
+      "limitations": "Repository snapshot; no runtime test or npm dist-tag assertion."
+    },
+    {
+      "id": "S08",
+      "title": "GSAP observed master commit",
+      "url": "https://github.com/greensock/GSAP/commit/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": "3.15.0",
+      "release_date": null,
+      "commit_date": "2026-04-13T13:08:30Z",
+      "claims": "Observed source maintenance snapshot",
+      "limitations": "Repository snapshot; no runtime test or npm dist-tag assertion."
+    },
+    {
+      "id": "S09",
+      "title": "GSAP installation",
+      "url": "https://gsap.com/docs/v3/Installation/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Loading and registration requirements",
+      "limitations": "Live documentation; no execution or compatibility certification."
+    },
+    {
+      "id": "S10",
+      "title": "GSAP Standard No Charge licence",
+      "url": "https://gsap.com/community/standard-license/",
+      "source_type": "primary",
+      "retrieved_at": "2026-11-03T00:10:40Z",
+      "version": null,
+      "release_date": null,
+      "commit_date": null,
+      "claims": "Licence scope and restrictions",
+      "limitations": "Terms effective 2025-04-30; modified 2025-05-30. Documentary summary, not legal advice."
+    }
+  ],
+  "retrieval_notes": [
+    "GitHub latest release API returned 404; release date remains null.",
+    "Repository LICENSE and LICENSE.md returned 404; actual terms verified at package-linked standard licence URL.",
+    "Scheduled slot is later than initial retrieval; actual evaluation date is not backdated."
+  ]
+}
+
