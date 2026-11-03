@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T020000Z-website-design",
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Landmarks Pattern",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/",
+      "retrieved_at": "2026-11-03T02:05:40Z",
+      "evaluated_at": "2026-11-03T02:07:07Z",
+      "page_updated_at": null,
+      "version": null,
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary W3C WAI documentation; S5 reached through APG footer licence link.",
+      "limitations": "Rolling informative guidance, not a tested implementation or conformance audit."
+    },
+    {
+      "source_id": "S2",
+      "title": "Landmark Regions Practice",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/",
+      "retrieved_at": "2026-11-03T02:05:48Z",
+      "evaluated_at": "2026-11-03T02:07:07Z",
+      "page_updated_at": null,
+      "version": null,
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary W3C WAI documentation; S5 reached through APG footer licence link.",
+      "limitations": "Rolling informative guidance, not a tested implementation or conformance audit."
+    },
+    {
+      "source_id": "S3",
+      "title": "Understanding SC 2.4.1: Bypass Blocks",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html",
+      "retrieved_at": "2026-11-03T02:05:40Z",
+      "evaluated_at": "2026-11-03T02:07:07Z",
+      "page_updated_at": "2026-02-09",
+      "version": "WCAG 2.2 guidance",
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary W3C WAI documentation; S5 reached through APG footer licence link.",
+      "limitations": "Rolling informative guidance, not a tested implementation or conformance audit."
+    },
+    {
+      "source_id": "S4",
+      "title": "Technique G1: Adding a link at the top of each page that goes directly to the main content area",
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/general/G1",
+      "retrieved_at": "2026-11-03T02:05:54Z",
+      "evaluated_at": "2026-11-03T02:07:07Z",
+      "page_updated_at": "2026-03-09",
+      "version": "WCAG 2.2 guidance",
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary W3C WAI documentation; S5 reached through APG footer licence link.",
+      "limitations": "Rolling informative guidance, not a tested implementation or conformance audit."
+    },
+    {
+      "source_id": "S5",
+      "title": "W3C Software and Document License \u2014 2023 version",
+      "url": "https://www.w3.org/copyright/software-license-2023/",
+      "retrieved_at": "2026-11-03T02:05:54Z",
+      "evaluated_at": "2026-11-03T02:07:07Z",
+      "page_updated_at": null,
+      "version": "2023",
+      "release_date": null,
+      "commit": null,
+      "commit_date": null,
+      "provenance": "Primary W3C WAI documentation; S5 reached through APG footer licence link.",
+      "limitations": "Effective date, not a software release; no third-party asset rights inferred.",
+      "effective_date": "2023-01-01"
+    }
+  ]
+}
