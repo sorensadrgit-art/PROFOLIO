@@ -1,0 +1,102 @@
+{
+  "run_id": "20261103T031200Z-motion-interaction",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Position Parameter",
+      "url": "https://gsap.com/resources/position-parameter/",
+      "provenance": "official documentation",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Live v3 documentation; percentage syntax marked 3.7.0+. Demos not executed."
+    },
+    {
+      "id": "S2",
+      "title": "GSAP core source",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/src/gsap-core.js",
+      "provenance": "official repository source",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": "3.15.0",
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "limitations": "Inspected _parsePosition, _addToTimeline, addLabel and shiftChildren; no runtime execution."
+    },
+    {
+      "id": "S3",
+      "title": "Timeline",
+      "url": "https://gsap.com/docs/v3/GSAP/Timeline/",
+      "provenance": "official documentation",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Live docs; smoothChildTiming, nesting and timeScale only."
+    },
+    {
+      "id": "S4",
+      "title": "shiftChildren",
+      "url": "https://gsap.com/docs/v3/GSAP/Timeline/shiftChildren()/",
+      "provenance": "official documentation",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Live docs; start threshold checked against pinned source."
+    },
+    {
+      "id": "S5",
+      "title": "GSAP package metadata",
+      "url": "https://github.com/greensock/GSAP/blob/13e2b790546426a1a2e0e9b409f3f8dc6d6611f2/package.json",
+      "provenance": "official repository metadata",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": "3.15.0",
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "limitations": "Pinned package metadata, not proof of latest npm release."
+    },
+    {
+      "id": "S6",
+      "title": "GSAP observed master commit",
+      "url": "https://api.github.com/repos/greensock/GSAP/commits/master",
+      "provenance": "official repository API",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": "3.15.0",
+      "commit_date": "2026-04-13T13:08:30Z",
+      "release_date": null,
+      "limitations": "Observed SHA 13e2b790546426a1a2e0e9b409f3f8dc6d6611f2; latest-release endpoint returned 404; release date unknown."
+    },
+    {
+      "id": "S7",
+      "title": "Installation",
+      "url": "https://gsap.com/docs/v3/Installation/",
+      "provenance": "official documentation",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "No installation performed."
+    },
+    {
+      "id": "S8",
+      "title": "Standard No Charge GSAP License",
+      "url": "https://gsap.com/community/standard-license/",
+      "provenance": "official licence",
+      "retrieved_at": "2026-11-03T03:14:29Z",
+      "evaluated_at": "2026-11-03T03:14:29Z",
+      "version": null,
+      "commit_date": null,
+      "release_date": null,
+      "limitations": "Effective 2025-04-30; last modified 2025-05-30. Summary not legal advice."
+    }
+  ]
+}
+
