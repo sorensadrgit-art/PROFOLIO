@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T033000Z-open-source-tooling",
+  "repositories": [
+    {
+      "name": "Git",
+      "url": "https://github.com/git/git",
+      "purpose": "Distributed version control; linked worktrees for parallel checkouts",
+      "shortlist_reason": "Separates per-checkout state without pretending to isolate agent authority",
+      "evaluated_version": "2.56.0",
+      "commit_sha": "a018953688f1b10bddf91bff8747068f5f4746a4",
+      "license": "GPL-2.0 with file-specific exceptions or compatible licences",
+      "license_url": "https://github.com/git/git/blob/a018953688f1b10bddf91bff8747068f5f4746a4/COPYING",
+      "restrictions": "Review applicable notices, source and redistribution obligations; not unrestricted reuse",
+      "technologies": [
+        "C worktree implementation",
+        "shell scripts",
+        "optional Perl features"
+      ],
+      "dependencies": "Build-feature dependent; zlib required by inspected INSTALL; curl HTTP transport and Perl integrations conditional",
+      "compatibility": "Submodule and extension caveats; no OS matrix executed",
+      "installation": "Part of Git; no installation performed",
+      "interface": "Local CLI",
+      "mcp_required": false,
+      "hosted_service_required": false,
+      "costs": "Local checkout/build storage, compute and coordination; unmeasured",
+      "demo_url": "https://git-scm.com/docs/git-worktree#_examples",
+      "alternatives": [
+        "Independent clones",
+        "Serialized checkout",
+        "Separate OS-isolated environments"
+      ],
+      "latest_release": null,
+      "maintenance_observed_at": "2026-11-01T17:25:24Z",
+      "risks": [
+        "Shared refs and configuration",
+        "Confusing lifecycle lock with ownership",
+        "Force overrides",
+        "Submodule limitations"
+      ],
+      "recommendation_status": "Untested evaluation proposal"
+    }
+  ]
+}

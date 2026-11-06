@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T033000Z-open-source-tooling",
+  "topic_id": "open-source-tooling",
+  "title": "Git worktrees separate checkouts, not agent authority",
+  "scheduled_at": "2026-11-03T03:30:00Z",
+  "research_started_at": "2026-11-03T03:28:36Z",
+  "evaluated_at": "2026-11-03",
+  "status": "ready_for_publication",
+  "publication": {
+    "published": false,
+    "commit_sha": null,
+    "url": null,
+    "blocker": null,
+    "resume": "Final publisher must reread branch and catalog, reconcile append-only by the original run ID, publish with expected-head compare-and-swap, and verify remote contents."
+  },
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "source_count": 9,
+  "files": [
+    "research.md",
+    "sources.json",
+    "repos.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "duplicate_check": {
+    "catalog_blob_sha": "73ee98b7353048458c289d1def08d0bd997e63a2",
+    "catalog_package_count": 102,
+    "topic_package_count": 13,
+    "all_topic_reports_fetched": true,
+    "same_id_found": false,
+    "unfinished_remote_topic_directory_found": false,
+    "local_same_id_found": false,
+    "limitations": "Directory/catalog and local checkpoint names inspected; no claim about unlisted external sessions"
+  },
+  "tests": {
+    "runtime": "not_run",
+    "performance": "not_run",
+    "accessibility": "not_run",
+    "integration": "not_run",
+    "security": "not_run",
+    "json_validation": "passed_3_json_files",
+    "document_secret_scan": "passed_bounded_5_file_scan"
+  },
+  "limitations": [
+    "Documentary review only",
+    "No installation",
+    "No external mutation",
+    "Not Gemini approval or deployment permission"
+  ],
+  "qa_completed_at": "2026-11-03T03:31:53Z",
+  "qa_revalidated_at": "2026-11-06T21:29:57.291737Z",
+  "duplicate_recheck": {
+    "checked_on": "2026-11-06",
+    "catalog_package_count": 104,
+    "topic_package_count": 13,
+    "same_id_found": false,
+    "scope": "Independent live catalog titles and summaries; publisher separately inspected all 13 topic manifests and directory coverage."
+  }
+}
