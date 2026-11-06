@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261103T042400Z-agents-memory",
+  "topic_id": "agents-memory",
+  "title": "A graph upsert is not entity resolution",
+  "scheduled_at": "2026-11-03T04:24:00Z",
+  "created_at": "2026-11-03T04:30:18Z",
+  "evaluated_at": "2026-11-06",
+  "status": "approved",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 8,
+  "baseline_commit": "394721d9a05c25dd9cfad2873f38538c6d108ade",
+  "intake": {
+    "catalog_package_count": 105,
+    "topic_package_count": 14,
+    "topic_reports_read": 14,
+    "same_run_present": false,
+    "unfinished_topic_observed": true,
+    "resumed_original_run": true,
+    "unindexed_topic_directories_found": false
+  },
+  "novelty": "Entity identity resolution versus graph storage uniqueness and upsert semantics; distinct from shared-state reducer conflict handling.",
+  "tests_performed": [
+    "Primary documentary reinspection",
+    "Independent documentary source QA",
+    "JSON parsing and consistency checks",
+    "Catalog append-only and duplicate validation",
+    "Bounded sensitive-data pattern scan and manual review"
+  ],
+  "tests_not_performed": [
+    "Installation",
+    "Build",
+    "Database queries",
+    "Runtime",
+    "Concurrency",
+    "Integration",
+    "Performance",
+    "Accessibility",
+    "Security"
+  ],
+  "publication": {
+    "branch": "research-data",
+    "package_commit_sha": null,
+    "mode": "append_only_package_and_catalog"
+  },
+  "resumed_for_slot": "2026-11-06T22:24:00Z",
+  "reviewed_at": "2026-11-06T22:29:43.952793Z",
+  "sensitive_data_scan": {
+    "status": "PASS_BOUNDED",
+    "scope": "Four package files and candidate catalog; bounded patterns and manual review"
+  },
+  "json_validation": "PASS",
+  "catalog_validation": "PASS_APPEND_ONLY"
+}
