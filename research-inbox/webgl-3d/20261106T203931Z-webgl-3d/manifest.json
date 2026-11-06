@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261106T203931Z-webgl-3d",
+  "topic_id": "webgl-3d",
+  "title": "An asynchronous pixel read is not a current selection",
+  "created_at": "2026-11-06T20:39:31Z",
+  "status": "published",
+  "qa_status": "APPROVED_DOCUMENTARY",
+  "files": [
+    "research.md",
+    "sources.json",
+    "manifest.json",
+    "qa.md"
+  ],
+  "source_count": 2,
+  "tests": {
+    "runtime": "not_performed",
+    "performance": "not_performed",
+    "accessibility": "not_performed",
+    "integration": "not_performed",
+    "json_validation": "passed",
+    "sensitive_data_scan": "passed_bounded_patterns_and_manual_review",
+    "independent_review": "APPROVED_DOCUMENTARY"
+  },
+  "duplicate_check": {
+    "existing_topic_reports_retrieved": 16,
+    "same_run_found": false
+  }
+}

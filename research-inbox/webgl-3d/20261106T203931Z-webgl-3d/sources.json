@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://github.com/mrdoob/three.js/blob/2c916de7ad5a7995e345509fbcf8ee5ae161c05c/src/renderers/WebGLRenderer.js",
+      "type": "official_source",
+      "accessed_at": "2026-11-06",
+      "claims": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "S2",
+      "url": "https://github.com/mrdoob/three.js/blob/2c916de7ad5a7995e345509fbcf8ee5ae161c05c/src/utils.js",
+      "type": "official_source",
+      "accessed_at": "2026-11-06",
+      "claims": [
+        4
+      ]
+    }
+  ]
+}
